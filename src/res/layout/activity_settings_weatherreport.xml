@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/setting_device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_weather_push" setting:custom_type="2" />
+    <LinearLayout setting:orientation="vertical" setting:background="@mipmap/ic_weather_backgroud" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_below="@id/setting_device_title_bar">
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001" setting:layout_marginLeft="16dp" setting:layout_marginRight="16dp">
+            <TextView setting:textSize="15dp" setting:textColor="@color/common_white_90alpha" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_weather_push" setting:layout_centerVertical="true" setting:layout_alignParentStart="true" />
+            <com.huawei.ui.commonui.switchbutton.CustomSwitchButton setting:id="@id/weather_report_switch_button" setting:background="@drawable/layout_background" setting:layout_centerVertical="true" setting:layout_alignParentEnd="true" style="@style/common_switch_style" />
+        </RelativeLayout>
+        <View setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x40000031" setting:layout_marginLeft="16dp" setting:layout_marginRight="16dp" />
+        <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/weather_report_img" setting:layout_width="UNKNOWN_DATA_0x5a01" setting:layout_height="UNKNOWN_DATA_0x5a01" setting:layout_marginTop="79.8dp" setting:src="@mipmap/ic_weather" />
+        <TextView setting:textSize="@dimen/contact_bottom_text_size" setting:textColor="@color/common_white_90alpha" setting:id="@id/weather_report_content" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="16dp" setting:singleLine="false" setting:paddingStart="24dp" setting:paddingEnd="24dp" />
+    </LinearLayout>
+</RelativeLayout>

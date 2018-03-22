@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/wirless_manager_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="安全码发送结果" setting:custom_type="0" />
+    <RelativeLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent"
+        <RelativeLayout setting:id="@id/open_esim_tips" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <ImageView setting:id="@id/esim_image" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="100dp" setting:src="@drawable/kw_pic_keybore_voice_press" setting:layout_centerHorizontal="true" />
+            <TextView setting:textSize="@dimen/sim_text_open_esim_size" setting:textColor="#d9000000" setting:layout_width="UNKNOWN_DATA_0xfa01" setting:layout_height="wrap_content" setting:layout_marginTop="50dp" setting:text="验证成功，手表将自动下载profile并为您配置，请在手表侧查看" setting:layout_below="@id/esim_image" setting:layout_centerHorizontal="true" />
+        </RelativeLayout>
+        <Button setting:textSize="17dp" setting:textColor="#d9000000" setting:id="@id/esim_success_button" setting:background="@drawable/btn_default_emui3_0" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x2c01" setting:layout_marginLeft="20dp" setting:layout_marginRight="20dp" setting:layout_marginBottom="14dp" setting:text="完成" setting:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

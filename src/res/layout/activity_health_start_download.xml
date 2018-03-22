@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/AppUpdateDialog_progress_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0a2d" android:layout_alignParentBottom="true">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/personal_information_dialog_app_update_margin">
+            <TextView android:textSize="@dimen/personal_information_dialog_app_update_text" android:textColor="@color/common_white_90alpha" android:id="@id/AppUpdateDialog_progress_text" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/personal_information_dialog_app_update_text" android:textColor="@color/common_white_50alpha" android:id="@id/AppUpdateDialog_progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin">
+            <ProgressBar android:id="@id/AppUpdateDialog_progressbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d041c" android:max="100" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/personal_information_dialog_margin" style="@style/app_update_mProgress_horizontal" />
+            <ImageView android:id="@id/AppUpdateDialog_cancel" android:layout_width="UNKNOWN_DATA_0x7f0d072f" android:layout_height="UNKNOWN_DATA_0x7f0d072f" android:src="@drawable/app_update_btn_close" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

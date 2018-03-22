@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <raw name="antiloss_ring">res/raw/antiloss_ring.mp3</raw>
+    <raw name="b0_bluetooth_disconnect_ring">res/raw/b0_bluetooth_disconnect_ring.mp3</raw>
+    <raw name="beep_lost">res/raw/beep_lost.ogg</raw>
+    <raw name="ble_app_ancs">res/raw/ble_app_ancs.hex</raw>
+    <raw name="carina">res/raw/carina.ogg</raw>
+    <raw name="fallbackring">res/raw/fallbackring.ogg</raw>
+    <raw name="ring_vivid">res/raw/ring_vivid.ogg</raw>
+    <raw name="ring_vivid_en">res/raw/ring_vivid_en.ogg</raw>
+</resources>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/above_title" />
+    <RelativeLayout android:id="@id/netDisconnect" android:visibility="gone" style="@style/state_layout">
+        <Button android:id="@id/btn_cancel" android:layout_marginRight="5dp" android:text="忽略" android:layout_alignParentRight="true" style="@style/state_btn" />
+        <Button android:id="@id/btn_again" android:layout_marginRight="5dp" android:text="重试" android:layout_toLeftOf="@id/btn_cancel" style="@style/state_btn" />
+        <TextView android:text="@string/net_disconnect" android:layout_toLeftOf="@id/btn_again" style="@style/state_content" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/app_item" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv2" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" />
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:id="@id/tv_app_server_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/unknown" android:layout_below="@id/tv2" android:layout_alignLeft="@id/tv2" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:id="@id/tv_app_local_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_second_text_size" android:text="V1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/app_update_flag" android:background="@drawable/version_update" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:id="@id/dev_item" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv1" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:text="@string/bracelet_version" />
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:id="@id/tv_bracelet_server_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/unknown" android:layout_below="@id/tv1" android:layout_alignLeft="@id/tv1" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:id="@id/tv_bracelet_local_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_second_text_size" android:text="@string/unknown" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/bt_update_flag_image" android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textSize="16dp" android:textColor="0x106000c" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/bt_update_flag" android:background="@drawable/settings_new_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="@string/update_new" android:layout_toLeftOf="@id/tv_bracelet_local_version" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:background="@drawable/version_update" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:id="@id/dev_ui_item" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv3" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="wrap_content" android:text="@string/bracelet_ui_version" />
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:id="@id/tv_dev_ui_server_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/unknown" android:layout_below="@id/tv3" android:layout_alignLeft="@id/tv3" />
+        </RelativeLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:id="@id/tv_dev_ui_location_version" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/list_item_second_text_size" android:text="V1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <ImageView android:id="@id/dev_ui_update_flag" android:background="@drawable/version_update" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/settings_item" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="70dp">
+            <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv10" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="紧急按钮" />
+            <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/red" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="打开后点击“手环固件”，按提示进行紧急升级。适用于升级时手环变砖的情况，其它情况慎用！" android:layout_below="@id/tv10" />
+        </RelativeLayout>
+        <CheckBox android:id="@id/cb_safe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:checked="false" android:button="@drawable/switch_checkbox" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</LinearLayout>

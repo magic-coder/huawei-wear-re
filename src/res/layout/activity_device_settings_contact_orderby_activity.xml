@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/contact_orderby_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_contact_contact_sort" setting:custom_type="1" />
+    <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/contact_orderby_titlebar">
+        <com.huawei.ui.device.views.selectcontact.dragsortlistview.DragListView setting:id="@id/contact_orderby_drag_list" setting:fadingEdge="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:listSelector="#00000000" setting:cacheColorHint="#00000000" setting:divider="0x0" />
+    </LinearLayout>
+</RelativeLayout>

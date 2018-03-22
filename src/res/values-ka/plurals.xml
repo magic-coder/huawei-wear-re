@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s სმ</item>
+        <item quantity="one">%1$s სმ</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">შეუძლია გაძლოს %1$s დღე</item>
+        <item quantity="one">შეუძლია გაძლოს %1$s დღე</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ფუტი</item>
+        <item quantity="one">%1$s ფუტი</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d საათი</item>
+        <item quantity="one">%d საათი</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s დუიმი</item>
+        <item quantity="one">%1$s დუიმი</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s კგ</item>
+        <item quantity="one">%s კგ</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s ფუნტი</item>
+        <item quantity="one">%s ფუნტი</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s ისევ მოქმედებს %2$s დღე</item>
+        <item quantity="one">%1$s ისევ მოქმედებს %2$s დღე</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">ამოვიღოთ არჩ. კონტაქტები?</item>
+        <item quantity="one">ამოვიღოთ არჩ.კონტაქტი?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s წთ გონიერი მაღვიძარა)</item>
+        <item quantity="one">%1$s (%2$s წთ გონიერი მაღვიძარა)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/sdk_crowdtest_listview_bg_shaper" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ListView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/sdk_crowdtest_dialog_cust_spinner_list_view" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:divider="@drawable/sdk_crowdtest_divider_horizontal_gray_emui" android:dividerHeight="@dimen/sdk_crowdtest_divider_height" />
+</LinearLayout>

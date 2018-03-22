@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/sdk_crowdtest_bg_corner_white_solid" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="12dp" android:layout_marginRight="12dp" android:layout_marginBottom="8dp" android:layout_weight="1.0">
+        <TextView android:scrollbarStyle="outsideInset" android:textSize="@dimen/sdk_crowdtest_text_little_size" android:textColor="0x106000c" android:id="@id/sdk_crowdtest_fut_policy_view" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingBottom="8dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:singleLine="false" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

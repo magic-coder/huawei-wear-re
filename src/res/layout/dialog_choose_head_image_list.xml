@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@drawable/menu_diaolog_layout_corner" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textSize="13dp" app:textColor="0x106000c" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/profile_setting_take_photo" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:text="@string/IDS_plugin_kidwatch_common_camera" />
+    <View app:background="#26000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+    <TextView app:textSize="13dp" app:textColor="0x106000c" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/profile_setting_choose_from_default" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_get_pic_from_preset" />
+    <View app:background="#26000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+    <TextView app:textSize="13dp" app:textColor="0x106000c" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/profile_setting_choose_from_phone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_get_pic_from_album" />
+</LinearLayout>

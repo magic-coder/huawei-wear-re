@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/sub_tab_views" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="18dp" android:layout_marginRight="18dp" android:layout_below="@id/splite_line2">
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/layout_left" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_weight="1.0">
+            <TextView android:textSize="14dp" android:textColor="@color/CS_black_70_percent" android:id="@id/nfc_hot_activity" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_detail_hot" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/nfc_detail_subtab_divider_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x2201" />
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/right" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_weight="1.0">
+            <TextView android:textSize="14dp" android:textColor="@color/CS_black_70_percent" android:id="@id/nfc_recommend_customer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_detail_recomond" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/detail_activity_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="14dp" android:layout_marginRight="18dp" android:layout_marginBottom="14dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="11dp" android:textColor="@color/nfc_detail_text" android:id="@id/phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_detail_phone" android:alpha="0.5" />
+        <TextView android:textSize="11dp" android:textColor="@color/nfc_detail_text" android:id="@id/number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/phone" android:alpha="0.5" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/listview" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/detail_activity_phone" android:layout_below="@id/sub_tab_views">
+        <com.huawei.nfc.carrera.ui.carddetail.CardDetailViewPager android:id="@id/vpager" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <include layout="@layout/nfc_carrera_network_fail_layout" />
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/huawei_query_fail" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_below="@id/vpager" />
+    </RelativeLayout>
+</RelativeLayout>

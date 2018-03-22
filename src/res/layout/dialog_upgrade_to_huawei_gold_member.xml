@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dialog_upgrade_to_huawei_gold_title_service_text_size" android:textColor="@color/common_white_90alpha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_upgrade_to_huawei_gold_title_service_text_top" android:layout_marginBottom="@dimen/dialog_upgrade_to_huawei_gold_title_service_text_bottom" android:text="@string/IDS_main_sns_after_sale_service" android:layout_marginStart="@dimen/dialog_upgrade_to_huawei_gold_title_service_text_size" />
+        <TextView android:text="@string/IDS_main_sns_exclusive_hotline" style="@style/dialog_upgrade_to_huawei_gold_service_detail_text_view_style" />
+        <TextView android:layout_marginTop="@dimen/dialog_upgrade_to_huawei_gold_service_detail_text_top" android:text="@string/IDS_main_sns_free_repair" style="@style/dialog_upgrade_to_huawei_gold_service_detail_text_view_style" />
+        <TextView android:layout_marginTop="@dimen/dialog_upgrade_to_huawei_gold_service_detail_text_top" android:text="@string/IDS_main_sns_wash_shell" style="@style/dialog_upgrade_to_huawei_gold_service_detail_text_view_style" />
+        <TextView android:id="@id/one_month_free" android:layout_marginTop="@dimen/dialog_upgrade_to_huawei_gold_service_detail_text_top" android:text="@string/IDS_main_sns_whole_machine_protection" style="@style/dialog_upgrade_to_huawei_gold_service_detail_text_view_style" />
+        <TextView android:id="@id/Member_Free_Extended_warranty" android:layout_marginTop="@dimen/dialog_upgrade_to_huawei_gold_service_detail_text_top" android:text="@string/IDS_main_sns_extended_warranty" style="@style/dialog_upgrade_to_huawei_gold_service_detail_text_view_style" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Hacer foto</item>
+        <item>Del álbum</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Cree un ambiente agradable para dormir mejor</item>
+        <item>Un buen descanso mejora la salud en general</item>
+        <item>Deje de lado las preocupaciones antes de ir a dormir</item>
+        <item>Ponga la mente en blanco antes de ir a dormir</item>
+        <item>Un buen descanso ayuda a mejorar el rendimiento en el trabajo</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Deje los problemas de mañana para mañana</item>
+        <item>Evite comer o beber demasiado antes de dormir</item>
+        <item>Concéntrese en su respiración para dormirse más fácilmente</item>
+        <item>Evite el ejercicio intenso antes de ir a dormir</item>
+        <item>Escuche música suave para inducir el sueño</item>
+        <item>Ejercítese regularmente para mejorar la calidad del sueño</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Un buen descanso puede mejorar el estado de ánimo</item>
+        <item>Comience cada día con el cuerpo y la mente renovados</item>
+        <item>Un horario de descanso regular favorece la paz mental</item>
+        <item>Duerma bien para afrontar los desafíos de mañana</item>
+    </array>
+</resources>

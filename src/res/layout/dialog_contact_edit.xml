@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <LinearLayout app:orientation="vertical" app:background="@drawable/menu_textview_bg_corner" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="20dp">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:layout_centerInParent="true" app:contentDescription="0x0" />
+        </RelativeLayout>
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="20dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_show_name_on_watch_str" />
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" app:text="@string/IDS_plugin_kidwatch_main_relation_grandpa" />
+        <View app:background="0x1060000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="20dp" />
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_phone_number" />
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" app:layout_marginBottom="15dp" />
+        <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <ImageView app:id="@id/contact_dialog_edit_img" app:background="@drawable/kw_btn_track_botton_edit" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="UNKNOWN_DATA_0x1e01" app:layout_marginTop="25dp" />
+            <TextView app:textSize="9dp" app:textColor="#000000" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="2dp" app:layout_marginBottom="5dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_edit_str" app:alpha="0.6" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="vertical" app:background="@drawable/menu_diaolog_layout_corner" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="20dp">
+            <ImageView app:id="@id/dialog_contact_edit_img" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/kw_pic_ist_user_common" app:scaleType="fitXY" app:layout_centerInParent="true" app:contentDescription="0x0" />
+        </RelativeLayout>
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="20dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_show_name_on_watch_str" />
+        <TextView app:textSize="20dp" app:textColor="0x106000c" app:id="@id/menu_contact_name" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" />
+        <View app:background="0x1060000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="20dp" />
+        <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_phone_number" />
+        <TextView app:textSize="20dp" app:textColor="0x106000c" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/menu_contact_phonenumber" app:background="0x106000b" app:paddingLeft="10dp" app:paddingBottom="10dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2d01" app:layout_marginTop="10dp" />
+    </LinearLayout>
+</RelativeLayout>

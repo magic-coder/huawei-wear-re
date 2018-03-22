@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s စင်တီမီတာ</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s ရက်စာ ကျန်ပါသေးသည်</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ပေ</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d နာရီ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s လက်မ</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s ကီလိုဂရမ်</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s ပေါင်</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s က %2$s ရက် သက်တမ်းကျန်သေးသည်</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">ရွေးချယ်ထားသည့် အဆက်အသွယ်များကို ဖယ်ရှားမည်လား။</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s မိနစ် စမတ် နိုးထမှု)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>સે.મી.</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>કિલોગ્રામ</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>ફોટો લો</item>
+        <item>આલ્બમ માંથી</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>સારી નિંદ્રા માટે આરામદાયક પરિસ્થિતીનું નિર્માણ કરો</item>
+        <item>માફસરની ઊંઘની આદતો એકંદરે તંદુરસ્ત સ્વાસ્થ્યમાં ફાળો આપે છે</item>
+        <item>ઊંઘતાં પહેલાં તમારી ચિંતા છોડી દો</item>
+        <item>તમે સૂવો તે પહેલા તમારા મગજનાં વિચારો દૂર કરો</item>
+        <item>સારી ઊંઘ તમારા કાર્યની કામગીરીને સુધારવામાં મદદ કરે છે</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>આજે આવતી કાલની ચિંતાઓ છોડી દો</item>
+        <item>પથારીનાં સમય પહેલા વધુ પડતું ખાવાનું અને પિવાનું ટાળો</item>
+        <item>તમારા શ્વાસ પર ધ્યાન કેંદ્રિત કરો, તે તમને ઊંઘવામાં મદદ કરી શકે છે</item>
+        <item>ઊંઘતાં પહેલાં તીવ્ર વ્યાયામ ટાળો</item>
+        <item>ઊંઘવા માટે હળવું સંગીત ચલાવો</item>
+        <item>તમારી ઊંઘની ગુણવત્તા સુધારવા માટે નિયમિતપણે વ્યાયામ કરો</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>સારી ઊંઘ તમારા મૂડને સુધારી શકે છે</item>
+        <item>પ્રત્યેક નવા દિવસને તાજરીસભર શરીર અને મગજ સાથે આવકારો</item>
+        <item>નિયમિત સ્લીપિંગ શેડ્યૂલ તમારી ઊર્જાનું સ્તર વધારવા માટે મદદ કરી શકે છે</item>
+        <item>રાત્રી ની સારી ઊંઘ તમને આવતીકાલના પડકારોનો સામનો કરવામાં મદદ કરશે</item>
+    </array>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp">
+    <TextView android:textSize="14dp" android:textColor="@color/nfc_detail_product_name" android:id="@id/nfc_detail_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_alignParentRight="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5701" android:layout_marginRight="8dp" android:layout_toLeftOf="@id/nfc_detail_price" android:layout_alignTop="@id/nfc_detail_price" android:layout_alignParentLeft="true">
+        <TextView android:textSize="14dp" android:textColor="@color/nfc_detail_product_name" android:id="@id/nfc_detail_type" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <TextView android:textSize="11dp" android:textColor="@color/secondarycolor" android:id="@id/nfc_detail_date" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" />
+        <TextView android:textSize="11dp" android:textColor="@color/secondarycolor" android:id="@id/nfc_detail_destination" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+    </LinearLayout>
+</RelativeLayout>

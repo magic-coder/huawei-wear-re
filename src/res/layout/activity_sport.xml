@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <LinearLayout setting:orientation="vertical" setting:id="@id/sport_lly_head" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentTop="true">
+        <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_main_map_sport" setting:titleSize="@dimen/title_text_size" setting:backLeftSpace="@dimen/back_btn_left_space" setting:menuRightSpace="@dimen/menu_btn_right_space" setting:btnpading="@dimen/title_btn_pading" />
+        <TextView setting:textSize="12dp" setting:textColor="#d8000000" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/sport_tv_data_detail_time" setting:background="@drawable/kw_pic_sport_date_topbar_bg" setting:layout_width="UNKNOWN_DATA_0x8b01" setting:layout_height="UNKNOWN_DATA_0x1d01" setting:layout_marginLeft="10dp" setting:layout_marginTop="10dp" setting:layout_marginBottom="9dp" />
+        <android.support.v4.view.ViewPager setting:id="@id/sport_vp_detail_day_viewpager" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0xe201" />
+    </LinearLayout>
+    <LinearLayout setting:orientation="vertical" setting:id="@id/sport_lly_foot" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+        <View setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:background="#26000000" setting:layout_width="UNKNOWN_DATA_0x14e01" setting:layout_height="UNKNOWN_DATA_0x100" />
+        <TextView setting:textSize="12dp" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/sport_tv_date_icecream" setting:layout_width="UNKNOWN_DATA_0x14e01" setting:layout_height="UNKNOWN_DATA_0x2f01" />
+        <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+        <RelativeLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/sport_rly_goal_setting" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3b01">
+            <ImageView setting:layout_width="UNKNOWN_DATA_0x3001" setting:layout_height="UNKNOWN_DATA_0x3001" setting:src="@drawable/sport_goal_btn" setting:layout_alignParentTop="true" setting:layout_centerHorizontal="true" />
+            <TextView setting:textSize="9dp" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginBottom="5dp" setting:text="@string/IDS_plugin_kidwatch_feature_goal_set" setting:layout_alignParentBottom="true" setting:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <ScrollView setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_above="@id/sport_lly_foot" setting:layout_below="@id/sport_lly_head"
+        &quot;>
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <TextView setting:textSize="16dp" setting:id="@id/sport_tv_static" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginTop="25dp" setting:drawableLeft="@drawable/kw_ic_sport_static" setting:drawablePadding="15dp" setting:layout_centerHorizontal="true" />
+            <TextView setting:textSize="16dp" setting:id="@id/sport_tv_mild" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginTop="15dp" setting:drawableLeft="@drawable/kw_ic_sport_mild" setting:drawablePadding="15dp" setting:layout_below="@id/sport_tv_static" setting:layout_alignLeft="@id/sport_tv_static" />
+            <TextView setting:textSize="16dp" setting:id="@id/sport_tv_acute" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginTop="15dp" setting:drawableLeft="@drawable/kw_ic_sport_acute" setting:drawablePadding="15dp" setting:layout_below="@id/sport_tv_mild" setting:layout_alignLeft="@id/sport_tv_mild" />
+            <TextView setting:visibility="invisible" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="3dp" setting:layout_below="@id/sport_tv_acute" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

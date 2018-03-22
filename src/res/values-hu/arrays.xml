@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fotó készítése</item>
+        <item>Albumból</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Alakítson ki kényelmes környezetet a jobb alváshoz.</item>
+        <item>A jó alvási szokások hozzájárulnak a jó általános egészségi állapothoz</item>
+        <item>Lefekvés előtt felejtse el a gondjait</item>
+        <item>Alvás előtt ürítse ki az elméjét</item>
+        <item>A jó alvás segít növelni a munkateljesítményét</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Hagyja a holnap problémáit holnapra</item>
+        <item>Lefekvés előtt ne egyen és ne igyon túl sokat</item>
+        <item>Összpontosítson a lélegzésre, mert segítheti az elalvásban</item>
+        <item>Lefekvés előtt kerülje a túl intenzív testmozgást</item>
+        <item>Tegyen fel lágy zenét, ami álomba ringatja</item>
+        <item>Végezzen rendszeres testmozgást az alvásminőség javításához</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>A jó alvás jó hangulatot eredményezhet</item>
+        <item>Köszöntsön minden új napot felfrissült testtel és lélekkel</item>
+        <item>A következetes lefekvési idő lelki nyugalmat adhat</item>
+        <item>Aludjon jól, hogy meg tudjon küzdeni a holnap kihívásaival</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/card_brief" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/card_detail_from_margin_left_right">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/line_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_detail_from_margin_top" android:layout_marginBottom="@dimen/card_detail_from_margin_bottom">
+        <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/huaweipay_black_a_C0" android:id="@id/card_detail_name" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/card_detail_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/cp3_my_brand_text_click_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_info" />
+            <ImageView android:visibility="gone" android:layout_marginRight="0dp" style="@style/arror_right_black" />
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@id/center_line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_below="@id/line_top" />
+    <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/primarycolor" android:id="@id/card_detail_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_detail_type_margin_top" android:layout_below="@id/center_line" />
+</RelativeLayout>

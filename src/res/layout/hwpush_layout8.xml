@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/prv/res/android" internal:id="@id/status_bar_latest_event_content" internal:paddingRight="8dp" internal:layout_width="match_parent" internal:layout_height="wrap_content">
+    <ImageView internal:id="@id/big_pic" internal:clickable="false" internal:layout_width="match_parent" internal:layout_height="match_parent" internal:scaleType="centerCrop" />
+</FrameLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/sdk_crowdtest_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layoutDirection="locale">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/sdk_crowdtest_title_bar_image" android:layout_width="UNKNOWN_DATA_0x7f0d08a1" android:layout_height="UNKNOWN_DATA_0x7f0d08a1" android:src="@drawable/sdk_crowdtest_icon_select" />
+            <TextView android:textSize="@dimen/sdk_crowdtest_text_normal_size" android:ellipsize="end" android:id="@id/sdk_crowdtest_title_bar_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/sdk_crowdtest_cust_layout_margin_common" android:text="请选择问题类型" android:singleLine="true" />
+        </LinearLayout>
+    </FrameLayout>
+    <FrameLayout android:id="@id/sdk_crowdtest_issue_type_container" android:background="@color/sdk_crowdtest_background_color_gray" android:paddingLeft="@dimen/sdk_crowdtest_cust_layout_margin_common" android:paddingRight="@dimen/sdk_crowdtest_cust_layout_margin_common" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+</com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout>

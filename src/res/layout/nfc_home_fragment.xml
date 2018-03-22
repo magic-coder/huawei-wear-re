@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@id/viewstub_first_enter" android:layout="@layout/nfc_first_enter_layout" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <include layout="@layout/nfc_carrera_progress_bar_layout" />
+    <ViewStub android:id="@id/viewstub_card_list" android:layout="@layout/nfc_animation_home_card_layout" android:layout_width="wrap_content" android:layout_height="match_parent" />
+</LinearLayout>

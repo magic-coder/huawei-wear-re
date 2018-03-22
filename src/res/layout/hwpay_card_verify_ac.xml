@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:id="@id/verify_card_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4001" android:layout_marginLeft="18dp" android:layout_marginStart="18dp">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/verify_bank_icon" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" />
+        <TextView android:textSize="@dimen/text_size_main_body" android:textColor="@color/primarycolor" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/verify_bank_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginStart="8dp" />
+    </LinearLayout>
+    <ImageView android:id="@id/line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <include android:id="@id/verify_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="15.5dp" android:layout_marginRight="12dp" layout="@layout/hwpay_cardinfo_item" />
+    <include android:id="@id/verify_id_card" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="15.5dp" android:layout_marginRight="12dp" layout="@layout/hwpay_cardinfo_item" />
+    <TextView android:textSize="@dimen/text_size_auxiliary_1" android:textColor="@color/secondarycolor" android:id="@id/verify_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="8dp" android:layout_marginRight="18dp" android:text="@string/hwpay_verify_card_tips" />
+    <RelativeLayout android:id="@id/verify_bottom_relativelayout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@id/verify_commit_bt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="14dp" android:text="@string/hwpay_verify_bt_commit" android:layout_above="@id/verify_yeepay_tips" android:fontFamily="@string/emui_anti_default_fonts" />
+        <TextView android:textSize="@dimen/text_size_auxiliary_1" android:textColor="@color/secondarycolor" android:id="@id/verify_yeepay_tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="14dp" android:text="@string/hwpay_verify_yeepay_tips" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ViewStub android:id="@id/viewstub_hwpay_title_view" android:layout="@layout/hwpay_dialog_title" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <ScrollView android:orientation="vertical" android:id="@id/scroll_layout" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/hb_mobile_product_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="13dp" android:layout_marginRight="15dp">
+                <TextView android:textSize="@dimen/dialog_auxiliary_textsize" android:textColor="@color/secondarycolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/mobile_product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/huaweipay_product_name" android:singleLine="true" />
+                <TextView android:textSize="@dimen/dialog_auxiliary_textsize" android:textColor="@color/secondarycolor" android:id="@id/mobile_mername" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/hwpay_company" android:singleLine="true" />
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/mobile_acoumt_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp">
+                    <TextView android:textSize="@dimen/dialog_auxiliary_textsize" android:textColor="@color/secondarycolor" android:id="@id/mobile_money_static" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_should_amount_text" />
+                    <TextView android:textSize="@dimen/dialog_amount_textsize" android:textColor="@color/secondarycolor" android:id="@id/mobile_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/hwpay_mobile_card_body" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/hb_mbe_btm_linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hb_mbe_check_linear" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <CheckBox android:id="@id/hb_mbe_check_box" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:checked="true" />
+                    <TextView android:textSize="@dimen/dialog_small_textsize" android:textColor="@color/secondarycolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/check_box_text" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="2dp" android:text="@string/hwpay_mbe_pay_to_balance" android:layout_marginStart="2dp" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/text_size_auxiliary_2" android:textColor="@color/secondarycolor" android:id="@id/mobile_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/hwpay_mobilecard_notice" />
+                <TextView android:textSize="@dimen/dialog_small_textsize" android:textColor="@color/huaweipay_selectpay_agree" android:id="@id/mobile_addcards" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="11dp" android:text="@string/hwpay_mobilecard_addcard" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/hb_mbe_btm_btn_linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="@dimen/balance_spacing_ebaoService_to_bottom">
+        <Button android:textSize="@dimen/text_size_btn" android:id="@id/hwpay_mobile_last" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:text="@string/laststep" android:layout_weight="1.0" android:fontFamily="@string/emui_anti_default_fonts" />
+        <Button android:textSize="@dimen/text_size_btn" android:textColor="@color/white_color" android:id="@id/hwpay_mobile_next" android:background="@drawable/hwpay_button_orange" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/huaweipay_pay_confirm" android:layout_weight="1.0" android:fontFamily="@string/emui_anti_default_fonts" />
+    </LinearLayout>
+</LinearLayout>

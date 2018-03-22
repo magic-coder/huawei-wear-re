@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s സെ.മീ</item>
+        <item quantity="one">%1$s സെ.മീ</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s ദിവസം നീണ്ടുനിൽക്കാം</item>
+        <item quantity="one">%1$s ദിവസം നീണ്ടുനിൽക്കാം</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ft</item>
+        <item quantity="one">%1$s ft</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s ഇഞ്ച്</item>
+        <item quantity="one">%1$s ഇഞ്ച്</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="one">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s lb</item>
+        <item quantity="one">%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s ഇപ്പോഴും %2$s ദിവസത്തേയ്ക്ക് സാധുവാണ്</item>
+        <item quantity="one">%1$s ഇപ്പോഴും %2$s ദിവസത്തേയ്ക്ക് സാധുവാണ്</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d കോൺടാക്റ്റുകൾ</item>
+        <item quantity="one">%d കോൺടാക്റ്റ്</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d മണിക്കൂർ</item>
+        <item quantity="one">%d മണിക്കൂർ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d മിനിറ്റ്</item>
+        <item quantity="one">%d മിനിറ്റ്</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d ചുവടുകൾ</item>
+        <item quantity="one">%d ചുവട്</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s പാരിതോഷികങ്ങൾ സ്വീകരിച്ചു</item>
+        <item quantity="one">%s പാരിതോഷികം സ്വീകരിച്ചു</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">%1$s തവണ നിങ്ങളുടെ കുട്ടി പ്രശംസ സ്വീകരിച്ചതിനുശേഷം</item>
+        <item quantity="one">%1$s തവണ നിങ്ങളുടെ കുട്ടി പ്രശംസ സ്വീകരിച്ചതിനുശേഷം</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f km</item>
+        <item quantity="one">%1$.3f km</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">%s മണിക്കൂറിൽ കൂടുതൽ ഇവിടെ നിർത്തി</item>
+        <item quantity="one">%s മണിക്കൂറിൽ കൂടുതൽ ഇവിടെ നിർത്തി</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s മീ, %2$s</item>
+        <item quantity="one">%1$s മീ, %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">കൃത്യത %s m-ന് ഉള്ളിൽ</item>
+        <item quantity="one">കൃത്യത %s m-ന് ഉള്ളിൽ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">ലൊക്കേഷൻ %s മിനിറ്റ് മുമ്പ്</item>
+        <item quantity="one">ലൊക്കേഷൻ %s മിനിറ്റ് മുമ്പ്</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">%1$s കോൺടാക്റ്റുകൾ മാത്രമേ നിങ്ങൾക്ക് ചേർക്കാനാകൂ</item>
+        <item quantity="one">%1$s കോൺടാക്റ്റ് മാത്രമേ നിങ്ങൾക്ക് ചേർക്കാനാകൂ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">%1$d അഡ്മിനി‌സ്ട്രേറ്റർമാരെ വരെ നിങ്ങൾക്ക് ക്ഷണിക്കാനാകും. കുട്ടി ഒരു വിഷമ ഘട്ട കോൾ ചെയ്യുമ്പോൾ, അഡ്മിനിസ്ട്രേറ്റർമാരെ ക്രമത്തിൽ കോൾ ചെയ്യാനായി വാച്ച് പ്രസ്തുത ലിസ്റ്റ് ഉപയോഗിക്കും. അഡ്മിനിസ്ട്രേറ്റർമാർക്ക് എപ്പോഴും കുട്ടിയെ വിളിക്കാനാകും.</item>
+        <item quantity="one">%1$d അഡ്മിനി‌സ്ട്രേറ്ററെ വരെ നിങ്ങൾക്ക് ക്ഷണിക്കാനാകും. കുട്ടി ഒരു വിഷമ ഘട്ട കോൾ ചെയ്യുമ്പോൾ, അഡ്മിനിസ്ട്രേറ്റർമാരെ ക്രമത്തിൽ കോൾ ചെയ്യാനായി വാച്ച് പ്രസ്തുത ലിസ്റ്റ് ഉപയോഗിക്കും. അഡ്മിനിസ്ട്രേറ്റർമാർക്ക് എപ്പോഴും കുട്ടിയെ വിളിക്കാനാകും.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d പോയിന്‍റുകൾ</item>
+        <item quantity="one">%d പോയിന്‍റ്</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">തിരഞ്ഞെടുത്ത കോൺടാക്റ്റുകളെ നീക്കംചെയ്യണോ?</item>
+        <item quantity="one">തിരഞ്ഞെടുത്ത കോൺടാക്റ്റ് നീക്കംചെയ്യണോ?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s മിനിറ്റ് സ്മാർട്ട് വേക്കപ്പ്)</item>
+        <item quantity="one">%1$s (%2$s മിനിറ്റ് സ്മാർട്ട് വേക്കപ്പ്)</item>
+    </plurals>
+</resources>

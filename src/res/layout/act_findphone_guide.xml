@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/above_title" />
+    <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginLeft" android:text="@string/act_find_phone_note" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:src="@drawable/guide004" />
+    <TextView android:textSize="16dp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-30dp" android:layout_marginRight="85dp" android:text="@string/guide_content_4_reminde" />
+</LinearLayout>

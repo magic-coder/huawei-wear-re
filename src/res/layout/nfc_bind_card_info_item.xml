@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/first_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15dp" android:textColor="@color/hwpay_white" android:id="@id/cardinfo_title_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x1" />
+        <ImageView android:id="@id/cardinfo_tips_img" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0xf01" android:layout_height="UNKNOWN_DATA_0xf01" android:src="@drawable/ic_details_normal" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_below="@id/first_title_layout">
+        <View android:background="@drawable/bg_dark_edit_input" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" />
+        <com.huawei.pay.ui.widget.ClearEditText android:textSize="15dp" android:textColor="@color/hwpay_white" android:textColorHint="@color/huaweipay_white_a_A6" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cardinfo_input_edittx" android:background="0x0" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" android:paddingStart="12dp" android:paddingEnd="16dp" />
+    </RelativeLayout>
+</RelativeLayout>

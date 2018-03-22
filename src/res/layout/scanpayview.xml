@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/swipe_scanpay" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+    <TextView android:textSize="13dp" android:textColor="@color/white_color" android:id="@id/swipe_scan_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_scanpay_text" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:layout_below="@id/swipe_scan_text">
+        <ImageButton android:id="@id/swipe_taobao" android:background="@drawable/ic_alipay_narmal2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" />
+    </LinearLayout>
+</RelativeLayout>

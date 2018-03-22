@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">සෙමී %1$s</item>
+        <item quantity="one">සෙමී %1$s</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">දින %1$s කින් අවසන් විය හැක</item>
+        <item quantity="one">%1$s දිනකින් අවසන් විය හැක</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">කි.බ. %1$sක්</item>
+        <item quantity="one">කි.බ. %1$sක්</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">මෙ.බ. %1$sක්</item>
+        <item quantity="one">මෙ.බ. %1$sක්</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">අඩි %1$s</item>
+        <item quantity="one">අඩි %1$s</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">පැය %dක්</item>
+        <item quantity="one">පැය %dක්</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">බ. %1$sක්</item>
+        <item quantity="one">බ. %1$sක්</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">ජී.බ. %1$sක්</item>
+        <item quantity="one">ජී.බ. %1$sක්</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">පෙ.බ. %1$sක්</item>
+        <item quantity="one">පෙ.බ. %1$sක්</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">ටෙ.බ. %1$sක්</item>
+        <item quantity="one">ටෙ.බ. %1$sක්</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">අඟල් %1$s</item>
+        <item quantity="one">අඟල් %1$s</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">කිග්‍රෑ %s</item>
+        <item quantity="one">කිග්‍රෑ %s</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">රාත්තල් %s</item>
+        <item quantity="one">රාත්තල් %s</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s තවමත් දින %2$sක් සඳහා වලංගුය.</item>
+        <item quantity="one">%1$s තවමත් දින %2$sක් සඳහා වලංගුය.</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">තේරෑ සබඳතා ඉවත් කරන්නද?</item>
+        <item quantity="one">තේරූ සබඳතාවය ඉවත් කරන්න ද?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (මිනිත්තු %2$s ස්මාට් අවදිවීම)</item>
+        <item quantity="one">%1$s (මිනිත්තු %2$s ස්මාට් අවදිවීම)</item>
+    </plurals>
+</resources>

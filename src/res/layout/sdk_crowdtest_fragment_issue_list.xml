@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/sdk_crowdtest_background_color_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/sdk_crowdtest_issue_list_empty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp">
+        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sdk_crowdtest_history_no_issue" />
+        <TextView android:textSize="@dimen/sdk_crowdtest_first_title" android:textColor="@color/sdk_crowdtest_color_text_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/sdk_crowdtest_history_activity_no_issue" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullToRefreshLayout android:id="@id/sdk_crowdtest_history_all_issue_list_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/sdk_crowdtest_pull_to_refresh_refresh_head" />
+            <com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullableListView android:id="@id/sdk_crowdtest_history_all_issue_list_view" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x106000d" android:dividerHeight="@dimen/sdk_crowdtest_component_divider_height" />
+            <include layout="@layout/sdk_crowdtest_pull_to_refresh_load_more" />
+        </com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullToRefreshLayout>
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_above_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@id/title" style="@style/dialog_title" />
+    <TextView android:id="@id/line_1px" android:layout_below="@id/title" style="@style/line_1px" />
+    <LinearLayout android:id="@id/dialog_content" android:layout_below="@id/line_1px" style="@style/dialog_content">
+        <TextView android:textSize="14dp" android:textColor="@color/gray" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="26dp" android:text="@string/reset_setting_message" />
+        <ImageView android:id="@id/dfu_picture" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_upgrade" android:layout_centerInParent="true" />
+    </LinearLayout>
+    <LinearLayout android:layout_below="@id/dialog_content" style="@style/dialog_btn">
+        <Button android:textColor="@color/setting_text_1" android:id="@id/btn_confirm" android:layout_width="match_parent" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginLeft" android:text="@string/sure" style="@style/common_btn" />
+    </LinearLayout>
+</RelativeLayout>

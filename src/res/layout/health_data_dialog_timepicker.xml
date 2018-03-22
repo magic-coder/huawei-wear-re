@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/start_track_bg_popout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/custom_dialog_margin_left_right_bottom" android:layout_marginRight="@dimen/custom_dialog_margin_left_right_bottom" android:layout_marginBottom="@dimen/custom_dialog_margin_left_right_bottom" android:paddingStart="@dimen/dialog_btn_width_0dp" android:paddingEnd="@dimen/dialog_btn_width_0dp"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xccccd31" android:layout_marginTop="80dp" android:src="@color/common_black_10alpha" />
+                <ImageView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xccccd31" android:layout_marginTop="128dp" android:src="@color/common_black_10alpha" />
+                <com.huawei.ui.main.stories.health.views.healthdata.wheelpicker.HealthTimePickerView android:id="@id/hw_health_timepicker" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0607" android:layout_marginTop="@dimen/custom_dialog_margin_left_right_bottom" />
+            </RelativeLayout>
+            <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_ui_button_left_right_padding" android:layout_marginBottom="@dimen/common_ui_button_left_right_padding" android:weightSum="2.0">
+                <Button android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/home_track_starget_value_color_whole_alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/datepicker_cancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_settings_button_cancal" android:layout_weight="1.0" />
+                <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d04a7" android:layout_height="UNKNOWN_DATA_0x2801" />
+                <Button android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/home_track_starget_value_color_whole_alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/datepicker_ok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_settings_button_ok" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

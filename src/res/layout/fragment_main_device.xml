@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/color_device_setting_back_color" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:rightIcon="@drawable/main_tab_device_add_selector" setting:titleBarText="@string/IDS_device_title_use" setting:leftSoftkey_visibility="8" setting:custom_type="3" />
+    <LinearLayout setting:orientation="vertical" setting:id="@id/device_fragment_no_device_Layout" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="UNKNOWN_DATA_0x4601" setting:layout_height="UNKNOWN_DATA_0x4601" setting:src="@mipmap/ic_no_device" />
+        <TextView setting:textSize="13dp" setting:textColor="#7f000000" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_no_device_tips_text" />
+    </LinearLayout>
+    <RelativeLayout setting:id="@id/device_tab_list_item_layout" setting:background="@color/color_device_setting_back_color" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginBottom="@dimen/main_device_tab_list_bottom">
+        <android.support.v7.widget.RecyclerView setting:id="@id/device_tab_list_item" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+    </RelativeLayout>
+</LinearLayout>

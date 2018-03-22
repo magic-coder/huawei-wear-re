@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:padding="@dimen/startup_viewpager_layout_padding" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/startup_title_text_size" android:textColor="#dd5180" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:text="@string/startup_af500_introduce_titel" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/startup_af500_introduce_third_view_head_pic" android:layout_weight="1.0" />
+    <TextView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_marginTop="@dimen/startup_guidance_second_activity_startup_notes_marginTop" android:text="@string/startup_af500_introduce_third_intro" style="@style/startup_af500_introduce_textview" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/startup_guidance_second_activity_point_sel_marginTop">
+        <ImageButton style="@style/startup_guidance_imgbtn" />
+        <ImageButton style="@style/startup_guidance_imgbtn2" />
+        <ImageButton android:background="@drawable/af500_point_sel" style="@style/startup_guidance_imgbtn" />
+    </LinearLayout>
+</LinearLayout>

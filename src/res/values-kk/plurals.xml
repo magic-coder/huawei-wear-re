@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s см</item>
+        <item quantity="one">%1$s см</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s күн қалды</item>
+        <item quantity="one">%1$s күн қалды</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s КБ</item>
+        <item quantity="one">%1$s КБ</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s МБ</item>
+        <item quantity="one">%1$s МБ</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s фут</item>
+        <item quantity="one">%1$s фут</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d сағат</item>
+        <item quantity="one">%d сағат</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s Б</item>
+        <item quantity="one">%1$s Б</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s ГБ</item>
+        <item quantity="one">%1$s ГБ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s ПБ</item>
+        <item quantity="one">%1$s ПБ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s ТБ</item>
+        <item quantity="one">%1$s ТБ</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s дюйм</item>
+        <item quantity="one">%1$s дюйм</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s кг</item>
+        <item quantity="one">%s кг</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s фунт</item>
+        <item quantity="one">%s фунт</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s әлі %2$s күнге жарамды</item>
+        <item quantity="one">%1$s әлі %2$s күнге жарамды</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Таңдалған контактілерді жою керек пе?</item>
+        <item quantity="one">Таңдалған контактіні жою керек пе?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s мин зерделі ояну)</item>
+        <item quantity="one">%1$s (%2$s мин зерделі ояну)</item>
+    </plurals>
+</resources>

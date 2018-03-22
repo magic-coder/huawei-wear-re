@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="#f7f7f7" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <RelativeLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:background="@drawable/kw_titlebar" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001" setting:layout_alignParentTop="true"
+        <RelativeLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_centerVertical="true">
+            <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:id="@id/reward_title" setting:layout_width="match_parent" setting:layout_height="wrap_content"
+                <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/reward_lly_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="6dp" setting:weightSum="1.0">
+                    <TextView setting:textSize="@dimen/title_text_size" setting:textColor="0x106000b" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_reward_tv_reward" setting:layout_width="UNKNOWN_DATA_0x5001" setting:layout_height="match_parent" setting:text="@string/IDS_plugin_kidwatch_main_map_reward" setting:layout_weight="4.83" />
+                    <ImageView setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_reward_viewpager_top_image_left" setting:layout_width="UNKNOWN_DATA_0x501" setting:layout_height="UNKNOWN_DATA_0x501" setting:layout_marginTop="3dp" setting:src="@drawable/kw_img_circle" />
+                </LinearLayout>
+                <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/reward_lly_right" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="20dp" setting:layout_marginTop="6dp">
+                    <TextView setting:textSize="@dimen/title_text_size" setting:textColor="0x106000b" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_reward_tv_history_info" setting:layout_width="UNKNOWN_DATA_0x6401" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_feature_reward_history" />
+                    <ImageView setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_reward_viewpager_top_image_right" setting:layout_width="UNKNOWN_DATA_0x501" setting:layout_height="UNKNOWN_DATA_0x501" setting:layout_marginTop="3dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+    <com.huawei.pluginkidwatch.common.ui.view.WaitingLineView setting:id="@id/setting_add_reward_wait_line" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x301" />
+    <android.support.v4.view.ViewPager setting:id="@id/feature_reward_viewpager" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+</LinearLayout>

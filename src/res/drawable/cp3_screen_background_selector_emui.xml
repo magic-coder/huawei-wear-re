@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="0x1080099" android:state_accelerated="false" />
+    <item android:drawable="@drawable/cp3_background_emui" />
+</selector>

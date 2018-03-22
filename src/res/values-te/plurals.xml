@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s cm</item>
+        <item quantity="one">%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s రోజులు ఉండవచ్చు</item>
+        <item quantity="one">%1$s రోజు ఉండవచ్చు</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s అడుగు</item>
+        <item quantity="one">%1$s అడుగు</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d గంటలు</item>
+        <item quantity="one">%d గంట</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s అం</item>
+        <item quantity="one">%1$s అం</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="one">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s lb</item>
+        <item quantity="one">%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s %2$s రోజులు చెల్లుబాటు అవుతుంది</item>
+        <item quantity="one">%1$s %2$s రోజు చెల్లుబాటు అవుతుంది</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d పరిచయాలు</item>
+        <item quantity="one">%d పరిచయం</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d గం</item>
+        <item quantity="one">%d గం</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d గం</item>
+        <item quantity="one">%d గం</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d నిమిషం</item>
+        <item quantity="one">%d నిమిషం</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d అడుగులు</item>
+        <item quantity="one">%d అడుగు</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s రివార్డ్‌లు అందాయి</item>
+        <item quantity="one">%s రివార్డ్ అందింది</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">మీ పిల్లలు %1$s సార్లు ప్రశంసను స్వీకరించిన తర్వాత</item>
+        <item quantity="one">మీ పిల్లలు %1$s సారి ప్రశంసను స్వీకరించిన తర్వాత</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f km</item>
+        <item quantity="one">%1$.3f km</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">%s గంటల కంటే ముందు ఇక్కడ ఆపివేసారు</item>
+        <item quantity="one">%s గంట కంటే ముందు ఇక్కడ ఆపివేసారు</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s m, %2$s</item>
+        <item quantity="one">%1$s m, %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">ఖచ్చితత్వం %s ని లోపు ఉంది</item>
+        <item quantity="one">ఖచ్చితత్వం %s ని లోపు ఉంది</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">%s నిమి క్రితం స్థానం</item>
+        <item quantity="one">%s నిమి క్రితం స్థానం</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">మీరు కేవలం %1$s పరిచయాలని మాత్రమే జోడించగలరు</item>
+        <item quantity="one">మీరు కేవలం %1$s పరిచయాన్ని మాత్రమే జోడించగలరు</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">మీరు గరిష్టంగా %1$d మంది అడ్మినిస్ట్రేటర్‌లను ఆహ్వానించవచ్చు. పిల్లలు ఒత్తిడి కాల్ చేసినప్పుడు, అడ్మినిస్ట్రేటర్‌లకు కాల్ చేయడానికి గడియారం జాబితాని ఉపయోగిస్తుంది. అడ్మినిస్ట్రేటర్‌లు ఎప్పుడైనా పిల్లలకు కాల్ చేయవచ్చు.</item>
+        <item quantity="one">మీరు గరిష్టంగా %1$d నిర్వాహకులను ఆహ్వానించవచ్చు. పిల్లలు ఒత్తిడి కాల్ చేసినప్పుడు, అడ్మినిస్ట్రేటర్‌లకు కాల్ చేయడానికి గడియారం జాబితాని ఉపయోగిస్తుంది. అడ్మినిస్ట్రేటర్‌లు ఎప్పుడైనా పిల్లలకు కాల్ చేయవచ్చు.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d పాయింట్‌లు</item>
+        <item quantity="one">%d పాయింట్</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">ఎంచుకోబడిన పరిచయాలను తీసివేయాలా?</item>
+        <item quantity="one">ఎంచుకోబడిన పరిచయాన్ని తీసివేయాలా?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s నిమిషం స్మార్ట్ మేల్కొల్పు)</item>
+        <item quantity="one">%1$s (%2$s నిమిషం స్మార్ట్ మేల్కొల్పు)</item>
+    </plurals>
+</resources>

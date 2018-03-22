@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="60dp">
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f0d07a9" android:layout_height="UNKNOWN_DATA_0x7f0d07a9">
+        <ImageView android:id="@id/done_circle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@anim/nfc_swipe_transdone_anim_emui" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14dp" android:textColor="@color/white_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/swipe_result" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:text="@string/nfc_swipe_done_text" />
+    <TextView android:textSize="12dp" android:textColor="@color/nfc_text_finger_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_swipe_done_alert_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="2dp" android:layout_marginRight="30dp" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>ඡායාරූපය ගන්න</item>
+        <item>ඇල්බමයෙන්</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>වඩාත් හොඳ නින්දක් සඳහා පහසු පරිසරයක් සාදා ගන්න</item>
+        <item>යහපත් නිදි පුරුදු සමස්ත සෞඛ්‍යය රැක ගැනීමට දායක වෙයි</item>
+        <item>නිදා ගන්නා වේලාවට පෙර ඔබේ කරදර අමතක කරන්න</item>
+        <item>ඔබ නින්දට යාමට පෙර මනස හිස් කරන්න</item>
+        <item>හොඳ නින්දකින් ඔබේ කාර්ය සාධනය වැඩි දියුණු වේ</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>හෙට ඇති ප්‍රශ්න හෙටට තබන්න</item>
+        <item>නිදා ගැනීමට පෙර වැඩිපුර ආහාර ගැනීමෙන් හෝ බීමෙන් වළකින්න</item>
+        <item>ඔබේ හුස්ම ගැනීම පිළිබඳ අවධානය යොමු කරන්න, එය නින්ද යාමට උපකාරී වේ</item>
+        <item>නිදා ගන්නා වේලාවට පෙර දැඩි ව්‍යායාමවලින් වළකින්න</item>
+        <item>ඔබට නින්ද යාමට මෘදු සංගීතයක් වාදනය කරන්න</item>
+        <item>නින්දේ තත්ත්වය වැඩි දියුණු කර ගැනීමට නිතර ව්‍යායාම කරන්න</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>හොඳ නින්දකින් ඔබේ මානසික්තවය වැඩි දියුණු වේ</item>
+        <item>නැවුම් මනසකින් හා ශරීරයකින් සෑම දිනක්ම වැළඳගන්න</item>
+        <item>නියමිත වේලාවකට නිදා ගැනීමෙන් ඔබේ හිතේ සැනසීම ඇති වේ</item>
+        <item>හෙට අභියෝගවලට මුහුණ දීමට හොඳින් නිදා ගන්න</item>
+    </array>
+</resources>

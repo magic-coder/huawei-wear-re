@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/start_track_bg_popout" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:textSize="18dp" android:textColor="@color/home_track_show_text_black_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_start_track_target_type" />
+    </LinearLayout>
+    <ImageView android:background="@color/common_black_10alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:weightSum="3.0" android:layout_marginStart="@dimen/activity_vertical_margin" android:layout_marginEnd="@dimen/activity_vertical_margin"
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/targetdistance" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentLeft="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/start_track_goal_distance_selector" />
+            <TextView android:textSize="13dp" android:textColor="@color/home_track_show_text_black_color" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginTop="8dp" android:text="@string/IDS_sport_distance" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/targettime" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_centerInParent="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/start_track_goal_time_selector" />
+            <TextView android:textSize="13dp" android:textColor="@color/home_track_show_text_black_color" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginTop="8dp" android:text="@string/IDS_start_track_target_type_time" />
+        </LinearLayout>
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/targetcalorie" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_alignParentRight="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/start_track_goal_calorie_selector" />
+            <TextView android:textSize="13dp" android:textColor="@color/home_track_show_text_black_color" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginTop="8dp" android:text="@string/IDS_start_track_target_type_calorie" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_vertical_margin">
+        <Button android:textSize="15dp" android:textColor="@drawable/btn_clear_target_clickable_selector" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/btn_clearTarget" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_clear_target_goal_tips" android:layout_below="@id/targettime" />
+    </LinearLayout>
+</LinearLayout>

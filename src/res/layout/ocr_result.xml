@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/orc_result_layout" android:background="@color/nfc_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/ocr_result_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:custom_type="2" />
+    <ScrollView setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x1" setting:layout_weight="1.0">
+        <LinearLayout setting:orientation="vertical" setting:paddingLeft="@dimen/camera_hcoincard_tips_margin_left_or_right" setting:paddingRight="@dimen/camera_hcoincard_tips_margin_left_or_right" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <TextView setting:textSize="@dimen/ocrresult_small_titlesize" setting:textColor="@color/white_color_80" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/card_tips" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="14dp" setting:text="@string/wallet_camera_confirm_card_tips" />
+            <ImageView setting:id="@id/card_num_image" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001" setting:layout_marginLeft="@dimen/nfc_card_card_num_image_size" setting:layout_marginTop="10dp" setting:layout_marginRight="@dimen/nfc_card_card_num_image_size" setting:scaleType="fitXY" />
+            <LinearLayout setting:orientation="horizontal" setting:id="@id/edit_text_group" setting:focusable="true" setting:focusableInTouchMode="true" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001" />
+            <ImageView setting:id="@id/line_bottom" setting:background="@color/line_bottom_color" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/ocr_bottom_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+        <Button setting:id="@id/next_button" setting:background="@drawable/common_button_21" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_margin="@dimen/nfc_card_margin_common" setting:text="@string/wallet_camera_confirm" />
+    </LinearLayout>
+</LinearLayout>

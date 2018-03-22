@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s cm</item>
+        <item quantity="one">%1$s cm</item>
+        <item quantity="two">%1$s cm</item>
+        <item quantity="few">%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Traja lahko %1$s dni</item>
+        <item quantity="one">Traja lahko %1$s dan</item>
+        <item quantity="two">Traja lahko %1$s dni</item>
+        <item quantity="few">Traja lahko %1$s dni</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+        <item quantity="two">%1$s KB</item>
+        <item quantity="few">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+        <item quantity="two">%1$s MB</item>
+        <item quantity="few">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ft</item>
+        <item quantity="one">%1$s ft</item>
+        <item quantity="two">%1$s ft</item>
+        <item quantity="few">%1$s ft</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d ur</item>
+        <item quantity="one">%d ura</item>
+        <item quantity="two">%d ur</item>
+        <item quantity="few">%d ur</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="two">%1$s B</item>
+        <item quantity="few">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+        <item quantity="two">%1$s GB</item>
+        <item quantity="few">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+        <item quantity="two">%1$s PB</item>
+        <item quantity="few">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+        <item quantity="two">%1$s TB</item>
+        <item quantity="few">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s in</item>
+        <item quantity="one">%1$s in</item>
+        <item quantity="two">%1$s in</item>
+        <item quantity="few">%1$s in</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="one">%s kg</item>
+        <item quantity="two">%s kg</item>
+        <item quantity="few">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s lb</item>
+        <item quantity="one">%s lb</item>
+        <item quantity="two">%s lb</item>
+        <item quantity="few">%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s je veljaven še %2$s dni</item>
+        <item quantity="one">%1$s je veljaven še %2$s dan</item>
+        <item quantity="two">%1$s je veljaven še %2$s dneva</item>
+        <item quantity="few">%1$s je veljaven še %2$s dni</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Želite odstraniti izbrane stike?</item>
+        <item quantity="one">Želite odstraniti izbran stik?</item>
+        <item quantity="two">Želite odstraniti izbrane stike?</item>
+        <item quantity="few">Želite odstraniti izbrane stike?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s-minutno pametno bujenje)</item>
+        <item quantity="one">%1$s (%2$s-minutno pametno bujenje)</item>
+        <item quantity="two">%1$s (%2$s-minutno pametno bujenje)</item>
+        <item quantity="few">%1$s (%2$s-minutno pametno bujenje)</item>
+    </plurals>
+</resources>

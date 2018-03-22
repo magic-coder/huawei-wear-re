@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="wrap_content" setting:layout_height="wrap_content"
+    <LinearLayout setting:orientation="horizontal" setting:id="@id/esim_item" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/sim_open_esim_magin">
+        <RelativeLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="UNKNOWN_DATA_0x3801" setting:layout_weight="1.0">
+            <TextView setting:textSize="@dimen/sim_text_open_esim_size" setting:textColor="@color/IDS_plugin_sim_white_90alpha" setting:id="@id/open_esim" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_sim_esim_open" />
+            <TextView setting:textSize="@dimen/sim_text_open_esim_tips_size" setting:textColor="@color/IDS_plugin_sim_white_50alpha" setting:id="@id/open_esim_tips" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_sim_esim_open_tips" setting:layout_below="@id/open_esim" />
+        </RelativeLayout>
+        <ImageView setting:id="@id/set_tips_image" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/sim_open_esim_top_image_magin" setting:src="@drawable/sim_direction_tip_image1" setting:layout_alignParentRight="true" setting:layout_marginStart="@dimen/sim_open_esim_right_image_magin" />
+    </LinearLayout>
+</LinearLayout>

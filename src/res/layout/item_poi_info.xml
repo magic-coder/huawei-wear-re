@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="horizontal" setting:background="#ffffff" setting:descendantFocusability="blocksDescendants" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x4001" setting:cacheColorHint="#00000000" setting:weightSum="1.0"
+    <LinearLayout setting:orientation="vertical" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <TextView setting:textSize="17dp" setting:textColor="@color/kw_color_black_85alpha" setting:ellipsize="end" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/item_poi_descrobe" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x4001" setting:singleLine="true" />
+        <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5a01" android:layout_marginLeft="@dimen/down_progress_left_margin" android:layout_marginRight="@dimen/down_progress_right_margin">
+        <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignParentStart="true" />
+        <ProgressBar android:id="@id/progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginBottom="7dp" android:max="100" android:progress="0" android:layout_below="@id/message" style="?unknown_attr_ref: 1010078" />
+        <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:id="@id/file_isdowning_size" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/progress" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+</LinearLayout>

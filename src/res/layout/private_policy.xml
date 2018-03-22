@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/private_policy_layout" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/net_unavailable_ui" />
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/huawei_query_fail" />
+    <View android:id="@id/view_helper" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x101" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/webview_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+        <ProgressBar android:id="@id/webview_progressbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:max="100" android:progressDrawable="@drawable/webview_progressbar" style="@*style/Widget.ProgressBar.Horizontal" />
+        <WebView android:id="@id/uri_webview" android:paddingLeft="18dp" android:paddingRight="18dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="18dp" android:paddingEnd="18dp" />
+    </LinearLayout>
+</RelativeLayout>

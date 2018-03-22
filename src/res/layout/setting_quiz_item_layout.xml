@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/primarycolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/quiz_display_title_tv" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/emui_anti_default_fonts" />
+    <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/primarycolor" android:id="@id/quiz_display_content_tv" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/emui_anti_default_fonts" />
+</RelativeLayout>

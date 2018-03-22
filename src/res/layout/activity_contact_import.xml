@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="#f7f7f7" app:layout_width="match_parent" app:layout_height="match_parent"
+    <RelativeLayout app:id="@id/relativeLayout1" app:background="@drawable/kw_titlebar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView app:textSize="16dp" app:textColor="0x106000b" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_import_from_phone" app:layout_centerHorizontal="true" app:layout_centerVertical="true" />
+        <ImageView app:id="@id/memu_img_cancle_improt" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:layout_marginLeft="4dp" app:src="@drawable/menu_imgeview_import_cancle_bg" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout app:background="#f0f0f0" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_alignParentBottom="true">
+        <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4001"
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+                <ImageView app:id="@id/menu_img_improt" app:background="@drawable/kw_btn_track_botton_tolead" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x2601" />
+            </LinearLayout>
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="5dp">
+                <TextView app:textSize="11dp" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="wrap_content" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_import_phone_number" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/rlSearchFrameDelete" app:background="#f0f0f0" app:focusable="true" app:focusableInTouchMode="true" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_below="@id/relativeLayout1" app:layout_centerVertical="true">
+        <ImageView app:id="@id/imageView1" app:layout_width="UNKNOWN_DATA_0x1e01" app:layout_height="UNKNOWN_DATA_0x1e01" app:layout_marginLeft="20dp" app:layout_centerVertical="true" />
+        <EditText app:textSize="13dp" app:textColor="#4d000000" app:id="@id/menu_search_et" app:background="@drawable/edittext_bg_white" app:paddingLeft="11dp" app:layout_width="UNKNOWN_DATA_0x14801" app:layout_height="UNKNOWN_DATA_0x2201" app:layout_marginLeft="15dp" app:layout_marginRight="15dp" app:hint="@string/IDS_plugin_kidwatch_commom_research" app:singleLine="true" app:layout_alignTop="@id/imageView1" app:layout_alignBottom="@id/imageView1" app:layout_alignParentLeft="true" app:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <ListView app:id="@id/menu_listview_improt" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="60dp" app:layout_below="@id/rlSearchFrameDelete" app:layout_alignParentLeft="true" />
+</RelativeLayout>

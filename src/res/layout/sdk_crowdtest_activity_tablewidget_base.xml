@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" TableWidget:orientation="vertical" TableWidget:layout_width="match_parent" TableWidget:layout_height="match_parent">
+    <include layout="@layout/sdk_crowdtest_layout_title_bar" />
+    <LinearLayout TableWidget:orientation="vertical" TableWidget:background="@color/sdk_crowdtest_background_color_gray" TableWidget:layout_width="match_parent" TableWidget:layout_height="UNKNOWN_DATA_0x1" TableWidget:layout_weight="1.0">
+        <android.support.v4.view.ViewPager TableWidget:id="@id/sdk_crowdtest_view_pager_content" TableWidget:layout_width="match_parent" TableWidget:layout_height="UNKNOWN_DATA_0x1" TableWidget:layout_weight="1.0" />
+    </LinearLayout>
+</com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout>

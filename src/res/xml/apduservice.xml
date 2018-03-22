@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<offhost-apdu-service xmlns:android="http://schemas.android.com/apk/res/android" android:description="@string/app_name" android:apduServiceBanner="@drawable/nfc_huawei_pay_icon">
+    <aid-group android:description="@string/app_name" android:category="payment">
+        <aid-filter android:name="325041592E5359532E4444463031" />
+        <aid-filter android:name="A0000003330101020063020000000301" />
+    </aid-group>
+</offhost-apdu-service>

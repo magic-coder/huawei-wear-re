@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">[CS_315620]_%1$s cm</item>
+        <item quantity="zero">[CS_315587]_%1$s cm</item>
+        <item quantity="one">[CS_315591]_%1$s cm</item>
+        <item quantity="two">[CS_315597]_%1$s cm</item>
+        <item quantity="few">[CS_315586]_%1$s cm</item>
+        <item quantity="many">[CS_315616]_%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">[CS_382257]_Can last %1$s days</item>
+        <item quantity="zero">[CS_382256]_Can last %1$s days</item>
+        <item quantity="one">[CS_382246]_Can last %1$s day</item>
+        <item quantity="two">[CS_382247]_Can last %1$s days</item>
+        <item quantity="few">[CS_382250]_Can last %1$s days</item>
+        <item quantity="many">[CS_382254]_Can last %1$s days</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">[CS_350438]_%1$s KB</item>
+        <item quantity="zero">[CS_350415]_%1$s KB</item>
+        <item quantity="one">[CS_350436]_%1$s KB</item>
+        <item quantity="two">[CS_350412]_%1$s KB</item>
+        <item quantity="few">[CS_350435]_%1$s KB</item>
+        <item quantity="many">[CS_350442]_%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">[CS_350417]_%1$s MB</item>
+        <item quantity="zero">[CS_350418]_%1$s MB</item>
+        <item quantity="one">[CS_350407]_%1$s MB</item>
+        <item quantity="two">[CS_350440]_%1$s MB</item>
+        <item quantity="few">[CS_350422]_%1$s MB</item>
+        <item quantity="many">[CS_350429]_%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">[CS_315613]_%1$s ft</item>
+        <item quantity="zero">[CS_315615]_%1$s ft</item>
+        <item quantity="one">[CS_315596]_%1$s ft</item>
+        <item quantity="two">[CS_315602]_%1$s ft</item>
+        <item quantity="few">[CS_315618]_%1$s ft</item>
+        <item quantity="many">[CS_315609]_%1$s ft</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">[CS_325836]_%d hours</item>
+        <item quantity="zero">[CS_325839]_%d hours</item>
+        <item quantity="one">[CS_325837]_%d hour</item>
+        <item quantity="two">[CS_325842]_%d hours</item>
+        <item quantity="few">[CS_325835]_%d hours</item>
+        <item quantity="many">[CS_325841]_%d hours</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">[CS_350441]_%1$s B</item>
+        <item quantity="zero">[CS_350416]_%1$s B</item>
+        <item quantity="one">[CS_350439]_%1$s B</item>
+        <item quantity="two">[CS_350425]_%1$s B</item>
+        <item quantity="few">[CS_350434]_%1$s B</item>
+        <item quantity="many">[CS_350419]_%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">[CS_350427]_%1$s GB</item>
+        <item quantity="zero">[CS_350411]_%1$s GB</item>
+        <item quantity="one">[CS_350443]_%1$s GB</item>
+        <item quantity="two">[CS_350420]_%1$s GB</item>
+        <item quantity="few">[CS_350428]_%1$s GB</item>
+        <item quantity="many">[CS_350432]_%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">[CS_350430]_%1$s PB</item>
+        <item quantity="zero">[CS_350423]_%1$s PB</item>
+        <item quantity="one">[CS_350410]_%1$s PB</item>
+        <item quantity="two">[CS_350431]_%1$s PB</item>
+        <item quantity="few">[CS_350421]_%1$s PB</item>
+        <item quantity="many">[CS_350424]_%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">[CS_350437]_%1$s TB</item>
+        <item quantity="zero">[CS_350408]_%1$s TB</item>
+        <item quantity="one">[CS_350426]_%1$s TB</item>
+        <item quantity="two">[CS_350444]_%1$s TB</item>
+        <item quantity="few">[CS_350413]_%1$s TB</item>
+        <item quantity="many">[CS_350414]_%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">[CS_315604]_%1$s in</item>
+        <item quantity="zero">[CS_315603]_%1$s in</item>
+        <item quantity="one">[CS_315601]_%1$s in</item>
+        <item quantity="two">[CS_315592]_%1$s in</item>
+        <item quantity="few">[CS_315600]_%1$s in</item>
+        <item quantity="many">[CS_315617]_%1$s in</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">[CS_315598]_%s kg</item>
+        <item quantity="zero">[CS_315610]_%s kg</item>
+        <item quantity="one">[CS_315611]_%s kg</item>
+        <item quantity="two">[CS_315593]_%s kg</item>
+        <item quantity="few">[CS_315585]_%s kg</item>
+        <item quantity="many">[CS_315621]_%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">[CS_315584]_%s lb</item>
+        <item quantity="zero">[CS_315607]_%s lb</item>
+        <item quantity="one">[CS_315606]_%s lb</item>
+        <item quantity="two">[CS_315599]_%s lb</item>
+        <item quantity="few">[CS_315623]_%s lb</item>
+        <item quantity="many">[CS_315594]_%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">[CS_311949]_%1$s is still valid for %2$s days</item>
+        <item quantity="zero">[CS_312564]_%1$s is still valid for %2$s days</item>
+        <item quantity="one">[CS_311192]_%1$s is still valid for %2$s day</item>
+        <item quantity="two">[CS_311630]_%1$s is still valid for %2$s days</item>
+        <item quantity="few">[CS_312529]_%1$s is still valid for %2$s days</item>
+        <item quantity="many">[CS_311812]_%1$s is still valid for %2$s days</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">[CS_323851]_%d contacts</item>
+        <item quantity="zero">[CS_323873]_%d contacts</item>
+        <item quantity="one">[CS_323862]_%d contact</item>
+        <item quantity="two">[CS_323836]_%d contacts</item>
+        <item quantity="few">[CS_323869]_%d contacts</item>
+        <item quantity="many">[CS_323865]_%d contacts</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">[CS_323863]_%d h</item>
+        <item quantity="zero">[CS_323864]_%d h</item>
+        <item quantity="one">[CS_323854]_%d h</item>
+        <item quantity="two">[CS_323867]_%d h</item>
+        <item quantity="few">[CS_323840]_%d h</item>
+        <item quantity="many">[CS_323868]_%d h</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">[CS_323842]_%d h</item>
+        <item quantity="zero">[CS_323857]_%d h</item>
+        <item quantity="one">[CS_323835]_%d h</item>
+        <item quantity="two">[CS_323870]_%d h</item>
+        <item quantity="few">[CS_323847]_%d h</item>
+        <item quantity="many">[CS_323855]_%d h</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">[CS_323843]_%d min</item>
+        <item quantity="zero">[CS_323872]_%d min</item>
+        <item quantity="one">[CS_323841]_%d min</item>
+        <item quantity="two">[CS_323874]_%d min</item>
+        <item quantity="few">[CS_323856]_%d min</item>
+        <item quantity="many">[CS_323866]_%d min</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">[CS_323853]_%d steps</item>
+        <item quantity="zero">[CS_323871]_%d steps</item>
+        <item quantity="one">[CS_323837]_%d step</item>
+        <item quantity="two">[CS_323845]_%d steps</item>
+        <item quantity="few">[CS_323839]_%d steps</item>
+        <item quantity="many">[CS_323875]_%d steps</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">[CS_325184]_%s rewards received</item>
+        <item quantity="zero">[CS_325159]_%s rewards received</item>
+        <item quantity="one">[CS_325179]_%s reward received</item>
+        <item quantity="two">[CS_325202]_%s rewards received</item>
+        <item quantity="few">[CS_325226]_%s rewards received</item>
+        <item quantity="many">[CS_325165]_%s rewards received</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">[CS_325204]_After your child has received praise %1$s times</item>
+        <item quantity="zero">[CS_325182]_After your child has received praise %1$s times</item>
+        <item quantity="one">[CS_325201]_After your child has received praise %1$s time</item>
+        <item quantity="two">[CS_325209]_After your child has received praise %1$s times</item>
+        <item quantity="few">[CS_325214]_After your child has received praise %1$s times</item>
+        <item quantity="many">[CS_325172]_After your child has received praise %1$s times</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">[CS_325216]_%1$.3f km</item>
+        <item quantity="zero">[CS_325190]_%1$.3f km</item>
+        <item quantity="one">[CS_325164]_%1$.3f km</item>
+        <item quantity="two">[CS_325213]_%1$.3f km</item>
+        <item quantity="few">[CS_325194]_%1$.3f km</item>
+        <item quantity="many">[CS_325185]_%1$.3f km</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">[CS_325188]_Stopped here for more than %s hours</item>
+        <item quantity="zero">[CS_325168]_Stopped here for more than %s hours</item>
+        <item quantity="one">[CS_325229]_Stopped here for more than %s hour</item>
+        <item quantity="two">[CS_325192]_Stopped here for more than %s hours</item>
+        <item quantity="few">[CS_325221]_Stopped here for more than %s hours</item>
+        <item quantity="many">[CS_325191]_Stopped here for more than %s hours</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">[CS_325174]_%1$s m, %2$s</item>
+        <item quantity="zero">[CS_325207]_%1$s m, %2$s</item>
+        <item quantity="one">[CS_325197]_%1$s m, %2$s</item>
+        <item quantity="two">[CS_325195]_%1$s m, %2$s</item>
+        <item quantity="few">[CS_325178]_%1$s m, %2$s</item>
+        <item quantity="many">[CS_325212]_%1$s m, %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">[CS_325222]_precision within %s m</item>
+        <item quantity="zero">[CS_325181]_precision within %s m</item>
+        <item quantity="one">[CS_325232]_precision within %s m</item>
+        <item quantity="two">[CS_325210]_precision within %s m</item>
+        <item quantity="few">[CS_325215]_precision within %s m</item>
+        <item quantity="many">[CS_325171]_precision within %s m</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">[CS_325183]_Location %s min ago</item>
+        <item quantity="zero">[CS_325175]_Location %s min ago</item>
+        <item quantity="one">[CS_325198]_Location %s min ago</item>
+        <item quantity="two">[CS_325196]_Location %s min ago</item>
+        <item quantity="few">[CS_325224]_Location %s min ago</item>
+        <item quantity="many">[CS_325234]_Location %s min ago</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">[CS_325193]_You can only add %1$s contacts</item>
+        <item quantity="zero">[CS_325177]_You can only add %1$s contacts</item>
+        <item quantity="one">[CS_325163]_You can only add %1$s contact</item>
+        <item quantity="two">[CS_325227]_You can only add %1$s contacts</item>
+        <item quantity="few">[CS_325223]_You can only add %1$s contacts</item>
+        <item quantity="many">[CS_325176]_You can only add %1$s contacts</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">[CS_325233]_You can invite up to %1$d administrators. When the child makes a distress call, the watch will use the list to call the administrators in order. Administrators can always call the child.</item>
+        <item quantity="zero">[CS_325162]_You can invite up to %1$d administrators. When the child makes a distress call, the watch will use the list to call the administrators in order. Administrators can always call the child.</item>
+        <item quantity="one">[CS_325200]_You can invite up to %1$d administrator. When the child makes a distress call, the watch will use the list to call the administrators in order. Administrators can always call the child.</item>
+        <item quantity="two">[CS_325205]_You can invite up to %1$d administrators. When the child makes a distress call, the watch will use the list to call the administrators in order. Administrators can always call the child.</item>
+        <item quantity="few">[CS_325189]_You can invite up to %1$d administrators. When the child makes a distress call, the watch will use the list to call the administrators in order. Administrators can always call the child.</item>
+        <item quantity="many">[CS_325169]_You can invite up to %1$d administrators. When the child makes a distress call, the watch will use the list to call the administrators in order. Administrators can always call the child.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">[CS_325208]_%d points</item>
+        <item quantity="zero">[CS_325225]_%d points</item>
+        <item quantity="one">[CS_325199]_%d point</item>
+        <item quantity="two">[CS_325173]_%d points</item>
+        <item quantity="few">[CS_325211]_%d points</item>
+        <item quantity="many">[CS_325160]_%d points</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">[CS_311337]_Remove selected contacts?</item>
+        <item quantity="zero">[CS_312415]_Remove selected contacts?</item>
+        <item quantity="one">[CS_311682]_Remove selected contact?</item>
+        <item quantity="two">[CS_312118]_Remove selected contacts?</item>
+        <item quantity="few">[CS_311713]_Remove selected contacts?</item>
+        <item quantity="many">[CS_311048]_Remove selected contacts?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">[CS_312373]_%1$s (%2$s min smart wakeup)</item>
+        <item quantity="zero">[CS_311701]_%1$s (%2$s min smart wakeup)</item>
+        <item quantity="one">[CS_312408]_%1$s (%2$s min smart wakeup)</item>
+        <item quantity="two">[CS_312116]_%1$s (%2$s min smart wakeup)</item>
+        <item quantity="few">[CS_311419]_%1$s (%2$s min smart wakeup)</item>
+        <item quantity="many">[CS_311256]_%1$s (%2$s min smart wakeup)</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_minute_unit">
+        <item quantity="other">[CS_323876]_%s minutes</item>
+        <item quantity="zero">[CS_323878]_%s minutes</item>
+        <item quantity="one">[CS_323852]_%s minute</item>
+        <item quantity="two">[CS_323848]_%s minutes</item>
+        <item quantity="few">[CS_323877]_%s minutes</item>
+        <item quantity="many">[CS_323861]_%s minutes</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_second_unit">
+        <item quantity="other">[CS_323846]_%1$s seconds</item>
+        <item quantity="zero">[CS_323860]_%1$s seconds</item>
+        <item quantity="one">[CS_323858]_%1$s second</item>
+        <item quantity="two">[CS_323859]_%1$s seconds</item>
+        <item quantity="few">[CS_323849]_%1$s seconds</item>
+        <item quantity="many">[CS_323844]_%1$s seconds</item>
+    </plurals>
+    <plurals name="IDS_hour_string">
+        <item quantity="zero">[CS_325417]_%1$s hour</item>
+        <item quantity="two">[CS_325420]_%1$s hour</item>
+        <item quantity="few">[CS_325416]_%1$s hour</item>
+        <item quantity="many">[CS_325419]_%1$s hour</item>
+    </plurals>
+</resources>

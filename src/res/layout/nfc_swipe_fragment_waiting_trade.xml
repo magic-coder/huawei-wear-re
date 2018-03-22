@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.huawei.nfc.carrera.ui.swipe.view.WaveView android:id="@id/waveView_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <com.huawei.nfc.carrera.ui.swipe.view.WaveView android:id="@id/waveView_2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" />
+        <ImageView android:id="@id/unipay_quickpass_view" android:background="@drawable/ic_paybycard_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="77dp" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="15dp" android:textColor="@color/nfc_white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_swipe_tip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="152dp" android:layout_marginRight="30dp" android:text="@string/nfc_swipe_wait_pos_text" />
+    </RelativeLayout>
+</LinearLayout>

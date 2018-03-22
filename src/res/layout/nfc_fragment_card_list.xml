@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/nfc_unknown_error_layout" />
+    <include layout="@layout/nfc_activity_enter_nfc_introduction" />
+    <include layout="@layout/nfc_network_fail_layout" />
+    <include layout="@layout/nfc_carrera_progress_bar_layout" />
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/listview" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="12dp" android:listSelector="@color/nfc_transparent" android:divider="0x0" />
+</LinearLayout>

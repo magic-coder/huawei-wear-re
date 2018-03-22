@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="24dp" android:paddingRight="24dp" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/lly_bluetooth" android:layout_width="UNKNOWN_DATA_0x8401" android:layout_height="wrap_content" android:layout_marginTop="108dp">
+            <ImageView android:id="@id/home_fragment_bluetooth_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_bluetooth_disconnected" />
+            <TextView android:textSize="15dp" android:textStyle="bold" android:textColor="@color/common_white_90alpha" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/home_fragment_bluetooth_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_myfitnesspal_logout" android:layout_marginStart="4dp" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/lly_reconnect" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x8401" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_fragment21_reconnect_text_magin_left" android:layout_marginTop="4dp" android:layout_below="@id/lly_bluetooth">
+            <TextView android:textSize="13dp" android:textStyle="bold" android:textColor="@color/common_white_90alpha" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_main_click_to_reconnect" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/lly_battery" android:layout_width="UNKNOWN_DATA_0x8401" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_below="@id/lly_bluetooth">
+            <ImageView android:id="@id/battery_image" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_battery_0" />
+            <TextView android:textSize="13dp" android:textStyle="bold" android:textColor="@color/common_white_90alpha" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/battery_textview" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="4dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

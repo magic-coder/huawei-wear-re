@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/health_healthdata_popoup_bg" android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:textSize="18dp" android:textColor="@color/home_track_show_text_black_color" android:id="@id/wheeltitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_healthdata_bloodsugar_timeperiod" android:fontFamily="regular" />
+    </LinearLayout>
+    <ImageView android:background="@color/common_black_10alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/custom_dialog_margin_left_right_bottom" android:layout_marginStart="@dimen/activity_horizontal_margin" android:layout_marginEnd="@dimen/activity_horizontal_margin">
+        <com.huawei.ui.commonui.wheelview.TrackTargetWheelView android:id="@id/wheelviewselayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_dialog_margin_left_right_bottom" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_vertical_margin" android:layout_marginBottom="@dimen/activity_vertical_margin" android:weightSum="2.0">
+            <Button android:textSize="15dp" android:textColor="@color/home_track_starget_value_color_whole_alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wheelcancel" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_settings_button_cancal" android:layout_weight="1.0" />
+            <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d04a7" android:layout_height="UNKNOWN_DATA_0x2801" />
+            <Button android:textSize="15dp" android:textColor="@color/home_track_starget_value_color_whole_alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wheelbut" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_settings_button_ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

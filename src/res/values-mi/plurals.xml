@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s cm</item>
+        <item quantity="zero">%1$s cm</item>
+        <item quantity="one">%1$s cm</item>
+        <item quantity="two">%1$s cm</item>
+        <item quantity="few">%1$s cm</item>
+        <item quantity="many">%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Ka taea te mau %1$s ngā rā</item>
+        <item quantity="zero">Ka taea te mau %1$s ngā rā</item>
+        <item quantity="one">Ka taea te mau %1$s rā</item>
+        <item quantity="two">Ka taea te mau %1$s ngā rā</item>
+        <item quantity="few">Ka taea te mau %1$s ngā rā</item>
+        <item quantity="many">Ka taea te mau %1$s ngā rā</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="zero">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+        <item quantity="two">%1$s KB</item>
+        <item quantity="few">%1$s KB</item>
+        <item quantity="many">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="zero">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+        <item quantity="two">%1$s MB</item>
+        <item quantity="few">%1$s MB</item>
+        <item quantity="many">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ft</item>
+        <item quantity="zero">%1$s ft</item>
+        <item quantity="one">%1$s ft</item>
+        <item quantity="two">%1$s ft</item>
+        <item quantity="few">%1$s ft</item>
+        <item quantity="many">%1$s ft</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d haora</item>
+        <item quantity="zero">%d haora</item>
+        <item quantity="one">%d haora</item>
+        <item quantity="two">%d haora</item>
+        <item quantity="few">%d haora</item>
+        <item quantity="many">%d haora</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="zero">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="two">%1$s B</item>
+        <item quantity="few">%1$s B</item>
+        <item quantity="many">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="zero">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+        <item quantity="two">%1$s GB</item>
+        <item quantity="few">%1$s GB</item>
+        <item quantity="many">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="zero">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+        <item quantity="two">%1$s PB</item>
+        <item quantity="few">%1$s PB</item>
+        <item quantity="many">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="zero">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+        <item quantity="two">%1$s TB</item>
+        <item quantity="few">%1$s TB</item>
+        <item quantity="many">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s in</item>
+        <item quantity="zero">%1$s in</item>
+        <item quantity="one">%1$s in</item>
+        <item quantity="two">%1$s in</item>
+        <item quantity="few">%1$s in</item>
+        <item quantity="many">%1$s in</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="zero">%s kg</item>
+        <item quantity="one">%s kg</item>
+        <item quantity="two">%s kg</item>
+        <item quantity="few">%s kg</item>
+        <item quantity="many">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s lb</item>
+        <item quantity="zero">%s lb</item>
+        <item quantity="one">%s lb</item>
+        <item quantity="two">%s lb</item>
+        <item quantity="few">%s lb</item>
+        <item quantity="many">%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">Kei te whaimana tonu te %1$s mō te %2$s rā</item>
+        <item quantity="zero">Kei te whaimana tonu te %1$s mō te %2$s rā</item>
+        <item quantity="one">Kei te whaimana tonu te %1$s mō te %2$s rā</item>
+        <item quantity="two">Kei te whaimana tonu te %1$s mō te %2$s rā</item>
+        <item quantity="few">Kei te whaimana tonu te %1$s mō te %2$s rā</item>
+        <item quantity="many">Kei te whaimana tonu te %1$s mō te %2$s rā</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d ngā hoapā</item>
+        <item quantity="zero">%d ngā hoapā</item>
+        <item quantity="one">%d te hoapā</item>
+        <item quantity="two">%d ngā hoapā</item>
+        <item quantity="few">%d ngā hoapā</item>
+        <item quantity="many">%d ngā hoapā</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d h</item>
+        <item quantity="zero">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="two">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d h</item>
+        <item quantity="zero">%d h</item>
+        <item quantity="one">%d h</item>
+        <item quantity="two">%d h</item>
+        <item quantity="few">%d h</item>
+        <item quantity="many">%d h</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d min</item>
+        <item quantity="zero">%d min</item>
+        <item quantity="one">%d min</item>
+        <item quantity="two">%d min</item>
+        <item quantity="few">%d min</item>
+        <item quantity="many">%d min</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d ngā hīkoinga</item>
+        <item quantity="zero">%d ngā hīkoinga</item>
+        <item quantity="one">%d hīkoinga</item>
+        <item quantity="two">%d ngā hīkoinga</item>
+        <item quantity="few">%d ngā hīkoinga</item>
+        <item quantity="many">%d ngā hīkoinga</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s ngā whakawhiwhinga i whiwhi</item>
+        <item quantity="zero">%s ngā whakawhiwhinga i whiwhi</item>
+        <item quantity="one">%s te whakawhiwhinga i whiwhi</item>
+        <item quantity="two">%s ngā whakawhiwhinga i whiwhi</item>
+        <item quantity="few">%s ngā whakawhiwhinga i whiwhi</item>
+        <item quantity="many">%s ngā whakawhiwhinga i whiwhi</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">Ina whakanuitia tō tamaiti i ngā wā e %1$s</item>
+        <item quantity="zero">Ina whakanuitia tō tamaiti i ngā wā e %1$s</item>
+        <item quantity="one">Ina whakanuitia tō tamaiti i te %1$s wā</item>
+        <item quantity="two">Ina whakanuitia tō tamaiti i ngā wā e %1$s</item>
+        <item quantity="few">Ina whakanuitia tō tamaiti i ngā wā e %1$s</item>
+        <item quantity="many">Ina whakanuitia tō tamaiti i ngā wā e %1$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f km</item>
+        <item quantity="zero">%1$.3f km</item>
+        <item quantity="one">%1$.3f km</item>
+        <item quantity="two">%1$.3f km</item>
+        <item quantity="few">%1$.3f km</item>
+        <item quantity="many">%1$.3f km</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">Neke atu i te %s haora te tū ki konei</item>
+        <item quantity="zero">Neke atu i te %s haora te tū ki konei</item>
+        <item quantity="one">Neke atu i te %s haora te tū ki konei</item>
+        <item quantity="two">Neke atu i te %s haora te tū ki konei</item>
+        <item quantity="few">Neke atu i te %s haora te tū ki konei</item>
+        <item quantity="many">Neke atu i te %s haora te tū ki konei</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s m, %2$s</item>
+        <item quantity="zero">%1$s m, %2$s</item>
+        <item quantity="one">%1$s m, %2$s</item>
+        <item quantity="two">%1$s m, %2$s</item>
+        <item quantity="few">%1$s m, %2$s</item>
+        <item quantity="many">%1$s m, %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">hāngai pū i roto i te %s m</item>
+        <item quantity="zero">hāngai pū i roto i te %s m</item>
+        <item quantity="one">hāngai pū i roto i te %s m</item>
+        <item quantity="two">hāngai pū i roto i te %s m</item>
+        <item quantity="few">hāngai pū i roto i te %s m</item>
+        <item quantity="many">hāngai pū i roto i te %s m</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">Tauwāhi %s ki mua</item>
+        <item quantity="zero">Tauwāhi %s ki mua</item>
+        <item quantity="one">Tauwāhi %s ki mua</item>
+        <item quantity="two">Tauwāhi %s ki mua</item>
+        <item quantity="few">Tauwāhi %s ki mua</item>
+        <item quantity="many">Tauwāhi %s ki mua</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">E %1$s anake ngā hoapā ka taea e koe te tāpiri</item>
+        <item quantity="zero">E %1$s anake ngā hoapā ka taea e koe te tāpiri</item>
+        <item quantity="one">%1$s anake te hoapā ka taea e koe te tāpiri</item>
+        <item quantity="two">E %1$s anake ngā hoapā ka taea e koe te tāpiri</item>
+        <item quantity="few">E %1$s anake ngā hoapā ka taea e koe te tāpiri</item>
+        <item quantity="many">E %1$s anake ngā hoapā ka taea e koe te tāpiri</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">Ka taea te pōwhiri atu ki te %1$d kaiwhakahaere. Ina tukuna e te tamaiti he waea ahotea, ka whakamahia e te wati te rārangi hei waea atu ki ngā kaiwhakahaere mā te raupapa. Ka taea noa ngā kaiwhakahaere te waea atu ki te tamaiti.</item>
+        <item quantity="zero">Ka taea te pōwhiri atu ki te %1$d kaiwhakahaere. Ina tukuna e te tamaiti he waea ahotea, ka whakamahia e te wati te rārangi hei waea atu ki ngā kaiwhakahaere mā te raupapa. Ka taea noa ngā kaiwhakahaere te waea atu ki te tamaiti.</item>
+        <item quantity="one">Ka taea te pōwhiri atu ki te %1$d kaiwhakahaere. Ina tukuna e te tamaiti he waea ahotea, ka whakamahia e te wati te rārangi hei waea atu ki ngā kaiwhakahaere mā te raupapa. Ka taea noa ngā kaiwhakahaere te waea atu ki te tamaiti.</item>
+        <item quantity="two">Ka taea te pōwhiri atu ki te %1$d kaiwhakahaere. Ina tukuna e te tamaiti he waea ahotea, ka whakamahia e te wati te rārangi hei waea atu ki ngā kaiwhakahaere mā te raupapa. Ka taea noa ngā kaiwhakahaere te waea atu ki te tamaiti.</item>
+        <item quantity="few">Ka taea te pōwhiri atu ki te %1$d kaiwhakahaere. Ina tukuna e te tamaiti he waea ahotea, ka whakamahia e te wati te rārangi hei waea atu ki ngā kaiwhakahaere mā te raupapa. Ka taea noa ngā kaiwhakahaere te waea atu ki te tamaiti.</item>
+        <item quantity="many">Ka taea te pōwhiri atu ki te %1$d kaiwhakahaere. Ina tukuna e te tamaiti he waea ahotea, ka whakamahia e te wati te rārangi hei waea atu ki ngā kaiwhakahaere mā te raupapa. Ka taea noa ngā kaiwhakahaere te waea atu ki te tamaiti.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d piro</item>
+        <item quantity="zero">%d piro</item>
+        <item quantity="one">%d piro</item>
+        <item quantity="two">%d piro</item>
+        <item quantity="few">%d piro</item>
+        <item quantity="many">%d piro</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Tangohia ngā hoapā i tīpakohia?</item>
+        <item quantity="zero">Tangohia ngā hoapā i tīpakohia?</item>
+        <item quantity="one">Tangohia te hoapā i tīpakohia?</item>
+        <item quantity="two">Tangohia ngā hoapā i tīpakohia?</item>
+        <item quantity="few">Tangohia ngā hoapā i tīpakohia?</item>
+        <item quantity="many">Tangohia ngā hoapā i tīpakohia?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s oho atamai mōkito)</item>
+        <item quantity="zero">%1$s (%2$s oho atamai mōkito)</item>
+        <item quantity="one">%1$s (%2$s oho atamai mōkito)</item>
+        <item quantity="two">%1$s (%2$s oho atamai mōkito)</item>
+        <item quantity="few">%1$s (%2$s oho atamai mōkito)</item>
+        <item quantity="many">%1$s (%2$s oho atamai mōkito)</item>
+    </plurals>
+</resources>

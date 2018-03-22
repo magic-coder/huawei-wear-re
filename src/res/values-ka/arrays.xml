@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>ფოტოს გადაღება</item>
+        <item>ალბომიდან</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>შექმენით კომფორტული გარემო უკეთესი ძილისთვის</item>
+        <item>ძილის კარგი ჩვევები ჯანმრთელობის წინაპირობაა</item>
+        <item>ნუ იფიქრებთ პრობლემებზე ძილის წინ</item>
+        <item>გათავისუფლდით ფიქრებისგან ძილის წინ</item>
+        <item>კარგი ძილი შრომის ნაყოფიერებას აგიმაღლებთ</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>ნუ ინერვიულებთ ხვალინდელ დღეზე</item>
+        <item>ნუ შეჭამთ და ნუ დალევთ ბევრს ძილის წინ</item>
+        <item>მოახდინეთ ფოკუსირება სუნთქვაზე — ეს ჩაძინებაში დაგეხმარებათ</item>
+        <item>თავი აარიდეთ ინტენსიურ ვარჯიშს ძილის წინ</item>
+        <item>ჩართეთ მშვიდი მუსიკა, რომელიც ჩაძინებაში დაგეხმარებათ</item>
+        <item>რეგულარულად ივარჯიშეთ ძილის ხარისხის გასაუმჯობესებლად</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>კარგი ძილი კარგ განწყობას შეგიქმნით</item>
+        <item>დაიწყეთ ყოველი დღე განახლებული სხეულითა და გონებით</item>
+        <item>ერთსა და იმავე დროს დაძინება სულიერ წონასწორობას მოგანიჭებთ</item>
+        <item>კარგად გამოიძინეთ და მოემზადეთ ხვალინდელი დღისთვის</item>
+    </array>
+</resources>

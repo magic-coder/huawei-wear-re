@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:id="@id/menu_elec_fence_poi_title" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_menu_electronic_fence_poi" setting:titleSize="@dimen/title_text_size" setting:backLeftSpace="@dimen/back_btn_left_space" setting:menuRightSpace="@dimen/menu_btn_right_space" setting:btnpading="@dimen/title_btn_pading" />
+    <ListView setting:id="@id/menu_elec_poi_list" setting:fadingEdge="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:listSelector="@drawable/settings_item_selected_bg" setting:drawSelectorOnTop="false" setting:cacheColorHint="#00000000" setting:divider="0x0" />
+</LinearLayout>

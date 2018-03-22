@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/contact_delete_titlebar" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_contact_delete_contact" setting:rightSoftkey_visibility="4" setting:custom_type="1" />
+    <LinearLayout setting:orientation="vertical" setting:id="@id/contact_delete_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_above="@id/contact_delete_bottom_layout" setting:layout_below="@id/contact_delete_titlebar">
+        <ListView setting:id="@id/contact_delete_listview" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:divider="0x0" />
+    </LinearLayout>
+    <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:id="@id/contact_delete_bottom_layout" setting:background="@drawable/commonui_selector_corners_button" setting:layout_width="UNKNOWN_DATA_0xb801" setting:layout_height="UNKNOWN_DATA_0x7f0d04a5" setting:layout_marginBottom="@dimen/common_btn_margin_bottom_size" setting:layout_alignParentBottom="true" setting:layout_centerHorizontal="true"
+        <LinearLayout setting:orientation="vertical" setting:id="@id/contact_delete_bottom_delete_layout" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="match_parent" setting:layout_weight="1.0">
+            <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:src="@mipmap/ic_toolbar_delete" style="@style/contact_btn_image_style" />
+            <TextView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:text="@string/IDS_common_remove_text" style="@style/contact_btn_text_style" />
+        </LinearLayout>
+        <LinearLayout setting:orientation="vertical" setting:id="@id/contact_delete_bottom_seleteall_layout" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="match_parent" setting:layout_weight="1.0">
+            <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/contact_delete_bottom_seleteall_img" setting:src="@mipmap/ic_selectall_toolbar" style="@style/contact_btn_image_style" />
+            <TextView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/contact_delete_bottom_seleteall_textview" setting:text="@string/IDS_contact_delete_select_all" style="@style/contact_btn_text_style" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

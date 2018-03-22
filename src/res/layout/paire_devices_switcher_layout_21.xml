@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="0x106000d" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/home_paired_switch" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/deviceName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_app_name" android:singleLine="true" android:fontFamily="sans-serif-medium" />
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/switchPopwindow" android:background="@drawable/home_paired_switch" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="8dp" />
+</LinearLayout>

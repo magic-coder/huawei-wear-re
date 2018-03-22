@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/sdk_crowdtest_layout_title_bar" />
+    <FrameLayout android:orientation="vertical" android:background="@color/sdk_crowdtest_color_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/photo_list_empty_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sdk_crowdtest_no_photos" />
+            <TextView android:textSize="@dimen/sdk_crowdtest_text_normal_size" android:textColor="@color/sdk_crowdtest_color_text_second_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/sdk_crowdtest_description_attachment_photos_null" />
+        </LinearLayout>
+        <ListView android:id="@id/photo_folder_list" android:background="@color/sdk_crowdtest_color_white" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/sdk_crowdtest_divider_layout_vertical_light" />
+    </FrameLayout>
+</com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/nfc_black" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp">
+                    <TextView android:textColor="@color/card_switch_item_status_color" android:text="@string/nfc_bind_bus_card_beijing_open_card_amount_desc" android:layout_centerVertical="true" style="@style/bill_detail_item_title_disc_style_modle" />
+                    <TextView android:textColor="@color/nfc_white" android:id="@id/add_buscard_beijing_activity_open_card_amount_real" android:text="1" android:layout_centerVertical="true" style="@style/huaweipay_order_info_style" />
+                    <TextView android:textSize="@dimen/text_size_auxiliary" android:textColor="@color/nfc_white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/add_buscard_beijing_activity_open_card_amount_orginal" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2" android:layout_toLeftOf="@id/add_buscard_beijing_activity_open_card_amount_real" android:layout_centerVertical="true" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                    <TextView android:textColor="@color/card_switch_item_status_color" android:text="@string/nfc_bind_bus_card_beijing_recharge_amount_desc" style="@style/bill_detail_item_title_disc_style_modle" />
+                    <TextView android:textColor="@color/nfc_white" android:id="@id/add_buscard_beijing_activity_recharge_amount" android:text="3" style="@style/huaweipay_order_info_style" />
+                </RelativeLayout>
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="8dp">
+                    <TextView android:textColor="@color/card_switch_item_status_color" android:text="@string/nfc_bind_bus_card_beijing_should_pay" style="@style/bill_detail_item_title_disc_style_modle" />
+                    <TextView android:textColor="@color/buscard_money_text_color" android:id="@id/add_buscard_beijing_activity_pay_amount" android:text="4" style="@style/huaweipay_order_info_style" />
+                </RelativeLayout>
+                <View android:background="@color/nfc_white_26" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+                    <TextView android:textSize="@dimen/text_size_main_body" android:textColor="@color/nfc_white" android:id="@id/txt_phonenum_key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_bind_bus_card_beijing_phonenum" android:layout_centerVertical="true" />
+                    <EditText android:textSize="@dimen/text_size_main_body" android:textColor="@color/nfc_white" android:textColorHint="@color/nfc_white_4d" android:id="@id/add_buscard_beijing_activity_edt_phonenum" android:background="0x106000d" android:paddingLeft="8dp" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nfc_bind_bus_card_beijing_phonenum_hint" android:maxLength="11" android:layout_toRightOf="@id/txt_phonenum_key" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|number|numberSigned|numberDecimal|numberPassword|phone" />
+                </RelativeLayout>
+                <View android:background="@color/nfc_white_26" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+                <TextView android:textSize="@dimen/text_size_auxiliary" android:textColor="@color/card_switch_item_status_color" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="8dp" android:layout_marginRight="24dp" android:layout_marginBottom="8dp" android:text="@string/nfc_bind_bus_card_beijing_phonenum_tips" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="16dp">
+                <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/add_buscard_beijing_activity_open_card_btn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x13400021" android:text="@string/nfc_bind_bus_card_sure_open" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">སེན་ཊི་མི་ཊར། %1$s</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">ཉིན་%1$sལྷག་འདུག</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">ཕི་ཊི། %1$s</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">ཆུ་ཚོད། %d</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">ཨིན་ཅི། %1$s</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">ཀི་ལོ་གྷ་རམ། %s</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">པོནྜ། %s</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s ནི་ད་དུང་ཉིན་ %2$s daysལ་བཀོལ་ཆོག</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">འདེམས་ཟིན་པའི་འབྲེལ་གཏུག་དག་འདོན་སེལ་བྱེད་འདོད་དམ།</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (སྐར་མ་ %2$s སྟབས་བདེ་གཉིད་སློང་།)</item>
+    </plurals>
+</resources>

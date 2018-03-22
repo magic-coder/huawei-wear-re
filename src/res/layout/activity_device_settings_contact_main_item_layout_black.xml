@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/contact_main_listview_padding" android:paddingRight="@dimen/contact_main_listview_padding" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0437" android:minHeight="@dimen/default_list_item_Height_size">
+    <ImageView android:id="@id/imgView_icon" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d0325" android:layout_height="UNKNOWN_DATA_0x7f0d0325" android:layout_marginRight="@dimen/cs_12_dp" android:src="@mipmap/add_contanct_search3_icon" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/item_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/imgView_icon" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        <TextView android:textSize="@dimen/default_text_font_size_small_13dp" android:textColor="@color/common_white_50alpha" android:id="@id/summary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cs_2_dp" android:singleLine="true" />
+    </LinearLayout>
+    <ImageView android:background="@color/common_white_15alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignLeft="@id/item_layout" android:layout_alignParentBottom="true" />
+</RelativeLayout>

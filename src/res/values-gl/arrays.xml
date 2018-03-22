@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Tirar foto</item>
+        <item>Do álbum</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Cree un entorno favorable para durmir mellor</item>
+        <item>Ter bos hábitos de sono contribúen a unha boa saúde</item>
+        <item>Esqueza as preocupacións antes de ir á cama</item>
+        <item>Baleire a súa mente antes de durmir</item>
+        <item>Durmir ben mellora o seu rendemento no traballo</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Deixe as preocupacións de mañá para mañá</item>
+        <item>Evite comer ou beber demasiado antes de ir á cama</item>
+        <item>Céntrese na respiración, pódeo axudar a durmir</item>
+        <item>Evite o exercicio intenso antes de ir á cama</item>
+        <item>Escoite música suave para favorecer o sono</item>
+        <item>Faga exercicio de forma regular para mellorar a calidade do sono</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Durmir ben pode mellorar o seu ánimo</item>
+        <item>Afronte o novo día con frescura de corpo e mente</item>
+        <item>Deitarse a unha hora regular daralle tranquilidade</item>
+        <item>Durma ben para afrontar os retos de mañá</item>
+    </array>
+</resources>

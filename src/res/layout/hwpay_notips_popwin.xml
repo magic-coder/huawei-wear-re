@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/rlContent" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dialog_small_textsize" android:textColor="@color/secondarycolor" android:id="@id/hwpay_tips_infor" android:background="@drawable/hwpay_nopass_tips_bg_180" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:paddingStart="15dp" android:paddingEnd="15dp" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/abs" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_below="@id/hwpay_tips_infor">
+            <ImageView android:id="@id/hwpay_nopass_tips_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/hwpay_nopass_tips_down_180" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

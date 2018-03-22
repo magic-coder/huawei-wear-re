@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="30dp" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:id="@id/download_progress_text_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <ProgressBar android:id="@id/download_progress_ps" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:max="100" android:progress="0" style="?unknown_attr_ref: 1010078" />
+    <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:id="@id/file_isdowning_size_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" />
+</LinearLayout>

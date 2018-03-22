@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Uzņemt fotoattēlu</item>
+        <item>No albuma</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Radiet komfortablu vidi labākam miegam</item>
+        <item>Labi miega paradumi uzlabo vispārējo veselības stāvokli</item>
+        <item>Pirms miega centieties neraizēties</item>
+        <item>Pirms miega iztukšojiet prātu</item>
+        <item>Labs miegs palīdz uzlabot darba rezultātus</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Par rītdienu varat raizēties rīt</item>
+        <item>Pirms miega daudz neēdiet un nedzeriet</item>
+        <item>Koncentrējieties uz elpošanu, tā var jums palīdzēt iemigt</item>
+        <item>Pirms miega izvairieties no intensīviem treniņiem</item>
+        <item>Klausieties rāmu mūziku, kas jūs ieaijās miegā</item>
+        <item>Regulāri trenējieties, lai uzlabotu miega kvalitāti</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Labs miegs var uzlabot jūsu noskaņojumu</item>
+        <item>Izbaudiet katru dienu ar atspirdzinātu ķermeni un prātu</item>
+        <item>Regulārs miegs var sniegt sirdsmieru</item>
+        <item>Izgulieties labi, lai būtu gatavs rītdienas izaicinājumiem</item>
+    </array>
+</resources>

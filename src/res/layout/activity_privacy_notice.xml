@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:id="@id/agree_id" setting:background="@color/common_color_white" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/tv_ua_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_huawei_privacy_notice" setting:custom_type="0" />
+    <ScrollView setting:id="@id/sv_ua_content_text" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="16dp" setting:layout_above="@id/bottom_lay" setting:layout_below="@id/tv_ua_title">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <TextView setting:textSize="12dp" setting:textColor="#d9000000" setting:id="@id/useragreement_content_text1" setting:paddingLeft="16dp" setting:paddingRight="16dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:lineSpacingExtra="5dp" />
+            <TextView setting:textSize="12dp" setting:textColor="#d9000000" setting:id="@id/useragreement_content_text2" setting:paddingLeft="16dp" setting:paddingRight="16dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:lineSpacingExtra="5dp" />
+            <TextView setting:textSize="12dp" setting:textColor="#d9000000" setting:id="@id/useragreement_content_text3" setting:paddingLeft="16dp" setting:paddingRight="16dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:lineSpacingExtra="5dp" />
+            <TextView setting:textSize="12dp" setting:textColor="#d9000000" setting:id="@id/useragreement_content_text4" setting:paddingLeft="16dp" setting:paddingRight="16dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:lineSpacingExtra="5dp" />
+            <TextView setting:textSize="12dp" setting:textColor="#d9000000" setting:id="@id/useragreement_content_text5" setting:paddingLeft="16dp" setting:paddingRight="16dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/user_profile_user_rank_padding" setting:lineSpacingExtra="5dp" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout setting:id="@id/bottom_lay" setting:layout_alignParentBottom="true" style="@style/common_bottom_btn_style">
+        <Button setting:ellipsize="marquee" setting:id="@id/privacy_notice_know_button" setting:visibility="gone" setting:text="@string/IDS_user_permission_know" setting:singleLine="true" style="@style/common_gray_bottom_btn_style" />
+    </LinearLayout>
+</RelativeLayout>

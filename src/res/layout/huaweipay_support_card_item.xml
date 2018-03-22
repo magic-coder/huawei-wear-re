@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/item_bank_logo" android:background="@drawable/huaweipay_cardlist_shape_background" android:layout_width="UNKNOWN_DATA_0x2401" android:layout_height="UNKNOWN_DATA_0x2401" android:layout_marginLeft="14dp" android:layout_marginRight="14dp" />
+    <TextView android:textSize="@dimen/quiz_list_item_textsize" android:textColor="@color/primarycolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/item_bank_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/comm_margin" android:layout_marginRight="18dp" android:layout_marginBottom="@dimen/comm_margin" />
+</LinearLayout>

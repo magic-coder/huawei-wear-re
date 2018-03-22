@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:oneshot="false">
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui1" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui2" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui3" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui4" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui5" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui6" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui7" />
+    <item android:duration="50" android:drawable="@drawable/cp3_progressbar_indeterminate_emui8" />
+</animation-list>

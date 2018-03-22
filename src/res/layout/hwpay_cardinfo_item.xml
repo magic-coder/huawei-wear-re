@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/cardinfo_top" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_main_body" android:textColor="@color/primarycolor" android:id="@id/cardinfo_title_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/cardinfo_tips_img" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x7f0d01fa" android:layout_height="UNKNOWN_DATA_0x7f0d01fa" android:layout_marginLeft="@dimen/bankcardInfoInput_spacing_text_tip_info_layout_to_left" android:src="@drawable/icon_info" android:layout_toRightOf="@id/cardinfo_title_tx" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/bg_dark_edit_input" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="@dimen/bankcardInfoInput_spacing_text_tip_info_layout_to_left" android:layout_below="@id/cardinfo_top">
+        <com.huawei.pay.ui.widget.ClearEditText android:textSize="@dimen/text_size_inputView" android:id="@id/cardinfo_input_edittx" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </LinearLayout>
+</RelativeLayout>

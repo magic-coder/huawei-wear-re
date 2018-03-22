@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/common_color_white" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/smart_alarm_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_settings_smart_alarm_clock" setting:custom_type="1" />
+    <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/linear_time_wheel" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="20dp" setting:layout_marginBottom="20dp" setting:layout_below="@id/smart_alarm_title_bar" setting:layoutDirection="ltr"
+        <LinearLayout setting:orientation="horizontal" setting:id="@id/morning_after_picker_layout" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView setting:id="@id/morning_after_picker" setting:visibility="gone" setting:layout_width="UNKNOWN_DATA_0x7f0d0a2d" setting:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout setting:orientation="horizontal" setting:id="@id/number_picker_layout" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView setting:id="@id/number_picker" setting:layout_width="UNKNOWN_DATA_0x7f0d0a2d" setting:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout setting:orientation="horizontal" setting:id="@id/number_picker_unit_layout" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView setting:id="@id/number_picker_unit" setting:layout_width="UNKNOWN_DATA_0x7f0d0a2d" setting:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout setting:orientation="horizontal" setting:id="@id/number_picker_unit_layout_two" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView setting:id="@id/morning_after_picker_two" setting:visibility="gone" setting:layout_width="UNKNOWN_DATA_0x7f0d0a2d" setting:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView setting:id="@id/line1" setting:layout_below="@id/linear_time_wheel" style="@style/about_activity_divider_line_style" />
+    <RelativeLayout setting:id="@id/smart_alarm_ahead_time_ll" setting:layout_below="@id/line1" style="@style/smart_alarm_item_layout_style">
+        <TextView setting:text="@string/IDS_settings_ahead_of_time" style="@style/smart_alarm_item_style" />
+        <TextView setting:id="@id/smart_alarm_ahead_time" setting:layout_toLeftOf="@id/smart_alarm_ahead_time_unit" style="@style/smart_alarm_item_right_text_style" />
+        <TextView setting:id="@id/smart_alarm_ahead_time_unit" setting:text="@string/IDS_messagecenter_time_minute_value" setting:layout_toLeftOf="@id/arrow" style="@style/smart_alarm_item_right_text_style" />
+        <ImageView setting:id="@id/arrow" style="@style/setting_about_item_right_image" />
+    </RelativeLayout>
+    <ImageView setting:id="@id/line2" setting:layout_below="@id/smart_alarm_ahead_time_ll" style="@style/about_activity_divider_line_style" />
+    <RelativeLayout setting:id="@id/smart_alarm_repeat_ll" setting:layout_below="@id/line2" style="@style/smart_alarm_item_layout_style">
+        <TextView setting:id="@id/smart_alarm_repeat" setting:text="@string/IDS_settings_repeat" style="@style/smart_alarm_item_style" />
+        <TextView setting:id="@id/event_alarm_repeat" setting:layout_toLeftOf="@id/settings_switch" style="@style/smart_alarm_item_right_text_style" />
+        <ImageView setting:id="@id/settings_switch" style="@style/setting_about_item_right_image" />
+    </RelativeLayout>
+    <ImageView setting:id="@id/line3" setting:layout_below="@id/smart_alarm_repeat_ll" style="@style/about_activity_divider_line_style" />
+    <LinearLayout setting:orientation="horizontal" setting:background="@color/color_device_setting_title_color" setting:paddingLeft="@dimen/activity_alarm_smart_clock_description_margin_left" setting:paddingTop="@dimen/activity_alarm_smart_clock_description_margin_top" setting:paddingRight="@dimen/activity_alarm_smart_clock_description_margin_right" setting:paddingBottom="@dimen/activity_alarm_smart_clock_description_bottom" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+        <TextView setting:textSize="@dimen/default_text_font_size_small" setting:textColor="@color/color_fitness_detail_text_color_normal" setting:id="@id/smart_alarm__prompt_description" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="wrap_content" setting:text="@string/IDS_settings_alarm_prompt" setting:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

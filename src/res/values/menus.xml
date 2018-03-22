@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <menu name="cs_webview_menu">res/menu/cs_webview_menu.xml</menu>
+    <menu name="cs_webview_menu_emui5">res/menu/cs_webview_menu_emui5.xml</menu>
+    <menu name="feedback_record_itemlongclick">res/menu/feedback_record_itemlongclick.xml</menu>
+    <menu name="feedback_record_more">res/menu/feedback_record_more.xml</menu>
+    <menu name="feedback_recordl_overflow_menu">res/menu/feedback_recordl_overflow_menu.xml</menu>
+</resources>

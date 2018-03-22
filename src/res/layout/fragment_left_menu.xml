@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/left_menu_lly_title" android:background="@color/main_left_menu_headllyt_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x9001" android:paddingStart="@dimen/cs_16_dp">
+        <ImageView android:id="@id/left_menu_iv_head" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginTop="45dp" android:src="@mipmap/ic_personal_head" />
+        <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_color_white" android:id="@id/left_menu_tv_nickname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cs_8_dp" android:text="@string/IDS_user_profile_username_noset" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/main_left_menu_bg_color" android:layout_width="match_parent" android:layout_height="match_parent"
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_home" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_home" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_contact_management" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_home_bottom_text_home" android:layout_centerVertical="true" />
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_personalprofile" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_personalprofile" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_personalprofile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_startup_set_user_info" android:layout_centerVertical="true" />
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_messagecenter" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_messagecenter" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_messagecenter" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_message_center" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_vmall" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_vmall" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_vmall" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_left_menu_vmall" android:layout_centerVertical="true" />
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_devicemanager" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_devicemanager" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_devicemanager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_left_menu_devicemanager" android:layout_centerVertical="true" />
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_huawei_club" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_huaweiclub" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_huawei_club" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_discovery_tab_service_huawei_club" android:layout_centerVertical="true" />
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_settings" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_settins" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_settins" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_btn_state_settings" android:layout_centerVertical="true" />
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/left_menu_llyt_about" android:background="@drawable/common_list_bg" android:paddingLeft="@dimen/cs_16_dp" android:paddingRight="@dimen/cs_16_dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:src="@mipmap/ic_drawer_about" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginStart="@dimen/cs_16_dp">
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/left_menu_tv_about" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_settings_about" />
+                    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/left_menu_iv_red_point" android:layout_width="UNKNOWN_DATA_0x7f0d032f" android:layout_height="UNKNOWN_DATA_0x7f0d032f" android:layout_marginLeft="@dimen/cs_4_dp" android:src="@mipmap/ic_list_badge" />
+                </LinearLayout>
+                <View android:background="@color/common_white_15alpha" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Vyfotografovat</item>
+        <item>Z alba</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Vytvořte si pohodlné prostředí pro lepší spánek</item>
+        <item>Dobré spánkové návyky přispívají k celkovému zdraví</item>
+        <item>Zapomeňte před spaním na svoje starosti</item>
+        <item>Před usnutím vyprázdněte svou mysl</item>
+        <item>Dobrý spánek zlepší váš pracovní výkon</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Nechej starosti na zítřek</item>
+        <item>Vyvarujte se před spaním přílišného jídla a pití</item>
+        <item>Zaměřte se na dýchání, pomůže vám to usnout</item>
+        <item>Před spaním se vyhýbejte intenzivnímu cvičení</item>
+        <item>Před spaním si poslechněte nějakou klidnou hudbu, která vás ukolébá ke spánku</item>
+        <item>Pravidelně cvičte, zlepšíte tím kvalitu svého spánku</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Dobrý spánek vám zlepší náladu</item>
+        <item>Mějte každý den svěží tělo a mysl</item>
+        <item>Pravidelným spánkem si zajistíte klidnou mysl</item>
+        <item>Dobře se vyspěte, ať se můžete poprat s výzvami zítřka</item>
+    </array>
+</resources>

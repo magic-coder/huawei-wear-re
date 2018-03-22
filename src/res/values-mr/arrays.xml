@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>फोटो घ्या</item>
+        <item>अल्बममधून</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>अधिक चांगल्या झोपेसाठी आरामदायक वातावरण तयार करा</item>
+        <item>चांगल्या झोपेच्या सवयी संपूर्ण आरोग्यास योगदान करतात</item>
+        <item>झोपण्यापूर्वी आपल्या चिंता नष्ट करा</item>
+        <item>आपण झोपण्यापूर्वी मनातून सर्व विचार काढा</item>
+        <item>चांगली झोप आपले कार्यप्रदर्शन सुधारण्यात मदत करते</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>उद्याची चिंता उद्यावर सोडा</item>
+        <item>झोपण्यापूर्वी भरपूर खाणे किंवा पाणी पिणे टाळा</item>
+        <item>आपल्या श्वास घेण्यावर लक्ष केंद्रित करा, हे आपल्याला झोप येण्यात मदत करू शकते</item>
+        <item>झोपण्यापूर्वी तीव्र व्यायाम टाळा</item>
+        <item>झोपी आण्यासाठी थोडे मधूर संगीत प्ले करा</item>
+        <item>आपल्या झोपेची गुणवत्ता सुधारण्यात मदत करण्यासाठी नियमितपणे व्यायाम करा</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>चांगली झोप आपला मूड सुधारू शकते</item>
+        <item>प्रत्येक नवीन दिवसाला ताजेतवाने आणि मनःपूर्वक आलिंगन द्या</item>
+        <item>नियमित झोपण्याचे शेड्युल आपल्या उर्जेचा स्तर वाढवण्यात मदत करू शकते</item>
+        <item>रात्रीची चांगली झोप आपल्याला उदयाच्या आव्हानांना सामोरे जाण्यात मदत करते</item>
+    </array>
+</resources>

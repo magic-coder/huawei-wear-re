@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" hwkeybroard:id="@id/input_card_rootview" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="match_parent">
+    <ScrollView hwkeybroard:id="@id/top_scrollview" hwkeybroard:scrollbars="UNKNOWN_DATA_0x0" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="match_parent" hwkeybroard:layout_above="@id/bottom_layout" hwkeybroard:layout_alignParentTop="true" hwkeybroard:overScrollMode="never">
+        <LinearLayout hwkeybroard:orientation="vertical" hwkeybroard:id="@id/top_layout" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="match_parent">
+            <include hwkeybroard:id="@id/input_layout" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="wrap_content" layout="@layout/hwpay_card_input_item" />
+            <include hwkeybroard:id="@id/support_card_view" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="match_parent" hwkeybroard:layout_marginLeft="@dimen/common_margin_left_edge" hwkeybroard:layout_marginRight="@dimen/common_margin_left_edge" layout="@layout/hwpay_support_card_view" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout hwkeybroard:orientation="vertical" hwkeybroard:id="@id/bottom_layout" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="wrap_content" hwkeybroard:layout_alignParentBottom="true"
+        <LinearLayout hwkeybroard:orientation="vertical" hwkeybroard:id="@id/bottom_btntext_layout" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="wrap_content"
+            <LinearLayout hwkeybroard:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" hwkeybroard:id="@id/huaweipay_cardpay_btnlayout" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="wrap_content" hwkeybroard:layout_marginTop="@dimen/spacing_to_screen_bottom_default" hwkeybroard:layout_marginBottom="@dimen/spacing_to_screen_bottom_default">
+                <Button hwkeybroard:id="@id/button_up" hwkeybroard:layout_width="UNKNOWN_DATA_0x1" hwkeybroard:layout_height="wrap_content" hwkeybroard:layout_marginLeft="@dimen/common_margin_left_edge" hwkeybroard:layout_marginRight="@dimen/spacing_btnX2_middle_distance_half" hwkeybroard:text="@string/huaweipay_cardinfo_up" hwkeybroard:layout_weight="1.0" hwkeybroard:fontFamily="@string/emui_anti_default_fonts" hwkeybroard:layout_marginEnd="@dimen/spacing_btnX2_middle_distance_half" />
+                <Button hwkeybroard:id="@id/button_next" hwkeybroard:layout_width="UNKNOWN_DATA_0x1" hwkeybroard:layout_height="wrap_content" hwkeybroard:layout_marginLeft="@dimen/spacing_btnX2_middle_distance_half" hwkeybroard:layout_marginRight="@dimen/common_margin_left_edge" hwkeybroard:text="@string/nextstep" hwkeybroard:layout_weight="1.0" hwkeybroard:fontFamily="@string/emui_anti_default_fonts" hwkeybroard:layout_marginStart="@dimen/spacing_btnX2_middle_distance_half" />
+            </LinearLayout>
+            <TextView hwkeybroard:textSize="@dimen/text_size_explanation_1" hwkeybroard:textColor="@color/secondarycolor" hwkeybroard:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" hwkeybroard:id="@id/yeepay_bottom_tips" hwkeybroard:layout_width="wrap_content" hwkeybroard:layout_height="wrap_content" hwkeybroard:layout_marginBottom="@dimen/spacing_to_screen_bottom_default" hwkeybroard:text="@string/hwpay_verify_yeepay_tips" />
+        </LinearLayout>
+        <com.huawei.pay.ui.widget.HwPayKeyBoardView hwkeybroard:id="@id/hwpay_keyboard_input" hwkeybroard:layout_width="match_parent" hwkeybroard:layout_height="wrap_content" hwkeybroard:shuffle="false" />
+    </LinearLayout>
+</RelativeLayout>

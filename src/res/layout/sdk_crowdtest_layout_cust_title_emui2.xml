@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/transparent_layout" android:background="#ff000000" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+        <LinearLayout android:id="@id/button_group" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginTop="5dp" android:layout_marginBottom="3dp">
+            <TextView android:textSize="14sp" android:textColor="@color/sdk_crowdtest_tab_titile_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/cust_activity_title" android:background="0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/sdk_crowdtest_description_title" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

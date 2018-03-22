@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="#f7f7f7" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/kw_setting_about_title" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_settings_check_bill_main_title" setting:titleSize="@dimen/title_text_size" />
+    <RelativeLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/feature_frame_not_support_check_bill" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_below="@id/kw_setting_about_title">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="UNKNOWN_DATA_0x4601" setting:layout_height="UNKNOWN_DATA_0x4601" setting:layout_marginTop="160dp" setting:src="@drawable/bill_kw_pic_popup_icon_telephone_isnotsurport" />
+            <TextView setting:textSize="15dp" setting:textColor="@color/kw_color_black_65alpha" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="14dp" setting:text="@string/IDS_plugin_kidwatch_chat_not_support_bill_check_tips_1" />
+            <TextView setting:textSize="15dp" setting:textColor="@color/kw_color_black_65alpha" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_chat_not_support_bill_check_tips_2" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout setting:orientation="vertical" setting:id="@id/bill_check_relay" setting:background="@drawable/menu_elec_fence_bottom_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3c01" setting:layout_alignParentBottom="true">
+        <View setting:background="#33000000" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0x100" />
+        <com.huawei.pluginkidwatch.common.ui.view.TextImgButton setting:textSize="10dp" setting:textColor="#a6000000" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/bill_telephone_textview" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:src="@drawable/bill_kw_telephone_find" setting:text="@string/IDS_plugin_kidwatch_settings_check_bill_main_title" />
+    </LinearLayout>
+    <FrameLayout setting:id="@id/check_bill_frameLayout" setting:paddingBottom="60dp" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_below="@id/kw_setting_about_title">
+        <RelativeLayout setting:id="@id/check_bill_listView_datas_rellay" setting:background="#f7f7f7" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <View setting:background="#33000000" setting:layout_width="UNKNOWN_DATA_0x100" setting:layout_height="wrap_content" setting:layout_marginLeft="44dp" />
+            <ListView setting:id="@id/check_bill_listView" setting:scrollbars="UNKNOWN_DATA_0x0" setting:fadingEdge="UNKNOWN_DATA_0x0" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:stackFromBottom="true" setting:transcriptMode="alwaysScroll" setting:divider="#00000000" setting:dividerHeight="0dp" />
+        </RelativeLayout>
+        <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/check_bill_listView_not_datas_linlay" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <ImageView setting:background="@drawable/bill_kw_pic_popup_icon_telephone" setting:layout_width="UNKNOWN_DATA_0x4601" setting:layout_height="UNKNOWN_DATA_0x4601" setting:layout_marginTop="214dp" />
+            <TextView setting:textSize="12dp" setting:textColor="#a6000000" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="1dp" setting:text="@string/IDS_plugin_kidwatch_settings_check_bill_main_No_short_message" />
+        </LinearLayout>
+    </FrameLayout>
+</RelativeLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" digit_keybroard:orientation="vertical" digit_keybroard:background="@color/nfc_black" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="match_parent"
+    <LinearLayout digit_keybroard:orientation="vertical" digit_keybroard:id="@id/readcard_layout_flash_flag" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="UNKNOWN_DATA_0x1" digit_keybroard:layout_marginLeft="24dp" digit_keybroard:layout_marginRight="24dp" digit_keybroard:layout_weight="1.0" digit_keybroard:layout_marginStart="24dp" digit_keybroard:layout_marginEnd="24dp"
+        <LinearLayout digit_keybroard:orientation="vertical" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_marginTop="16dp">
+            <TextView digit_keybroard:textSize="15dp" digit_keybroard:textColor="@color/nfc_bank_hotline_color" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:text="@string/nfc_card_tag_read_card_text_tips1" />
+            <TextView digit_keybroard:textSize="13dp" digit_keybroard:textColor="@color/nfc_bank_hotline_color" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_marginTop="8dp" digit_keybroard:text="@string/nfc_card_tag_read_card_text_tips2" />
+        </LinearLayout>
+        <ImageView digit_keybroard:visibility="gone" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_marginLeft="20dp" digit_keybroard:layout_marginTop="25dp" digit_keybroard:src="@drawable/nfc_read_card_number_flash_flag" />
+        <LinearLayout digit_keybroard:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="match_parent">
+            <RelativeLayout digit_keybroard:layout_width="UNKNOWN_DATA_0xad01" digit_keybroard:layout_height="UNKNOWN_DATA_0x9201"
+                <RelativeLayout digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_alignParentLeft="true" digit_keybroard:layout_alignParentBottom="true">
+                    <ImageView digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:src="@drawable/nfc_read_card_number_background" />
+                    <ImageView digit_keybroard:id="@id/nfc_read_card_number_down_card" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:src="@drawable/nfc_read_card_number_down_card" digit_keybroard:layout_centerInParent="true" />
+                    <ImageView digit_keybroard:paddingTop="16dp" digit_keybroard:paddingRight="16dp" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:src="@drawable/nfc_read_card_number_up_card" digit_keybroard:layout_centerInParent="true" />
+                </RelativeLayout>
+                <ImageView digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:src="@drawable/nfc_read_card_number_flash_img" digit_keybroard:layout_alignParentTop="true" digit_keybroard:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout digit_keybroard:orientation="vertical" digit_keybroard:id="@id/readcard_layout_read_anim" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="UNKNOWN_DATA_0x1" digit_keybroard:layout_marginLeft="24dp" digit_keybroard:layout_marginRight="24dp" digit_keybroard:layout_weight="1.0" digit_keybroard:layout_marginStart="24dp" digit_keybroard:layout_marginEnd="24dp"
+        <LinearLayout digit_keybroard:orientation="vertical" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="wrap_content">
+            <TextView digit_keybroard:textSize="15dp" digit_keybroard:textColor="@color/nfc_bank_hotline_color" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:text="@string/nfc_card_tag_read_card_text_tips3" />
+            <TextView digit_keybroard:textSize="13dp" digit_keybroard:textColor="@color/nfc_bank_hotline_color" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_marginTop="8dp" digit_keybroard:text="@string/nfc_card_tag_read_card_text_tips4" />
+        </LinearLayout>
+        <ImageView digit_keybroard:visibility="gone" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_marginLeft="20dp" digit_keybroard:layout_marginTop="25dp" digit_keybroard:src="@drawable/nfc_read_card_number_read_anim" />
+        <LinearLayout digit_keybroard:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" digit_keybroard:layout_width="match_parent" digit_keybroard:layout_height="match_parent">
+            <RelativeLayout digit_keybroard:layout_width="UNKNOWN_DATA_0xa501" digit_keybroard:layout_height="UNKNOWN_DATA_0x8401">
+                <ImageView digit_keybroard:id="@id/nfc_read_card_number_image_card" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:layout_marginTop="17dp" digit_keybroard:src="@drawable/nfc_read_card_number_card_anim" digit_keybroard:layout_alignParentLeft="true" />
+                <ImageView digit_keybroard:id="@id/nfc_read_card_number_image_phone" digit_keybroard:layout_width="wrap_content" digit_keybroard:layout_height="wrap_content" digit_keybroard:src="@drawable/nfc_read_card_number_phone_anim" digit_keybroard:layout_alignParentTop="true" digit_keybroard:layout_alignParentRight="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/auth_title_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3c01">
+        <TextView android:textSize="@dimen/dialog_title_size" android:textColor="@color/primarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/huaweipay_base_main_smalltitle" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/emui_anti_default_fonts" />
+        <TextView android:textSize="@dimen/dialog_auxiliary_textsize" android:textColor="@color/primarycolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/huaweipay_base_main_smallhwid" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_white" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/setting_device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_settings_prompt" setting:custom_type="2" />
+    <LinearLayout setting:orientation="vertical" setting:id="@id/smart_alarm_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_smart_alarm_image_margin_top" setting:layout_below="@id/setting_device_title_bar">
+        <TextView setting:text="@string/IDS_settings_smart_alarm_clock" style="@style/alarm_activity_sub_title_style" />
+        <ImageView setting:id="@id/line1" style="@style/about_activity_divider_line_style" />
+        <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:background="@drawable/select_device_activity_listview_item_selector" setting:paddingLeft="@dimen/activity_alarm_list_ite_margin" setting:paddingRight="@dimen/activity_alarm_list_ite_margin" setting:clickable="true" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0312"
+            <LinearLayout setting:orientation="vertical" setting:id="@id/smart_alarm_text" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="wrap_content" setting:layout_marginRight="@dimen/switch_button_margin_left" setting:layout_weight="1.0">
+                <TextView setting:textSize="@dimen/activity_horizontal_margin" setting:textColor="@color/common_color_black" setting:id="@id/smart_alarm_time1" setting:layout_width="wrap_content" setting:layout_height="wrap_content" />
+                <TextView setting:textSize="@dimen/activity_smart_alarm_image_margin_top" setting:textColor="@color/color_card_swipe_menu_text" setting:id="@id/smart_alarm_day" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_monday" />
+            </LinearLayout>
+            <com.huawei.ui.commonui.switchbutton.CustomSwitchButton setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/smart_alarm_switch_button" style="@style/common_switch_style" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView setting:id="@id/split" setting:background="@color/color_device_setting_title_color" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01a1" setting:layout_below="@id/smart_alarm_layout" />
+    <LinearLayout setting:orientation="vertical" setting:id="@id/event_alarm_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_smart_alarm_image_margin_top" setting:layout_marginBottom="@dimen/contact_list_item_height" setting:layout_below="@id/split">
+        <TextView setting:id="@id/event_alarm_title" setting:paddingLeft="@dimen/activity_alarm_list_ite_margin" setting:paddingRight="@dimen/activity_alarm_list_ite_margin" setting:text="@string/IDS_settings_mult_alarm_clock_list_title" style="@style/alarm_activity_sub_title_style" />
+        <ImageView setting:id="@id/line2" style="@style/about_activity_divider_line_style" />
+        <ListView setting:id="@id/event_alarm_list" setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:listSelector="@drawable/select_device_activity_listview_item_selector" setting:divider="0x0" setting:layout_below="@id/event_alarm_title" />
+    </LinearLayout>
+    <LinearLayout setting:background="@color/color_device_setting_title_color" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0312" setting:layout_alignParentBottom="true">
+        <TextView setting:textSize="@dimen/default_text_font_size_small" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/alarm_bottom_tv" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0312" setting:layout_marginLeft="@dimen/activity_alarm_list_ite_margin" setting:layout_marginRight="@dimen/activity_alarm_list_ite_margin" />
+    </LinearLayout>
+</RelativeLayout>

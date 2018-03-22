@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s Sentimita</item>
+        <item quantity="one">%1$s Sentimita</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Itadumu siku %1$s</item>
+        <item quantity="one">Itadumu siku %1$s</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s Futi</item>
+        <item quantity="one">%1$s Futi</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d Saa</item>
+        <item quantity="one">%d Saa</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s katika</item>
+        <item quantity="one">%1$s katika</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s Kilo</item>
+        <item quantity="one">%s Kilo</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s Pauni</item>
+        <item quantity="one">%s Pauni</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s bado itatumika kwa %2$s siku</item>
+        <item quantity="one">%1$s bado itatumika kwa %2$s siku</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d Wasiliani</item>
+        <item quantity="one">%d Mwasiliani</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d Saa</item>
+        <item quantity="one">%d Saa</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d Saa</item>
+        <item quantity="one">%d Saa</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d Dak</item>
+        <item quantity="one">%d Dak</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d Hatua</item>
+        <item quantity="one">%d Hatua</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s Zawadi zimepokelewa</item>
+        <item quantity="one">%s Zawadi imepokelewa</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">Baada ya mtoto wako kupokea sifa %1$s mara</item>
+        <item quantity="one">Baada ya mtoto wako kupokea sifa %1$s mara</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f Kilomita</item>
+        <item quantity="one">%1$.3f Kilomita</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">Ulisimama hapa kwa zaidi %s ya saa</item>
+        <item quantity="one">Ulisimama hapa kwa zaidi %s ya saa</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s Mita, %2$s</item>
+        <item quantity="one">%1$s Mita, %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">Usahihi ndani %s ya mita</item>
+        <item quantity="one">Usahihi ndani %s ya mita</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">Eneo dakika %s zilizopita</item>
+        <item quantity="one">Eneo dakika %s zilizopita</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">Unaweza tu kuongeza %1$s wasiliani</item>
+        <item quantity="one">Unaweza tu kuongeza %1$s mwasiliani</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">Unaweza kualika hadi %1$d wasimamizi. Mtoto anapopiga simu ya dhiki, saa itatumia orodha ili kupigia wasimamizi simu kwa mpangilio. Wasimamizi wanaweza kumpigia mtoto simu.</item>
+        <item quantity="one">Unaweza kualika hadi %1$d msimamizi. Mtoto anapopiga simu ya dhiki, saa itatumia orodha ili kupigia wasimamizi simu kwa mpangilio. Wasimamizi wanaweza kumpigia mtoto simu.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d Alama</item>
+        <item quantity="one">%d Alama</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Ungependa kuondoa faili zilizochaguliwa?</item>
+        <item quantity="one">Ungependa kuondoa mwasiliani aliyechaguliwa?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s kuamka kwa hali maizi)</item>
+        <item quantity="one">%1$s (%2$s kuamka kwa hali maizi)</item>
+    </plurals>
+</resources>

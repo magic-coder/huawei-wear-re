@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/kw_pic_common_list_popup_track" android:layout_width="UNKNOWN_DATA_0xa501" android:layout_height="wrap_content">
+    <TextView android:textSize="15dp" android:textColor="@color/kw_color_black_85alpha" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/feature_tv_buliding_name" android:layout_width="UNKNOWN_DATA_0x9301" android:layout_height="wrap_content" />
+    <TextView android:textSize="12dp" android:textColor="@color/kw_color_black_65alpha" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/feature_tv_street_name" android:paddingBottom="5dp" android:layout_width="UNKNOWN_DATA_0x9301" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+    <TextView android:textSize="12dp" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/feature_tv_time" android:layout_width="UNKNOWN_DATA_0x9301" android:layout_height="wrap_content" />
+    <TextView android:textSize="12dp" android:textColor="@color/kw_color_black_65alpha" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/feature_tv_stay_time" android:layout_width="UNKNOWN_DATA_0x9301" android:layout_height="wrap_content" android:layout_marginTop="1dp" />
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s سانتیمتر</item>
+        <item quantity="one">%1$s سانتیمتر</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">تا %1$s روز دوام می‌آورد</item>
+        <item quantity="one">تا %1$s روز دوام می‌آورد</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s کیلوبایت</item>
+        <item quantity="one">%1$s کیلوبایت</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s مگابایت</item>
+        <item quantity="one">%1$s مگابایت</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s فوت</item>
+        <item quantity="one">%1$s فوت</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">‪‎%d‬ ساعت</item>
+        <item quantity="one">‪‎%d‬ ساعت</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s بایت</item>
+        <item quantity="one">%1$s بایت</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s گیگابایت</item>
+        <item quantity="one">%1$s گیگابایت</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s پتابایت</item>
+        <item quantity="one">%1$s پتابایت</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s ترابایت</item>
+        <item quantity="one">%1$s ترابایت</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s اینچ</item>
+        <item quantity="one">%1$s اینچ</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s کیلوگرم</item>
+        <item quantity="one">%s کیلوگرم</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s پوند</item>
+        <item quantity="one">%s پوند</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">‪‎%1$s‬ همچنان به مدت ‪‎%2$s‬ روز معتبر است</item>
+        <item quantity="one">‪‎%1$s‬ همچنان به مدت ‪‎%2$s‬ روز معتبر است</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">مخاطبین انتخابی حذف شوند؟</item>
+        <item quantity="one">مخاطب انتخابی حذف شود؟</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s‏ (راه‌اندازی هوشمند %2$s دقیقه‌ای)</item>
+        <item quantity="one">%1$s‏ (راه‌اندازی هوشمند %2$s دقیقه‌ای)</item>
+    </plurals>
+</resources>

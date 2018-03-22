@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/sdk_crowdtest_divider_layout_vertical" android:showDividers="beginning|middle">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/sdk_crowdtest_layout_description_activity" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/sdk_crowdtest_layout_description_probability" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/sdk_crowdtest_layout_description_occurrence" />
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/sdk_crowdtest_layout_description_summary" />
+</LinearLayout>

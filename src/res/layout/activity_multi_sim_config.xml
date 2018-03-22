@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/multi_sim_config_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_plugin_multi_sim_config_title" setting:custom_type="2" />
+    <RelativeLayout setting:layout_width="wrap_content" setting:layout_height="wrap_content"
+        <RelativeLayout setting:id="@id/multi_sim_open_error_bar" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <include layout="@layout/bt_disconnect_layout" />
+            <include layout="@layout/network_error_layout" />
+            <include layout="@layout/no_sim_error_layout" />
+            <include layout="@layout/bt_connecting_layout" />
+        </RelativeLayout>
+        <RelativeLayout setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_below="@id/multi_sim_open_error_bar">
+            <include layout="@layout/multi_sim_config_open" />
+            <include layout="@layout/multi_sim_config_unbind" />
+            <include layout="@layout/multi_sim_config_open_error" />
+            <include layout="@layout/multi_sim_config_query_error" />
+            <include layout="@layout/multi_sim_config_waiting" />
+            <include layout="@layout/multi_sim_config_confirm" />
+            <include layout="@layout/multi_sim_config_msg_auth" />
+            <include layout="@layout/multi_sim_config_sms_reauth" />
+            <include layout="@layout/multi_sim_config_phone_select" />
+            <include layout="@layout/multi_sim_config_start" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

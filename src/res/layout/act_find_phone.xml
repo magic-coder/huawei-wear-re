@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/popup_full_bright_emui" android:padding="@dimen/custom_dialog_padding" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/find_phone_relative" android:background="@drawable/popup_top_bright_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <TextView android:textSize="16dp" android:textColor="@color/black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/tip" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/dialog_content" android:background="@drawable/popup_center_bright_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:layout_below="@id/find_phone_relative" android:layout_centerHorizontal="true">
+        <TextView android:textSize="15dp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/find_phone_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="26dp" android:text="您的ColorBand正在呼唤您" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/popup_bottom_bright_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/dialog_content"
+        <LinearLayout style="@style/dialog_btn">
+            <Button android:textSize="18dp" android:textColor="#606060" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/find_phone_button" android:background="@drawable/btn_bg" android:layout_width="UNKNOWN_DATA_0x9601" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginBottom="15dp" android:text="@string/sure" android:onClick="viewOnClick" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

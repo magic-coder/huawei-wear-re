@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" Android:background="@drawable/activity_listview_item_selector" Android:layout_width="match_parent" Android:layout_height="UNKNOWN_DATA_0x4001">
+    <ImageView Android:id="@id/hw_show_health_running_history_child_item_left_img" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:layout_centerVertical="true" Android:layout_marginStart="16dp" />
+    <LinearLayout Android:orientation="vertical" Android:layout_width="match_parent" Android:layout_height="wrap_content" Android:layout_centerVertical="true" Android:layout_marginStart="16dp" Android:layout_toStartOf="@id/hw_health_sport_history_child_right_button" Android:layout_toEndOf="@id/hw_show_health_running_history_child_item_left_img"
+        <LinearLayout Android:orientation="horizontal" Android:layout_width="match_parent" Android:layout_height="wrap_content">
+            <TextView Android:textSize="20dp" Android:textColor="@color/hw_show_color_text_100_persent_black" Android:id="@id/hw_show_health_running_history_child_item_left_dis_text" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:text="6.5" />
+            <TextView Android:textSize="13dp" Android:textColor="@color/hw_show_color_text_100_persent_black" Android:id="@id/hw_show_health_running_history_child_item_left_dis_unit" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:text="@string/IDS_hw_show_sport_distance_unit" />
+            <ImageView Android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" Android:id="@id/hw_show_health_running_history_track_type_img" Android:background="@drawable/ic_health_history_autotrack" Android:layout_width="UNKNOWN_DATA_0x1001" Android:layout_height="UNKNOWN_DATA_0x1001" Android:layout_marginStart="6dp" />
+        </LinearLayout>
+        <LinearLayout Android:orientation="horizontal" Android:layout_width="match_parent" Android:layout_height="wrap_content" Android:layout_marginTop="8dp">
+            <TextView Android:id="@id/hw_show_health_running_history_child_item_left_date_text" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:text="3/21" Android:layout_weight="1.0" />
+            <LinearLayout Android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" Android:orientation="horizontal" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:layout_weight="1.0">
+                <ImageView Android:background="@drawable/ic_health_sport_history_list_time" Android:layout_width="UNKNOWN_DATA_0x1001" Android:layout_height="UNKNOWN_DATA_0x1001" />
+                <TextView Android:id="@id/hw_show_health_running_history_child_item_center_text" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:text="123" Android:layout_marginStart="4dp" />
+            </LinearLayout>
+            <LinearLayout Android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" Android:orientation="horizontal" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:layout_weight="1.0">
+                <ImageView Android:id="@id/hw_health_sport_item_pace_img" Android:background="@drawable/ic_health_sport_history_list_pace" Android:layout_width="UNKNOWN_DATA_0x1001" Android:layout_height="UNKNOWN_DATA_0x1001" />
+                <TextView Android:id="@id/hw_show_health_running_history_child_item_right_text" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:text="123" Android:layout_marginStart="4dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView Android:id="@id/hw_health_sport_history_child_right_button" Android:background="@drawable/arrow_right_normal" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:layout_marginTop="15dp" Android:layout_centerVertical="true" Android:layout_marginStart="8dp" Android:layout_marginEnd="16dp" Android:layout_alignParentEnd="true" />
+    <ImageView Android:id="@id/hw_show_main_layout_sport_bottom_image_interval" Android:background="@color/hw_show_public_text_color5" Android:layout_width="match_parent" Android:layout_height="UNKNOWN_DATA_0x501" Android:layout_alignParentBottom="true" Android:layout_marginStart="16dp" Android:layout_marginEnd="16dp" Android:layout_toEndOf="@id/hw_show_health_running_history_child_item_left_img" />
+</RelativeLayout>

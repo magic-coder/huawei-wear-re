@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/hw_show_color_text_100_persent_white" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d066c" android:layout_marginTop="@dimen/hw_show_public_size_6"
+            <LinearLayout android:orientation="horizontal" android:layout_width="UNKNOWN_DATA_0x7f0d060e" android:layout_height="match_parent" android:layout_weight="1.0">
+                <com.huawei.ui.main.stories.health.views.healthdata.HorizontalListView android:id="@id/hw_show_health_data_sleep_userlistview" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView android:id="@id/hw_show_health_data_sleep_mid_adduser" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0d0660" android:layout_height="UNKNOWN_DATA_0x7f0d0660" android:src="@drawable/health_healthdata_user_add_ic" android:layout_marginStart="@dimen/hw_show_public_size_16" android:layout_marginEnd="@dimen/hw_show_public_size_16" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/hw_show_public_size_15" android:textColor="@color/hw_show_color_text_50_persent_black" android:id="@id/hw_show_health_data_sleeps_mid_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw_show_public_size_16" />
+            <View android:background="@color/hw_show_color_gray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0611" android:layout_marginTop="@dimen/hw_show_public_size_10" android:layout_marginStart="@dimen/hw_show_public_size_16" android:layout_marginEnd="@dimen/hw_show_public_size_16" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw_show_public_size_16"
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d065b" android:layout_height="UNKNOWN_DATA_0x7f0d065b" android:src="@drawable/health_healthdata_sleep_deepsleep_ic" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_13" android:textColor="@color/hw_show_color_text_50_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_sleep_deepsleep" android:layout_marginStart="@dimen/hw_show_public_size_6" android:layout_marginEnd="@dimen/hw_show_public_size_24" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw_show_public_size_6">
+                        <TextView android:textSize="@dimen/hw_show_public_size_40" android:textColor="@color/hw_show_color_text_100_persent_black" android:id="@id/hw_show_health_data_sleeps_mid_deepsleep" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_13" android:textColor="@color/hw_show_color_text_100_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_health_show_string_hour" android:layout_marginStart="@dimen/hw_show_public_size_3" />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0"
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d065b" android:layout_height="UNKNOWN_DATA_0x7f0d065b" android:src="@drawable/health_healthdata_sleep_deepsleep_ic" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_13" android:textColor="@color/hw_show_color_text_50_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_sleep_shallowsleep" android:layout_marginStart="@dimen/hw_show_public_size_6" android:layout_marginEnd="@dimen/hw_show_public_size_24" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw_show_public_size_6">
+                        <TextView android:textSize="@dimen/hw_show_public_size_40" android:textColor="@color/hw_show_color_text_100_persent_black" android:id="@id/hw_show_health_data_sleeps_mid_shallowsleep" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_13" android:textColor="@color/hw_show_color_text_100_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_health_show_string_hour" android:layout_marginStart="@dimen/hw_show_public_size_3" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0626" android:layout_marginTop="@dimen/hw_show_public_size_16">
+                <ProgressBar android:id="@id/hw_show_health_data_sleeps_mid_progressbar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0xc01" android:max="100" android:progress="40" android:secondaryProgress="60" android:progressDrawable="@drawable/heath_healthdata_sleep_progressbar_bg" android:layout_marginStart="@dimen/hw_show_public_size_19" android:layout_marginEnd="@dimen/hw_show_public_size_19" style="?unknown_attr_ref: 1010078" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/hw_show_public_size_18" android:textColor="@color/hw_show_color_text_100_persent_black" android:id="@id/hw_show_health_data_sleeps_mid_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hw_show_public_size_16" android:text="@string/IDS_hw_show_main_health_page_healthdata_sleep_desc_well" />
+            <View android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d066c" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+                <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d066c">
+                    <TextView android:textSize="@dimen/hw_show_public_size_15" android:textColor="@color/hw_show_color_text_50_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_health_show_string_date" android:layout_weight="1.0" android:layout_marginStart="@dimen/hw_show_public_size_24" />
+                    <TextView android:textSize="@dimen/hw_show_public_size_15" android:textColor="@color/hw_show_color_text_50_persent_black" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_sleep_deepsleep" android:layout_weight="1.0" />
+                    <TextView android:textSize="@dimen/hw_show_public_size_15" android:textColor="@color/hw_show_color_text_50_persent_black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_sleep_shallowsleep" android:layout_weight="1.0" android:layout_marginEnd="@dimen/hw_show_public_size_24" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:background="@color/hw_show_color_gray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0611" android:layout_marginStart="@dimen/hw_show_public_size_19" android:layout_marginEnd="@dimen/hw_show_public_size_19" />
+                <ListView android:id="@id/hw_show_health_data_sleep_history_listview" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" />
+            </LinearLayout>
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hw_show_public_size_10">
+                <View android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d060e" android:layout_weight="1.0" />
+                <LinearLayout android:orientation="horizontal" android:background="@drawable/health_data_weight_buttom_background" android:layout_width="UNKNOWN_DATA_0x7f0d063a" android:layout_height="UNKNOWN_DATA_0x7f0d067f"
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/hw_show_health_data_sleep_bottom_input" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0d060e" android:layout_height="UNKNOWN_DATA_0x7f0d067f" android:layout_weight="1.0">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d0660" android:layout_height="UNKNOWN_DATA_0x7f0d0660" android:src="@drawable/health_healthdata_toobar_edit_normal_ic" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_9" android:textColor="@color/hw_show_color_text_50_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_bloodpresure_input" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/hw_show_health_data_sleep_bottom_mesure" android:visibility="gone" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0d060e" android:layout_height="UNKNOWN_DATA_0x7f0d067f" android:layout_weight="1.0">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d0660" android:layout_height="UNKNOWN_DATA_0x7f0d0660" android:src="@drawable/health_healthdata_toobar_messure_normal_ic" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_9" android:textColor="@color/hw_show_color_text_50_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_bloodpresure_mesure" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/hw_show_health_data_sleep_bottom_service" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x7f0d060e" android:layout_height="UNKNOWN_DATA_0x7f0d067f" android:layout_weight="1.0">
+                        <ImageView android:layout_width="UNKNOWN_DATA_0x7f0d0660" android:layout_height="UNKNOWN_DATA_0x7f0d0660" android:src="@drawable/health_healthdata_toobar_service_normal_ic" />
+                        <TextView android:textSize="@dimen/hw_show_public_size_9" android:textColor="@color/hw_show_color_text_50_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_show_main_health_page_healthdata_bloodpresure_service" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

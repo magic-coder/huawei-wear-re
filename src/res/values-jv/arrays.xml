@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Jupuk foto</item>
+        <item>Saka album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Gawe lingkungan nyaman supaya turu luwih kepenak</item>
+        <item>Pakulinan turu kepenak menehi andhil kanggo kasehatan sakabehe</item>
+        <item>Buwang kekuwatiran sadurunge wektu turu</item>
+        <item>Kosongake pikiran sadurunge turu</item>
+        <item>Turu kepenak mbantu ngapikake kinerja</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Ora perlu nguwatirke dina sesuk saiki</item>
+        <item>Aja kakehan mangan utawa ngombe sadurunge wektu turu</item>
+        <item>Fokus ing ambegan, kuwi bisa mbantu keturon</item>
+        <item>Aja kakehan latihan sadurunge wektu turu</item>
+        <item>Puter musik alon supaya bisa keturon</item>
+        <item>Latihan ajek kanggo ngapikake kualitas turu</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Turu kepenak ngapikake swasana ati</item>
+        <item>Wiwiti saben dina anyar kanthi awak lan pikiran seger</item>
+        <item>Wektu turu ajek bisa nenteremake pikiran</item>
+        <item>Turu sing penak kanggo ngadhepi tantangan sesuk</item>
+    </array>
+</resources>

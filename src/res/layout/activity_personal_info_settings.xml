@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/personal_info_set_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_startup_set_user_info" setting:custom_type="2" />
+    <ScrollView setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:fillViewport="true">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <RelativeLayout setting:id="@id/user_profile_settings_height_relative_layout" style="@style/user_profile_item_ll_style">
+                <TextView setting:id="@id/height_item" setting:text="@string/IDS_sns_height_title" setting:layout_centerVertical="true" style="@style/user_profile_setting_item_text_style" />
+                <TextView setting:id="@id/height_value" setting:layout_marginRight="@dimen/personal_information_list_item_right" setting:layout_toLeftOf="@id/height_right_arrow" setting:layout_marginEnd="@dimen/personal_information_list_item_right" setting:layout_toStartOf="@id/height_right_arrow" style="@style/user_profile_right_value_txt" />
+                <ImageView setting:id="@id/height_right_arrow" setting:layout_alignParentRight="true" setting:layout_alignParentEnd="true" style="@style/user_profile_right_arrow" />
+                <View style="@style/personal_info_listview_divide_line_style" />
+            </RelativeLayout>
+            <RelativeLayout setting:id="@id/user_profile_settings_weight_relative_layout" style="@style/user_profile_item_ll_style">
+                <TextView setting:id="@id/weight_item" setting:text="@string/IDS_sns_weight_title" setting:layout_centerVertical="true" style="@style/user_profile_setting_item_text_style" />
+                <TextView setting:id="@id/weight_value" setting:layout_marginRight="@dimen/personal_information_list_item_right" setting:layout_toLeftOf="@id/weight_right_arrow" setting:layout_marginEnd="@dimen/personal_information_list_item_right" setting:layout_toStartOf="@id/weight_right_arrow" style="@style/user_profile_right_value_txt" />
+                <ImageView setting:id="@id/weight_right_arrow" setting:layout_alignParentRight="true" setting:layout_alignParentEnd="true" style="@style/user_profile_right_arrow" />
+                <View style="@style/personal_info_listview_divide_line_style" />
+            </RelativeLayout>
+            <RelativeLayout setting:id="@id/user_profile_settings_hobbies_relative_layout" setting:clickable="true" style="@style/user_profile_item_ll_style">
+                <TextView setting:id="@id/hobbies_item" setting:layout_centerVertical="true" style="@style/user_profile_setting_item_text_style" />
+                <TextView setting:id="@id/hobbies_value" setting:layout_marginRight="@dimen/personal_information_list_item_right" setting:layout_toLeftOf="@id/hobbies_right_arrow" setting:layout_marginEnd="@dimen/personal_information_list_item_right" setting:layout_toStartOf="@id/hobbies_right_arrow" style="@style/user_profile_right_value_txt" />
+                <ImageView setting:id="@id/hobbies_right_arrow" setting:layout_alignParentRight="true" setting:layout_alignParentEnd="true" style="@style/user_profile_right_arrow" />
+                <View style="@style/personal_info_listview_divide_line_style" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

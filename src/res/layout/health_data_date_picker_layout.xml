@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" scrollpicker:orientation="horizontal" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="match_parent">
+    <LinearLayout scrollpicker:id="@id/hw_health_date_picker_year_layout" scrollpicker:paddingLeft="@dimen/dialog_content_margin_16dp" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="wrap_content" scrollpicker:layout_alignParentLeft="true">
+        <com.huawei.ui.main.stories.health.views.healthdata.wheelpicker.ScrollDatePickerView scrollpicker:id="@id/hw_health_date_picker_year" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="match_parent" scrollpicker:min_text_size="15dp" scrollpicker:max_text_size="18dp" scrollpicker:start_color="@color/home_track_starget_value_color_whole_alpha" scrollpicker:visible_item_count="5" scrollpicker:offset_mode="3" scrollpicker:content_mode="0" scrollpicker:is_circulation="false" />
+    </LinearLayout>
+    <LinearLayout scrollpicker:id="@id/hw_health_date_picker_month_layout" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="wrap_content" scrollpicker:layout_centerHorizontal="true">
+        <com.huawei.ui.main.stories.health.views.healthdata.wheelpicker.ScrollDatePickerView scrollpicker:id="@id/hw_health_date_picker_month" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="match_parent" scrollpicker:min_text_size="15dp" scrollpicker:max_text_size="18dp" scrollpicker:start_color="@color/home_track_starget_value_color_whole_alpha" scrollpicker:visible_item_count="5" scrollpicker:offset_mode="3" scrollpicker:content_mode="1" scrollpicker:is_circulation="true" />
+    </LinearLayout>
+    <LinearLayout scrollpicker:id="@id/hw_health_date_picker_day_layout" scrollpicker:paddingRight="@dimen/dialog_content_margin_16dp" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="wrap_content" scrollpicker:layout_alignParentRight="true">
+        <com.huawei.ui.main.stories.health.views.healthdata.wheelpicker.ScrollDatePickerView scrollpicker:id="@id/hw_health_date_picker_day" scrollpicker:layout_width="wrap_content" scrollpicker:layout_height="match_parent" scrollpicker:min_text_size="15dp" scrollpicker:max_text_size="18dp" scrollpicker:start_color="@color/home_track_starget_value_color_whole_alpha" scrollpicker:visible_item_count="5" scrollpicker:offset_mode="3" scrollpicker:content_mode="2" scrollpicker:is_circulation="true" />
+    </LinearLayout>
+    <ImageView scrollpicker:layout_width="match_parent" scrollpicker:layout_height="UNKNOWN_DATA_0xccccd31" scrollpicker:layout_marginTop="72dp" scrollpicker:src="@color/common_black_10alpha" />
+    <ImageView scrollpicker:layout_width="match_parent" scrollpicker:layout_height="UNKNOWN_DATA_0xccccd31" scrollpicker:layout_marginTop="120dp" scrollpicker:src="@color/common_black_10alpha" />
+</RelativeLayout>

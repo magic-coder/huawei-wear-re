@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        <RelativeLayout android:id="@id/panel_fitness_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+            <ImageView android:id="@id/iv_fitness_icon" android:background="@mipmap/ic_wearable_device_fitness_data" android:layout_width="UNKNOWN_DATA_0x1801" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="15dp" android:textColor="@color/common_white_90alpha" android:id="@id/tv_fitness_health" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_wearable_device_motion_data" android:layout_centerVertical="true" android:layout_marginStart="6dp" android:layout_toEndOf="@id/iv_fitness_icon" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/panel_fitness_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/panel_fitness_top" android:paddingStart="16dp" android:paddingEnd="25.8dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/panel_one_part_content" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="0.3" android:layout_alignParentStart="true"
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="12dp" android:textColor="@color/common_white_50alpha" android:id="@id/tv_fitness_one_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_settings_steps" android:layout_alignParentStart="true" />
+                        <TextView android:textSize="24dp" android:textColor="@color/common_white_90alpha" android:id="@id/tv_fitness_one_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_below="@id/tv_fitness_one_type" android:layout_marginEnd="5dp" android:layout_alignParentStart="true" />
+                        <TextView android:textSize="11dp" android:textColor="@color/common_white_50alpha" android:ellipsize="end" android:id="@id/tv_fitness_one_unit" android:paddingBottom="3.2dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_settings_steps_unit" android:maxLines="1" android:layout_alignBottom="@id/tv_fitness_one_number" android:layout_toEndOf="@id/tv_fitness_one_number" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/panel_two_part_content" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="0.3" android:layout_toEndOf="@id/panel_one_part_content"
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                        <TextView android:textSize="12dp" android:textColor="@color/common_white_50alpha" android:id="@id/tv_fitness_two_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_start_track_target_type_calorie" android:layout_alignParentStart="true" />
+                        <TextView android:textSize="24dp" android:textColor="@color/common_white_90alpha" android:id="@id/tv_fitness_two_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_below="@id/tv_fitness_two_type" android:layout_marginEnd="5dp" android:layout_alignParentStart="true" />
+                        <TextView android:textSize="11dp" android:textColor="@color/common_white_50alpha" android:ellipsize="end" android:id="@id/tv_fitness_two_unit" android:paddingBottom="3.2dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_band_data_sport_energy_unit" android:maxLines="1" android:layout_alignBottom="@id/tv_fitness_two_number" android:layout_toEndOf="@id/tv_fitness_two_number" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/panel_three_part_content" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="0.3" android:layout_toEndOf="@id/panel_two_part_content"
+                    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+                        <TextView android:textSize="12dp" android:textColor="@color/common_white_50alpha" android:id="@id/tv_fitness_three_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_sport_distance" android:layout_alignParentStart="true" />
+                        <TextView android:enabled="false" android:textSize="24dp" android:textColor="@color/common_white_90alpha" android:id="@id/tv_fitness_three_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_below="@id/tv_fitness_three_type" android:layout_marginEnd="5dp" android:layout_alignStart="@id/tv_fitness_three_type" />
+                        <TextView android:textSize="11dp" android:textColor="@color/common_white_50alpha" android:ellipsize="end" android:id="@id/tv_fitness_three_unit" android:paddingBottom="3.2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_alignBottom="@id/tv_fitness_three_number" android:layout_toEndOf="@id/tv_fitness_three_number" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="13dp" android:textColor="@color/common_button_21_text_color" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginTop="16dp" android:text="@string/IDS_main_goto_health_view_data" android:layout_below="@id/panel_fitness_bottom" />
+    </RelativeLayout>
+</LinearLayout>

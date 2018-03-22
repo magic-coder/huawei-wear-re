@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/scan_fail_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_plugin_sim_esim_scan_title" setting:custom_type="2" />
+    <RelativeLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <ImageView setting:id="@id/esim_image" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/sim_open_esim_profile_fail_image_top" setting:src="@drawable/sim_invalide_qrcode" setting:layout_centerHorizontal="true" />
+        <TextView setting:textSize="@dimen/sim_text_open_esim_tips_size" setting:textColor="@color/IDS_plugin_sim_white_100alpha" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/sim_open_esim_profile_text_top" setting:text="@string/IDS_plugin_sim_scan_qrcode_fail_tips" setting:layout_below="@id/esim_image" setting:layout_centerHorizontal="true" />
+        <Button setting:textSize="@dimen/sim_text_open_esim_size" setting:textColor="@color/IDS_plugin_sim_next_back_color" setting:id="@id/rescan_qrcode_button" setting:background="@drawable/sim_btn_one" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x2c01" setting:layout_marginLeft="@dimen/sim_page_magin" setting:layout_marginRight="@dimen/sim_page_magin" setting:layout_marginBottom="@dimen/sim_open_esim_button_to_buttom" setting:text="@string/IDS_plugin_sim_esim_scan_retry" setting:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

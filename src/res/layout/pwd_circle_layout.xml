@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/pwd_edit_layout" android:background="@drawable/hwpay_pass_input_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:weightSum="6.0">
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:layout_weight="1.0">
+        <TextView android:id="@id/password_n1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+        <View android:background="@color/hwpay_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:layout_weight="1.0">
+        <TextView android:id="@id/password_n2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+        <View android:background="@color/hwpay_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:layout_weight="1.0">
+        <TextView android:id="@id/password_n3" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+        <View android:background="@color/hwpay_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:layout_weight="1.0">
+        <TextView android:id="@id/password_n4" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+        <View android:background="@color/hwpay_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:layout_weight="1.0">
+        <TextView android:id="@id/password_n5" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+        <View android:background="@color/hwpay_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x7f0d05af" android:layout_weight="1.0">
+        <TextView android:id="@id/password_n6" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_centerInParent="true" />
+        <View android:background="@color/PAY_transparent" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</LinearLayout>

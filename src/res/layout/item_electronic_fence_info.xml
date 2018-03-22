@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="horizontal" setting:background="#ffffff" setting:descendantFocusability="blocksDescendants" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:cacheColorHint="#00000000" setting:weightSum="1.0">
+    <RelativeLayout setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x4001">
+        <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/layout_left_left" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0x4001" setting:layout_marginLeft="20dp" setting:layout_marginRight="5dp" setting:layout_toLeftOf="@id/item_layout_right" setting:layout_alignParentLeft="true">
+            <TextView setting:textSize="17dp" setting:textColor="@color/kw_color_black_D9alpha" setting:ellipsize="end" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/item_tv_fence_title" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:singleLine="true" />
+            <TextView setting:textSize="12dp" setting:textColor="@color/kw_color_black_a6alpha" setting:ellipsize="end" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/item_tv_fence_content" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="4dp" setting:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/item_layout_right" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_alignParentRight="true"
+            <LinearLayout setting:id="@id/layout_right" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="10dp" setting:layout_marginRight="14dp">
+                <CheckBox setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/cb_Select" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" style="@style/plugin_sms_checkbox_theme" />
+            </LinearLayout>
+            <com.huawei.pluginkidwatch.common.ui.button.SlipButtonView setting:id="@id/item_elec_fence_switch" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="14dp" />
+        </LinearLayout>
+        <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" setting:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

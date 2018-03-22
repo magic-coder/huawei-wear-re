@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingLeft="@dimen/activity_alarm_list_ite_margin" android:paddingRight="@dimen/activity_alarm_list_ite_margin" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0437"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_marginRight="@dimen/switch_button_margin_left" android:layout_weight="1.0" style="@style/setting_main_list_item_marginRight">
+            <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:ellipsize="end" android:id="@id/alarm_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="false" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/setting_main_list_item_marginRight">
+                <TextView android:textSize="@dimen/default_text_font_size_small_13dp" android:textColor="@color/common_white_50alpha" android:id="@id/alarm_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/back_btn_left_space" android:layout_marginEnd="@dimen/back_btn_left_space" />
+                <TextView android:textSize="@dimen/default_text_font_size_small_13dp" android:textColor="@color/common_white_50alpha" android:id="@id/alarm_repeat" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.huawei.ui.commonui.switchbutton.CustomSwitchButton android:id="@id/event_alarm_switch_btn" android:layout_centerVertical="true" android:onClick="onClickEventAlarmSwitch" style="@style/common_switch_style" />
+    </LinearLayout>
+    <ImageView android:background="@color/common_white_15alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d030e" android:layout_alignParentBottom="true" />
+</RelativeLayout>

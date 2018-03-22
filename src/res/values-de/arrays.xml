@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Foto machen</item>
+        <item>Von Album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Schaffen Sie sich eine bequeme Umgebung für besseren Schlaf.</item>
+        <item>Gute Schlafgewohnheiten tragen zur allgemeinen Gesundheit bei.</item>
+        <item>Grübeln hat vor dem Schlafengehen keinen Platz.</item>
+        <item>Kommen Sie vor dem Schlafengehen zur Ruhe.</item>
+        <item>Mit einem guten Schlaf können Sie Ihre Arbeitsleistung steigern.</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Genug gegrübelt - morgen ist auch noch ein Tag.</item>
+        <item>Essen und trinken Sie nicht zu viel, bevor Sie ins Bett gehen.</item>
+        <item>Konzentrieren Sie sich auf Ihre Atmung. So schlafen Sie besser ein.</item>
+        <item>Vermeiden Sie intensives Training vor dem Schlafengehen.</item>
+        <item>Hören Sie sich leise Musik an, um sanft in den Schlaf zu finden.</item>
+        <item>Trainieren Sie regelmäßig, um Ihre Schlafqualität zu verbessern.</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Ein guter Schlaf kann Ihre Stimmung verbessern.</item>
+        <item>Starten Sie jeden Tag mit ausgeruhtem Körper und Geist.</item>
+        <item>Regelmäßige Schlafenszeiten geben Ihnen innere Ruhe.</item>
+        <item>Schlafen Sie gut, um sich den morgigen Herausforderungen zu stellen.</item>
+    </array>
+</resources>

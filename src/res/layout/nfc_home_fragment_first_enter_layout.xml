@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/first_enter_nfc_introduction_layout" android:paddingBottom="28dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/no_card_layout_top" android:background="@color/selection_devide_backgroud" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/nfc_detail_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="4dp" android:text="@string/nfc_card_list_my_card" android:layout_weight="1.0" />
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/no_card_add_layout" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="16dp" android:layout_marginBottom="4dp" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/cp3_my_brand_text_click_selector" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/add_card_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_bind_card_logo_add_card" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/no_card_layout_bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/mid_img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/nfc_welcome_nocard_picture" />
+        <TextView android:textSize="14dp" android:textColor="@color/primarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginTop="16dp" android:layout_marginRight="13dp" android:text="@string/nfc_advertise_tip" />
+        <TextView android:textSize="12dp" android:textColor="@color/secondarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginTop="4dp" android:layout_marginRight="13dp" android:text="@string/nfc_introduction_words" />
+    </LinearLayout>
+</RelativeLayout>

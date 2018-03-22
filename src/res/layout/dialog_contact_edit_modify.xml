@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x11c01">
+    <LinearLayout app:orientation="vertical" app:background="@drawable/kw_pic_common_list_2_popup_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0xf501" app:layout_marginTop="39dp">
+        <RelativeLayout app:orientation="vertical" app:id="@id/bottom_img" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x7201">
+            <TextView app:textSize="20dp" app:textColor="#ffffff" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_contact_name" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="wrap_content" app:layout_marginBottom="1dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_show_name_on_watch_str" app:layout_above="@id/textView1" app:layout_centerHorizontal="true" />
+            <TextView app:textSize="12dp" app:textColor="#b3ffffff" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/textView1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginBottom="10dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_show_name_on_watch_str" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" app:alpha="0.7" />
+        </RelativeLayout>
+        <TextView app:textSize="11dp" app:textColor="#000000" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="18dp" app:layout_marginTop="17dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_phone_number" />
+        <TextView app:textSize="14dp" app:textColor="#d9000000" app:id="@id/menu_contact_phonenumber" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="18dp" app:layout_marginTop="7dp" app:layout_marginBottom="5dp" />
+        <View app:background="@color/listview_divider_contact" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent" app:layout_marginTop="6dp" app:layout_marginBottom="9dp">
+            <TextView app:textSize="13dp" app:textColor="#99000000" app:id="@id/contact_tv_edit" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_edit_str" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+            <ImageView app:id="@id/contact_dialog_edit_img" app:background="@drawable/kw_btn_track_botton_edit" app:layout_width="UNKNOWN_DATA_0x2301" app:layout_height="UNKNOWN_DATA_0x2301" app:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_alignParentTop="true" app:layout_centerHorizontal="true">
+        <ImageView app:id="@id/imageView1" app:background="@drawable/kw_pic_sns_white_cycle" app:layout_width="UNKNOWN_DATA_0x5f01" app:layout_height="UNKNOWN_DATA_0x5f01" app:scaleType="fitXY" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" app:contentDescription="0x0" />
+        <ImageView app:id="@id/dialog_contact_edit_img" app:layout_width="UNKNOWN_DATA_0x4e01" app:layout_height="UNKNOWN_DATA_0x4e01" app:layout_centerHorizontal="true" app:layout_centerVertical="true" app:contentDescription="0x0" />
+    </RelativeLayout>
+</RelativeLayout>

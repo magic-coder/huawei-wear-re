@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <RelativeLayout setting:background="@drawable/kw_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <TextView setting:textSize="17dp" setting:textColor="0x106000b" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001" setting:text="@string/IDS_plugin_kidwatch_common_sort" />
+            <ImageView setting:id="@id/menu_im_sort_ok" setting:layout_width="UNKNOWN_DATA_0x3001" setting:layout_height="UNKNOWN_DATA_0x3001" setting:src="@drawable/menu_imgeview_ok_bg" setting:layout_alignParentTop="true" setting:layout_alignParentRight="true" />
+            <ImageView setting:id="@id/menu_im_sort_cancle" setting:layout_width="UNKNOWN_DATA_0x3001" setting:layout_height="UNKNOWN_DATA_0x3001" setting:src="@drawable/menu_imgeview_cancle_bg" setting:layout_alignParentLeft="true" setting:layout_alignParentTop="true" />
+        </RelativeLayout>
+        <com.huawei.pluginkidwatch.plugin.menu.utils.DragListViewMenu setting:id="@id/menu_lv_soscontact" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:listSelector="@color/transparent" setting:divider="@color/listview_divider_contact" setting:dividerHeight="0.5dp" />
+        <View setting:background="@color/listview_divider_contact" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x40000031" />
+    </LinearLayout>
+</RelativeLayout>

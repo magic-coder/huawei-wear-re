@@ -1,0 +1,54 @@
+package com.huawei.cp3;
+
+/* compiled from: R */
+public final class C4366c {
+    public static final int actionbar = 2131822351;
+    public static final int actionbar_custom_title = 2131822356;
+    public static final int actionbar_home = 2131822352;
+    public static final int actionbar_home_as_up_indicator = 2131822353;
+    public static final int actionbar_icon = 2131822354;
+    public static final int actionbar_progress_indeterminate = 2131822363;
+    public static final int actionbar_subtitle = 2131822359;
+    public static final int actionbar_tabs_container = 2131822360;
+    public static final int actionbar_tabs_framelayout = 2131822361;
+    public static final int actionbar_tabs_indicator = 2131822362;
+    public static final int actionbar_title = 2131822358;
+    public static final int actionbar_title_layout = 2131822355;
+    public static final int actionbar_title_view = 2131822357;
+    public static final int amPm_left = 2131822392;
+    public static final int barcode_button = 2131822387;
+    public static final int button_layout = 2131821303;
+    public static final int cancel = 2131822375;
+    public static final int content = 2131820735;
+    public static final int date_left = 2131822390;
+    public static final int date_time_layout_left = 2131822389;
+    public static final int datedivider1 = 2131822382;
+    public static final int datedivider2 = 2131822383;
+    public static final int dialog_layout = 2131822370;
+    public static final int dialog_list = 2131822379;
+    public static final int edittext = 2131822386;
+    public static final int footer_line = 2131822380;
+    public static final int hwListDivider1 = 2131822364;
+    public static final int hwListDivider2 = 2131822365;
+    public static final int item_line_view_title_bottom = 2131822372;
+    public static final int line = 2131822378;
+    public static final int message = 2131822182;
+    public static final int msg = 2131822374;
+    public static final int neutral = 2131822376;
+    public static final int ok = 2131822377;
+    public static final int progress = 2131822367;
+    public static final int progress_number = 2131822369;
+    public static final int progress_percent = 2131822368;
+    public static final int scrollview = 2131822373;
+    public static final int subTab_view = 2131822388;
+    public static final int text1 = 2131822381;
+    public static final int textview = 2131822366;
+    public static final int time_left = 2131822391;
+    public static final int timedivider = 2131822393;
+    public static final int timedivider2 = 2131822394;
+    public static final int title = 2131820653;
+    public static final int titleDivider = 2131822384;
+    public static final int titleView = 2131822371;
+    public static final int title_container = 2131822385;
+    public static final int title_layout = 2131822229;
+}

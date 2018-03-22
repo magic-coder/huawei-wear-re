@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>см</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>кг</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>Зураг авах</item>
+        <item>Альбомоос</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Тухтай нойрсохын тулд зохицох орчинг бүрдүүл</item>
+        <item>Сайн унтаж амрах нь биеийн ерөнхий эрүүл мэндэд сайн нөлөө үзүүлнэ</item>
+        <item>Унтахаасаа өмнө санаа зовнилоо арилга</item>
+        <item>Унтахынхаа өмнө ухаан санаагаа чөлөөл</item>
+        <item>Сайн унтаж амрах нь таны ажлын гүйцэтгэлийг сайжруулахад тусална</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Маргаашийн санаа зовнилоо маргаашд нь үлдээ</item>
+        <item>Унтахынхаа өмнө битгий их идэж уу</item>
+        <item>Амьсгал дээрээ анхаарлаа хандуул, энэ нь таныг сайн унтаж амрахад тусална</item>
+        <item>Орондоо орохоос өмнө эрчимтэй дасгал хийхээс зайлсхий</item>
+        <item>Унтахын тулд зөөлөн хөгжим тавиарай</item>
+        <item>Унтах чанараа сайжруулахын тулд тогтмол дасгал хий</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Сайн унтсанаар таны биеийн байдал сайжирна</item>
+        <item>Шинэ өдөр бүрийг сэргэсэн бие, оюунаар угтъя</item>
+        <item>Тогтмол цагт унтах нь таны эрчим хүчний түвшинг нэмэгдүүлэхэд тусална</item>
+        <item>Шөнө сайн унтаж амрах нь маргаашийн сорилтыг давж гарахад тусална</item>
+    </array>
+</resources>

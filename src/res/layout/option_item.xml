@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:background="#00000000" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="match_parent">
+    <RelativeLayout app:id="@id/relative" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="wrap_content">
+        <com.huawei.pluginkidwatch.common.ui.circleimageview.CircleImageView app:id="@id/delImage" app:visibility="gone" app:layout_width="UNKNOWN_DATA_0x3c01" app:layout_height="UNKNOWN_DATA_0x3c01" app:layout_marginTop="5dp" app:layout_centerHorizontal="true" app:border_width="1dp" app:border_color="@color/dark" />
+        <TextView app:textSize="@dimen/kw_settings_profile_birthday_text_size" app:textColor="@color/kw_color_black_80alpha" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/change_device_item_name" app:background="@drawable/menu_poi_list_item_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginBottom="3dp" app:layout_below="@id/delImage" app:layout_centerHorizontal="true" />
+        <View app:id="@id/menu_elec_fence_line2" app:background="#26000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" app:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

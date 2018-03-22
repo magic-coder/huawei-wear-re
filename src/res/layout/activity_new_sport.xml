@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:id="@id/feature_lly_sport_head" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <RelativeLayout setting:id="@id/main_map_nav" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001">
+        <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:background="@drawable/kw_pic_sport_actionbar_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_feature_sport_history" setting:titleSize="@dimen/title_text_size" setting:backLeftSpace="@dimen/back_btn_left_space" setting:menuRightSpace="@dimen/menu_btn_right_space" setting:btnpading="@dimen/title_btn_pading" />
+        <RelativeLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_rlyt_sport_title_right" setting:background="@drawable/track_calendar_top_right" setting:visibility="gone" setting:layout_width="UNKNOWN_DATA_0x3001" setting:layout_height="UNKNOWN_DATA_0x3001" setting:layout_alignParentRight="true">
+            <TextView setting:textSize="10dp" setting:textColor="@color/text_color_track_today" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_tv_sport_title_right" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="04" setting:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView setting:background="@color/kw_color_black_40alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x101" />
+    <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView setting:id="@id/feature_llyt_sport_topleft" setting:background="@drawable/track_btn_top_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="15dp" />
+        <TextView setting:textSize="@dimen/track_top_textsize" setting:textColor="@color/black" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_ftv_sport_data_detail_time" setting:background="@drawable/track_top_date_btn" setting:layout_width="UNKNOWN_DATA_0x8b01" setting:layout_height="UNKNOWN_DATA_0x1d01" setting:alpha="0.85" />
+        <ImageView setting:id="@id/feature_llyt_sport_topright" setting:background="@drawable/track_btn_top_right" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="15dp" />
+    </LinearLayout>
+    <ImageView setting:background="@color/kw_color_black_20alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x101" />
+    <com.huawei.pluginkidwatch.plugin.feature.newsport.view.NewSportCanScrollViewPager setting:id="@id/feature_vp_sport_detail_day_viewpager" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+</LinearLayout>

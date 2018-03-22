@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Nasnímať fotografiu</item>
+        <item>Z albumu</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Vytvorte si príjemné prostredie pre lepší spánok</item>
+        <item>Dobré spánkové návyky prispievajú k celkovému zdraviu</item>
+        <item>Pred spaním zabudnite na všetky starosti</item>
+        <item>Pred spánkom si vyčistite myseľ</item>
+        <item>Dobrý spánok zlepšuje pracovný výkon</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Netrápte sa tým, čo bude zajtra</item>
+        <item>Vyhnite sa nadmernej konzumácii jedla a pitia pred spaním</item>
+        <item>Sústreďte sa na dýchanie, pomôže vám to zaspať</item>
+        <item>Pred spaním sa vyhnite intenzívnemu cvičeniu</item>
+        <item>Pustite si nejakú príjemnú hudbu, ktorá vám pomôže zaspať</item>
+        <item>Pravidelným cvičením zlepšíte kvalitu spánku</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Dobrý spánok dokáže zlepšiť vašu náladu</item>
+        <item>Privítajte každý nový deň so sviežim telom a mysľou</item>
+        <item>Pravidelný spánok vám dodá duševný pokoj</item>
+        <item>Dobre sa vyspite, aby ste dokázali čeliť zajtrajším výzvam</item>
+    </array>
+</resources>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/about_title_id" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_settings_about" setting:custom_type="2" />
+    <ScrollView setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <LinearLayout setting:orientation="vertical" setting:id="@id/about_image_linear_layout" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0xbf01">
+                <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/huawei_wear_log" setting:layout_width="UNKNOWN_DATA_0x5101" setting:layout_height="UNKNOWN_DATA_0x5101" setting:layout_marginTop="36dp" setting:src="@mipmap/ic_about_huawei_log" />
+                <TextView setting:textSize="@dimen/default_text_font_size_large2" setting:textColor="@color/common_white_90alpha" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="9dp" setting:text="@string/IDS_app_name" />
+                <TextView setting:textSize="@dimen/default_text_font_size_small_13dp" setting:textColor="@color/common_white_50alpha" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/about_app_version" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/cs_2_dp" />
+            </LinearLayout>
+            <ImageView setting:id="@id/about_iv_image_line" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" setting:layout_below="@id/about_image_linear_layout" />
+            <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/about_copyright" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+                <TextView setting:textSize="@dimen/default_text_font_size_small" setting:textColor="#ff0000" setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/about_tv_privacy" setting:background="@color/common_color_white" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_hw_privacy" />
+                <TextView setting:textColor="@color/common_white_50alpha" setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="1dp" setting:layout_marginBottom="30dp" setting:text="@string/IDS_setting_about_copyright" />
+            </LinearLayout>
+            <LinearLayout setting:orientation="vertical" setting:id="@id/about_fragment" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/about_iv_image_line">
+                <RelativeLayout setting:id="@id/setting_about_update" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_ota_update_button_check_version" style="@style/setting_about_item_text" />
+                    <ImageView setting:id="@id/setting_about_update_rightImage" style="@style/about_activity_item_right_image" />
+                    <FrameLayout setting:id="@id/frameLayout2" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_centerVertical="true" setting:layout_toStartOf="@id/setting_about_update_rightImage" style="@style/about_activity_list_item_marginRight">
+                        <TextView setting:textSize="@dimen/default_text_font_size_small" setting:textColor="0x106000b" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/tip" setting:background="@drawable/setting_update_find_new" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_ota_update_new_version" />
+                        <ImageView setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/progress_icon" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" />
+                    </FrameLayout>
+                </RelativeLayout>
+                <ImageView setting:id="@id/app_version_line" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_cloud_service" setting:visibility="gone" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_setting_about_huawei_could_service" style="@style/setting_about_item_text" />
+                    <ImageView style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:id="@id/about_img_line" setting:background="@color/common_white_15alpha" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_law_info" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_setting_about_huawei_law_info" style="@style/setting_about_item_text" />
+                    <ImageView setting:id="@id/setting_about_law_rightImage" style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_hotline" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_settings_service_call_item" style="@style/setting_about_item_text" />
+                    <ImageView setting:id="@id/hotline_rightImage" style="@style/about_activity_item_right_image" />
+                    <TextView setting:textSize="@dimen/default_text_font_size_small_13dp" setting:textColor="@color/common_white_50alpha" setting:id="@id/hotline_tip" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_main_sns_member_service_call_number_item_3" setting:layout_centerVertical="true" setting:layout_marginEnd="5dp" setting:layout_toStartOf="@id/hotline_rightImage" />
+                </RelativeLayout>
+                <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_userexperience" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_settings_userexperience_title" style="@style/setting_about_item_text" />
+                    <ImageView setting:id="@id/setting_about_user_rightImage" style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_feedbacklog" setting:visibility="gone" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_about_feedback_log_title" style="@style/setting_about_item_text" />
+                    <ImageView style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:id="@id/setting_about_feedbacklog_line" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_user_profile_and_suggestions" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_user_profile_questions_suggestions" style="@style/setting_about_item_text" />
+                    <ImageView style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:id="@id/setting_about_user_profile_and_suggestions_line" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_beta_question" style="@style/about_activity_item_style">
+                    <TextView setting:id="@id/setting_about_beta_text" setting:text="@string/IDS_user_profile_questions_suggestions" style="@style/setting_about_item_text" />
+                    <ImageView style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:id="@id/setting_about_beta_question_line" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+                <RelativeLayout setting:id="@id/setting_about_developer_option" setting:visibility="gone" style="@style/about_activity_item_style">
+                    <TextView setting:text="@string/IDS_hw_show_develop_option" style="@style/setting_about_item_text" />
+                    <ImageView style="@style/about_activity_item_right_image" />
+                </RelativeLayout>
+                <ImageView setting:id="@id/setting_about_developer_option_line" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

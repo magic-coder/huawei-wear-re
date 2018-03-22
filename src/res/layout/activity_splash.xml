@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:orientation="vertical" android:id="@+id/logo" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x6401" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="6dp" android:layout_above="@+id/huawei_copyright"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="UNKNOWN_DATA_0x1c01" android:layout_height="UNKNOWN_DATA_0x1c01" android:src="@mipmap/app_icon" android:layout_marginEnd="12dp" />
+                <ImageView android:background="@color/common_black_10alpha" android:layout_width="UNKNOWN_DATA_0x40000031" android:layout_height="UNKNOWN_DATA_0x1201" />
+                <TextView android:textSize="16dp" android:textColor="@color/common_color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_app_name" android:layout_centerVertical="true" android:layout_marginStart="12dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="6dp" android:textColor="@color/common_black_50alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@+id/huawei_copyright" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="39dp" android:text="@string/IDS_huawei_wear_copyright" android:layout_alignParentBottom="true" android:layout_marginStart="16dp" android:layout_marginEnd="16dp" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/slogan" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <RelativeLayout android:id="@+id/splash" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/logo">
+        <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/splash" android:scaleType="centerCrop" />
+    </RelativeLayout>
+</RelativeLayout>

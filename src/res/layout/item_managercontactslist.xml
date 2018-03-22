@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/menu_poi_list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5301">
+    <ImageView android:id="@id/viewpager_list_item_img" android:layout_width="UNKNOWN_DATA_0x3e01" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="19dp" android:src="@drawable/kw_pic_ist_user_common" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="0x0" />
+    <ImageView android:id="@id/viewpager_list_item_img_ba" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x3e01" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="19dp" android:src="@drawable/kw_infor_add_backgroud" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="0x0" android:alpha="0.5" />
+    <ImageView android:id="@id/viewpager_list_item_img_add" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1901" android:layout_height="UNKNOWN_DATA_0x1901" android:layout_marginRight="18dp" android:src="@drawable/kw_icon_info_add" android:layout_alignRight="@id/viewpager_list_item_img_ba" android:layout_centerVertical="true" android:alpha="0.5" android:layout_marginEnd="18dp" android:layout_alignEnd="@id/viewpager_list_item_img_ba" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x5d01" android:layout_marginLeft="22dp" android:layout_toRightOf="@id/viewpager_list_item_img"
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="28dp">
+            <TextView android:textSize="17dp" android:textColor="#474747" android:id="@id/name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="王平" />
+            <TextView android:textSize="13dp" android:textColor="#3fc0c5" android:id="@id/nemu_tv_me" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_plugin_kidwatch_settings_usermanage_title_me" />
+        </LinearLayout>
+        <TextView android:textSize="16dp" android:textColor="#636363" android:id="@id/menu_tv_phonenumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="18566017477" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/linearLayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="18dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14dp" android:textColor="#3fc0c5" android:id="@id/menu_tv_manager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/IDS_plugin_kidwatch_settings_usermanage_title_main" />
+        <ImageView android:id="@id/menu_iv_arrow" android:background="@drawable/kw_img_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

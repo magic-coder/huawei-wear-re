@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/multi_sim_msg_auth" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_plugin_multi_sim_phone_verify" setting:custom_type="2" />
+    <RelativeLayout setting:id="@id/multi_sim_open_error_bar" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+        <include layout="@layout/bt_disconnect_layout" />
+        <include layout="@layout/network_error_layout" />
+        <include layout="@layout/no_sim_error_layout" />
+    </RelativeLayout>
+    <include layout="@layout/multi_sim_config_msg_auth" />
+</LinearLayout>

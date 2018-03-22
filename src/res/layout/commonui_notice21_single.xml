@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@drawable/common_popup21" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/AppUpdateDialog_notification" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/custom_normal_titlebar_title_textsize" android:textColor="@color/common_white_90alpha" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/notice_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/list_item_text_size" android:layout_marginBottom="@dimen/list_item_text_size" android:text="@string/IDS_notice_action" />
+        <ImageView android:background="@color/common_color_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d04bf" android:alpha="0.2" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/activity_horizontal_margin" android:layout_marginRight="@dimen/activity_horizontal_margin">
+            <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/notice_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/activity_horizontal_margin" android:text="@string/IDS_device_privacy_user_info_upload_cloud" />
+            <LinearLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0861" android:layout_marginTop="@dimen/activity_horizontal_margin" android:layout_marginBottom="@dimen/activity_horizontal_margin">
+                <Button android:textSize="@dimen/default_text_font_size_large2" android:textColor="#0d9ffb" android:id="@id/notice_button_right" android:background="@drawable/common_button_21" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="@string/IDS_user_permission_ok" android:layout_weight="1.0" android:layout_marginStart="@dimen/dialog_layout_padding_top_bottom" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

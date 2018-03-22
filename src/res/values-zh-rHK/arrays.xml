@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>拍照</item>
+        <item>從手機相簿中選擇</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>營造一個舒適的環境有助於睡眠</item>
+        <item>堅持規律作息，不要睡太晚</item>
+        <item>睡前別煩惱，放鬆放空心情好</item>
+        <item>睡前不要過多思考白天的事情</item>
+        <item>良好的睡眠是工作的最大助力</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>睡前用溫水泡腳，消除一天的疲勞</item>
+        <item>睡前不要吃的太飽、喝太多的水</item>
+        <item>睡前喝杯牛奶，可以使人容易入睡</item>
+        <item>睡前不做劇烈運動，可適當靜坐散步</item>
+        <item>睡前多聽些舒緩音樂，有助睡眠</item>
+        <item>日常多運動，有助於改善睡眠質素</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>好的睡眠會有好的心情，繼續保持</item>
+        <item>充足的睡眠為您開啟全新的一天</item>
+        <item>規律的就寢時間能讓您精神百倍</item>
+        <item>優質睡眠使人精力更充沛</item>
+    </array>
+</resources>

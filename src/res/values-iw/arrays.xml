@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>צלם תמונה</item>
+        <item>מהאלבום</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>צור סביבה נוחה לשינה טובה יותר</item>
+        <item>הרגלי שינה טובים תורמים לבריאות הכללית</item>
+        <item>שחרר את הדאגות לפני השינה</item>
+        <item>רוקן את המחשבות לפני השינה</item>
+        <item>שינה טובה עוזרת לשפר את הביצועים בעבודה</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>השאר את הדאגות של מחר למחר</item>
+        <item>הימנע מאכילה או שתייה מופרזות לפני השינה</item>
+        <item>התמקד בנשימה, זה יעזור לך להירדם</item>
+        <item>הימנע מאימון מאמץ לפני השינה</item>
+        <item>השמע מוזיקה שקטה שתעזור לך להירדם</item>
+        <item>התעמל באופן קבוע לשיפור איכות השינה</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>שינה טובה יכולה לשפר את מצב הרוח</item>
+        <item>אמץ כל יום חדש עם גוף ומחשבה רעננים</item>
+        <item>שעת שינה קבועה עשויה להקנות שקט נפשי</item>
+        <item>הקפד לישון היטב לקראת האתגרים של מחר</item>
+    </array>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/sdk_crowdtest_color_white" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@drawable/sdk_crowdtest_divider_layout_vertical" android:showDividers="beginning|end">
+    <com.huawei.crowdtestsdk.feedback.widgets.ChoiceWidgets android:id="@id/sdk_crowdtest_description_last_version_choice_widget" android:layout_width="match_parent" android:layout_height="wrap_content" />
+</LinearLayout>

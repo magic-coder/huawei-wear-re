@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/act_lock_screen_dialog_multi_content_lly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <ImageView android:id="@id/fragment_set_rate_reminder_dialog_image" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0xa001" android:layout_marginStart="36dp" android:layout_marginEnd="36dp" />
+        <TextView android:textSize="15dp" android:textColor="#e6ffffff" android:id="@id/fragment_set_rate_reminder_dialog_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/IDS_main_homefragment_rate_reminder_watch_text" />
+    </LinearLayout>
+</LinearLayout>

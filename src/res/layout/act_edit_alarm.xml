@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <include layout="@layout/above_title" />
+        <ImageView android:id="@id/btn_cancel" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/marginLeft" android:src="@drawable/btn_cancel" android:onClick="viewOnClick" />
+        <ImageView android:id="@id/btn_ok" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/marginRight" android:src="@drawable/btn_ok" android:layout_alignParentRight="true" android:onClick="viewOnClick" />
+    </RelativeLayout>
+    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:paddingLeft="@dimen/marginLeft" android:paddingTop="10dp" android:paddingRight="@dimen/marginRight" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/alarm_edit_tip" />
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@id/btn_add_alarm" android:layout_width="match_parent" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginLeft" android:text="@string/alarm_add" android:layout_alignParentBottom="true" android:onClick="viewOnClick" style="@style/common_btn" />
+        <ListView android:id="@id/listView" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00ffffff" android:divider="@color/setting_line_bg" android:dividerHeight="1px" android:layout_above="@id/btn_add_alarm" />
+    </RelativeLayout>
+</LinearLayout>

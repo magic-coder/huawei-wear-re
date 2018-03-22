@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fotoğraf çek</item>
+        <item>Albümden</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Daha iyi uyku için rahat bir ortam oluşturun</item>
+        <item>İyi uyku alışkanlıkları genel sağlığınıza katkı sağlar</item>
+        <item>Uyku vaktinden önce kaygılarınızdan uzaklaşın</item>
+        <item>Uykuya geçmeden önce zihninizi boşaltın</item>
+        <item>İyi bir uyku iş performansınızı iyileştirebilir</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Yarının kaygılarını yarına bırakın</item>
+        <item>Uyku vaktinden önce çok fazla yemek veya içmekten kaçının</item>
+        <item>Nefesinize odaklanın, uyumanıza yardımcı olabilir</item>
+        <item>Uyku vaktinden önce yoğun egzersizden kaçının</item>
+        <item>Size ninni gibi gelecek biraz yumuşak müzik dinleyin</item>
+        <item>Uykunuzun kalitesini artırmak için düzenli olarak egzersiz yapın</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>İyi bir uyku ruh halinizi iyileştirebilir</item>
+        <item>Her yeni günü tazelenmiş bir vücut ve zihinle karşılayın</item>
+        <item>Düzenli bir uyku vakti size huzur verecektir</item>
+        <item>Ertesi günün zorluklarına hazır olmak için iyi uyuyun</item>
+    </array>
+</resources>

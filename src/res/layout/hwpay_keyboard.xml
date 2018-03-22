@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/key_board" android:background="@color/hwpay_white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:id="@id/keyboard_first_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00f8" android:layout_weight="1.0">
+        <TextView android:id="@id/digit_tv1" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_1" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv2" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_2" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv3" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_3" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+    </LinearLayout>
+    <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:id="@id/keyboard_second_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00f8" android:layout_weight="1.0">
+        <TextView android:id="@id/digit_tv4" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_4" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv5" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_5" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv6" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_6" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+    </LinearLayout>
+    <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:id="@id/keyboard_third_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00f8" android:layout_weight="1.0">
+        <TextView android:id="@id/digit_tv7" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_7" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv8" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_8" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv9" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_9" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+    </LinearLayout>
+    <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:id="@id/keyboard_fourth_line" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00f8" android:layout_weight="1.0"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/digit_collapse" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/hwpay_keyboard_icon_style">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/ic_num_collapse" />
+        </LinearLayout>
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <TextView android:id="@id/digit_tv0" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/digit_0" android:layout_weight="1.0" style="@style/hwpay_keyboard_num_style" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/digit_del" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" style="@style/hwpay_keyboard_icon_style">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:src="@drawable/hwpay_keyboard_num_del" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

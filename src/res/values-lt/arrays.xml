@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fotografuoti</item>
+        <item>Iš albumo</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Sukurkite patogią aplinką, kad geriau išsimiegotumėte</item>
+        <item>Geri miego įpročiai gerina bendrą sveikatą</item>
+        <item>Užmirškite rūpesčius prieš miegą</item>
+        <item>Prieš eidami miegoti apie nieką negalvokite</item>
+        <item>Geras miegas padeda didinti darbo našumą</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Rytoj bus nauja diena</item>
+        <item>Prieš miegą daug nevalgykite ir negerkite</item>
+        <item>Sutelkite dėmesį į kvėpavimą, tai gali padėti užmigti</item>
+        <item>Prieš miegą venkite intensyvios mankštos</item>
+        <item>Įjunkite švelnią muziką, kuri padės lengviau užmigti</item>
+        <item>Reguliariai mankštinkitės, kad pagerintumėte savo miego kokybę</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Geras miegas gali pagerinti jūsų nuotaiką</item>
+        <item>Pasitikite naują dieną atsigavusiu kūnu ir siela</item>
+        <item>Kaskart eidami miegoti panašiu laiku, jausitės žvaliau</item>
+        <item>Gerai išsimiegokite ir kupini jėgų pasitikite rytojaus iššūkius</item>
+    </array>
+</resources>

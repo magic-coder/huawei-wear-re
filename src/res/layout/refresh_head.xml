@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/head_view" android:background="#f7f7f7" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+    <RelativeLayout android:paddingTop="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true"
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+            <ImageView android:id="@id/pull_icon" android:background="@drawable/kw_pic_ic_down_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/refreshing_icon" android:background="@drawable/kw_btn_refresh_02" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_centerVertical="true" />
+            <TextView android:textSize="12dp" android:textColor="@color/kw_color_black_85alpha" android:id="@id/state_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_plugin_kidwatch_chat_pull_to_refresh" android:layout_centerInParent="true" />
+            <ImageView android:id="@id/state_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_toLeftOf="@id/state_tv" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

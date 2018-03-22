@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Pildista</item>
+        <item>Albumist</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Looge mugav keskkond, et paremini magada</item>
+        <item>Head uneharjumused parandavad üldist tervist</item>
+        <item>Enne magamaminekut unustage mured</item>
+        <item>Enne uinumist tühjendage oma meel mõtetest</item>
+        <item>Hea uni aitab töövõimet parandada</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Ärge muretsege homse pärast</item>
+        <item>Vältige liigset söömist ja joomist enne magamaminekut</item>
+        <item>Keskenduge hingamisele, see aitab uinuda</item>
+        <item>Enne magamaminekut vältige pingelist trenni</item>
+        <item>Pange uinumiseks mahe muusika mängima</item>
+        <item>Treenige regulaarselt, et parandada unekvaliteeti</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Hea uni tagab parema tuju</item>
+        <item>Võtke iga päev vastu värske keha ja meelega</item>
+        <item>Regulaarne magamaminekuaeg tagab meelerahu</item>
+        <item>Magage hästi, et homsete väljakutsetega hakkama saada</item>
+    </array>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="16dp" android:textColor="#fefdfc" android:id="@id/deviceName" android:paddingLeft="27dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="196dp" android:minWidth="5dp" android:text="i" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/switchPopDown" android:layout_width="UNKNOWN_DATA_0x1b01" android:layout_height="UNKNOWN_DATA_0x1b01" android:src="@drawable/commonui_down_botton_list" android:layout_centerVertical="true" />
+    </LinearLayout>
+</RelativeLayout>

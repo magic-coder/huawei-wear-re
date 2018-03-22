@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/update_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_huawei_member_title_text" setting:custom_type="2" />
+    <LinearLayout setting:orientation="horizontal" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <FrameLayout setting:id="@id/sns_people_photo" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_smart_alarm_image_margin_left">
+            <ImageView setting:id="@id/main_sns_Member_user_head_img" setting:layout_width="UNKNOWN_DATA_0x7f0d049e" setting:layout_height="UNKNOWN_DATA_0x7f0d049e" setting:layout_marginTop="@dimen/activity_vip_member_user_info_member_text_below" setting:layout_marginRight="@dimen/activity_vip_member_user_info_img_right" setting:layout_marginBottom="@dimen/activity_vip_member_user_info_member_text_below" setting:src="@mipmap/sns_avatar_default" setting:layout_marginStart="@dimen/activity_alarm_list_ite_margin" />
+        </FrameLayout>
+        <LinearLayout setting:id="@id/main_sns_Member_RelativeLayout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginStart="@dimen/contact_number_margintop"
+            <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content"
+                <LinearLayout setting:orientation="horizontal" setting:id="@id/userinfor_Member_layout" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0x7f0d01ac">
+                    <TextView setting:textSize="@dimen/dialog_upgrade_to_huawei_gold_title_service_text_top" setting:textColor="@color/common_white_90alpha" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/main_sns_Member_user_name" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginStart="@dimen/activity_vip_member_user_info_member_left" />
+                    <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/icon_vip_gold_imageView" setting:layout_width="UNKNOWN_DATA_0x7f0d0167" setting:layout_height="UNKNOWN_DATA_0x7f0d014e" setting:layout_marginStart="@dimen/device_fragment_setting_device_list_item_padding_top" setting:layout_toEndOf="@id/main_sns_Member_user_name" />
+                </LinearLayout>
+                <TextView setting:textSize="@dimen/activity_huawei_member_agreement_text_size" setting:textColor="@color/common_white_50alpha" setting:id="@id/member_Validity_period" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_huawei_member_agreement_textView_left" setting:layout_marginStart="@dimen/device_fragment_setting_device_list_item_padding_top" />
+                <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/userinfor_Member_expired_reminder_layout" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_huawei_member_agreement_textView_left">
+                    <ImageView setting:background="@mipmap/ic_huawei_member_warning" setting:layout_width="UNKNOWN_DATA_0x1201" setting:layout_height="UNKNOWN_DATA_0x1201" setting:layout_marginStart="@dimen/device_fragment_setting_device_list_item_padding_top" />
+                    <TextView setting:textSize="@dimen/activity_vip_member_free_upgrade_title_top" setting:textColor="@color/common_white_50alpha" setting:id="@id/userinfor_Member_expired_reminder" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginStart="@dimen/activity_vip_member_user_info_member_left" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+    <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/member_Free_Maintenance_layout" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01a7"
+        <LinearLayout setting:orientation="vertical" setting:id="@id/member_Free_upgrade_layout" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0x7f0d01a8" setting:layout_weight="1.0">
+            <TextView setting:textSize="@dimen/activity_vip_member_free_upgrade_title_text_size" setting:textColor="@color/common_white_90alpha" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/member_Free_upgrade_title" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_vip_member_free_upgrade_title_top" setting:drawablePadding="@dimen/activity_vip_member_free_upgrade_title_padding" setting:drawableEnd="@mipmap/icon_free_update_point" setting:layout_marginStart="@dimen/activity_vip_member_free_upgrade_title_left" />
+            <TextView setting:textSize="@dimen/activity_vip_member_free_upgrade_text_view_text_size" setting:textColor="@color/common_white_50alpha" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/member_Free_upgrade_TextView" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_vip_member_free_upgrade_text_view_top" setting:layout_marginStart="@dimen/activity_vip_member_free_upgrade_text_view_left" />
+        </LinearLayout>
+        <ImageView setting:id="@id/vip_member_img0" setting:background="@mipmap/ic_enter_pressed" setting:layout_alignParentEnd="true" style="@style/activity_vip_member_item_right_image" />
+    </LinearLayout>
+    <ImageView setting:background="@color/common_black_50alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+    <LinearLayout setting:background="@color/common_white_10alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b6">
+        <TextView setting:textSize="@dimen/activity_vip_member_list_title_text_size" setting:textStyle="bold" setting:textColor="@color/common_white_50alpha" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:paddingBottom="@dimen/device_fragment_setting_device_list_item_padding_top" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_main_sns_after_sale_service" setting:paddingStart="@dimen/activity_vip_member_item_padding_left" />
+    </LinearLayout>
+    <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+    <ScrollView setting:orientation="vertical" setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <LinearLayout setting:orientation="vertical" setting:id="@id/member_Free_After_SalesLayout" setting:layout_width="match_parent" setting:layout_height="wrap_content"
+            <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/member_Service_hotline_layout" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d081a">
+                <TextView setting:text="@string/IDS_main_sns_exclusive_hotline" setting:layout_weight="1.0" style="@style/activity_vip_member_list_item_text_view_style" />
+                <TextView setting:id="@id/member_Service_hotline_tv" setting:layout_weight="2.0" style="@style/activity_vip_member_service_detail_right_text_style" />
+                <ImageView setting:id="@id/vip_member_img1" setting:background="@mipmap/ic_enter_pressed" setting:layout_alignParentEnd="true" style="@style/activity_vip_member_item_right_image" />
+            </LinearLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+            <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/member_Free_repair_layout" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d081a">
+                <TextView setting:text="@string/IDS_main_sns_free_repair" setting:layout_weight="1.0" style="@style/activity_vip_member_list_item_text_view_style" />
+                <TextView setting:id="@id/member_Free_repair_tv" setting:layout_weight="2.0" style="@style/activity_vip_member_service_detail_right_text_style" />
+                <ImageView setting:id="@id/vip_member_img2" setting:background="@mipmap/ic_enter_pressed" setting:layout_alignParentEnd="true" style="@style/activity_vip_member_item_right_image" />
+            </LinearLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+            <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/member_FreeCleaning_layout" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d081a">
+                <TextView setting:text="@string/IDS_main_sns_wash_shell" setting:layout_weight="1.0" style="@style/activity_vip_member_list_item_text_view_style" />
+                <TextView setting:id="@id/member_FreeCleaning_tv" setting:layout_weight="2.0" style="@style/activity_vip_member_service_detail_right_text_style" />
+                <ImageView setting:id="@id/vip_member_img3" setting:background="@mipmap/ic_enter_pressed" setting:visibility="visible" setting:layout_alignParentEnd="true" style="@style/activity_vip_member_item_right_image" />
+            </LinearLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+            <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/member_Free_Equipment_guarantee_layout" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d081a">
+                <TextView setting:text="@string/IDS_main_sns_whole_machine_protection" setting:layout_weight="1.0" style="@style/activity_vip_member_list_item_text_view_style" />
+                <TextView setting:id="@id/member_Free_Equipment_guarantee_tv" setting:layout_weight="2.0" style="@style/activity_vip_member_service_detail_right_text_style" />
+                <ImageView setting:id="@id/vip_member_img4" setting:background="@mipmap/ic_enter_pressed" setting:layout_alignParentEnd="true" style="@style/activity_vip_member_item_right_image" />
+            </LinearLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+            <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/member_Free_Guarantee_layout" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d081a">
+                <TextView setting:text="@string/IDS_main_sns_extended_warranty" setting:layout_weight="1.0" style="@style/activity_vip_member_list_item_text_view_style" />
+                <TextView setting:id="@id/member_Free_Guarantee_tv" setting:layout_weight="2.0" style="@style/activity_vip_member_service_detail_right_text_style" />
+                <ImageView setting:id="@id/vip_member_img5" setting:background="@mipmap/ic_enter_pressed" setting:layout_alignParentRight="true" style="@style/activity_vip_member_item_right_image" />
+            </LinearLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d01b0" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

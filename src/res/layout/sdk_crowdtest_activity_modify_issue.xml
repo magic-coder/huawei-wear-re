@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.crowdtestsdk.feedback.widgets.FeedBackLinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" ModifyComponent:orientation="vertical" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="match_parent">
+    <com.huawei.crowdtestsdk.feedback.ui.TitleBarLayout ModifyComponent:id="@id/title_bar_layout" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="wrap_content" />
+    <View ModifyComponent:background="@color/sdk_crowdtest_background_color_gray" ModifyComponent:visibility="gone" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="UNKNOWN_DATA_0x7f0d08aa" />
+    <com.huawei.crowdtestsdk.feedback.widgets.FeedbackScrollView ModifyComponent:id="@id/sdk_crowdtest_service_scrollview" ModifyComponent:background="@color/sdk_crowdtest_background_color_gray" ModifyComponent:scrollbars="UNKNOWN_DATA_0x0" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="UNKNOWN_DATA_0x1" ModifyComponent:fillViewport="true" ModifyComponent:layout_weight="1.0">
+        <com.huawei.crowdtestsdk.feedback.widgets.ScrollLinearLayout ModifyComponent:orientation="vertical" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="match_parent">
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionModifyCommonComponent ModifyComponent:id="@id/sdk_crowdtest_mofify_description_modify_component" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="wrap_content" ModifyComponent:layout_marginTop="16dp" ModifyComponent:isResubmit="false" />
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionDetailEditComponent ModifyComponent:id="@id/sdk_crowdtest_mofify_description_detail_edit_component" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="wrap_content" ModifyComponent:layout_marginTop="16dp" />
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionAttachmentComponent ModifyComponent:id="@id/sdk_crowdtest_mofify_description_attachment_component" ModifyComponent:layout_width="match_parent" ModifyComponent:layout_height="wrap_content" ModifyComponent:layout_marginTop="16dp" ModifyComponent:layout_marginBottom="16dp" />
+        </com.huawei.crowdtestsdk.feedback.widgets.ScrollLinearLayout>
+    </com.huawei.crowdtestsdk.feedback.widgets.FeedbackScrollView>
+    <include layout="@layout/sdk_crowdtest_layout_description_button_component" />
+</com.huawei.crowdtestsdk.feedback.widgets.FeedBackLinearLayout>

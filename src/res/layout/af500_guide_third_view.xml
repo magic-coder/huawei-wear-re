@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/startup_title_text_size" android:textColor="@color/startup_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0993" android:text="@string/af500_search_title" />
+    <TextView android:textSize="@dimen/startup_title_text_size" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="@dimen/startup_tv_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/af500_paired_successed" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/af500_connect_success" />
+    </LinearLayout>
+    <LinearLayout style="@style/startup_guidance_btn_layout">
+        <Button android:id="@id/btn_done" android:background="@drawable/btn_default_emui3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_done" />
+    </LinearLayout>
+</LinearLayout>

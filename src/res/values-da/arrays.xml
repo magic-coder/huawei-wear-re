@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Tag foto</item>
+        <item>Fra album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Skab komfortable omgivelser for bedre søvn</item>
+        <item>Gode søvnvaner bidrager til den overordnede sundhed</item>
+        <item>Giv slip på dine bekymringer før sengetid</item>
+        <item>Tøm hovedet, før du lægger dig til at sove</item>
+        <item>God søvn hjælper med at forbedre din arbejdsydelse</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>I morgen er der atter en dag</item>
+        <item>Undgå at spise eller drikke for meget før sengetid</item>
+        <item>Fokusér på din vejrtrækning, det kan hjælpe dig med at falde i søvn</item>
+        <item>Undgå intens motion før sengetid</item>
+        <item>Spil noget sagte musik for at lulle dig i søvn</item>
+        <item>Motionér regelmæssigt for at forbedre din søvnkvalitet</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>God søvn kan forbedre dit humør</item>
+        <item>Start hver ny dag med udhvilet krop og sind</item>
+        <item>Regelmæssige sengetider kan give dig ro i sindet</item>
+        <item>Sov godt, så du kan klare morgendagens udfordringer</item>
+    </array>
+</resources>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hw_show_bloodsugar_history_title_marginLeft">15.0dip</dimen>
+</resources>

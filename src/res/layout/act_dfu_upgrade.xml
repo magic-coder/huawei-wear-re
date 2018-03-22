@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/above_title" />
+    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/upgrade_reminder" android:paddingLeft="16dp" android:paddingTop="10dp" android:paddingRight="16dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/upgrade_reminder" />
+    <TextView android:textSize="16dp" android:textColor="#606060" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="#f2f2f2" android:padding="10dp" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dfu_step2" />
+    <LinearLayout android:orientation="vertical" android:background="#f7f7f7" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_upgrade" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout style="@style/dialog_btn">
+            <Button android:id="@id/btn_dfu_next" android:text="@string/next" android:onClick="viewOnClick" style="@style/common_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

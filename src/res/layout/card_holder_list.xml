@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/card_holder_error" />
+    <com.huawei.wallet.ui.carddisplay.HwScrollView android:id="@id/scroll" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+        <FrameLayout android:id="@id/framelayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/offline_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.huawei.wallet.ui.carddisplay.CardHolderLayout android:id="@id/card_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/card_list_magin_left_right" android:layout_marginTop="@dimen/card_list_magin_top" android:layout_marginRight="@dimen/card_list_magin_left_right" />
+            </LinearLayout>
+            <View android:id="@id/control_scroll" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        </FrameLayout>
+    </com.huawei.wallet.ui.carddisplay.HwScrollView>
+    <include android:id="@id/offline_section" layout="@layout/card_holder_section" />
+</RelativeLayout>

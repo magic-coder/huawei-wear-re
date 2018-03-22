@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/layout_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/layout_text_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dfu_title_progressBar" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/progressbar_bg" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/dfu_layout" android:background="@drawable/layout_nether_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="16dp" android:textColor="@color/black" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dfu_software_upgrading" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18dp" android:textColor="@color/black" android:id="@id/dfu_progress_text" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scanning" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/dfu_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:layout_below="@id/dfu_progress_text" android:layout_centerHorizontal="true" style="@*style/Widget.Holo.ProgressBar.Horizontal" />
+        </RelativeLayout>
+        <LinearLayout style="@style/dialog_btn">
+            <Button android:id="@id/btn_dfu_cancel" android:text="@string/cancel" android:onClick="viewOnClick" style="@style/common_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="feedback_btn_width">530.0dip</dimen>
+    <dimen name="feedback_hotword_firstline_top">17.0dip</dimen>
+    <dimen name="feedback_text_size_list">14.0sp</dimen>
+    <dimen name="feedback_text_size_normal">18.0sp</dimen>
+    <dimen name="feedback_btn_upload_textsize">16.0dip</dimen>
+    <dimen name="feedback_feedbackQuestion_textsize">17.0sp</dimen>
+    <dimen name="feedback_feedbackTime_textsize">17.0sp</dimen>
+    <dimen name="feedback_tv_uploadfeedback_type_textsize">18.0sp</dimen>
+</resources>

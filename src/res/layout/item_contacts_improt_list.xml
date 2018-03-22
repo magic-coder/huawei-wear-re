@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="#f7f7f7" app:descendantFocusability="blocksDescendants" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x5301"
+    <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/relativeLayout1" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x5301" app:layout_marginLeft="12dp" app:layout_centerVertical="true">
+        <ImageView app:id="@id/viewpager_list_item_img" app:layout_width="UNKNOWN_DATA_0x3e01" app:layout_height="UNKNOWN_DATA_0x3e01" app:src="@drawable/kw_pic_ist_user_common" app:layout_centerInParent="true" app:contentDescription="0x0" />
+    </RelativeLayout>
+    <RadioButton app:id="@id/menu_item_re_select" app:focusable="false" app:clickable="false" app:layout_width="UNKNOWN_DATA_0x1901" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_marginRight="24dp" app:button="@drawable/menu_radiobutton_style" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x7b01" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_marginLeft="14dp" app:layout_toRightOf="@id/relativeLayout1" app:layout_centerVertical="true">
+        <TextView app:textSize="14dp" app:textColor="@color/kw_color_black_85alpha" app:id="@id/name_tv" app:layout_width="match_parent" app:layout_height="wrap_content" />
+        <TextView app:textSize="14dp" app:textColor="@color/kw_color_black_65alpha" app:id="@id/phonenumber_tv" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="5dp" />
+    </LinearLayout>
+</RelativeLayout>

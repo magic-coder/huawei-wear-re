@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4501">
+    <View android:id="@id/bus_card_info_footline" android:background="@color/card_switch_item_divider_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_marginLeft="85dp" android:layout_marginRight="16dp" android:layout_alignParentBottom="true" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/bus_card_info_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/bus_card_info_footline">
+        <View android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1" />
+        <ImageView android:id="@id/bus_card_icon" android:layout_width="UNKNOWN_DATA_0x7f0d02a0" android:layout_height="UNKNOWN_DATA_0x7f0d02a0" />
+        <View android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0x1" />
+        <TextView android:textSize="@dimen/card_switch_item_name_size" android:textColor="@color/card_switch_item_name_color" android:id="@id/bus_card_type" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <View android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x1" />
+        <TextView android:textSize="@dimen/card_switch_item_status_size" android:textColor="@color/card_switch_item_status_color" android:id="@id/bus_card_status" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="UNKNOWN_DATA_0x701" android:layout_height="UNKNOWN_DATA_0x1" />
+        <ImageView android:id="@id/next_step" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0x1801" android:src="@drawable/nfc_carrera_card_list_arrow" />
+        <View android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1" />
+    </LinearLayout>
+</RelativeLayout>

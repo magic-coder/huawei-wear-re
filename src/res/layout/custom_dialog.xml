@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/popup_full_bright_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/custom_dialog_min_width"
+    <LinearLayout android:orientation="vertical" android:id="@id/topPanel" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/custom_dialog_title_text_size_bone" android:textColor="@color/common_ui_button_normal_text" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_title" android:paddingTop="@dimen/custom_dialog_title_padding_top" android:paddingBottom="@dimen/custom_dialog_title_padding_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/title_divider" android:background="@color/holo_blue_light" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d00e0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/dialog_content" android:padding="0dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_margin="0dp" android:layout_weight="1.0">
+        <ProgressBar android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dialog_progressbar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/custom_dialog_progress_layout_margin_left" android:indeterminate="true" />
+        <TextView android:textSize="@dimen/custom_dialog_message_text_size" android:textColor="@color/common_ui_button_normal_text" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dialog_message" android:paddingLeft="@dimen/custom_dialog_message_margin_left_right" android:paddingTop="@dimen/custom_dialog_message_margin_top" android:paddingRight="@dimen/custom_dialog_message_margin_left_right" android:paddingBottom="@dimen/custom_dialog_message_margin_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:lineSpacingExtra="6dp" />
+    </LinearLayout>
+    <ImageView android:id="@id/content_divider" android:background="0x106000c" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/positive_btn" android:layout_marginBottom="@dimen/custom_btn_bar_layout_margin_bottom" android:text="0x104000a" style="@style/CustomDialog_button_bone" />
+        <ImageView android:id="@id/btn_divider" android:background="0x106000c" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <Button android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/negative_btn" android:layout_marginBottom="@dimen/custom_btn_bar_layout_margin_bottom" android:text="0x1040000" style="@style/CustomDialog_button_bone" />
+    </LinearLayout>
+</LinearLayout>

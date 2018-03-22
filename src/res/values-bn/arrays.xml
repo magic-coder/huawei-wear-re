@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>ফটো তুলুন</item>
+        <item>অ্যালবাম থেকে</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>ভালো করে ঘুমানোর জন্য পরিবেশ স্বাচ্ছন্দ্যময় করে তুলুন</item>
+        <item>ঘুমানোর ভালো করে অভ্যাস শারীরিক সুস্থতা ধরে রাখবে</item>
+        <item>শুতে যাওয়ার আগে দুশ্চিন্তা দূরে ঠেলে রাখুন</item>
+        <item>ঘুমাতে যাওয়ার সময়ে সবচিন্তা সরিয়ে রাখুন</item>
+        <item>ভালো করে ঘুমালে কাজেও গতি আসবে</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>আগামীকালের চিন্তা আগামীকালের জন্য ছেড়ে দিন</item>
+        <item>শুতে যাওয়ার সময়ে বেশি মাত্রায় কিছু খাবেন না</item>
+        <item>আপনার শ্বাসপ্রশ্বাসে মনোযোগ দিন, তাতে সহজে ঘুম আসে</item>
+        <item>শুতে যাওয়ার আগে কঠোর শরীরচর্চা করবেন না</item>
+        <item>ঘুমের আবহ বানাতে হালকা গান লাগান</item>
+        <item>ভালো করে ঘুমাতে নিয়মিত শরীরচর্চা করুন</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>ভালো করে ঘুমালে আপনার মেজাজ ভালো থাকবে</item>
+        <item>প্রতিদিনকেই ফুরফুরে শরীর এবং মন নিয়ে স্বাগত জানান</item>
+        <item>প্রতিদিন একই সময়ে ঘুমাতে গেলে মানসিক শান্তি পাবেন</item>
+        <item>নিজেকে তরতাজা রাখতে ভালো করে ঘুমান</item>
+    </array>
+</resources>

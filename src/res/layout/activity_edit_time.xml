@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="0x106000b" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:id="@id/menu_edit_title" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_power_custom_time_settings" setting:titleSize="@dimen/title_text_size" setting:backBackground="@drawable/back_btn_fork" setting:menuBackground="@drawable/save_btn" setting:backMethod="onBackClick" setting:menuMethod="onSaveClick" setting:backLeftSpace="@dimen/back_btn_left_space" setting:menuRightSpace="@dimen/menu_btn_right_space" setting:btnpading="@dimen/title_btn_pading" />
+    <com.huawei.pluginkidwatch.common.ui.view.WaitingLineView setting:id="@id/menu_add_location_wait_line" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x301" />
+    <TextView setting:textSize="13dp" setting:textColor="@color/kw_color_black_65alpha" setting:background="#f2f2f2" setting:paddingLeft="18dp" setting:paddingTop="12dp" setting:paddingRight="18dp" setting:paddingBottom="12dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_menu_location_starttime" />
+    <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0xa001"
+        <LinearLayout setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <com.huawei.pluginkidwatch.common.ui.wheelview.WheelView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/menu_location_time_pick_star_start" setting:layout_width="UNKNOWN_DATA_0x5001" setting:layout_height="wrap_content" />
+            <com.huawei.pluginkidwatch.common.ui.wheelview.WheelView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/menu_location_time_pick_star_end" setting:layout_width="UNKNOWN_DATA_0x5001" setting:layout_height="wrap_content" setting:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView setting:textSize="13dp" setting:textColor="@color/kw_color_black_65alpha" setting:background="#f2f2f2" setting:paddingLeft="18dp" setting:paddingTop="12dp" setting:paddingRight="18dp" setting:paddingBottom="12dp" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_menu_location_endtime" />
+    <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0xa001"
+        <LinearLayout setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+            <com.huawei.pluginkidwatch.common.ui.wheelview.WheelView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/menu_location_time_pick_end_start" setting:layout_width="UNKNOWN_DATA_0x5001" setting:layout_height="wrap_content" />
+            <com.huawei.pluginkidwatch.common.ui.wheelview.WheelView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/menu_location_time_pick_end_end" setting:layout_width="UNKNOWN_DATA_0x5001" setting:layout_height="wrap_content" setting:layout_marginLeft="10dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <View setting:background="0x1060000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x40000031" />
+    <RelativeLayout setting:id="@id/menu_location_info_lable" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <ImageView setting:id="@id/menu_edit_img" setting:background="@drawable/settings_list_direction" setting:layout_width="UNKNOWN_DATA_0x2001" setting:layout_height="UNKNOWN_DATA_0x2001" setting:layout_marginRight="8dp" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" />
+        <TextView setting:textSize="16dp" setting:textColor="@color/kw_color_black_85alpha" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:paddingTop="14dp" setting:paddingBottom="14dp" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="18dp" setting:text="@string/IDS_plugin_kidwatch_menu_label" setting:layout_centerVertical="true" />
+        <TextView setting:textSize="13dp" setting:textColor="@color/kw_color_black_65alpha" setting:id="@id/menu_Tv_location_custom_place11" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="8dp" setting:layout_toLeftOf="@id/menu_edit_img" setting:layout_centerVertical="true" />
+        /&gt;
+    </RelativeLayout>
+    <View setting:background="0x1060000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x40000031" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/startup_title_text_size" android:textColor="@color/startup_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0993" android:text="@string/af500_search_title" />
+    <TextView android:textSize="@dimen/startup_title_text_size" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingTop="@dimen/startup_tv_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/af500_search_notice" />
+    <RelativeLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="20dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/af500_search_img" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/af500_search_center" android:layout_centerInParent="true" />
+        <ProgressBar android:layout_width="match_parent" android:layout_height="match_parent" android:indeterminate="true" android:indeterminateDrawable="@drawable/af500_search_progressbar" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="0.7">
+        <TextView android:textSize="@dimen/startup_explain_text_size" android:textColor="@color/startup_explain_color" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:padding="@dimen/startup_explain_tv_padding" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/connect_new_explain" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+    <LinearLayout style="@style/startup_guidance_btn_layout">
+        <Button android:id="@id/btn_cancel_search" android:background="@drawable/btn_default_emui3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel_search" />
+    </LinearLayout>
+</LinearLayout>

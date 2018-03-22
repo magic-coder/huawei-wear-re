@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fotografiere</item>
+        <item>Din album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Creați un mediu confortabil pentru un somn mai bun</item>
+        <item>Obișnuința somnului bun contribuie la starea generală de sănătate</item>
+        <item>Uitați grijile înainte de culcare</item>
+        <item>Eliberați-vă de orice gânduri înainte de culcare</item>
+        <item>Somnul bun îmbunătățește performanța la locul de muncă</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Lăsați grijile de mâine pentru mâine</item>
+        <item>Nu mâncați și nu beți prea mult înainte de culcare</item>
+        <item>Concentrați-vă asupra respirației, vă poate ajuta să adormiți</item>
+        <item>Nu faceți exerciții intense înainte de culcare</item>
+        <item>Ascultați muzică relaxantă pentru a vă induce somnul</item>
+        <item>Faceți regulat exerciții pentru a vă îmbunătăți calitatea somnului</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Somnul bun vă poate îmbunătăți starea de spirit</item>
+        <item>Începeți fiecare nouă zi cu un corp și o minte proaspete</item>
+        <item>Ora de culcare regulată vă aduce liniște</item>
+        <item>Dormiți bine pentru a face față provocărilor de mâine</item>
+    </array>
+</resources>

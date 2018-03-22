@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="210000387" android:versionName="21.0.0.387" package="com.huawei.bone" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="19" android:targetSdkVersion="23" />
+    <permission android:name="com.huawei.bone.permission.LOCAL_BROADCAST" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.huawei.bone.permission.LOCAL_BROADCAST" />
+    <permission android:name="com.huawei.bone.permission.ACCESS_DEVICE_CONNECTION_STATE" android:protectionLevel="UNKNOWN_DATA_0x0" />
+    <uses-permission android:name="com.huawei.permission.INTELLIGENT_NOTIFICATION_MSG_BRACELET" />
+    <permission android:name="com.af500.permission.MYBRODCAST" android:protectionLevel="signature|signatureOrSystem" />
+    <permission android:name="com.huawei.bone.notifypermission.read" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="com.af500.permission.MYBRODCAST" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.huawei.crowdtestsdk.permission.USE_HW_LOG_UPLOAD_SERVICE" />
+    <uses-permission android:name="com.huawei.crowdtestsdk.permission.CTSDKGLOBAL" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.REORDER_TASKS" />
+    <uses-permission android:name="android.permission.USES_LOG_UPLOAD_SERVICE" />
+    <uses-permission android:name="com.huawei.hwid.permission.ACCESS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.huawei.hwid.permission.CONTENT_PROVIDER" />
+    <uses-permission android:name="com.huawei.hwid.ACTION_MAIN_SETTING_ACCESS" />
+    <uses-permission android:name="org.simalliance.openmobileapi.SMARTCARD" />
+    <uses-permission android:name="com.nxp.nfceeapi.SMARTCARD" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+    <uses-permission android:name="com.huawei.authentication.HW_ACCESS_AUTH_SERVICE" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.NFC" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="true" />
+    <uses-permission android:name="com.huawei.nfc.permission.SWITH_CE_SWITCH_ACTION" />
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS" />
+    <provider android:name="com.android.huawei.pay.install.OtaFileProvider" android:exported="false" android:authorities="com.huawei.bone.hwpay.sdk.provider" android:grantUriPermissions="true">
+        <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/pay_provider_paths" />
+    </provider>
+    <receiver android:name="com.huawei.pluginaf500.receiver.PhoneCommandReceiver" android:permission="com.af500.permission.MYBRODCAST" android:exported="false" android:process=":PhoneService">
+        <intent-filter>
+            <action android:name="com.fenda.hwbracelet.PHONE_CALL_MUTE" />
+            <action android:name="com.fenda.hwbracelet.PHONE_CALL_REJECT" />
+        </intent-filter>
+    </receiver>
+    <uses-permission android:name="com.huawei.crowdtestsdk.permission.ACCESS" />
+    <permission android:name="com.huawei.crowdtestsdk.permission.ACCESS" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <permission android:name="com.huawei.crowdtestsdk.permission.CTSDKGLOBAL" android:protectionLevel="dangerous|signature|signatureOrSystem" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <permission android:name="android.permission.BLUETOOTH" android:protectionLevel="signature|signatureOrSystem" />
+    <permission android:name="android.permission.CALL_PHONE" android:protectionLevel="signature|signatureOrSystem" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <application android:theme="@r$style/WearTheme" android:label="@string/IDS_app_name" android:icon="@mipmap/app_icon" android:name="com.huawei.bone.application.WearApplication" android:screenOrientation="portrait" android:allowBackup="false" android:supportsRtl="true">
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="5952764ef7b4fefda6c52fb5268314a7" />
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyAZjz4GoTG_q6J3I4hkQ2w6O606aXbq4FI" />
+        <meta-data android:name="health-signature" android:value="Z+aDF9/rGF58R5pm6YlpuATNBPtYVj2YGc2XkGciq/Dlx9pXgors3y/tHlRJQ4BzYxiybIyuxZfFfP255QR148CPySN3OHdCadmSpOta3ojkPLy8x4igWFsvau7u9vBKZtk0spgGRK5HwUYzgo02Blm4GSvf+0Y6G0cxkEf7pN3u4bBv8GP3rjAlXXjxPQy1pdEyeNv5RCHd3hS37J3Js8ET2qSXOt+oYskPf2PvBzQYHdCxnj6JGtLmr7e3NaIP3+0xJR5oK52aODOwVdJNbAqVUU8Fn2e/EB1MaswKpTht3m438ONzP+kXZ2BclLo082My0r4kesZLbScGsteDYw==" />
+        <meta-data android:name="android.max_aspect" android:value="2.17" />
+        <meta-data android:name="com.huawei.hms.client.appid" android:value="10131836" />
+        <provider android:name="com.huawei.hms.update.provider.UpdateProvider" android:exported="false" android:authorities="com.huawei.bone.hms.update.provider" android:grantUriPermissions="true" />
+        <activity android:theme="@r$style/splash_background" android:name="com.huawei.bone.root.SplashActivity" android:launchMode="singleTop" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="com.huawei.bone.ACTION_ADD_DEVICE" />
+                <action android:name="com.huawei.bone.ADD_MULTI_SIM_DEVICE" />
+                <action android:name="com.google.android.wearable.action.CONFIGURE_CELLULAR" />
+                <action android:name="com.google.android.wearable.action.CONFIGURE_PAYMENTS" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.account.activity.ThirdPartyLoginActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.account.activity.SinaweiboLoginActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.bone.root.MainActivity" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/app_update_dialogActivity" android:name="com.huawei.bone.root.STTimeoutActivity" android:exported="false" />
+        <service android:name="com.huawei.bone.application.LeakUploadService" android:enabled="false" android:exported="false" />
+        <service android:name="com.huawei.bone.ui.setting.NotificationPushListener" android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.notification.NotificationListenerService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.multisimservice.MultiSimService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.multisimservice.MultiSimService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.hwcommonservice.HWWearCommonService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.service.hwcommonservice.HWWearCommonService" />
+            </intent-filter>
+        </service>
+        <receiver android:name="com.huawei.bone.service.PromptReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.intelligent.action.NOTIFY_MSG" />
+                <action android:name="com.huawei.midware_prompt_flag" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.bone.service.NotificationReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.notification.rebindService" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwdevicedfxmanager.receiver.DeviceDFXReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.bone.action.GET_BETA_INFO" />
+                <action android:name="com.huawei.bone.action.GET_BETA_LOG" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwservicesmgr.receiver.BackgroundReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.iconnect.ACTION_RECONNECT_MSG" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwservicesmgr.receiver.ScreenReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <state android:name="android.intent.action.USER_PRESENT@ImplicitBroadcastExpand" android:value="MinTime#Hour=168" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwfitnessmgr.receiver.SyncFitnessDetailDataBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.hihealth.action_receive_push_remote" />
+                <action android:name="com.huawei.hihealth.action_receive_push_restart" />
+                <action android:name="com.huawei.bone.action.ACTION_HEALTH_MANUAL_DROP_DO_REFRESH" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwfitnessmgr.receiver.SyncFitnessPrivateBroadcastReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.action.force_stop" />
+                <action android:name="com.huawei.hihealth.action_receive_push_relogin" />
+                <action android:name="com.huawei.bone.core_sleep_sync" />
+                <action android:name="com.huawei.bone.action.open_gps" />
+                <action android:name="com.huawei.bone.stress_and_relax_sync" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.core_sleep.CoreSleepSelectorActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.adddevice.AddDeviceActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.adddevice.AddDeviceChildActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.device.DeviceManagerListActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.downloadhihealth.activity.HealthStartActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.alarm.AlarmActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/app_update_dialogActivity" android:name="com.huawei.ui.main.stories.about.activity.update.AppUpdateDialogActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/app_update_dialogActivity" android:name="com.huawei.ui.device.activity.update.BandUpdateDialogActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/app_update_dialogActivity" android:name="com.huawei.ui.main.stories.nps.activity.NPSDialogActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.update.DeviceOtaActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.donotdisturb.NoDisturbSettingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.eventalarm.EventAlarmClockActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.leftrighthand.LeftRightHandSettingsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.goldmember.HuaweiMemberActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.goldmember.VIPMemberActivationActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.goldmember.VIPUserInfoActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.goldmember.VIPUserRightsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.notification.NotificationSettingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.pairing.DevicePairGuideActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.selectcontact.ContactDeleteActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.update.UpdateVersionActivity" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.ephemeris.UpdateEphemerisActivity" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.selectcontact.ContactMainActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.selectcontact.ContactOrderbyActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/AppDialogTheme" android:name="com.huawei.ui.device.activity.selectcontact.ContactSelectNumberDialog" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.smartalarm.SmartAlarmClockActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.weatherreport.WeatherReportActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.about.activity.cloudservice.HuaweiCloudServiceActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.about.activity.legalinformation.LegalInformationActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.about.activity.legalinformation.PrivacyNoticeActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.about.activity.legalinformation.PrivacyPolicyActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.about.activity.AboutActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.guide.activity.BasicInfoSettingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.downloadhihealth.activity.UpDateHiHealthActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.bone.wxapi.WXEntryActivity" android:exported="true" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.bone.root.ProtocolAndClauseActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.bone.root.ServiceAreaActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.bone.root.ServiceCountryActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.guide.activity.UserImprovePlanActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.onelevelmenu.OneLevelMenuManagerActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.onelevelmenu.OneLevelMenuAddActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.commonui.webview.LegalInfoWebViewActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.guide.activity.UserExperienceImprovementActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.settings.activity.ClearUpStorageActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.settings.activity.PersonalDataSettingsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.settings.activity.PersonalPrivacySettingsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.nps.activity.QuestionMainActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateUnchanged|stateHidden|stateAlwaysHidden|stateAlwaysVisible|adjustPan|adjustNothing" />
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.tencent.connect.common.AssistActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|screenSize" />
+        <activity android:name="com.tencent.tauth.AuthActivity" android:exported="false" android:launchMode="singleTask" android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="tencent1101329243" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.commonui.webview.WebViewActivity" android:exported="false" android:screenOrientation="portrait" />
+        <service android:label="Push Notifications Service" android:name="com.huawei.hwservicesmgr.PhoneService" android:permission="com.huawei.bone.permission.ACCESS_DEVICE_CONNECTION_STATE" android:exported="true" android:process=":PhoneService">
+            <intent-filter>
+                <action android:name="com.huawei.bone.action.StartPhoneService" />
+                <action android:name="com.huawei.iconnect.ACTION_RECONNECT_MSG" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.hwversionmgr.utils.service.UpdateService" android:exported="false" />
+        <activity android:theme="@style/app_update_dialogActivity" android:name="com.huawei.hwbtsdk.ui.BTDialogActivity" android:exported="false" android:process=":PhoneService" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.hwbtsdk.ui.BTDeviceScanListActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" />
+        <activity android:name="com.huawei.ui.main.stories.messagecenter.activity.DispatchSkipEventActivity" android:exported="false" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.messagecenter.activity.MessageCenterActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.main.stories.about.activity.developoption.DevelopOptionActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@r$style/WearTheme" android:name="com.huawei.ui.device.activity.heartrate.HeartRateSettingsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:name="com.huawei.openalliance.ad.inter.AdActivity" android:exported="false">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        </activity>
+        <receiver android:name="com.huawei.pluginaf500.receiver.PhoneCommandReceiver" android:permission="com.af500.permission.MYBRODCAST" android:exported="false" android:process=":PhoneService">
+            <intent-filter>
+                <action android:name="com.fenda.hwbracelet.PHONE_CALL_MUTE" />
+                <action android:name="com.fenda.hwbracelet.PHONE_CALL_REJECT" />
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="MEMBERSDK_CHANNEL" android:value="100014" />
+        <receiver android:name="com.huawei.hwcloudmodel.mgr.HwWearPushReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.RECEIVE" />
+                <action android:name="com.huawei.android.push.plugin.RESPONSE" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.android.pushagent.PushEventReceiver" android:exported="true" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL" />
+                <action android:name="com.huawei.intent.action.PUSH" />
+                <action android:name="com.huawei.intent.action.PUSH_ON" />
+                <action android:name="com.huawei.android.push.PLUGIN" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.android.pushagent.PushBootReceiver" android:exported="true" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTER" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <state android:name="android.net.conn.CONNECTIVITY_CHANGE@ImplicitBroadcastExpand" android:value="AppStatus=RUN" />
+            </intent-filter>
+            <meta-data android:name="CS_cloud_version" android:value="@string/cloudpush_version_value" />
+        </receiver>
+        <service android:name="com.huawei.android.pushagent.PushService" android:exported="false" android:process=":pushservice" />
+        <provider android:label="DataAccessProvider" android:name="com.huawei.hwdataaccessmodel.db.contentprovider.HWContentProvider" android:exported="false" android:authorities="com.huawei.bone.data.access.provider" android:grantUriPermissions="false" />
+        <provider android:label="DataAccessProvider" android:name="com.huawei.hwmessagenotifymgr.notifymanager.HwNotificationContentProvider" android:permission="com.huawei.bone.notifypermission" android:readPermission="com.huawei.bone.notifypermission.read" android:writePermission="com.huawei.bone.notifypermission.write" android:exported="true" android:authorities="com.huawei.HwNotificationContentProvider" />
+        <provider android:label="BackupProvider" android:name="com.huawei.hwdataaccessmodel.db.backup.HWBackupProvider" android:exported="false" android:authorities="com.huawei.bone.data.backup.provider" android:grantUriPermissions="false" />
+        <provider android:name="com.huawei.hwdatamigrate.common.HwWearContentProvider" android:exported="false" android:authorities="com.huawei.HwWearContentProvider" />
+        <provider android:name="com.huawei.hwid.update.provider.UpdateProvider" android:exported="false" android:authorities="com.huawei.bone.hwid.update.provider" android:grantUriPermissions="true" />
+        <receiver android:name="com.huawei.ui.homewear21.receiver.AccountLoginReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.plugin.account.login" />
+                <action android:name="com.huawei.plugin.account.logout" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.account.aidl.AccountAidlService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.bone.remote.accountaidlservice" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.bone.service.MigrateIntentService" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.service.MigrateIntentService" />
+                <action android:name="com.huawei.bone.service.check_data_to_migrate" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.bone.service.MessageCenterIntentService" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false" />
+        <service android:name="com.huawei.hwdatamigrate.hihealth.sync.HiSyncService" android:exported="false" />
+        <receiver android:name="com.huawei.hwfitnessmgr.receiver.SendDataToDeviceBroadcastReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.ACTION_RECEIVE_SEND_HEART_CONFIG" />
+                <action android:name="com.huawei.bone.ACTION_RECEIVE_SEND_SPORT_GOAL" />
+                <action android:name="com.huawei.bone.ACTION_RECEIVE_SEND_HEIGHT_WEIGHT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwdevicedfxmanager.receiver.DeviceTriggerDFXReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.dfx.device_trigger_log" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.ui.homewear21.receiver.UpgradeMessageReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.dbhelper.database.upgrade" />
+                <action android:name="com.huawei.delete.device.clearmessage" />
+                <action android:name="com.huawei.bone.action.UPDATE_DEVICE" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.ui.homewear21.receiver.UpgradeDBWorkerService" android:enabled="true" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.upgrade.start.Upgrade.Service" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.ui.homewear21.receiver.UpdateDeviceService" android:exported="false" />
+        <service android:name="com.huawei.feedback.component.ProgressService" android:exported="false" />
+        <service android:name="com.huawei.logupload.ExternalOperService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.logupload.ExternalOperService" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.logupload.LogUploadService" android:exported="false" android:process=":loguploadservice" />
+        <service android:name="com.huawei.feedback.component.AutoUploadService" android:exported="false" android:process=":autologuploadservice" />
+        <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui" />
+        <meta-data android:name="oplog_encrypt" android:value="1" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.api.common.apkimpl.DummyActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="locale|orientation|screenLayout|screenSize|smallestScreenSize|layoutDirection|fontScale">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hwid.activity.BridgeActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="locale|orientation|screenSize|layoutDirection|fontScale" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <receiver android:name="com.huawei.login.receiver.LoginStatusReceiver">
+            <intent-filter>
+                <action android:name="com.huawei.hwid.ACTION_REMOVE_ACCOUNT" />
+                <action android:name="com.huawei.RECEIVE_A_LOGOUT" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.login.receiver.UserInfoReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.health.GET_USER_INFO" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.hms.activity.BridgeActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="locale|orientation|screenSize|layoutDirection|fontScale" android:hardwareAccelerated="true">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.CardInstructionActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" android:hardwareAccelerated="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.BindCardActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="locale|keyboard|keyboardHidden|orientation|screenSize|layoutDirection" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.ActiveCardActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.BindCardSuccessActvity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.nfc.carrera.ui.carddetail.CardDetailCashLimitActivity" android:exported="false" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.bone.wxapi.WXPayEntryActivity" android:exported="true" android:launchMode="singleTop" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.identifycard.TagReadCardNumActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:label="Card details" android:name="com.huawei.nfc.carrera.ui.carddetail.CardDetailActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" android:hardwareAccelerated="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.webview.NormalWebViewActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.carddetail.CardInfoDetailActivity" android:exported="false" android:configChanges="keyboardHidden|orientation|layoutDirection" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.nullifycard.NullifyCardActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.nullifycard.NullifyVerifyPasswordActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <provider android:name="com.huawei.nfc.carrera.storage.db.NFCContentProvider" android:exported="false" android:authorities="com.huawei.bone" />
+        <receiver android:name="com.huawei.nfc.carrera.lifecycle.receiver.FieldOnDetectedReceiver" android:exported="false" />
+        <receiver android:name="com.huawei.nfc.carrera.logic.swipe.receiver.NfcPayStateChangeReceiver" android:exported="false" />
+        <receiver android:name="com.huawei.nfc.carrera.lifecycle.push.NFCPushReceiver" android:permission="com.huawei.bone.permission.PUSH" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.wallet.push.action.PUSH_MSG" />
+                <action android:name="com.huawei.wallet.push.action.PUSH_TOKEN" />
+            </intent-filter>
+        </receiver>
+        <activity android:theme="@style/cp3_Theme_Emui.Translucent.NoTitle" android:name="com.huawei.wallet.ui.idencard.nfc.NfcReadCardResultActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="behind">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent.NoTitleBar" />
+        </activity>
+        <activity android:theme="@style/cp3_Theme_Emui.Translucent.NoTitle" android:name="com.huawei.nfc.carrera.ui.bindcard.DownLoadDialogActivity" android:exported="false" />
+        <service android:name="com.huawei.nfc.carrera.lifecycle.lostservice.CardLostManagerService" android:exported="false" />
+        <service android:name="com.huawei.nfc.carrera.lifecycle.swipeservice.TransactionChannelService" android:exported="false" />
+        <service android:name="com.huawei.nfc.carrera.lifecycle.aidlservice.CUPAidlService" android:permission="com.vendor.permission.TSM" android:exported="true" android:process=":remote">
+            <intent-filter>
+                <action android:name="com.unionpay.tsm.VENDOR_SERVICE" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.nfc.carrera.lifecycle.cupoperate.CUPOperateService" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.wallet.nfc.CARD_OPERATE_SERVICE" />
+                <action android:name="com.huawei.wallet.nfc.PERSONAL_RESULT_HANDLE_SERVICE" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.opencard.BindBusCardSwitchActivity" android:exported="false" android:launchMode="singleTask" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.opencard.BindBusCardAddActivity" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.opencard.BindBusCardBeiJingActivity" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.detail.BuscardDetailActivity" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.detail.BuscardRechargeAcitvity" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.detail.BusCardTradeDetailActivity" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.cardlist.AddBankOrBusCardActivity" android:exported="false" android:launchMode="singleTask" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.webview.PolicyActivity" android:exported="false" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.SettingSecurityInfoActivity" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bus.exception.ShowBindBusResultActivity" android:exported="false" />
+        <service android:name="com.huawei.nfc.openapi.HwNFCOpenService" android:permission="com.huawei.nfc.permission.ACCESS_OPEN_API" android:exported="true" android:process=":nfcservice">
+            <intent-filter>
+                <action android:name="com.huawei.nfc.action.OPEN_API" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.nfc.NFCEntranceActivity" android:exported="false" android:excludeFromRecents="true" android:configChanges="locale|orientation|screenSize">
+            <meta-data android:name="hwc-theme" android:value="androidhwext:style/Theme.Emui.Translucent" />
+        </activity>
+        <service android:label="Pay Service" android:name="com.unionpay.blepayservice.PayService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.unionpay.blepayservice.UPBLEPayService" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.wallet.ui.cardholder.CardHolderActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="behind" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.CardLockScreenActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.wallet.ui.idencard.camera.base.BaseCaptureResultActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.wallet.ui.idencard.camera.bankcard.BankCardCaptureActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.wallet.ui.idencard.camera.base.BaseCaptureActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.bindcard.InputCardNumActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pay.ui.PermissionsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.wallet.ui.idencard.camera.bankcard.BankCardCaptureResultActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.nfc.carrera.ui.identifycard.CardReaderBaseActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/OperationAppTheme" android:name="com.huawei.operation.activity.WebViewActivity" android:exported="false" android:screenOrientation="portrait" android:hardwareAccelerated="true" />
+        <receiver android:name="com.huawei.hwdevicefontmgr.ConnectedStatusBR" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.bone.action.CONNECTION_STATE_CHANGED" />
+                <action android:name="com.huawei.bone.action.health_refresh_imperial_unit" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.hwdevicefontmgr.LanguageChangedBR" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.LOCALE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.hwbtsdk.btmanager.btdeviceservice.BTDeviceAWHostService" android:exported="true" android:process=":PhoneService">
+            <intent-filter>
+                <action android:name="com.google.android.gms.wearable.DATA_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.MESSAGE_RECEIVED" />
+                <action android:name="com.google.android.gms.wearable.CAPABILITY_CHANGED" />
+                <action android:name="com.google.android.gms.wearable.CHANNEL_EVENT" />
+                <data android:scheme="wear" android:host="*" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent.NoTitleBar" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+        <activity android:theme="@style/HwTheme" android:label="AF500Guide" android:name="com.huawei.pluginaf500.ui.AF500IntroduceActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" />
+        <activity android:theme="@style/HwTheme" android:label="AF500Guide" android:name="com.huawei.pluginaf500.ui.AF500GuideActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.SettingActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.HelpActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.ResetBraceletActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/dialog" android:name="com.huawei.pluginaf500.ui.FindPhoneActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing">
+            <intent-filter>
+                <action android:name="com.fenda.hwbracelet.intent.start.findphone" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.FindPhoneGuideActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.SleepRemindActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.SportRemindActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.IncomingRemindActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.RemoteTakePictureActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="orientation|screenSize" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.AntiLostRemindActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.AlarmAddActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.AlarmEditActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.AlarmEditListActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:theme="@style/HwTheme" android:name="com.huawei.pluginaf500.ui.AlarmRemindActivity" android:exported="false" android:process=":PhoneService" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation|screenSize" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.launch.TermsAndConditionsActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.launch.AgreementActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.home.HomeActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.feedback.FeedbackDescriptionActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.feedback.ProjectActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.history.HistoryActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.history.ModifyIssueActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.feedback.widgets.fileChooser.FileChooserActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.feedback.widgets.photoSelector.PhotoFolderActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.crowdtestsdk.feedback.widgets.photoSelector.PhotoShowActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustResize|adjustNothing" />
+        <receiver android:name="com.huawei.uploadlog.UploadReceiver" android:permission="com.huawei.crowdtestsdk.permission.CTSDKGLOBAL" android:exported="false" android:process=":ctsdklogupload">
+            <intent-filter>
+                <action android:name="com.huawei.crowdtestsdk.UPLOAD_CHECK" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.crowdtestsdk.receiver.LogSendProgressReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.crowdtestsdk.UPLOAD_PROGRESS" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.crowdtestsdk.receiver.LogSendResultReceiver" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.crowdtestsdk.UPLOAD_RESULT" />
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.huawei.crowdtestsdk.db.FeedBackContentProvider" android:authorities="com.huawei.crowdtestsdk">
+            <grant-uri-permission android:pathPattern=".*" />
+        </provider>
+        <service android:name="com.huawei.uploadlog.LogUploadReceive" android:exported="false" android:process=":ctsdklogupload" />
+        <service android:name="com.huawei.uploadlog.LogUploadService" android:exported="false" android:process=":ctsdklogupload">
+            <intent-filter>
+                <action android:name="com.huawei.crowdtestsdk.RESUME_UPLOAD" />
+                <action android:name="com.huawei.crowdtestsdk.UPLOAD_REQUEST" />
+            </intent-filter>
+        </service>
+        <service android:name="com.huawei.crowdtestsdk.service.RemoteFeedbackService" android:exported="false" />
+        <service android:name="com.huawei.uploadlog.ExternalOperService" android:permission="android.permission.USES_LOG_UPLOAD_SERVICE">
+            <intent-filter>
+                <action android:name="com.huawei.uploadlog.ExternalOperService" />
+            </intent-filter>
+        </service>
+        <service android:label="EventLogUploadService" android:name="com.huawei.hwappdfxmgr.upload.EventLogUploadService" android:exported="false" />
+        <activity android:theme="@style/feedback_NoTitle" android:label="@string/feedback_other_app" android:name="com.huawei.feedback.ui.FeedbackEditActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:label="@string/feedbackRecord_title" android:name="com.huawei.feedback.ui.FeedbackRecordActivity" android:exported="false" android:configChanges="orientation|screenSize" android:uiOptions="splitActionBarWhenNarrow" />
+        <activity android:label="@string/feedbackDetail_title" android:name="com.huawei.feedback.ui.FeedbackDetailActivity" android:exported="false" android:configChanges="orientation|screenSize" android:windowSoftInputMode="adjustResize|adjustNothing" />
+        <activity android:name="com.huawei.feedback.ui.FeedbackPicShowActivity" android:exported="false" android:configChanges="orientation|screenSize" />
+        <service android:name="com.huawei.common.applog.AppLogPackLogService" android:exported="true">
+            <intent-filter>
+                <action android:name="com.huawei.bone.applog.AppLogPackLogService" />
+            </intent-filter>
+        </service>
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.common.applog.SdCardPermissionActvity" android:exported="false" android:taskAffinity="com.sdcardpermission.task" android:excludeFromRecents="true" android:launchMode="singleInstance" android:configChanges="orientation|screenSize" />
+        <activity android:name="com.huawei.multisimsdk.multidevicemanager.ui.SignWebActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.huawei.multisimsdk.multidevicemanager.SHOW_SIGN_WEB" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <service android:name="com.cmcc.sso.service.SsoService" android:process=":CMCCSsoService" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.qrcode.QrCodeActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimActivationActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.WirelessManagerAcitivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.ConformActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimProfileAcitvity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimConformBTFailActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimProfileBTFailActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimProfileSuccessActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimProflieAuthenticationFail" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.ScanFailActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.esim.view.EsimConformInvailActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.multisim.MultiSimAuth" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.sim.multisim.MultiSimConfigActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.AppHelpActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.qrcode.QrCodeActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.ProjectModeActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.SelectPictrueActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.ImportContactActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.PoiListActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.AddFenceActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.ElectronicFenceActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.AlarmActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.PeroidActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.AddAlarmActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.AddPeroidActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.NotificationHistoryActivity" android:exported="false" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.huawei.pluginkidwatch.plugin.menu.activity.NotificationHistoryActivity" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.ContactsListActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.AddContactActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.TailorContactActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.ContactInfoActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.SosContactSortActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.EditPhoneNumActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.EditRelationSettingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.SettingLocationActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.CustomLocationActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.GeneralSettingsActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.menu.activity.EditCustomTimeActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.InviteManagerActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.SetPhoneNumActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.RelationSettingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.BindbyQrActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.IntroduceQrActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.InviteGuideActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.ProfileSettingActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.SetKidWatchNumActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.feature.track.activity.TrackActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.feature.newsport.NewSportActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.RewardActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.SetRewardGoalActivity" android:exported="false" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.feature.antiloss.AntilossActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppWatchTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.KidWatchProtocolAndClauseActivity" android:exported="false" android:screenOrientation="portrait" />
+        <activity android:name="com.huawei.pluginkidwatch.common.ui.simplecropimage.CropImage" android:exported="false" />
+        <activity android:theme="@*android:style/Theme.Translucent" android:name="com.huawei.pluginkidwatch.plugin.feature.antiloss.AntilossPopupDialogActivity" android:exported="false" android:excludeFromRecents="true" android:screenOrientation="portrait" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.home.HomeActivity" android:exported="false" android:launchMode="singleTask" android:screenOrientation="portrait" />
+        <service android:label="k1 push" android:name="com.huawei.pluginkidwatch.home.K1PushService" android:exported="false" android:process=":pushservice" />
+        <receiver android:name="com.huawei.pluginkidwatch.home.receiver.PushBtnReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="true" />
+        <receiver android:name="com.huawei.pluginkidwatch.plugin.feature.antiloss.AntilossAlarmReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="antiloss.popup.dialog.activity.destory.action" />
+                <action android:name="radar.antiloss.alarm" />
+                <action android:name="cancel.antiloss.alarm" />
+                <action android:name="antiloss.alarm.timeout" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.pluginkidwatch.home.receiver.LoopVoiceReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.pluginkidwatch.receiver.LoopVoiceReceiver" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.huawei.pluginkidwatch.home.receiver.StToAtSuccessReceiver" android:permission="com.huawei.bone.permission.LOCAL_BROADCAST" android:exported="false">
+            <intent-filter>
+                <action android:name="com.huawei.plugin.account.login.st.to.at" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.huawei.pluginkidwatch.plugin.feature.antiloss.service.KidWatchService" android:enabled="true" android:exported="false" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.chat.ChatActivity" android:exported="false" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|stateAlwaysHidden" />
+        <activity android:theme="@style/AppTheme" android:name="com.huawei.pluginkidwatch.plugin.setting.activity.CheckBillActivity" android:exported="false" android:launchMode="singleTop" android:screenOrientation="portrait" />
+        <service android:name="com.squareup.leakcanary.internal.HeapAnalyzerService" android:enabled="false" android:process=":leakcanary" />
+        <service android:name="com.squareup.leakcanary.DisplayLeakService" android:enabled="false" />
+        <activity android:theme="@style/leak_canary_LeakCanary.Base" android:label="@string/leak_canary_display_activity_label" android:icon="@drawable/leak_canary_icon" android:name="com.squareup.leakcanary.internal.DisplayLeakActivity" android:enabled="false" android:taskAffinity="com.squareup.leakcanary.com.huawei.bone">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:theme="@style/leak_canary_Theme.Transparent" android:label="@string/leak_canary_storage_permission_activity_label" android:icon="@drawable/leak_canary_icon" android:name="com.squareup.leakcanary.internal.RequestStoragePermissionActivity" android:enabled="false" android:taskAffinity="com.squareup.leakcanary.com.huawei.bone" />
+    </application>
+</manifest>

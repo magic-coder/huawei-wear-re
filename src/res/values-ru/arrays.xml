@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Сделать фото</item>
+        <item>Из альбома</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Создайте благоприятные условия для комфортного сна</item>
+        <item>Крепкий сон влияет на здоровье в целом</item>
+        <item>Оставьте переживания за дверьми спальни</item>
+        <item>Ни о чем не думайте и не беспокойтесь перед сном</item>
+        <item>Здоровый сон повышает производительность</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Отложите все переживания на завтра</item>
+        <item>Много не ешьте и не пейте перед сном</item>
+        <item>Уделите внимание дыханию! Правильное дыхание поможет быстрее заснуть.</item>
+        <item>Избегайте интенсивных нагрузок перед сном</item>
+        <item>Включите тихую музыку, чтобы быстрее заснуть</item>
+        <item>Регулярные занятия спортом положительно влияют на качество сна</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Крепкий сон — залог хорошего настроения</item>
+        <item>Встречайте новый день в хорошем настроении</item>
+        <item>Правильный режим сна — залог здоровья!</item>
+        <item>Хороший сон — залог успешного дня!</item>
+    </array>
+</resources>

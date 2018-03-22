@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_white" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/use_agreenment_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_hw_privacy" setting:custom_type="0" />
+    <RelativeLayout setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <LinearLayout setting:id="@id/bottom_btn_layout" setting:layout_alignParentBottom="true" style="@style/common_bottom_btn_style">
+            <Button setting:ellipsize="marquee" setting:id="@id/ok_btn" setting:text="@string/IDS_user_permission_know" setting:singleLine="true" style="@style/common_gray_bottom_btn_style" />
+        </LinearLayout>
+        <RelativeLayout setting:paddingLeft="8dp" setting:paddingRight="8dp" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_above="@id/bottom_btn_layout">
+            <FrameLayout setting:layout_width="match_parent" setting:layout_height="match_parent">
+                <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/layout_loading" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_centerInParent="true">
+                    <TextView setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/info_loading" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_getting_file" />
+                </LinearLayout>
+                <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/layout_retry" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_centerInParent="true">
+                    <TextView setting:id="@id/retry_text" style="@style/web_view_activity_error_text_style" />
+                    <Button setting:id="@id/retry" style="@style/web_view_activity_refresh_btn_style" />
+                </LinearLayout>
+                <WebView setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/webview" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_centerInParent="true" />
+            </FrameLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

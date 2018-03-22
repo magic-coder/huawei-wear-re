@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/home_fragment21_settings_size" android:textColor="@color/common_white_50alpha" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/home_fragment21_itme_padding_left_right" android:paddingRight="@dimen/home_fragment21_itme_padding_left_right" android:paddingBottom="4dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d05cc" android:text="@string/IDS_main_btn_state_settings" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:orientation="vertical" android:id="@id/linear_general_setting" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ListView android:id="@id/list_general_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/device_settings_item_selector" android:stackFromBottom="false" android:transcriptMode="alwaysScroll" android:divider="0x0" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/linear_device_setting" android:layout_width="match_parent" android:layout_height="match_parent">
+                <View android:background="@color/common_color_white" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:alpha="0.08" />
+                <ListView android:id="@id/list_device_setting" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/device_settings_item_selector" android:stackFromBottom="false" android:transcriptMode="alwaysScroll" android:divider="0x0" />
+            </LinearLayout>
+        </LinearLayout>
+        <include android:id="@id/fragment_social_ad" layout="@layout/common_top_banner" />
+    </LinearLayout>
+</LinearLayout>

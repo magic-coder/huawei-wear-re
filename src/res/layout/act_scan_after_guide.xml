@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/globuleLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/above_title" />
+    <TextView android:textSize="20dp" android:textColor="@color/black" android:id="@id/scan_note" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:text="@string/scanning" android:layout_centerHorizontal="true" />
+    <LinearLayout android:id="@id/btn_layout" android:layout_marginBottom="10dp" android:layout_alignParentBottom="true" style="@style/dialog_btn">
+        <RelativeLayout android:id="@id/bind_success_btn_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:id="@id/done_btn" android:layout_width="match_parent" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginLeft" android:text="@string/complete" android:onClick="viewOnClick" style="@style/common_btn" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rescan_btn_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <RelativeLayout android:id="@id/scan_cancel_btn_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <LinearLayout android:id="@id/bind_btn_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <Button android:id="@id/cancel_unbind_btn" android:layout_width="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="@string/cancel" android:onClick="viewOnClick" style="@style/common_btn" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+                <Button android:id="@id/unbind_btn" android:layout_width="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:text="替换新ColorBand" android:onClick="viewOnClick" style="@style/common_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/jump_btn_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="130dp" android:layout_above="@id/btn_layout">
+        <include android:id="@id/scan_view" android:visibility="visible" layout="@layout/scan_view" />
+        <include android:id="@id/scan_fail" android:visibility="gone" layout="@layout/scan_fail" />
+        <include android:id="@id/scan_success" android:visibility="gone" layout="@layout/scan_success" />
+        <include android:id="@id/scan_dev_list" android:visibility="gone" layout="@layout/scan_dev_list" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <stroke android:width="@dimen/sdk_crowdtest_cust_widget_stroke_width" android:color="@color/sdk_crowdtest_cust_widget_stroke_color" />
+    <solid android:color="@color/sdk_crowdtest_color_white" />
+    <corners android:radius="@dimen/sdk_crowdtest_cust_round_radius_size" />
+</shape>

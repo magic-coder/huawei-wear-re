@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/setting_finger_print_layout" android:background="@drawable/huaweipay_select_item_click_nfc" android:paddingLeft="18dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/comm_margin" android:layout_marginBottom="@dimen/comm_margin" android:paddingStart="18dp" android:paddingEnd="8dp">
+        <TextView android:textSize="14dp" android:textColor="@color/primarycolor" android:id="@id/setting_finger_print_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:text="@string/hwpay_finger_print_pwd" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_marginEnd="8dp" />
+        <Switch android:id="@id/setting_finger_print_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:textSize="11dp" android:textColor="@color/secondarycolor" android:ellipsize="end" android:id="@id/setting_no_pass_tip" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/wallet_finger_print_state_tips" android:layout_below="@id/setting_finger_print_layout" android:paddingStart="18dp" android:paddingEnd="18dp" />
+</RelativeLayout>

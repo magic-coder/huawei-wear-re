@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>sentimita</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>Piga Picha</item>
+        <item>Kutoka kwa albamu</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Tengeneza mazingira mazuri ya usingizi mwema.</item>
+        <item>Tabia za usingizi mwema huchangia katika afya njema</item>
+        <item>Usiwe na wasiwasi wowote unapoenda kulala</item>
+        <item>Hakikisha kwamba huwazii kuhusu jambo lolote kabla ya kwenda kulala</item>
+        <item>Usingizi mzuri husaidia katika kuboresha utendakazi wako.</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Kesho ina wenyewe</item>
+        <item>Epukana na kula sana au kunywa kabla ya kulala.</item>
+        <item>Zingatia katika kupumua kwako, husaidia katika harakati ya kupata usingizi.</item>
+        <item>Epukana na mazoezi yenye mhemko kabla ya kulala</item>
+        <item>Cheza muziki laini ili ukubembeleze ili ulale.</item>
+        <item>Fanya mazoezi mara kwa mara ili uboreshe ubora wa usingizi wako</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Usingizi mwema unaweza kuboresha hisia zako</item>
+        <item>Kabiliana na kila siku huku umeburudika mwilini na akilini</item>
+        <item>Ratiba ya kulala ya mara kwa mara inaweza kusaidia katika kuboresha viwango vya nguvu</item>
+        <item>Ukipata usingizi mwema utaweza kukusaidia kukabiliana na changamoto za kesho</item>
+    </array>
+</resources>

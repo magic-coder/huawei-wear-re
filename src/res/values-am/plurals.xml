@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s ሳሜ</item>
+        <item quantity="one">%1$s ሳሜ</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s ቀኖች ሊወስድ ይችላል</item>
+        <item quantity="one">%1$s ቀን ሊወስድ ይችላል</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s ኪባ</item>
+        <item quantity="one">%1$s ኪባ</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s ሜባ</item>
+        <item quantity="one">%1$s ሜባ</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ጫማ</item>
+        <item quantity="one">%1$s ጫማ</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d ሰዓቶች</item>
+        <item quantity="one">%d ሰዓት</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s ቢ</item>
+        <item quantity="one">%1$s ቢ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s ጊባ</item>
+        <item quantity="one">%1$s ጊባ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s ፒቢ</item>
+        <item quantity="one">%1$s ፒቢ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s ቴባ</item>
+        <item quantity="one">%1$s ቴባ</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s in</item>
+        <item quantity="one">%1$s in</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s ኪግ</item>
+        <item quantity="one">%s ኪግ</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s ፓው</item>
+        <item quantity="one">%s ፓው</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s አሁንም ለ %2$s ቀኖች ያገለግላል</item>
+        <item quantity="one">%1$s አሁንም ለ %2$s ቀን ያገለግላል</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d እውቅያዎች</item>
+        <item quantity="one">%d እውቅያ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d ሰ</item>
+        <item quantity="one">%d ሰ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d ሰ</item>
+        <item quantity="one">%d ሰ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d ደቂቃ</item>
+        <item quantity="one">%d ደቂቃ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d ደረጃዎች</item>
+        <item quantity="one">%d ደረጃ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s ሽልማቶች ተቀብሏል</item>
+        <item quantity="one">%s ሽልማት ተቀብሏል</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">የእርስዎ ልጅ %1$s ጊዜዎች ምስጋና ከተቀበለ በኋላ</item>
+        <item quantity="one">የእርስዎ ልጅ %1$s ጊዜ ምስጋና ከተቀበለ በኋላ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f ኪሜ</item>
+        <item quantity="one">%1$.3f ኪሜ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">ከ %s ሰዓቶች በላይ እዚህ ቆመዋል</item>
+        <item quantity="one">ከ %s ሰዓት በላይ እዚህ ቆመዋል</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s ደ፣ %2$s</item>
+        <item quantity="one">%1$s ደ፣ %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">በ %s ደ ትክክለኛነት</item>
+        <item quantity="one">በ %s ደ ትክክለኛነት</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">መገኛ ስፍራ %s ደቂቃ በፊት</item>
+        <item quantity="one">መገኛ ስፍራ %s ደቂቃ በፊት</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">%1$s እውቅያዎች ብቻ ማከል ይችላሉ</item>
+        <item quantity="one">%1$s እውቅያ ብቻ ማከል ይችላሉ</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">እስከ %1$d አስተዳዳሪዎች መጋበዝ ይችላሉ። ሕፃኑ የጭንቀት ስልክ ጥሪ ሲያደረግ፣ በዝርዝር ላይ ያሉትን አስተዳዳሪዎች እንደ ቅድመ ተከተላቸው ጥሪ ለማድረግ ይጠቀማል። አስተዳዳሪዎች ሁልጊዜ ወደ ሕፃኑ መደወል ይችላሉ።</item>
+        <item quantity="one">እስከ %1$d አስተዳዳሪ መጋበዝ ይችላሉ። ሕፃኑ የጭንቀት ስልክ ጥሪ ሲያደረግ፣ በዝርዝር ላይ ያሉትን አስተዳዳሪዎች እንደ ቅድመ ተከተላቸው ጥሪ ለማድረግ ይጠቀማል። አስተዳዳሪዎች ሁልጊዜ ወደ ሕፃኑ መደወል ይችላሉ።</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d ነጥቦች</item>
+        <item quantity="one">%d ነጥብ</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">የተመረጡ እውቅያዎች ይወገዱ?</item>
+        <item quantity="one">የተመረጠ እውቅያ ይወገድ?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s ደቂቃ ስማርት መቀስቀሻ)</item>
+        <item quantity="one">%1$s (%2$s ደቂቃ ስማርት መቀስቀሻ)</item>
+    </plurals>
+</resources>

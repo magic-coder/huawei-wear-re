@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" apk:oneshot="true">
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_14" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_13" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_12" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_11" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_10" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_09" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_08" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_07" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_06" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_05" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_04" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_03" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_02" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_fingerprint_anim_01" />
+</animation-list>

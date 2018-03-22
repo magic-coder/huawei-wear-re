@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" cmb:orientation="vertical" cmb:id="@id/bind_card_input_layout" cmb:background="@color/nfc_black" cmb:layout_width="match_parent" cmb:layout_height="match_parent">
+    <ScrollView cmb:id="@id/scrollview" cmb:layout_width="match_parent" cmb:layout_height="UNKNOWN_DATA_0x1" cmb:fillViewport="true" cmb:layout_weight="1.0">
+        <LinearLayout cmb:orientation="vertical" cmb:id="@id/layout" cmb:focusable="true" cmb:focusableInTouchMode="true" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginLeft="16dp" cmb:layout_marginTop="8dp" cmb:layout_marginRight="16dp"
+            <LinearLayout cmb:gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:orientation="horizontal" cmb:id="@id/bank_info_title" cmb:layout_width="match_parent" cmb:layout_height="wrap_content">
+                <RelativeLayout cmb:layout_width="UNKNOWN_DATA_0x3901" cmb:layout_height="UNKNOWN_DATA_0x3901">
+                    <ImageView cmb:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:id="@id/bank_icon" cmb:layout_width="match_parent" cmb:layout_height="match_parent" cmb:src="@drawable/nfc_bank_logo_default" />
+                    <ImageView cmb:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:layout_width="match_parent" cmb:layout_height="match_parent" cmb:src="@drawable/nfc_stroke_sp_logo" />
+                </RelativeLayout>
+                <LinearLayout cmb:orientation="vertical" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:layout_marginLeft="12dp">
+                    <TextView cmb:textSize="15dp" cmb:textColor="@color/hwpay_white" cmb:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" cmb:id="@id/bank_name" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" />
+                    <LinearLayout cmb:orientation="horizontal" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:layout_marginTop="2dp">
+                        <TextView cmb:textSize="13dp" cmb:textColor="@color/huaweipay_white_a_A6" cmb:id="@id/nfc_card_end_number" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:text="@string/nfc_card_end_number" />
+                        <TextView cmb:textSize="13dp" cmb:textColor="@color/huaweipay_white_a_A6" cmb:id="@id/nfc_card_type_credit" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:layout_marginLeft="8dp" />
+                    </LinearLayout>
+                    <TextView cmb:textSize="13dp" cmb:textColor="@color/huaweipay_white_a_A6" cmb:id="@id/nfc_card_use_desc" cmb:visibility="gone" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+            <View cmb:background="@drawable/cp3_divider_horizontal_gray_emui" cmb:layout_width="match_parent" cmb:layout_height="UNKNOWN_DATA_0x100" cmb:layout_marginTop="8dp" />
+            <LinearLayout cmb:orientation="vertical" cmb:id="@id/open_card_info" cmb:focusable="true" cmb:focusableInTouchMode="true" cmb:layout_width="match_parent" cmb:layout_height="wrap_content">
+                <ViewStub cmb:id="@id/card_info_name" cmb:layout="@layout/nfc_bind_card_info_item" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance" />
+                <ViewStub cmb:id="@id/card_info_type" cmb:layout="@layout/nfc_bind_card_info_item" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance" />
+                <ViewStub cmb:id="@id/card_info_idnum" cmb:layout="@layout/nfc_bind_card_info_item" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance" />
+                <ViewStub cmb:id="@id/card_info_valid_time" cmb:layout="@layout/nfc_bind_card_info_item" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance" />
+                <ViewStub cmb:id="@id/card_info_cvv2" cmb:layout="@layout/nfc_bind_card_info_item" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance" />
+                <ViewStub cmb:id="@id/card_info_phone" cmb:layout="@layout/nfc_bind_card_info_item" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance" />
+                <RelativeLayout cmb:orientation="vertical" cmb:id="@id/open_card_info_pwd" cmb:focusable="true" cmb:focusableInTouchMode="true" cmb:visibility="gone" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="@dimen/bankcardInfoInput_spacing_inputItem_vertical_distance">
+                    <LinearLayout cmb:gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:orientation="horizontal" cmb:id="@id/first_pwd_title_layout" cmb:layout_width="match_parent" cmb:layout_height="wrap_content">
+                        <TextView cmb:textSize="15dp" cmb:textColor="@color/hwpay_white" cmb:id="@id/cardinfo_pwd_title_tx" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" />
+                        <View cmb:layout_width="UNKNOWN_DATA_0x801" cmb:layout_height="UNKNOWN_DATA_0x1" />
+                        <ImageView cmb:id="@id/cardinfo_pwd_tips_img" cmb:visibility="invisible" cmb:layout_width="UNKNOWN_DATA_0xf01" cmb:layout_height="UNKNOWN_DATA_0xf01" cmb:src="@drawable/ic_details_normal" />
+                    </LinearLayout>
+                    <RelativeLayout cmb:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="8dp" cmb:layout_below="@id/first_pwd_title_layout" cmb:paddingStart="@dimen/nfc_card_margin_common" cmb:paddingEnd="@dimen/nfc_card_margin_common">
+                        <View cmb:background="@drawable/bg_dark_edit_input" cmb:layout_width="match_parent" cmb:layout_height="UNKNOWN_DATA_0x2801" />
+                        <com.huawei.nfc.carrera.ui.widget.CmbClearEditText cmb:textSize="15dp" cmb:textColor="@color/hwpay_white" cmb:textColorHint="@color/huaweipay_white_a_A6" cmb:gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:id="@id/cmb_cardinfo_pwd_input_edittx" cmb:background="0x0" cmb:visibility="gone" cmb:clickable="true" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:password="true" cmb:singleLine="true" cmb:maxLength="6" cmb:phoneNumber="true" cmb:KeyBoardType="1" cmb:Length="6" cmb:isPassword="true" />
+                    </RelativeLayout>
+                    <RelativeLayout cmb:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="8dp" cmb:layout_below="@id/first_pwd_title_layout">
+                        <View cmb:background="@drawable/bg_dark_edit_input" cmb:layout_width="match_parent" cmb:layout_height="UNKNOWN_DATA_0x2801" cmb:layout_alignParentTop="true" />
+                        <com.huawei.nfc.carrera.ui.widget.CUPEditText cmb:textSize="15dp" cmb:textColor="@color/hwpay_white" cmb:textColorHint="@color/huaweipay_white_a_A6" cmb:gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:id="@id/cup_cardinfo_pwd_input_edittx" cmb:background="0x0" cmb:visibility="gone" cmb:clickable="true" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:password="true" cmb:singleLine="true" cmb:maxLength="6" cmb:phoneNumber="true" cmb:layout_centerVertical="true" cmb:paddingStart="12dp" cmb:paddingEnd="16dp" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout cmb:orientation="horizontal" cmb:id="@id/nfc_wallet_use_licence_layout" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_marginTop="8dp">
+                <CheckBox cmb:id="@id/agree_view" cmb:layout_width="UNKNOWN_DATA_0x2001" cmb:layout_height="UNKNOWN_DATA_0x2001" />
+                <TextView cmb:textSize="12dp" cmb:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:layout_marginLeft="3dp" cmb:text="@string/nfc_agree_text" />
+                <TextView cmb:textSize="12dp" cmb:textColor="@color/cp3_my_brand_text_click_selector" cmb:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:id="@id/nfc_wallet_use_licence_title" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" />
+                <LinearLayout cmb:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" cmb:orientation="horizontal" cmb:id="@id/nfc_wallet_use_agreements_layout" cmb:layout_width="match_parent" cmb:layout_height="wrap_content">
+                    <TextView cmb:textSize="12dp" cmb:id="@id/nfc_wallet_use_agreements_title_and" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:text="@string/nfc_and_text" />
+                    <TextView cmb:textSize="12dp" cmb:textColor="@color/cp3_my_brand_text_click_selector" cmb:ellipsize="end" cmb:id="@id/nfc_wallet_use_agreements_title" cmb:layout_width="wrap_content" cmb:layout_height="wrap_content" cmb:singleLine="true" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button cmb:id="@id/bind_card_next_step" cmb:background="@drawable/common_button_21" cmb:layout_width="match_parent" cmb:layout_height="wrap_content" cmb:layout_margin="@dimen/nfc_card_margin_common" cmb:text="@string/nfc_next_step" />
+</LinearLayout>

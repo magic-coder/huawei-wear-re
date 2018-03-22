@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/above_title" />
+    <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginRight" android:text="@string/alarm_remind_tip" />
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@id/btn_edit" android:layout_width="match_parent" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginLeft" android:layout_alignParentBottom="true" android:onClick="viewOnClick" style="@style/common_btn" />
+        <ListView android:id="@id/listView" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00ffffff" android:divider="@color/setting_line_bg" android:dividerHeight="1px" android:layout_above="@id/btn_edit" />
+    </RelativeLayout>
+</LinearLayout>

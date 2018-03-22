@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/device_list_tips_layout" android:background="@color/common_white_8alpha" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/device_item_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/device_list_item_notify" android:paddingStart="@dimen/device_list_item_margin_start" android:paddingEnd="@dimen/device_list_item_margin_end">
+        <TextView android:textSize="@dimen/device_list_item_text_size" android:textColor="@color/common_white_75alpha" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/list_device_tips_text" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/IDS_device_list_left_tips" android:layout_weight="1.0" />
+        <ImageView android:id="@id/list_device_sure" android:layout_width="UNKNOWN_DATA_0x7f0d0475" android:layout_height="UNKNOWN_DATA_0x7f0d0475" android:src="@drawable/res_closetips" android:layout_marginStart="@dimen/device_list_item_image_start" />
+    </LinearLayout>
+</LinearLayout>

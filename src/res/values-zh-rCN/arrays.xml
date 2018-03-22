@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>拍照</item>
+        <item>从手机相册中选择</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>营造一个舒适的环境有助于睡眠哦</item>
+        <item>坚持规律作息，不要睡太晚</item>
+        <item>睡前别烦恼，放松放空心情好</item>
+        <item>睡前不要过多思考白天的事情</item>
+        <item>良好的睡眠是工作的最大助力</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>睡前用温水泡脚，消除一天的疲劳</item>
+        <item>睡前不要吃的太饱、喝太多的水</item>
+        <item>睡前喝杯牛奶，可以使人容易入睡</item>
+        <item>睡前不做剧烈运动，可适当静坐散步</item>
+        <item>睡前多听些舒缓音乐，有助睡眠</item>
+        <item>日常多锻炼，有助于改善睡眠质量</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>好的睡眠会有好的心情，继续保持</item>
+        <item>充足的睡眠为您开启全新的一天</item>
+        <item>规律的就寝时间能让您精神百倍</item>
+        <item>优质睡眠使人精力更充沛</item>
+    </array>
+    <array name="hw_show_calorie_target_choices">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>600</item>
+        <item>800</item>
+    </array>
+    <array name="hw_show_distance_target_choices">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>21</item>
+        <item>42</item>
+    </array>
+    <array name="hw_show_time_target_choices">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </array>
+</resources>

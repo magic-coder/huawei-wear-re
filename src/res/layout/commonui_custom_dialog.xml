@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/custom_dialog_margin_left_right_bottom" android:paddingStart="@dimen/dialog_btn_width_0dp" android:paddingEnd="@dimen/dialog_btn_width_0dp"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dialog_rlyt_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d04c1">
+        <ImageView android:id="@id/dialog_iv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/custom_dialog_img_margin_right" android:src="0x108009b" />
+        <TextView android:textStyle="bold" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_tv_title" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/white_18dp_90alpha" />
+    </LinearLayout>
+    <View android:id="@id/dialog_v_title_view" android:background="@color/common_white_15alpha" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" />
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dialog_rlyt_content" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_llyt_message" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/dialog_tv_message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="@dimen/custom_dialog_text_line_space" style="@style/CustomDialog_message" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_llyt_editText" android:background="@drawable/edit_text_corners_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="@dimen/personal_information_dialog_edit_text_edit_txt_size" android:textColor="@color/common_dialog_device_battery_value_color" android:id="@id/dialog_edit_text" android:background="0x0" android:paddingLeft="@dimen/personal_information_dialog_edit_text_edit_txt_padding_left" android:paddingRight="@dimen/personal_information_dialog_edit_text_edit_txt_padding_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0861" android:singleLine="true" android:maxLength="12">
+                <requestFocus />
+            </EditText>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dialog_llyt_gender_select" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0d0868" android:layout_height="wrap_content">
+                <ImageButton android:id="@id/gender_select_male_btn" android:background="@drawable/gender_male_select_btn_selector" android:layout_width="UNKNOWN_DATA_0x7f0d0867" android:layout_height="UNKNOWN_DATA_0x7f0d0866" />
+                <TextView android:text="@string/IDS_sns_boy" style="@style/personal_info_gender_text_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="UNKNOWN_DATA_0x7f0d0868" android:layout_height="wrap_content">
+                <ImageButton android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/gender_select_female_btn" android:background="@drawable/gender_female_select_btn_selector" android:layout_width="UNKNOWN_DATA_0x7f0d0867" android:layout_height="UNKNOWN_DATA_0x7f0d0866" />
+                <TextView android:text="@string/IDS_sns_girl" style="@style/personal_info_gender_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dialog_llyt_btn_panel" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_content_margin_16dp" android:layout_marginBottom="@dimen/dialog_content_margin_16dp" android:layout_marginStart="@dimen/dialog_content_margin_16dp" android:layout_marginEnd="@dimen/dialog_content_margin_16dp">
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_btn_negative" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d04ad" android:layout_height="UNKNOWN_DATA_0x7f0d04a5" android:layout_weight="1.0" />
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_btn_neutral" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d04ad" android:layout_height="UNKNOWN_DATA_0x7f0d04a5" android:layout_marginLeft="@dimen/dialog_btn_margin_12dp" android:layout_weight="1.0" />
+        <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/dialog_btn_positive" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d04ad" android:layout_height="UNKNOWN_DATA_0x7f0d04a5" android:layout_marginLeft="@dimen/dialog_btn_margin_12dp" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

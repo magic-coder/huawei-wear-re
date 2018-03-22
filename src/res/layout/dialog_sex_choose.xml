@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@drawable/menu_diaolog_layout_corner" app:layout_width="UNKNOWN_DATA_0x14401" app:layout_height="wrap_content">
+    <TextView app:textSize="16dp" app:textColor="@color/custom_dialog_title_color_kone" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x10f01" app:layout_height="wrap_content" app:layout_marginTop="20dp" app:text="@string/IDS_plugin_kidwatch_settings_profilekid_set_sex" />
+    <LinearLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="26dp"
+        <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="46dp">
+            <ImageView app:id="@id/dialog_img_boy" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:src="@drawable/kw_btn_male_1_2" />
+            <TextView app:textSize="17dp" app:textColor="#b5b5b5" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/dialog_tv_boy" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="16dp" app:text="@string/IDS_plugin_kidwatch_settings_profilekid_info_boy" />
+        </LinearLayout>
+        <LinearLayout app:orientation="vertical" app:layout_width="wrap_content" app:layout_height="wrap_content">
+            <ImageView app:id="@id/dialog_img_girl" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" app:src="@drawable/kw_btn_famale_2_1" />
+            <TextView app:textSize="17dp" app:textColor="@color/setting_profile_tv_not_selected" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/dialog_tv_girl" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="16dp" app:text="@string/IDS_plugin_kidwatch_settings_profilekid_info_girl" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="21dp" app:layout_marginBottom="16dp">
+        <Button app:textSize="14dp" app:textColor="@color/kw_color_black_85alpha" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_tv_remote_shutdown_cancle" app:background="@drawable/custom_dialog_btn" app:layout_width="UNKNOWN_DATA_0x8901" app:layout_height="UNKNOWN_DATA_0x2c01" app:text="@string/IDS_plugin_kidwatch_common_cancel" />
+        <Button app:textSize="14dp" app:textColor="@color/kw_color_black_85alpha" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_tv_remote_shutdown_sure" app:background="@drawable/custom_dialog_btn" app:layout_width="UNKNOWN_DATA_0x8901" app:layout_height="UNKNOWN_DATA_0x2c01" app:layout_marginLeft="10dp" app:text="@string/IDS_plugin_kidwatch_common_ok" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:layout_width="match_parent" app:layout_height="match_parent">
+        <Button app:id="@id/main_btn_bottom4" app:background="@drawable/revise_btn" app:layout_width="UNKNOWN_DATA_0x4601" app:layout_height="match_parent" app:layout_marginLeft="10dp" app:text="" />
+    </RelativeLayout>
+</LinearLayout>

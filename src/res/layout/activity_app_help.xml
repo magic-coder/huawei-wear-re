@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08e3">
+        <TextView android:textSize="@dimen/setting_main_header_title_text_textsize" android:textColor="@color/settings_title" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/app_help_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08e3" android:text="@string/IDS_plugin_kidwatch_settings_about_help" />
+    </RelativeLayout>
+    <ProgressBar android:id="@id/load_help_url_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" android:max="100" android:progressDrawable="@drawable/webview_progress_drawable" style="@*style/Widget.Holo.Light.ProgressBar.Horizontal" />
+    <FrameLayout android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent">
+        <WebView android:id="@id/sns_app_help_web" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <RelativeLayout android:id="@id/help_retry" android:background="#ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <Button android:background="@drawable/about_huawei_privacy" android:layout_width="UNKNOWN_DATA_0xc801" android:layout_height="UNKNOWN_DATA_0x6401" android:text="@string/IDS_plugin_kidwatch_common_retry" android:layout_centerInParent="true" android:onClick="onWebRetryClick" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

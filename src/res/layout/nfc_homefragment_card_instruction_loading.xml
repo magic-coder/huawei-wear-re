@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/card_brief" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:layout_marginBottom="4dp">
+        <TextView android:textSize="12dp" android:textColor="@color/CS_black_50_percent" android:id="@id/cardinstru_title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/nfc_card_delete_card_smscode_title" android:layout_weight="1.0" />
+        <TextView android:textSize="12dp" android:textColor="@color/CS_black_50_percent" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cardinstru_detail_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_cardlist_detail" android:drawableRight="@drawable/little_arrow" />
+    </LinearLayout>
+    <TextView android:id="@id/cardinstru_line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" />
+</LinearLayout>

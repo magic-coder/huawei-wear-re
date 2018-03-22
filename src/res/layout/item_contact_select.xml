@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:background="@color/kw_color_white" app:descendantFocusability="blocksDescendants" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4001">
+    <LinearLayout app:background="#ffffff" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x4001">
+        <RelativeLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_marginLeft="15dp">
+            <ImageView app:layout_width="UNKNOWN_DATA_0x3201" app:layout_height="UNKNOWN_DATA_0x3201" app:src="@drawable/kw_pic_ist_user_common" app:layout_centerInParent="true" app:contentDescription="0x0" />
+            <com.huawei.pluginkidwatch.common.ui.simplecropimage.CircularImage app:id="@id/viewpager_list_item_img" app:layout_width="UNKNOWN_DATA_0x3201" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginLeft="15dp" app:layout_centerInParent="true" />
+        </RelativeLayout>
+        <TextView app:textSize="14dp" app:textColor="#000000" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/name_tv" app:layout_width="UNKNOWN_DATA_0x7b01" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_marginLeft="14dp" app:text="Wangping" />
+    </LinearLayout>
+    <RadioButton app:id="@id/menu_item_img_select" app:focusable="false" app:clickable="false" app:layout_width="UNKNOWN_DATA_0x1901" app:layout_height="UNKNOWN_DATA_0x1901" app:layout_marginRight="14dp" app:button="@drawable/menu_radiobutton_style" app:layout_alignParentRight="true" app:layout_centerVertical="true" />
+</RelativeLayout>

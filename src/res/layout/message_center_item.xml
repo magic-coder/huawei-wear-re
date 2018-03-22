@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <FrameLayout android:id="@id/MessageCenter_re" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_centerVertical="true" android:layout_marginEnd="12dp">
+            <ImageView android:id="@id/MessageCenter_head_40iv" android:scaleType="fitXY" style="@style/messty_item_iv40" />
+            <ImageView android:id="@id/MessageCenter_head_60iv" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="10dp" android:layout_marginRight="4dp" android:layout_centerVertical="true" />
+        </FrameLayout>
+        <RelativeLayout android:paddingTop="6dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="56dp" android:layout_toRightOf="@id/MessageCenter_re" android:layout_toEndOf="@id/MessageCenter_re"
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                <TextView android:textSize="16dp" android:textColor="@color/common_white_90alpha" android:id="@id/MessageCenter_titleleft_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+                <TextView android:textColor="@color/messcolor_item_newversion" android:id="@id/MessageCenter_titleright_tv" android:visibility="gone" android:includeFontPadding="false" android:layout_toRightOf="@id/MessageCenter_titleleft_tv" android:layout_alignParentRight="true" android:layout_toEndOf="@id/MessageCenter_titleleft_tv" android:layout_alignParentEnd="true" style="@style/messty_item_title_newversion" />
+                <TextView android:textColor="@color/common_white_50alpha" android:id="@id/MessageCenter_content_tv" android:visibility="gone" android:includeFontPadding="false" android:layout_below="@id/MessageCenter_titleleft_tv" style="@style/messty_item_content_tv" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <ImageView android:background="@color/common_white_15alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_toRightOf="@id/MessageCenter_re" android:layout_alignParentBottom="true" android:layout_toEndOf="@id/MessageCenter_re" />
+    </RelativeLayout>
+</LinearLayout>

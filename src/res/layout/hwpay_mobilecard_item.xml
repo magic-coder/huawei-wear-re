@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@id/hb_mbe_item_top_line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/hb_mbe_type_linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="18dp" android:layout_marginRight="15dp" android:layout_marginBottom="10dp">
+        <TextView android:textSize="@dimen/dialog_auxiliary_textsize" android:textColor="@color/secondarycolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="14dp" android:text="@string/hwpay_mobilecard_type" />
+        <TableLayout android:id="@id/hwpay_mobile_type_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2301" android:layout_marginTop="5dp">
+            <TableRow>
+                <Button android:id="@id/hwpay_szx" android:text="@string/hwpay_mobilecard_szx" style="@style/hwpay_select_mobiletype" />
+                <Button android:id="@id/hwpay_unicom" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:text="@string/hwpay_mobilecard_unicom" style="@style/hwpay_select_mobiletype" />
+                <Button android:id="@id/hwpay_telecom" android:text="@string/hwpay_mobilecard_telecom" style="@style/hwpay_select_mobiletype" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dialog_auxiliary_textsize" android:textColor="@color/secondarycolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hb_mbe_amount_note" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="18dp" android:text="@string/hwpay_mobilecard_amount" />
+    <TableLayout android:id="@id/hwpay_mobile_money_table" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="6dp">
+        <TableRow>
+            <Button android:id="@id/rmb_no_1" style="@style/hwpay_select_money" />
+            <Button android:id="@id/rmb_no_2" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" style="@style/hwpay_select_money" />
+            <Button android:id="@id/rmb_no_3" style="@style/hwpay_select_money" />
+        </TableRow>
+        <TableRow android:layout_marginTop="8dp">
+            <Button android:id="@id/rmb_no_4" style="@style/hwpay_select_money" />
+            <Button android:id="@id/rmb_no_5" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" style="@style/hwpay_select_money" />
+            <Button android:id="@id/rmb_no_6" style="@style/hwpay_select_money" />
+        </TableRow>
+        <TableRow android:id="@id/hwpay_mobile_row3" android:layout_marginTop="8dp">
+            <Button android:id="@id/rmb_no_7" style="@style/hwpay_select_money" />
+            <Button android:id="@id/rmb_no_8" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" style="@style/hwpay_select_money" />
+            <Button android:id="@id/rmb_no_9" android:visibility="invisible" style="@style/hwpay_select_money" />
+        </TableRow>
+    </TableLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/hb_mbe_input_linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="13dp" android:layout_marginBottom="14dp"
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/bg_dark_edit_input" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginBottom="6dp">
+            <com.huawei.pay.ui.widget.ClearEditText android:textSize="@dimen/dialog_auxiliary_textsize" android:id="@id/hwpay_mobile_cardnum_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hwpay_mobilecard_num" android:maxLength="27" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/bg_dark_edit_input" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+            <com.huawei.pay.ui.widget.ClearEditText android:textSize="@dimen/dialog_auxiliary_textsize" android:id="@id/hwpay_mobile_cardsecret_edit" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/hwpay_mobilecard_secret" android:maxLength="27" android:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/hwpay_delete_mobilecard" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hwpay_mobile_delete" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/hwpay_delete_mobilecard" />
+</LinearLayout>

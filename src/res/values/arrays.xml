@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>सें.मी.</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>कि.ग्रा.</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>Take photo</item>
+        <item>From album</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>फोटो लिअ</item>
+        <item>अलबमसँ</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Create a comfortable environment for better sleep</item>
+        <item>Good sleep habits contribute to overall health</item>
+        <item>Let go of your worries before bed</item>
+        <item>Empty your mind before you sleep</item>
+        <item>Good sleep helps improve your work performance</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>निक निद्राक लेल आरामदायक वातावरणक सृजन करू</item>
+        <item>नीक शयन आदत समस्त स्वास्थ्यमे सहयोग करैत अछि</item>
+        <item>ओछाओनपर जयबासँ पूर्व अपन सब चिन्ता बिसरि जाउ</item>
+        <item>सुतवासँ पहिने अपने दिमाग खाली करू</item>
+        <item>नीक शयन अहाँक कार्य प्रदर्शनकेँ बेहतर करैत अछि</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Leave tomorrow&apos;s worries for tomorrow</item>
+        <item>Avoid eating or drinking too much before bedtime</item>
+        <item>Focus on your breathing, it can help you fall sleep</item>
+        <item>Avoid intense exercise before bed</item>
+        <item>Play some soft music to lull you to sleep</item>
+        <item>Exercise regularly to improve the quality of your sleep</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>काल्हुक चिन्तासब काल्हि लेल छोड़ि दिअ</item>
+        <item>सुतय जेवासँ पहिने बेसी खएबा वा पीबासँ परहेज करू</item>
+        <item>अपन साँस पर केन्द्रित होउ, ई अहाँक नींद पतनमे मदद कय सकैत अछि</item>
+        <item>ओछाओनपर जायसँ पहिने तीव्र व्यायामसँ दूर रहू</item>
+        <item>शयन हेतु अपनाके शान्त करबाक लेल किछु मधुर संगीत चलाउ</item>
+        <item>अपन शयन गुणवत्ताकेँ सुधारबाक लेल निरन्तर व्यायाम करू</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Good sleep can improve your mood</item>
+        <item>Embrace each new day with a refreshed body and mind</item>
+        <item>A regular sleeping schedule can help boost your energy levels</item>
+        <item>A good night&apos;s sleep will help you tackle tomorrow&apos;s challenges</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>नीक नींद अहाँक मनोदशा सुधारि सकैत अछि</item>
+        <item>प्रतेक नव दिन केर तरोताजा शरीर आ दिमागसँ गला लगाउ</item>
+        <item>एक नियमित शयन तालिका अहाँक ऊर्जा स्तर बढाबयमे मदद कय सकैत अछि</item>
+        <item>एक नीक रात्रिक शयन काल्हिक चुनौतीक सामना करबामे अहाँक मदद करत</item>
+    </array>
+    <array name="hw_show_calorie_target_choices">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>500</item>
+        <item>600</item>
+        <item>800</item>
+    </array>
+    <array name="hw_show_distance_target_choices">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>10</item>
+        <item>21</item>
+        <item>42</item>
+    </array>
+    <array name="hw_show_time_target_choices">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </array>
+    <array name="sdk_crowdtest_add_attachment">
+        <item>File</item>
+        <item>Photo</item>
+    </array>
+    <array name="sdk_crowdtest_days_array">
+        <item>Today</item>
+        <item>Yesterday</item>
+        <item>2 days ago</item>
+    </array>
+    <array name="sdk_crowdtest_description_camera_option">
+        <item>Photo</item>
+        <item>Video</item>
+    </array>
+    <array name="sdk_crowdtest_description_probability">
+        <item>Always</item>
+        <item>Often</item>
+        <item>Once per day</item>
+        <item>Occasional</item>
+    </array>
+    <array name="sdk_crowdtest_wifi_option_last_version_exists">
+        <item>1.Yes</item>
+        <item>2.No</item>
+        <item>3.Unknown</item>
+    </array>
+    <array name="sdk_product_types_xml">
+        <item>@xml/sdk_config_wearable</item>
+    </array>
+    <array name="CS_account_manager_array">
+        <item>@string/account_manager</item>
+        <item>@string/account_logout</item>
+        <item>@string/account_cancel</item>
+    </array>
+    <array name="CS_country">
+        <item>Argentina +54</item>
+        <item>Österreich +43</item>
+        <item>Australia +61</item>
+        <item>België +32</item>
+        <item>Brasil +55</item>
+        <item>Canada +1</item>
+        <item>Schweiz +41</item>
+        <item>Chile +56</item>
+        <item>中国 +86</item>
+        <item>Colombia +57</item>
+        <item>Cuba +53</item>
+        <item>Česko +420</item>
+        <item>Deutschland +49</item>
+        <item>Danmark +45</item>
+        <item>United Kingdom +44</item>
+        <item>España +34</item>
+        <item>Suomi +358</item>
+        <item>France +33</item>
+        <item>Ελλάς +30</item>
+        <item>中國香港 +852</item>
+        <item>Hrvatska +385</item>
+        <item>Magyarország +36</item>
+        <item>Indonesia +62</item>
+        <item>Ireland +353</item>
+        <item>India +91</item>
+        <item>Italia +39</item>
+        <item>日本 +81</item>
+        <item>Kampuchea +855</item>
+        <item>Korea +82</item>
+        <item>Lietuva +370</item>
+        <item>Macao +853</item>
+        <item>México +52</item>
+        <item>Malaysia +60</item>
+        <item>Norge +47</item>
+        <item>New Zealand +64</item>
+        <item>Pilipinas +63</item>
+        <item>Polska +48</item>
+        <item>Portugal +351</item>
+        <item>România +40</item>
+        <item>Россия +7</item>
+        <item>Sverige +46</item>
+        <item>Singapura +65</item>
+        <item>Slovensko +421</item>
+        <item>ราชอาณาจักรไทย +66</item>
+        <item>Türkiye +90</item>
+        <item>台灣 +886</item>
+        <item>Україна +380</item>
+        <item>United States +1</item>
+        <item>Uruguay +598</item>
+        <item>Việt Nam +84</item>
+        <item>South Africa +27</item>
+        <item>Sri Lanka +94</item>
+        <item>Perú +51</item>
+        <item>Venezuela +58</item>
+        <item>Ecuador +593</item>
+        <item>Guatemala +502</item>
+        <item>Bolivia +591</item>
+        <item>Dominica +1890</item>
+        <item>Haïti +509</item>
+        <item>Honduras +506</item>
+        <item>Paraguay +595</item>
+        <item>El Salvador +503</item>
+        <item>Nicaragua +505</item>
+        <item>Costa Rica +506</item>
+        <item>Panamá +507</item>
+        <item>Jamaica +1876</item>
+        <item>Laos +856</item>
+        <item>Puerto Rico +1787</item>
+    </array>
+    <array name="CS_huawei_string_array">
+        <item>华为</item>
+        <item>華為</item>
+    </array>
+    <array name="CS_national_code">
+        <item>ar</item>
+        <item>at</item>
+        <item>au</item>
+        <item>be</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>ch</item>
+        <item>cl</item>
+        <item>cn</item>
+        <item>co</item>
+        <item>cu</item>
+        <item>cz</item>
+        <item>de</item>
+        <item>dk</item>
+        <item>en</item>
+        <item>es</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>gr</item>
+        <item>hk</item>
+        <item>hr</item>
+        <item>hu</item>
+        <item>id</item>
+        <item>ie</item>
+        <item>in</item>
+        <item>it</item>
+        <item>jp</item>
+        <item>kh</item>
+        <item>kr</item>
+        <item>lt</item>
+        <item>mo</item>
+        <item>mx</item>
+        <item>my</item>
+        <item>no</item>
+        <item>nz</item>
+        <item>ph</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>se</item>
+        <item>sg</item>
+        <item>sk</item>
+        <item>th</item>
+        <item>tr</item>
+        <item>tw</item>
+        <item>ua</item>
+        <item>us</item>
+        <item>uy</item>
+        <item>vn</item>
+        <item>za</item>
+        <item>lk</item>
+        <item>pe</item>
+        <item>ve</item>
+        <item>ec</item>
+        <item>gt</item>
+        <item>bo</item>
+        <item>do</item>
+        <item>ht</item>
+        <item>hn</item>
+        <item>py</item>
+        <item>sv</item>
+        <item>ni</item>
+        <item>cr</item>
+        <item>pa</item>
+        <item>jm</item>
+        <item>la</item>
+        <item>pr</item>
+    </array>
+    <array name="CountryCodes">
+        <item>204,NL</item>
+        <item>208,FR</item>
+        <item>214,ES</item>
+        <item>222,IT</item>
+        <item>234,GB</item>
+        <item>238,DK</item>
+        <item>240,SE</item>
+        <item>242,NO</item>
+        <item>244,FI</item>
+        <item>260,PL</item>
+        <item>262,DE</item>
+        <item>286,TR</item>
+        <item>310,US</item>
+        <item>440,JP</item>
+        <item>452,VN</item>
+        <item>404,IN</item>
+        <item>510,ID</item>
+        <item>520,TH</item>
+        <item>334,MX</item>
+        <item>450,KR</item>
+        <item>302,CA</item>
+        <item>724,BR</item>
+        <item>250,RU</item>
+        <item>202,GR</item>
+        <item>219,HR</item>
+        <item>216,HU</item>
+        <item>460,CN</item>
+        <item>454,HK</item>
+        <item>466,TW</item>
+        <item>206, BE</item>
+        <item>213, AD</item>
+        <item>218, BA</item>
+        <item>220, CS</item>
+        <item>226, RO</item>
+        <item>228, CH</item>
+        <item>230, CZ</item>
+        <item>231, SK</item>
+        <item>232, AT</item>
+        <item>246, LT</item>
+        <item>247, LV</item>
+        <item>248, EE</item>
+        <item>255, UA</item>
+        <item>257, BY</item>
+        <item>259, MD</item>
+        <item>266, GI</item>
+        <item>268, PT</item>
+        <item>272, IE</item>
+        <item>274, IS</item>
+        <item>276, AL</item>
+        <item>278, MT</item>
+        <item>280, CY</item>
+        <item>282, GE</item>
+        <item>283, AM</item>
+        <item>284, BG</item>
+        <item>288, FO</item>
+        <item>290, GL</item>
+        <item>293, SI</item>
+        <item>294, MK</item>
+        <item>295, LI</item>
+        <item>334, MX</item>
+        <item>338, JM</item>
+        <item>340, FW</item>
+        <item>342, BB</item>
+        <item>344, AG</item>
+        <item>346, KY</item>
+        <item>350, BM</item>
+        <item>352, GD</item>
+        <item>362, AN</item>
+        <item>363, AW</item>
+        <item>368, CU</item>
+        <item>370, DO</item>
+        <item>374, TT</item>
+        <item>400, AZ</item>
+        <item>401, KZ</item>
+        <item>402, BT</item>
+        <item>410, PK</item>
+        <item>412, AF</item>
+        <item>413, LK</item>
+        <item>414, MM</item>
+        <item>415, LB</item>
+        <item>416, JO</item>
+        <item>417, SY</item>
+        <item>418, IQ</item>
+        <item>419, KW</item>
+        <item>420, SA</item>
+        <item>421, YE</item>
+        <item>422, OM</item>
+        <item>424, AE</item>
+        <item>425, IL</item>
+        <item>426, BH</item>
+        <item>427, QA</item>
+        <item>428, MN</item>
+        <item>429, NP</item>
+        <item>432, IR</item>
+        <item>434, UZ</item>
+        <item>437, KG</item>
+        <item>438, TM</item>
+        <item>456, KH</item>
+        <item>457, LA</item>
+        <item>467, KP</item>
+        <item>470, BD</item>
+        <item>472, MV</item>
+        <item>502, MY</item>
+        <item>505, AU</item>
+        <item>515, PH</item>
+        <item>525, SG</item>
+        <item>528, BN</item>
+        <item>530, NZ</item>
+        <item>539, TO</item>
+        <item>541, VU</item>
+        <item>542, FJ</item>
+        <item>544, AS</item>
+        <item>546, NC</item>
+        <item>547, PF</item>
+        <item>550, FM</item>
+        <item>602, EG</item>
+        <item>603, DZ</item>
+        <item>604, MA</item>
+        <item>605, TN</item>
+        <item>607, GM</item>
+        <item>608, SN</item>
+        <item>609, MR</item>
+        <item>610, ML</item>
+        <item>611, GN</item>
+        <item>612, CI</item>
+        <item>613, BF</item>
+        <item>614, NE</item>
+        <item>615, TG</item>
+        <item>616, BJ</item>
+        <item>617, MU</item>
+        <item>618, LR</item>
+        <item>620, GH</item>
+        <item>621, NG</item>
+        <item>622, TD</item>
+        <item>623, CF</item>
+        <item>624, CM</item>
+        <item>625, CV</item>
+        <item>626, ST</item>
+        <item>627, GQ</item>
+        <item>628, GA</item>
+        <item>629, CG</item>
+        <item>630, CD</item>
+        <item>631, AO</item>
+        <item>633, SC</item>
+        <item>634, MZ</item>
+        <item>634, SD</item>
+        <item>635, RW</item>
+        <item>636, ET</item>
+        <item>637, SO</item>
+        <item>639, KE</item>
+        <item>640, TZ</item>
+        <item>641, UG</item>
+        <item>642, BI</item>
+        <item>646, MG</item>
+        <item>647, RE</item>
+        <item>648, ZW</item>
+        <item>649, NA</item>
+        <item>650, MW</item>
+        <item>651, LS</item>
+        <item>652, BW</item>
+        <item>653, SZ</item>
+        <item>654, ZM</item>
+        <item>655, ZA</item>
+        <item>702, BZ</item>
+        <item>706, SV</item>
+        <item>710, NI</item>
+        <item>712, CR</item>
+        <item>716, PE</item>
+        <item>722, AR</item>
+        <item>730, CL</item>
+        <item>734, VE</item>
+        <item>736, BO</item>
+        <item>744, PY</item>
+        <item>000, XA</item>
+    </array>
+    <array name="MMS_AUTH_SUPPORT_NUMBER">
+        <item>((\+86)|(86)|(0086))?(1(3[4-9]|5[0-27-9]|8[23478]|47|78))[0-9]{8}</item>
+    </array>
+    <array name="MMS_AUTH_SUPPORT_OPERATOR">
+        <item>46000</item>
+    </array>
+    <array name="android_wear_capabilities">
+        <item>health_phone_message</item>
+        <item>health_phone_file</item>
+    </array>
+    <array name="eu_national_code">
+        <item>PL</item>
+        <item>LT</item>
+        <item>LV</item>
+        <item>EE</item>
+        <item>DK</item>
+        <item>IS</item>
+        <item>FI</item>
+        <item>NO</item>
+        <item>SE</item>
+        <item>RO</item>
+        <item>MD</item>
+        <item>AT</item>
+        <item>CZ</item>
+        <item>BG</item>
+        <item>MK</item>
+        <item>GR</item>
+        <item>CY</item>
+        <item>RS</item>
+        <item>BA</item>
+        <item>HR</item>
+        <item>ME</item>
+        <item>SI</item>
+        <item>DE</item>
+        <item>ES</item>
+        <item>IT</item>
+        <item>GB</item>
+        <item>FR</item>
+        <item>NL</item>
+        <item>BE</item>
+        <item>IE</item>
+        <item>LU</item>
+        <item>HU</item>
+    </array>
+    <array name="feedback_frequency">
+        <item>@string/feedback_frequency_one</item>
+        <item>@string/feedback_frequency_two</item>
+        <item>@string/feedback_frequency_three</item>
+        <item>@string/feedback_frequency_four</item>
+    </array>
+</resources>

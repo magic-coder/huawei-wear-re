@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x12401" android:layout_height="UNKNOWN_DATA_0xb401" android:layout_marginLeft="32dp" android:layout_marginTop="14dp" android:layout_marginRight="32dp" android:layout_marginBottom="40dp">
+            <ImageView android:id="@id/card_pic" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/nfc_stroke_card_logo_big" />
+        </FrameLayout>
+        <TextView android:textSize="11dp" android:textColor="@color/primarycolor" android:id="@id/suggestion_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:layout_marginRight="38dp" android:layout_marginBottom="9dp" android:text="@string/nfc_apk_install_suggestion_title" android:lineSpacingExtra="5dp" />
+        <TextView android:textSize="11dp" android:textColor="@color/primarycolor" android:id="@id/suggestion_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:layout_marginRight="38dp" android:text="@string/nfc_apk_install_suggestion_text" android:lineSpacingExtra="2dp" />
+        <TextView android:textSize="14dp" android:textColor="@color/primarycolor" android:id="@id/download_progress_text" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:layout_marginRight="38dp" android:layout_marginBottom="9dp" android:text="@string/nfc_downloading" android:lineSpacingExtra="5dp" />
+        <ProgressBar android:id="@id/progress_horizontal" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:layout_marginRight="38dp" android:max="100" style="?unknown_attr_ref: 1010078" />
+    </LinearLayout>
+    <Button android:textSize="14dp" android:id="@id/applet_manager_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="28dp" android:text="@string/nfc_immediately_install" android:fontFamily="@string/emui_anti_default_fonts" />
+</LinearLayout>

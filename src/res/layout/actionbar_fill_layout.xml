@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/fill_relayout" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@id/bottom_line" android:background="@color/huaweipay_black_a_33" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_alignParentBottom="true" />
+</RelativeLayout>

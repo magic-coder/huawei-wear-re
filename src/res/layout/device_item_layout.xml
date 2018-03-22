@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/device_list_item_drawable" android:paddingTop="13dp" android:paddingBottom="13dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="10dp">
+    <TextView android:textSize="15dp" android:textColor="@color/common_white_90alpha" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/item_device_name" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_alignParentStart="true" />
+</RelativeLayout>

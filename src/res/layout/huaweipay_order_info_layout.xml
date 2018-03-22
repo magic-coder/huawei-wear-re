@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/recharge_result_rootview" android:background="@color/nfc_black" android:paddingTop="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/ll_product_name" android:layout_height="UNKNOWN_DATA_0x7f0d022f" style="@style/bill_detail_item_style_modle">
+        <TextView android:id="@id/b_product_name" android:text="@string/huaweipay_product_name" style="@style/bill_detail_item_title_disc_style_modle1" />
+        <TextView android:textColor="@color/nfc_white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b_product_fullname" android:layout_toRightOf="@id/b_product_name" android:layout_toEndOf="@id/b_product_name" style="@style/huaweipay_order_info_style1" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ll_b_mername" android:layout_height="UNKNOWN_DATA_0x7f0d022f" style="@style/bill_detail_item_style_modle">
+        <TextView android:id="@id/ll_b_mername_txt" android:text="@string/hwpay_metchant_name" style="@style/bill_detail_item_title_disc_style_modle1" />
+        <TextView android:textColor="@color/nfc_white" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/b_mername" android:layout_toRightOf="@id/ll_b_mername_txt" android:layout_toEndOf="@id/ll_b_mername_txt" style="@style/huaweipay_order_info_style1" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ll_b_meramount" android:layout_height="UNKNOWN_DATA_0x7f0d022f" style="@style/bill_detail_item_style_modle">
+        <TextView android:text="@string/hwpay_meramount" style="@style/bill_detail_item_title_disc_style_modle1" />
+        <TextView android:textColor="@color/nfc_white" android:id="@id/b_meramount" style="@style/huaweipay_order_info_style1" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/ll_b_pay_amount" android:layout_height="UNKNOWN_DATA_0x7f0d022f" style="@style/bill_detail_item_style_modle">
+        <TextView android:text="@string/hwpay_amount" style="@style/bill_detail_item_title_disc_style_modle1" />
+        <TextView android:textColor="@color/buscard_money_text_color" android:id="@id/b_pay_amount" style="@style/huaweipay_order_info_style1" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/nfc_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@id/bind_bus_card_switch_list" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" android:layout_alignParentTop="true" />
+    <include android:id="@id/bind_bus_cardlist_loading_layout" layout="@layout/nfc_carrera_progress_bar_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/bind_bus_cardlist_empty_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginRight="28dp" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/nfc_bind_bus_card_switch_list_empty" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" />
+        <TextView android:textSize="@dimen/card_switch_text_empty_size" android:textColor="@color/card_switch_text_empty_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_bind_bus_card_no_card_toadd" />
+    </LinearLayout>
+</RelativeLayout>

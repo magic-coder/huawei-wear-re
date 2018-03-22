@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="#f7f7f7" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ListView app:id="@id/contact_listview_left" app:layout_width="match_parent" app:layout_height="match_parent" app:listSelector="@color/transparent" app:divider="@color/listview_divider_contact" app:dividerHeight="0.5dp" app:footerDividersEnabled="false" />
+</LinearLayout>

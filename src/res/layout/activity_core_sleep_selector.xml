@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/setting_device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_fitness_core_sleep_title" setting:custom_type="2" />
+    <ScrollView setting:orientation="vertical" setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_weight="1.0">
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/setting_device_title_bar"
+            <RelativeLayout setting:id="@id/core_switch" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/setting_device_title_bar" setting:layout_marginStart="16dp" setting:layout_marginEnd="16dp">
+                <LinearLayout setting:orientation="vertical" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="9dp" setting:layout_marginBottom="9dp" setting:layout_toLeftOf="@id/event_core_sleep_switch_btn" setting:layout_centerInParent="true" setting:layout_marginEnd="16dp" setting:layout_toStartOf="@id/event_core_sleep_switch_btn" setting:layout_alignParentStart="true">
+                    <TextView setting:textSize="15dp" setting:textColor="#ffffffff" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_fitness_core_sleep_title" />
+                    <TextView setting:textSize="13dp" setting:textColor="#7fffffff" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_Settings_truSleep_switch_menu_tip" />
+                </LinearLayout>
+                <com.huawei.ui.commonui.switchbutton.CustomSwitchButton setting:id="@id/event_core_sleep_switch_btn" setting:checked="true" setting:layout_centerInParent="true" setting:layout_alignParentEnd="true" style="@style/common_switch_style" />
+            </RelativeLayout>
+            <ImageView setting:id="@id/event_alarm_switch_div" setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x66666731" setting:scaleType="fitXY" setting:layout_below="@id/core_switch" setting:layout_marginStart="16dp" setting:layout_marginEnd="16dp" />
+            <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="33dp" setting:layout_below="@id/event_alarm_switch_div">
+                <ImageView setting:id="@id/core_sleep_image" setting:layout_width="UNKNOWN_DATA_0x7f0d090b" setting:layout_height="UNKNOWN_DATA_0x7f0d090b" setting:src="@mipmap/ic_core_sleep_img" setting:layout_centerHorizontal="true" />
+                <TextView setting:textSize="13dp" setting:textColor="#7fffffff" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/core_sleep_BIDMC" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="24dp" setting:text="@string/IDS_core_sleep_switch_title" setting:layout_below="@id/core_sleep_image" setting:layout_marginStart="24dp" setting:layout_marginEnd="24dp" />
+                <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="15dp" setting:layout_marginBottom="45dp" setting:layout_below="@id/core_sleep_BIDMC" setting:layout_marginStart="24dp" setting:layout_marginEnd="24dp">
+                    <TextView setting:textSize="15dp" setting:textColor="#e5ffffff" setting:id="@id/core_sleep_content" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_Settings_truSleep_switch_page_content" setting:lineSpacingExtra="@dimen/settings_weatherreport_text_lineSpacingExtra" />
+                    <TextView setting:textSize="13dp" setting:textColor="#d8ffffff" setting:id="@id/core_bottom" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="8dp" setting:text="@string/IDS_core_sleep_open_tip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:id="@id/hb_card_item_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" />
+        <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:id="@id/hb_card_item_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp" />
+        <LinearLayout android:id="@id/hb_card_item_amt_linear" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="2dp">
+            <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/secondarycolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_card_balance" />
+            <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/hwpay_delete_mobilecard" android:id="@id/hb_card_item_left_amount" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/text_size_popup_main_body" android:textColor="@color/hwpay_delete_mobilecard" android:id="@id/hb_card_item_error" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

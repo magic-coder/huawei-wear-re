@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Scatta foto</item>
+        <item>Da album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Crea un ambiente confortevole per dormire meglio</item>
+        <item>Le buone abitudini di sonno contribuiscono alla salute generale</item>
+        <item>Lascia andare le preoccupazioni prima di coricarti</item>
+        <item>Libera la mente prima di dormire</item>
+        <item>Dormire bene aiuta a migliorare le prestazioni di lavoro</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Lascia le preoccupazioni del domani a domani</item>
+        <item>Evita di mangiare o bere troppo prima di coricarti</item>
+        <item>Concentrati sulla respirazione, può aiutarti a prendere sonno</item>
+        <item>Evita un esercizio fisico intenso prima di coricarti</item>
+        <item>Metti un po&apos; di musica soft per cullare il sonno</item>
+        <item>Allenati regolarmente per migliorare la qualità del tuo sonno</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Un buon sonno può migliorare il tuo umore</item>
+        <item>Affronta un nuovo giorno con corpo e mente più freschi</item>
+        <item>Un orario regolare per coricarsi può tranquillizzarti</item>
+        <item>Dormi bene per affrontare le sfide di domani</item>
+    </array>
+</resources>

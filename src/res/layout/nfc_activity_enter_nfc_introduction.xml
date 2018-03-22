@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/first_enter_nfc_introduction_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginTop="43dp" android:layout_marginRight="18dp" android:layout_marginBottom="25dp" android:src="@drawable/nfc_enter_welcome" />
+            <TextView android:textSize="15dp" android:textColor="@color/nfc_enter_nfc_text_color_black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/open_nfc_suggestion_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_open_nfc_suggestion_title" />
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textSize="14dp" android:id="@id/enter_nfc_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="28dp" android:text="@string/nfc_enter_nfc_button" android:fontFamily="@string/emui_anti_default_fonts" />
+</LinearLayout>

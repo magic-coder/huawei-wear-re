@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/user_profile_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_user_profile_titlebar" setting:custom_type="2" />
+    <FrameLayout setting:id="@id/id_personal_center_fragment" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+</LinearLayout>

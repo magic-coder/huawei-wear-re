@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fer foto</item>
+        <item>De l&apos;àlbum</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Crear un ambient còmode us ajuda a dormir millor</item>
+        <item>Uns bons hàbits a l&apos;hora de dormir contribueixen a una millora general de la salut</item>
+        <item>Deixeu de banda les preocupacions abans d&apos;anar a dormir</item>
+        <item>Descanseu la ment abans d&apos;anar a dormir</item>
+        <item>Dormir bé us ajuda a millorar el rendiment a la feina</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Deixeu les preocupacions de demà per a demà</item>
+        <item>Eviteu menjar o beure en excés abans d&apos;anar a dormir</item>
+        <item>Concentreu-vos en la respiració; us pot ajudar a agafar el son</item>
+        <item>Eviteu un exercici intens abans d&apos;anar a dormir</item>
+        <item>Posar música suau us ajudarà a agafar el son</item>
+        <item>Feu exercici regularment per millorar la qualitat del son</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Dormir bé pot millorar el vostre estat d&apos;ànim</item>
+        <item>Doneu la benvinguda a cada dia amb un cos i una ment renovats</item>
+        <item>Anar a dormir sempre a la mateixa hora us farà estar més relaxat</item>
+        <item>Dormir bé us ajuda a enfrontar-vos amb els desafiaments de demà</item>
+    </array>
+</resources>

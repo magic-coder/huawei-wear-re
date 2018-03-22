@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/nfc_network_fail_layout" />
+    <RelativeLayout android:id="@id/nfc_network_exception_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/huawei_query_fail" />
+    </RelativeLayout>
+    <include layout="@layout/nfc_progress_bar_layout" />
+    <WebView android:id="@id/webview" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" />
+</LinearLayout>

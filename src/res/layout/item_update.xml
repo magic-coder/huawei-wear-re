@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="#fafafa" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textSize="14dp" app:textColor="@color/kw_color_black_80alpha" app:id="@id/menu_update_name" app:background="#fafafa" app:layout_width="match_parent" app:layout_height="wrap_content" app:lineSpacingExtra="2dp" />
+</LinearLayout>

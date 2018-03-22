@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <SurfaceView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/preview_view" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.huawei.wallet.ui.idencard.camera.hcoincard.HCoinCardOverlayView android:id="@id/overlayview" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <CheckBox android:id="@id/btn_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:checked="false" android:button="@drawable/flash_on_selector" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <RelativeLayout android:background="@color/white_color" android:paddingLeft="@dimen/camera_hcoincard_tips_margin_left_or_right" android:paddingTop="@dimen/camera_hcoincard_tips_margin_left_or_right" android:paddingRight="@dimen/camera_hcoincard_tips_margin_left_or_right" android:paddingBottom="@dimen/camera_hcoincard_tips_margin_left_or_right" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/camera_hcoincard_title_textsize" android:textColor="@color/primarycolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hcoincard_title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/camera_hcoincard_tips_to_title_margin" android:text="@string/wallet_camera_add_hcoincard" />
+            <TextView android:textSize="@dimen/camera_hcoincard_tips_textsize" android:textColor="@color/huaweipay_black_a_BF" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/content_tips" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wallet_camera_use_hcoincard_tips" android:layout_below="@id/hcoincard_title" />
+            <TextView android:textSize="@dimen/camera_input_by_user_textsize" android:textColor="@color/cp3_my_brand_text_click_selector" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/input_by_user" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/wallet_camera_input_by_user" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

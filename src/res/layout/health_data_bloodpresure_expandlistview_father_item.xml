@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" Android:orientation="horizontal" Android:layout_width="match_parent" Android:layout_height="match_parent"
+    <LinearLayout Android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" Android:orientation="horizontal" Android:background="#f5f5f5" Android:layout_width="match_parent" Android:layout_height="UNKNOWN_DATA_0x2001">
+        <TextView Android:textSize="@dimen/hw_show_public_size_13" Android:textColor="@color/hw_show_color_text_75_persent_black" Android:id="@id/hw_show_health_data_bloodpresure_history_listview_father_textview" Android:layout_width="wrap_content" Android:layout_height="wrap_content" Android:layout_marginBottom="2dp" Android:fontFamily="HwChinese-medium" Android:layout_marginStart="@dimen/hw_show_public_size_16" />
+    </LinearLayout>
+</LinearLayout>

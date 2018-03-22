@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@id/wvProgressbar" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" android:progress="0" style="?unknown_attr_ref: 1010078" />
+    <WebView android:id="@id/webView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/wvProgressbar" />
+</RelativeLayout>

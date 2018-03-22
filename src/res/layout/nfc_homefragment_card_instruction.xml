@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/card_brief" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="4dp">
+        <TextView android:textSize="13dp" android:textColor="@color/card_list_need_SMS" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cardinstru_title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/nfc_card_not_available_to_use" android:layout_weight="1.0" android:fontFamily="HwChinese-medium" />
+        <TextView android:textSize="13dp" android:textColor="@color/cp3_my_brand_text_click_selector" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cardinstru_detail_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_cardlist_detail_selection" />
+    </LinearLayout>
+    <View android:id="@id/cardinstru_line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginBottom="16dp" android:layout_weight="1.0">
+        <TextView android:textSize="15dp" android:textColor="@color/card_switch_item_status_color" android:id="@id/cardinstru_instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/card_detail_type_margin_top" android:text="@string/nfc_card_instruction_loading_desc_new" />
+    </LinearLayout>
+</LinearLayout>

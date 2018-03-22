@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/credit_view" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:background="@drawable/bg_dark_edit_input" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+        <com.huawei.pay.ui.widget.ClearEditText android:orientation="vertical" android:id="@id/creditcard_input" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLength="23" android:inputType="textCapCharacters|number|numberSigned|numberDecimal|numberPassword|phone" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/cp3_my_brand_text_click_selector" android:id="@id/nfc_read_card_tips_txt" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_margin_16dp" android:text="@string/pay_input_tag_read_card_number" />
+</LinearLayout>

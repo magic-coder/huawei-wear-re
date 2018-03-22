@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/hwpay_dialog_title" />
+    <ListView android:id="@id/hb_card_left_list" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:listSelector="#00000000" android:cacheColorHint="#00000000" android:layout_weight="1.0" android:overScrollMode="never" />
+    <Button android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hb_card_left_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="12dp" android:text="@string/hwpay_close" android:fontFamily="@string/emui_anti_default_fonts" />
+</LinearLayout>

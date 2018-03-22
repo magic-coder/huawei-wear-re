@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:background="#f7f7f7" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:background="0x106000c" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentTop="true">
+            <TextView android:id="@id/menu_tv_left" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_weight="1.0" />
+            <TextView android:id="@id/menu_tv_right" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_weight="1.0" />
+        </LinearLayout>
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/kw_titlebar" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_alignParentTop="true"
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/reward_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/Emergency_contact_lly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/title_text_size" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/Emergency_contact_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_plugin_kidwatch_menu_contactmanage_linkman_str_ordinary" />
+                        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/viewpager_top_image_left" android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="UNKNOWN_DATA_0x501" android:layout_marginTop="3dp" android:src="@drawable/kw_img_circle" />
+                    </LinearLayout>
+                    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/addlinkman_tv_lly" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_weight="1.0">
+                        <TextView android:textSize="@dimen/title_text_size" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/addlinkman_tv" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/IDS_plugin_kidwatch_menu_contactmanage_linkman_str_administrators" android:layout_weight="4.83" />
+                        <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/viewpager_top_image_right" android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="UNKNOWN_DATA_0x501" android:layout_marginTop="3dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+        <android.support.v4.view.ViewPager android:id="@id/contacts_viewpager" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="48dp" android:layout_marginBottom="59dp" />
+        <View android:id="@id/contact_line_view" android:background="#c0c0c0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginBottom="59dp" android:layout_alignParentBottom="true" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/contact_add_or_sort" android:background="#f0f0f0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3b01" android:layout_alignParentBottom="true"
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/contact_add_linkman_liner" android:background="#f0f0f0" android:layout_width="UNKNOWN_DATA_0x6401" android:layout_height="UNKNOWN_DATA_0x3b01" android:layout_alignParentBottom="true">
+                <ImageView android:id="@id/contact_add_linkman_imageview" android:background="@drawable/kw_icon_add1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" />
+                <TextView android:textSize="11dp" android:textColor="#a6000000" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/IDS_plugin_kidwatch_menu_contactmanage_add_contact" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/contact_add_navigation_rly" android:background="#80000000" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+            <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="6dp" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/title_text_size" android:textColor="0x106000b" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/contact_add_navigation_administrators" android:paddingLeft="1dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/IDS_plugin_kidwatch_menu_contactmanage_linkman_str_administrators" android:layout_weight="4.83" />
+                <ImageView android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x501" android:layout_height="UNKNOWN_DATA_0x501" android:layout_marginTop="3dp" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@drawable/contact_add_navigation_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="48dp" android:layout_marginRight="16dp" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</FrameLayout>

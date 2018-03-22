@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Atera argazkia</item>
+        <item>Albumetik</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Sortu ingurune erosoa, hobeto lo egiteko</item>
+        <item>Ongi lo egiteko ohiturak osasun hobea izaten lagunduko dizu</item>
+        <item>Utzi arazoei ihes egiten lo egitera joan baino lehen</item>
+        <item>Hustu burua, lo egin baino lehen</item>
+        <item>Ongi lo eginda hobeto lan egingo duzu</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Utzi biharko kezkak biharko</item>
+        <item>Ahal dela ez gehiegi jan edo edan ohera joan baino lehen</item>
+        <item>Jarri arreta arnasketan. Lo hartzen lagun diezazuke</item>
+        <item>Ahal dela ez egin ariketa fisiko handirik lo egitera joan baino lehen</item>
+        <item>Erreproduzitu musika lasaia lo hartzen laguntzeko</item>
+        <item>Egin ariketa fisikoa sarri, loaren kalitatea hobetzeko</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Ongi lo eginda zure aldartea hobetuko da</item>
+        <item>Besarkatu egun bakoitza atseden hartutako gorputz eta arimarekin</item>
+        <item>Egunero ordu berean lotara joanda lasaiago ibiliko zara</item>
+        <item>Egin lo ongi, biharko erronkak lortzeko</item>
+    </array>
+</resources>

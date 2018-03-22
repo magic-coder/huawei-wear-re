@@ -1,0 +1,46 @@
+package com.snowballtech.business.constant;
+
+public class Constant {
+    public static String ATS_SUBFIX = "107880A10286730167810001";
+    public static final int FLAG_SERVER_END = 1;
+    public static final String LOG_FLAG_APDU_EXCHANGE = " apduExchange ";
+    public static final String LOG_FLAG_APPLET_MANAGE = " appletManage ";
+    public static final String LOG_FLAG_CARD_DEACTIVATE = " cardDeactivate ";
+    public static final String LOG_FLAG_CARD_DELETE = " cardDelete ";
+    public static final String LOG_FLAG_CARD_LIST_QUERY = " cardListQuery ";
+    public static final String LOG_FLAG_CARD_PERSO = " cardPerso ";
+    public static final String LOG_FLAG_CARD_QUERY = " cardQuery ";
+    public static final String LOG_FLAG_CARD_SWITCH = " cardSwitch ";
+    public static final String LOG_FLAG_CARD_TOPUP = " cardTopup ";
+    public static final String LOG_FLAG_CHECK_SUPPORT_STATUS = " checkSupportStatus ";
+    public static final String LOG_FLAG_CONSUME_PARSE = " consumeParse ";
+    public static final String LOG_FLAG_GET_CPLC = " getCplc ";
+    public static final String LOG_FLAG_GET_PAYORDER = " getPayOrder ";
+    public static final String LOG_FLAG_GET_SESSION = " getSession ";
+    public static final String LOG_FLAG_INIT_SE = " initSe ";
+    public static final String LOG_FLAG_ISSUE_CARD = " issueCard ";
+    public static final String LOG_FLAG_IS_INSTANCE_EXISTED = " isInstanceExisted ";
+    public static final String LOG_FLAG_OLD_APDU_EXCHANGE = " oldApduExchange ";
+    public static final String LOG_FLAG_OLD_GET_SELECT_PRESPONSE = " oldGetSelectResponse ";
+    public static final String LOG_FLAG_OLD_GET_SESERVICE_INTERFACE = " oldGetSEServiceInterface ";
+    public static final String LOG_FLAG_OLD_SHUTDOWN = " oldShutdown ";
+    public static final String LOG_FLAG_SELECT_AID = " selectAid ";
+    public static final String LOG_FLAG_SET_DEVICE = " setDevice ";
+    public static final String LOG_FLAG_SET_UID = " setUid ";
+    public static final String LOG_FLAG_SHUTDOWN = " shutdown ";
+    public static final String LOG_FLAG_SWITCH_LOG = " switch_log ";
+    public static final String LOG_FLAG_SYNC_INSTALL_STATUS = " syncInstallStatus ";
+    public static final String LOG_FLAG_TRANSACTION_BROADCAST = " transactionBroadcast ";
+    public static final String LOG_FLAG_TRANSFERREFUND = "transeferRefund";
+    public static final String LOG_FLAG_TRANS_QUERY_SE = " transQuerySe ";
+    public static final String LOG_FLAG_UPDATA_CACHE = " upDataCache ";
+    public static final String LOG_INIT = "init";
+    public static final int REQUEST_INTERVAL = 43200000;
+    public static final int TYPE_APDU_ACTIVE = 1009;
+    public static final int TYPE_APDU_ACTIVE_STATUS = 1019;
+    public static final int TYPE_APDU_INACTIVE = 1011;
+    public static final int TYPE_GET_CPLC_IN_CACHE = 0;
+    public static final int TYPE_REMOVE_CPLC_IN_CACHE = 2;
+    public static final int TYPE_SAVE_CPLC_IN_CACHE = 1;
+    public static final int WAIT_TIMEOUT = 600000;
+}

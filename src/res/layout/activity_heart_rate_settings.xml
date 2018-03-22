@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/activity_heart_rate_settings" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/setting_device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_settings_HeartRate_switch" setting:custom_type="2" />
+    <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/settings_heart_rate_layout" setting:background="@drawable/select_device_activity_listview_item_selector_black" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0437" setting:paddingStart="@dimen/activity_alarm_list_ite_margin" setting:paddingEnd="@dimen/activity_alarm_list_ite_margin">
+        <TextView setting:textSize="@dimen/default_text_font_size_large2" setting:textColor="@color/common_white_90alpha" setting:id="@id/heart_rate_tv" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_settings_HeartRate_switch" setting:layout_weight="1.0" />
+        <com.huawei.ui.commonui.switchbutton.CustomSwitchButton setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/heart_rate_switch_button" style="@style/common_switch_black_style" />
+    </LinearLayout>
+    <View setting:id="@id/item_line" setting:background="@color/common_white_15alpha" setting:visibility="visible" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0177" />
+    <ImageView setting:id="@id/settings_heart_rate_imageView" setting:layout_width="UNKNOWN_DATA_0x7f0d0179" setting:layout_height="UNKNOWN_DATA_0x7f0d0174" />
+    <ScrollView setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_huawei_hear_rate_image_margintop" setting:layout_marginBottom="@dimen/activity_huawei_hear_rate_left_right_margin" setting:layout_marginStart="@dimen/activity_huawei_hear_rate_left_right_margin" setting:layout_marginEnd="@dimen/activity_huawei_hear_rate_left_right_margin">
+            <TextView setting:textSize="@dimen/default_text_font_size_large2" setting:textColor="@color/common_white_90alpha" setting:id="@id/heart_rate_content_tv" setting:layout_width="match_parent" setting:layout_height="wrap_content" />
+            <TextView setting:textSize="@dimen/default_text_font_size_small_13dp" setting:textColor="@color/common_white_75alpha" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/activity_huawei_hear_rate_text_margintop" setting:text="@string/IDS_settings_firmware_upgrade_upgrading_talk_band_hint" />
+            <TextView setting:textSize="@dimen/default_text_font_size_small_13dp" setting:textColor="@color/common_white_75alpha" setting:id="@id/heart_rate_tip1_tv" setting:layout_width="match_parent" setting:layout_height="wrap_content" />
+            <TextView setting:textSize="@dimen/default_text_font_size_small_13dp" setting:textColor="@color/common_white_75alpha" setting:id="@id/heart_rate_tip2_tv" setting:layout_width="match_parent" setting:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

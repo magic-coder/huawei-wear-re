@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Take photo</item>
+        <item>From album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Create a comfortable environment for better sleep</item>
+        <item>Good sleep habits contribute to overall health</item>
+        <item>Let go of your worries before bed</item>
+        <item>Empty your mind before you sleep</item>
+        <item>Good sleep helps improve your work performance</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Leave tomorrow&apos;s worries for tomorrow</item>
+        <item>Avoid eating or drinking too much before bedtime</item>
+        <item>Focus on your breathing, it can help you fall sleep</item>
+        <item>Avoid intense exercise before bed</item>
+        <item>Play some soft music to lull you to sleep</item>
+        <item>Exercise regularly to improve the quality of your sleep</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Good sleep can improve your mood</item>
+        <item>Embrace each new day with a refreshed body and mind</item>
+        <item>A regular sleeping schedule can help boost your energy levels</item>
+        <item>A good night&apos;s sleep will help you tackle tomorrow&apos;s challenges</item>
+    </array>
+</resources>

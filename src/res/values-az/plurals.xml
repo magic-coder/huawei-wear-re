@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s sm</item>
+        <item quantity="one">%1$s sm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s gün davam edə bilər</item>
+        <item quantity="one">%1$s gün davam edə bilər</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s ft</item>
+        <item quantity="one">%1$s ft</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d saat</item>
+        <item quantity="one">%d saat</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s düym</item>
+        <item quantity="one">%1$s düym</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kq</item>
+        <item quantity="one">%s kq</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s funt</item>
+        <item quantity="one">%s funt</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s hələ %2$s gün üçün etibarlıdır</item>
+        <item quantity="one">%1$s hələ %2$s gün üçün etibarlıdır</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Seçilmiş kontaktlar silinsin?</item>
+        <item quantity="one">Seçilmiş kontakt silinsin?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s dəq ağıllı oyandırma)</item>
+        <item quantity="one">%1$s (%2$s dəq ağıllı oyandırma)</item>
+    </plurals>
+    <plurals name="messagecenter_sport_break_record_title">
+        <item quantity="one">Siz %1$d addımla yeni rekord vurdunuz</item>
+    </plurals>
+    <plurals name="messagecenter_sport_mounth_statistics_content">
+        <item quantity="one">%1$d km gedilib və %2$d kkal yandırılıb</item>
+    </plurals>
+    <plurals name="messagecenter_sport_mounth_statistics_title">
+        <item quantity="one">Siz keçən ay %1$d addım atmısınız</item>
+    </plurals>
+    <plurals name="messagecenter_sport_target_half_title">
+        <item quantity="one">Hədəfinizə çatmağa hələ %1$d addım qalıb, addımlamağa davam edin</item>
+    </plurals>
+    <plurals name="messagecenter_sport_week_statistics_title">
+        <item quantity="one">Siz keçən həftə %1$d addım atmısınız</item>
+    </plurals>
+    <plurals name="messagecenter_time_hour_value">
+        <item quantity="one">saat</item>
+    </plurals>
+    <plurals name="messagecenter_time_minute_value">
+        <item quantity="one">dəqiqə</item>
+    </plurals>
+    <plurals name="messagecenter_timeline_section_title">
+        <item quantity="one">%1$s-%2$s: cəmi %4$d addımla %3$d dəqiqə idman</item>
+    </plurals>
+</resources>

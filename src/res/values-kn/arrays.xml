@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>ಫೋಟೋ ತೆಗೆಯಿರಿ</item>
+        <item>ಆಲ್ಬಮ್‌ನಿಂದ</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>ಉತ್ತಮ ನಿದ್ರೆಗಾಗಿ ಆರಾಮದಾಯಕವಾದ ಪರಿಸರವನ್ನು ರಚಿಸಿ</item>
+        <item>ಉತ್ತಮ ನಿದ್ರೆ ಅಭ್ಯಾಸಗಳು ಒಟ್ಟಾರೆ ಆರೋಗ್ಯಕ್ಕೆ ಕೊಡುಗೆ ನೀಡುತ್ತದೆ</item>
+        <item>ಮಲಗುವ ಮೊದಲು ನಿಮ್ಮ ಚಿಂತೆಗಳನ್ನು ದೂರ ಮಾಡಿ</item>
+        <item>ನಿದ್ರೆಗೂ ಮೊದಲು ನಿಮ್ಮ ಮನಸ್ಸನ್ನು ಶಾಂತಗೊಳಿಸಿ</item>
+        <item>ಉತ್ತಮ ನಿದ್ರೆಯು ನಿಮ್ಮ ಕೆಲಸದ ಕಾರ್ಯಕ್ಷಮತೆಯನ್ನು ಸುಧಾರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>ನಾಳೆಯ ಚಿಂತೆಗಳನ್ನು ನಾಳೆಗೆ ಬಿಡಿ</item>
+        <item>ಮಲಗುವ ಮೊದಲು ಹೆಚ್ಚು ಆಹಾರ ಸೇವಿಸುವುದು ಅಥವಾ ಪಾನೀಯ ಸೇವೆಯನ್ನು ತಪ್ಪಿಸಿ</item>
+        <item>ನಿಮ್ಮ ಉಸಿರಿನ ಬಗ್ಗೆ ಗಮನವನ್ನು ಕೇಂದ್ರೀಕರಿಸಿ, ಇದು ನಿಮಗೆ ನಿದ್ರಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ</item>
+        <item>ಮಲಗುವುದಕ್ಕೂ ಮುನ್ನ ತೀವ್ರವಾದ ವ್ಯಾಯಾಮವನ್ನು ತಪ್ಪಿಸಿ</item>
+        <item>ನೀವು ನಿದ್ರೆ ಮಾಡಲು ಸ್ವಲ್ಪ ಮೃದುವಾದ ಸಂಗೀತವನ್ನು ಪ್ಲೇ ಮಾಡಿ</item>
+        <item>ನಿಮ್ಮ ನಿದ್ರೆಯ ಗುಣಮಟ್ಟವನ್ನು ಸುಧಾರಿಸಲು ನಿಯಮಿತವಾಗಿ ವ್ಯಾಯಾಮ ಮಾಡಿ</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>ಉತ್ತಮ ನಿದ್ರೆಯು ನಿಮ್ಮ ಮೂಡ್ ಅನ್ನು ಸುಧಾರಿಸಬಹುದು</item>
+        <item>ಪ್ರತಿ ಹೊಸ ದಿನವನ್ನು ರಿಫ್ರೆಶ್ ದೇಹ ಮತ್ತು ಮನಸ್ಸಿನೊಂದಿಗೆ ಅಳವಡಿಸಿಕೊಳ್ಳಿ</item>
+        <item>ನಿಯಮಿತ ಮಲಗುವ ವೇಳಾಪಟ್ಟಿ ನಿಮ್ಮ ಶಕ್ತಿಯ ಮಟ್ಟವನ್ನು ಹೆಚ್ಚಿಸಲು ಸಹಾಯ ಮಾಡುತ್ತದೆ</item>
+        <item>ನಾಳೆಯ ಸವಾಲುಗಳನ್ನು ನಿಭಾಯಿಸಲು ಒಳ್ಳೆಯ ನಿದ್ದೆ ಸಹಾಯ ಮಾಡುತ್ತದೆ</item>
+    </array>
+</resources>

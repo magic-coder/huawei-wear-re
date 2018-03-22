@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@drawable/menu_textview_bg_corner" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textSize="16dp" app:textColor="@color/kw_color_black_80alpha" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_tv_delete" app:background="@drawable/textview_bg_normal_and_pressed" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:text="@string/IDS_plugin_kidwatch_common_delete" />
+</LinearLayout>

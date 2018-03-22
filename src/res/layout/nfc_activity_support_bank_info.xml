@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/have_support_card_layout" android:background="@drawable/bg_nfc_support_bank_info" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/nfc_single_card_info_header" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+        <include android:id="@id/nfc_support_title_first" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" layout="@layout/nfc_support_card_title_item" />
+        <View android:id="@id/line_view3" android:background="@color/line_bottom_color" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <include android:id="@id/nfc_support_title_second" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" layout="@layout/nfc_support_card_title_item" />
+    </LinearLayout>
+    <View android:id="@id/nfc_support_card_footline" android:background="@color/line_bottom_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_below="@id/nfc_single_card_info_header" />
+    <com.huawei.pay.ui.widget.LineGridView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_support_card_info_list" android:scrollbars="UNKNOWN_DATA_0x0" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/line_bottom_color" android:numColumns="UNKNOWN_DATA_0x2" android:layout_below="@id/nfc_support_card_footline" />
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="wrap_content" setting:layout_height="wrap_content">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/contact_select_number_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_contact_select_number" setting:custom_type="1" />
+    <ListView setting:id="@id/contact_selectnumber_listview" setting:paddingLeft="@dimen/contact_imgView_margin" setting:paddingRight="@dimen/contact_imgView_margin" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:divider="@color/common_white_15alpha" setting:dividerHeight="@dimen/contact_dot5dp_line_divider" />
+    <ImageView setting:background="@color/common_white_15alpha" setting:paddingLeft="@dimen/contact_imgView_margin" setting:paddingRight="@dimen/contact_imgView_margin" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x40000031" />
+</LinearLayout>

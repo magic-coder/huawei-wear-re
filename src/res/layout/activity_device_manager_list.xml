@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/device_manager_list_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_main_left_menu_devicemanager" setting:custom_type="2" />
+    <include layout="@layout/item_fragment_slide_delete_notify" />
+    <LinearLayout setting:orientation="vertical" setting:id="@id/device_manager_list_no_device" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="UNKNOWN_DATA_0x4601" setting:layout_height="UNKNOWN_DATA_0x4601" setting:src="@mipmap/ic_no_device" />
+        <TextView setting:textSize="13dp" setting:textColor="@color/common_white_50alpha" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="4dp" setting:text="@string/IDS_no_device_tips_text" />
+    </LinearLayout>
+    <RelativeLayout setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView setting:id="@id/device_manager_list_item" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+        <LinearLayout setting:id="@id/no_device_add" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+            <Button setting:textSize="@dimen/hw_show_public_size_15" setting:textColor="@color/common_button_21_text_color" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/no_device_add_button" setting:background="@drawable/commonui_selector_corners_button" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d04a5" setting:layout_marginLeft="@dimen/hw_show_public_size_16" setting:layout_marginRight="@dimen/hw_show_public_size_16" setting:layout_marginBottom="@dimen/common_btn_margin_bottom_size" setting:text="@string/IDS_contact_add" />
+        </LinearLayout>
+        <LinearLayout setting:orientation="vertical" setting:id="@id/device_manager_list_add_device" setting:background="@drawable/common_button_21" setting:layout_width="UNKNOWN_DATA_0x7001" setting:layout_height="UNKNOWN_DATA_0x2d01" setting:layout_marginLeft="16dp" setting:layout_marginRight="16dp" setting:layout_marginBottom="8dp" setting:layout_alignParentBottom="true" setting:layout_centerHorizontal="true">
+            <ImageView setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:paddingTop="5.3dp" setting:layout_width="UNKNOWN_DATA_0x1801" setting:layout_height="UNKNOWN_DATA_0x1801" setting:src="@mipmap/ic_add" />
+            <TextView setting:textSize="9dp" setting:textColor="@color/common_white_60alpha" setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:paddingBottom="4.8dp" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_contact_add" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

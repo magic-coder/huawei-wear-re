@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="15dp" android:textColor="@color/home_track_starget_value_color_twe_alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/wheelview_item" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d0a2b" android:layout_marginTop="@dimen/custom_dialog_margin_left_right_bottom" android:layout_marginBottom="@dimen/custom_dialog_margin_left_right_bottom" android:fontFamily="regular" />
+</LinearLayout>

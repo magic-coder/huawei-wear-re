@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/moments_image_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="0.1">
+    <ImageView android:id="@id/moment_image" android:background="0x106000d" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x5801" android:layout_height="UNKNOWN_DATA_0x5801" android:layout_marginLeft="2dp" android:scaleType="centerCrop" />
+</RelativeLayout>

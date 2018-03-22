@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s 厘米</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">剩餘 %1$s 天</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s 英尺</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d 小時</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s 吋</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s 公斤</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s 磅</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s 有效期尚餘 %2$s 天</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">移除已選擇的聯絡人？</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s（智能喚醒 %2$s 分鐘）</item>
+    </plurals>
+    <plurals name="hwpay_error_pay_pass">
+        <item quantity="other">密碼不正確。您尚有%1$s次嘗試機會。</item>
+    </plurals>
+    <plurals name="hwpay_error_quiz">
+        <item quantity="other">答案不正確。您尚有 %1$s 次嘗試機會。</item>
+    </plurals>
+    <plurals name="hwpay_finger_print_freeze">
+        <item quantity="other">此指紋已被暫停使用，請在 %1$s 秒後再試一次。</item>
+    </plurals>
+    <plurals name="hwpay_finger_print_nomatch">
+        <item quantity="other">指紋不匹配，還可以嘗試 %1$s次</item>
+    </plurals>
+    <plurals name="nfc_bus_card_dealing_trade_progress">
+        <item quantity="other">尚有 %1$d 個交易未處理。正在處理…</item>
+    </plurals>
+</resources>

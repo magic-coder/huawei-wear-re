@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x12601">
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/auth_title_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2601">
+            <TextView android:textSize="14dp" android:textColor="@color/primarycolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/huaweipay_base_main_smalltitle" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <Button android:textSize="14dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/huaweipay_note_cancelbtn" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="12dp" android:text="@string/nfc_cancel" android:layout_alignParentBottom="true" android:fontFamily="@string/emui_anti_default_fonts" />
+        <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/huaweipay_note_cancelbtn" android:layout_below="@id/auth_title_layout">
+            <LinearLayout android:orientation="vertical" android:id="@id/fingle_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/finger_print_image" android:layout_width="wrap_content" android:layout_height="match_parent" />
+                <TextView android:textSize="12dp" android:textColor="@color/secondarycolor" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/note_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="16dp" android:layout_marginRight="20dp" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pay_input_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3601">
+                <TextView android:textSize="12dp" android:textColor="@color/productcolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pay_input_pwd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

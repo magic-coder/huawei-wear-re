@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>फ़ोटो लें</item>
+        <item>एल्बम से</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>बेहतर नींद के लिए आरामदायक परिवेश बनाएँ</item>
+        <item>अच्छी नींद की आदतें समग्र स्वास्थ्य में योगदान देती हैं</item>
+        <item>सोने से पहले अपनी सभी चिंताओं को भूल जाएँ</item>
+        <item>नींद से पहले अपना मन से सभी विचार निकाल दें</item>
+        <item>अच्छी नींद आपके कार्य प्रदर्शन में सुधार करने में सहायता करती है</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>कल की चिंता कल पर छोड़ें</item>
+        <item>सोने से पहले बहुत अधिक खाने या पीने से बचें</item>
+        <item>अपने श्वसन पर ध्यान केंद्रित करें, यह नींद आने में आपकी सहायता कर सकता है</item>
+        <item>सोने से पहले अत्यधिक व्यायाम न करें</item>
+        <item>चुपचाप सोने के लिए कुछ मधुर संगीत चलाएँ</item>
+        <item>अपनी नींद की गुणवत्ता में सुधार करने के लिए नियमित रूप से व्यायाम करें</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>अच्छी नींद आपके मिजाज को सुधार सकती है</item>
+        <item>तरोताज़ा शरीर और मन के साथ हर नए दिन का स्वागत करें</item>
+        <item>नियमित समय पर सोने से आपको मन की शांति मिल सकती है</item>
+        <item>कल की चुनौतियों का सामना करने के लिए अच्छी नींद सोएँ</item>
+    </array>
+</resources>

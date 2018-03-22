@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@drawable/common_popup21" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/AppUpdateDialog_check_layout" android:padding="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0a2d">
+        <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/activity_horizontal_margin">
+            <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:id="@id/BasicInfo_check_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_basic_info_downloading" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/BasicInfo_check_img" android:layout_width="UNKNOWN_DATA_0x7f0d0861" android:layout_height="UNKNOWN_DATA_0x7f0d0861" android:src="@drawable/app_update_checking" android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

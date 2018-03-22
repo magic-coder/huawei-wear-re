@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/layout" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/backgroundlayout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d05b2">
+        <TextView android:id="@id/kitket" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1901" />
+        <RelativeLayout android:id="@id/layout_temp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_below="@id/kitket">
+            <TextView android:textSize="@dimen/title_text_size" android:textColor="@color/white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/help" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/sport_chart_title" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="UNKNOWN_DATA_0x15401" android:layout_height="UNKNOWN_DATA_0x2c01" android:layout_marginTop="20dp" android:layout_below="@id/layout_temp" android:layout_centerHorizontal="true">
+            <Button android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/white" android:id="@id/btn_guide" android:background="@drawable/tab_my_friends" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2201" android:text="@string/help_btn_left" android:maxLines="1" android:layout_weight="1.0" android:onClick="Button_Click" />
+            <Button android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/white" android:id="@id/btn_explain" android:background="@drawable/tab_near_friends" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2201" android:maxLines="1" android:layout_weight="1.0" android:onClick="Button_Click" />
+            <TextView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@color/white" android:layout_width="UNKNOWN_DATA_0x7f0d0728" android:layout_height="UNKNOWN_DATA_0x2201" />
+            <Button android:textSize="@dimen/list_item_title_text_size" android:textColor="@color/white" android:id="@id/btn_bt" android:background="@drawable/tab_near_friends" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2201" android:text="@string/help_btn_mid" android:maxLines="1" android:layout_weight="1.0" android:onClick="Button_Click" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:id="@id/btn_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_alignParentBottom="true">
+        <Button android:id="@id/pre_page" android:background="@drawable/btn_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_weight="1.0" android:onClick="viewOnClick" />
+        <Button android:id="@id/next_page" android:background="@drawable/btn_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_weight="1.0" android:onClick="viewOnClick" />
+    </LinearLayout>
+    <Button android:id="@id/first_btn" android:background="@drawable/btn_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@string/next" android:layout_alignParentBottom="true" android:onClick="viewOnClick" />
+    <Button android:id="@id/last_btn" android:background="@drawable/btn_bg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:text="@string/sure" android:layout_alignParentBottom="true" android:onClick="viewOnClick" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/dot" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@id/dot1" android:layout_margin="5dp" android:src="@drawable/point_sel" style="@style/wrap_content" />
+        <ImageView android:id="@id/dot2" android:layout_margin="5dp" android:src="@drawable/point_unsel" style="@style/wrap_content" />
+        <ImageView android:id="@id/dot3" android:layout_margin="5dp" android:src="@drawable/point_unsel" style="@style/wrap_content" />
+        <ImageView android:id="@id/dot4" android:layout_margin="5dp" android:src="@drawable/point_unsel" style="@style/wrap_content" />
+        <ImageView android:id="@id/dot5" android:visibility="gone" android:layout_margin="5dp" android:src="@drawable/point_unsel" style="@style/wrap_content" />
+    </LinearLayout>
+    <android.support.v4.view.ViewPager android:id="@id/guidepager" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/dot" android:layout_below="@id/backgroundlayout" />
+    <android.support.v4.view.ViewPager android:id="@id/btpager" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@id/dot" android:layout_below="@id/backgroundlayout" />
+    <RelativeLayout android:id="@id/explain" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@id/dot" android:layout_below="@id/backgroundlayout">
+        <FrameLayout android:id="@id/webview_container" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_marginRight="15dp" />
+    </RelativeLayout>
+</RelativeLayout>

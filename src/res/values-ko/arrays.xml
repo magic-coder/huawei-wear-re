@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>사진 찍기</item>
+        <item>앨범에서</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>숙면을 위한 편안한 환경 조성</item>
+        <item>숙면하는 습관은 건강에 도움이 됩니다.</item>
+        <item>잠자리에 들기 전에 고민하지 마세요.</item>
+        <item>잠자리에 들기 전에는 마음을 비우세요.</item>
+        <item>숙면은 업무에 도움이 됩니다.</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>미리 걱정하지 마세요.</item>
+        <item>자기 전에 과식이나 과음하지 마세요.</item>
+        <item>호흡에 집중하면 잠을 자는 데 도움이 됩니다.</item>
+        <item>잠자리에 들기 전에 강도 높은 운동을 하지 마세요.</item>
+        <item>수면에 도움이 되도록 잔잔한 음악을 듣습니다.</item>
+        <item>규칙적인 운동은 수면의 질을 높여줍니다.</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>숙면은 기분을 좋게 해줍니다.</item>
+        <item>재충전된 몸과 마음으로 하루를 시작해 보세요.</item>
+        <item>정시에 잠자리에 들면 마음이 편안합니다.</item>
+        <item>내일을 위해 숙면을 취합니다.</item>
+    </array>
+</resources>

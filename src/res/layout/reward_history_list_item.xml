@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="#00ffffff" setting:clickable="false" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x4f01" setting:weightSum="1.0">
+    <View setting:id="@id/feature_reward_view_line_start" setting:background="#26000000" setting:visibility="invisible" setting:layout_width="UNKNOWN_DATA_0x101" setting:layout_height="match_parent" setting:layout_marginLeft="85dp" setting:layout_marginTop="20dp" />
+    <View setting:id="@id/feature_reward_view_line_mid" setting:background="#26000000" setting:visibility="invisible" setting:layout_width="UNKNOWN_DATA_0x101" setting:layout_height="match_parent" setting:layout_marginLeft="85dp" />
+    <View setting:id="@id/feature_reward_view_line_end" setting:background="#26000000" setting:visibility="invisible" setting:layout_width="UNKNOWN_DATA_0x101" setting:layout_height="match_parent" setting:layout_marginLeft="85dp" setting:layout_marginBottom="20dp" />
+    <LinearLayout setting:orientation="horizontal" setting:id="@id/item_tv_histpry_time_panel" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3d01">
+        <TextView setting:textSize="12dp" setting:textColor="@color/kw_color_black_65alpha" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/item_tv_histpry_time" setting:layout_width="UNKNOWN_DATA_0x2101" setting:layout_height="wrap_content" setting:layout_marginLeft="15dp" setting:layout_marginTop="9dp" setting:layout_marginRight="10dp" setting:text="01/25" />
+        <RelativeLayout setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="UNKNOWN_DATA_0x3d01" setting:layout_marginRight="20dp" setting:layout_weight="1.0">
+            <View setting:background="#26000000" setting:visibility="invisible" setting:layout_width="UNKNOWN_DATA_0x101" setting:layout_height="UNKNOWN_DATA_0x901" setting:layout_marginLeft="27dp" />
+            <LinearLayout setting:orientation="horizontal" setting:background="@drawable/kw_pic_reward_history_04" setting:clickable="false" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginTop="9dp">
+                <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/feature_item_goal_num" setting:layout_width="UNKNOWN_DATA_0x2801" setting:layout_height="wrap_content" setting:layout_marginLeft="7dp" setting:src="@drawable/kw_pic_reward_history_01" setting:scaleType="centerInside" />
+                <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/history_item_left" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="14dp" setting:layout_marginRight="72dp">
+                    <TextView setting:textSize="15dp" setting:textColor="@color/kw_color_black_80alpha" setting:id="@id/item_tv_history_content" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginBottom="2dp" setting:text="30个目标数已完成" />
+                    <TextView setting:textSize="10dp" setting:textColor="@color/kw_color_black_65alpha" setting:id="@id/item_tv_histpry_hope" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="去日本" />
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView setting:visibility="visible" setting:layout_width="UNKNOWN_DATA_0x3401" setting:layout_height="UNKNOWN_DATA_0x3401" setting:layout_marginRight="13dp" setting:src="@drawable/kw_pic_reward_history_03" setting:layout_alignParentTop="true" setting:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View setting:background="#26000000" setting:visibility="invisible" setting:layout_width="UNKNOWN_DATA_0x101" setting:layout_height="UNKNOWN_DATA_0x1201" setting:layout_marginLeft="85dp" setting:layout_below="@id/item_tv_histpry_time_panel" />
+</RelativeLayout>

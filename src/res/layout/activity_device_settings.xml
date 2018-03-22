@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:id="@id/setting_fragment" setting:background="@color/color_device_setting_title_color" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/setting_device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:custom_type="2" />
+    <ScrollView setting:id="@id/sv_device_setting" setting:background="@color/common_color_white" setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/setting_device_title_bar">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent"
+            <LinearLayout setting:orientation="vertical" setting:id="@id/linear_general_setting" setting:layout_width="match_parent" setting:layout_height="match_parent">
+                <ListView setting:id="@id/list_general_setting" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:listSelector="@drawable/device_settings_item_selector" setting:divider="0x0" />
+            </LinearLayout>
+            <LinearLayout setting:orientation="vertical" setting:id="@id/linear_device_setting" setting:layout_width="match_parent" setting:layout_height="match_parent">
+                <View setting:background="@drawable/device_settings_space_list_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0464" />
+                <LinearLayout setting:orientation="vertical" setting:paddingTop="@dimen/device_fragment_setting_device_title_margin_top" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginLeft="@dimen/device_fragment_setting_device_list_item_margin" setting:layout_marginRight="@dimen/device_fragment_setting_device_list_item_margin" setting:layout_marginStart="@dimen/device_fragment_setting_device_list_item_margin" setting:layout_marginEnd="@dimen/device_fragment_setting_device_list_item_margin">
+                    <TextView setting:text="@string/IDS_device_setting_other" style="@style/device_fragment_setting_title_text_style" />
+                </LinearLayout>
+                <View setting:layout_marginLeft="@dimen/device_fragment_setting_device_list_item_margin" setting:layout_marginRight="@dimen/device_fragment_setting_device_list_item_margin" style="@style/device_fragment_setting_line" />
+                <ListView setting:id="@id/list_device_setting" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:listSelector="@drawable/device_settings_item_selector" setting:divider="0x0" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

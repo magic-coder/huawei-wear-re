@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/develop_option_title_id" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_hw_show_develop_option" setting:custom_type="2" />
+    <ScrollView setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_above="@id/button_layout" setting:layout_below="@id/develop_option_title_id">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <RelativeLayout style="@style/about_activity_item_style">
+                <TextView setting:textColor="@color/common_white_90alpha" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:text="@string/IDS_hw_show_log_auto_upload" setting:layout_alignParentStart="true" />
+                <com.huawei.ui.commonui.switchbutton.CustomSwitchButton setting:id="@id/upload_log_enable" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" setting:layout_alignParentEnd="true" style="@style/common_switch_style" />
+            </RelativeLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+            <RelativeLayout style="@style/about_activity_item_style">
+                <TextView setting:textColor="@color/common_white_90alpha" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:text="@string/IDS_developer_option_logcat_switch" setting:layout_alignParentStart="true" />
+                <com.huawei.ui.commonui.switchbutton.CustomSwitchButton setting:id="@id/locat_switch_enable" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" setting:layout_alignParentEnd="true" style="@style/common_switch_style" />
+            </RelativeLayout>
+            <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0a01" setting:layout_marginLeft="@dimen/common_margin_left_size" setting:layout_marginRight="@dimen/common_margin_right_size" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout setting:orientation="vertical" setting:id="@id/button_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+        <Button setting:textSize="@dimen/hw_show_public_size_15" setting:textColor="@color/common_button_21_text_color" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/develop_option_copy_id" setting:background="@drawable/commonui_selector_corners_button" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d04a5" setting:layout_marginLeft="@dimen/hw_show_public_size_16" setting:layout_marginRight="@dimen/hw_show_public_size_16" setting:layout_marginBottom="@dimen/common_btn_margin_bottom_size" setting:text="@string/IDS_user_profile_data_share" />
+        <Button setting:textSize="@dimen/hw_show_public_size_15" setting:textColor="@color/common_button_21_text_color" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/develop_option_back_id" setting:background="@drawable/commonui_selector_corners_button" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d04a5" setting:layout_marginLeft="@dimen/hw_show_public_size_16" setting:layout_marginRight="@dimen/hw_show_public_size_16" setting:layout_marginBottom="@dimen/common_btn_margin_bottom_size" setting:text="@string/IDS_hw_show_exit_develop_option_button" />
+    </LinearLayout>
+</RelativeLayout>

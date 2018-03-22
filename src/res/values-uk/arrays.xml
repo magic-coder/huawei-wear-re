@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Сфотографувати</item>
+        <item>З альбому</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Для кращого сну створіть приємну атмосферу</item>
+        <item>Правильне ставлення до сну покращує загальний стан здоров’я</item>
+        <item>Лягаючи спати, думайте про щось хороше</item>
+        <item>Звільніть розум перед сном</item>
+        <item>Якісний сон сприяє вищій продуктивності в роботі</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Залиште завтрашні турботи на завтра</item>
+        <item>Перед сном не пийте багато й не переїдайте</item>
+        <item>Зосередьтеся на диханні – це допоможе заснути</item>
+        <item>Перед сном утримайтеся від фізичних навантажень</item>
+        <item>Спокійна музика перед сном допоможе заснути</item>
+        <item>Щоб поліпшити якість сну, регулярно робіть фізичні вправи</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Якісний сон може покращити ваш настрій</item>
+        <item>Зустрічайте кожен новий день з оновленим тілом і духом</item>
+        <item>Лягайте спати щодня в однаковий час – матимете ясний розум</item>
+        <item>Добре поспіть, щоб мати сили для завтрашніх звершень</item>
+    </array>
+</resources>

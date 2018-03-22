@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fotosurat olish</item>
+        <item>Albomdan</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Yaxshiroq uxlash uchun o‘zingizga qulay sharoit yarating</item>
+        <item>Yaxshi uyqu salomatligingizni yaxshilashga yordam beradi</item>
+        <item>Uyquga ketishdan oldin tashvishlarni unuting</item>
+        <item>Uxlashdan oldin miyangizni dam oldiring</item>
+        <item>Yaxshi dam – mehnatga hamdam</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Ertangi kun tashvishini ertaga qoldiring</item>
+        <item>Uxlashdan oldin ortiqcha ovqatlanish yoki ichimlik ichish salomatlikka zarar</item>
+        <item>Nafasingizni rostlang, bu uxlashga yordam beradi</item>
+        <item>Uyquga ketishdan oldin ortiqcha mashq qilmang</item>
+        <item>Uyquga ketishdan oldin biroz sokin musiqa tinglang</item>
+        <item>Uyqungiz sifatini yaxshilash uchun muntazam mashq qiling</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Yaxshi uyqu kayfiyatingizni ko‘taradi</item>
+        <item>Har kunni tetik va bardam holatda boshlang</item>
+        <item>Har kuni bir xil vaqtda uxlash ruhiy taskinlik beradi</item>
+        <item>Ertangi vazifalarni bajarish uchun bugun yaxshi dam oling</item>
+    </array>
+</resources>

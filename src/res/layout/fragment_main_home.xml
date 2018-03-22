@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.ui.homewear.card.views.cardflow.VerticalSwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/swipe_refresh_widget" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@color/color_home_fragment_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@id/home_fragment_title_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+        <RelativeLayout android:id="@id/home_fragment_title_layout" android:paddingLeft="@dimen/home_fragment_userphoto_margin_left" android:paddingTop="@dimen/home_fragment_userphoto_margin_top" android:paddingRight="@dimen/home_fragment_title_margin_right" android:paddingBottom="@dimen/home_fragment_card_recyclerview_margin_top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/home_fragment_title_view"
+            <RelativeLayout android:id="@id/fragment_home_user_photo_layout" android:layout_width="UNKNOWN_DATA_0x7f0d05f0" android:layout_height="UNKNOWN_DATA_0x7f0d05f0">
+                <ImageView android:id="@id/fragment_home_user_photo_iv" android:layout_width="UNKNOWN_DATA_0x7f0d05ed" android:layout_height="UNKNOWN_DATA_0x7f0d05ed" android:src="@mipmap/ic_personal_head" />
+                <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fragment_home_vip_grade_layout" android:background="@mipmap/ic_level_bg" android:layout_width="UNKNOWN_DATA_0x7f0d05ef" android:layout_height="UNKNOWN_DATA_0x7f0d05ef" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+                    <TextView android:textSize="@dimen/home_fragment_vip_grade_v_text_size" android:textColor="@color/common_color_white" android:id="@id/fragment_home_vip_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="V" />
+                    <TextView android:textSize="@dimen/home_fragment_vip_grade_level_text_size" android:textColor="@color/common_color_white" android:id="@id/fragment_home_vip_grade_iv_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/home_fragment_vip_grade_level_margin_top" android:layout_toRightOf="@id/fragment_home_vip_text" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0x7f0d05e9" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/home_fragment_user_profile_margin_left" android:layout_toRightOf="@id/fragment_home_user_photo_layout" android:layout_alignBottom="@id/fragment_home_user_photo_layout">
+                <TextView android:textSize="@dimen/home_fragment_16_text_size" android:textColor="@color/common_color_black" android:id="@id/fragment_home_user_name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                <TextView android:textSize="@dimen/home_fragment_12_text_size" android:textColor="@color/common_color_gray" android:id="@id/fragment_home_vip_grade_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/home_fragment_vip_grade_text_margin_bottom" android:singleLine="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/fragment_home_user_photo_layout" android:layout_alignParentRight="true">
+                <LinearLayout android:orientation="horizontal" android:id="@id/home_fragment_current_device_icon_layout" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d05dd" android:layout_alignParentRight="true">
+                    <ImageView android:id="@id/home_fragment_current_device_band" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d05dd" android:layout_height="UNKNOWN_DATA_0x7f0d05dd" android:src="@mipmap/ic_small_band" />
+                    <ImageView android:id="@id/home_fragment_current_device_k1" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d05dd" android:layout_height="UNKNOWN_DATA_0x7f0d05dd" android:src="@mipmap/ic_small_k1" />
+                    <ImageView android:id="@id/home_fragment_current_device_watch" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d05dd" android:layout_height="UNKNOWN_DATA_0x7f0d05dd" android:src="@mipmap/ic_small_watch" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/home_fragment_12_text_size" android:textColor="@color/common_color_gray" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fragment_home_current_device_tv" android:layout_width="UNKNOWN_DATA_0x7f0d05dc" android:layout_height="wrap_content" android:layout_marginRight="@dimen/home_fragment_current_device_status_text_margin_right" android:layout_marginBottom="@dimen/home_fragment_vip_grade_text_margin_bottom" android:singleLine="true" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/home_fragment_title_layout">
+            <android.support.v7.widget.RecyclerView android:id="@id/maincards_recyclerView" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="0x0" />
+        </RelativeLayout>
+    </RelativeLayout>
+</com.huawei.ui.homewear.card.views.cardflow.VerticalSwipeRefreshLayout>

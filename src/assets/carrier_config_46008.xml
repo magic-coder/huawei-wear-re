@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<carrier_config_list>
+    <carrier_config>
+        <AuthenType>2</AuthenType>
+        <CDMURL>https://hdh.10086.cn:8075/yhdk/appserver/v2.0/user/service</CDMURL>
+    </carrier_config>
+</carrier_config_list>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Tirar fotografia</item>
+        <item>Do álbum</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Criar um ambiente confortável para repouso melhor</item>
+        <item>Os bons hábitos de sono são bons para a saúde</item>
+        <item>Esqueça as preocupações antes da hora de dormir</item>
+        <item>Esvazie a mente antes de adormecer</item>
+        <item>Uma boa noite de sono melhora o seu desempenho no trabalho</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Deixe as preocupações de amanhã para amanhã</item>
+        <item>Evite comer ou beber em demasia antes de ir dormir</item>
+        <item>Concentre-se na respiração, pois pode ajudar a adormecer</item>
+        <item>Evite exercício intenso antes da hora de dormir</item>
+        <item>Ouça música calma para adormecer</item>
+        <item>Faça exercício regularmente para melhorar a qualidade do sono</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Uma boa noite de sono pode melhorar a sua disposição</item>
+        <item>Encare cada novo dia com o corpo e a mente revigorados</item>
+        <item>Uma hora de dormir regular pode dar-lhe tranquilidade</item>
+        <item>Durma bem para se sair bem nos desafios de amanhã</item>
+    </array>
+</resources>

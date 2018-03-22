@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/sdk_crowdtest_color_white" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/sdk_crowdtest_text_normal_size" android:textColor="0x106000c" android:id="@id/sdk_crowdtest_description_choice_widget_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="5dp" />
+    <RadioGroup android:id="@id/sdk_crowdtest_description_choice_widget_option" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="16dp" android:divider="@drawable/sdk_crowdtest_divider_layout_vertical_light" android:showDividers="middle|end" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>التقاط صورة</item>
+        <item>من الألبوم</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>خلق بيئة مريحة لنوم أفضل</item>
+        <item>تساهم عادات النوم الجيد في تحسين الحالة الصحية العامة</item>
+        <item>تخلص من همومك قبل موعد النوم</item>
+        <item>تمتع بذهن صاف قبل النوم</item>
+        <item>يساعد النوم الجيد على تحسين أدائك في العمل</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>اترك هموم الغد للغد</item>
+        <item>تجنّب تناول أو شرب كمية كبيرة قبل موعد النوم</item>
+        <item>التركيز على معدل تنفسك، يمكن أن يساعدك ذلك على النوم</item>
+        <item>تجنّب التمرين المكثف قبل موعد النوم</item>
+        <item>استمع إلى بعض الموسيقى الهادئة لتخلد إلى النوم</item>
+        <item>مارس الرياضة بانتظام لتحسين نوعية نومك</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>يمكن للنوم الجيد أن يحسّن مزاجك</item>
+        <item>استقبل كل يوم جديد بجسد وعقل نشط</item>
+        <item>يساعدك انتظام موعد النوم على الشعور براحة البال</item>
+        <item>نم جيدًا لتواجه تحديات الغد</item>
+    </array>
+</resources>

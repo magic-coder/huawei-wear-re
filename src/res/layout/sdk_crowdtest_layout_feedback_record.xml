@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/feedback_record_layout" android:background="@color/sdk_crowdtest_background_color_gray" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="16dp" android:divider="@drawable/sdk_crowdtest_divider_layout_vertical" android:layout_alignParentRight="true" android:showDividers="beginning|end">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/sdk_crowdtest_selector_icon_feedback_record" android:layout_width="UNKNOWN_DATA_0x1201" android:layout_height="UNKNOWN_DATA_0x1201" android:layout_marginRight="5dp" />
+        <TextView android:textSize="12sp" android:textColor="0x1060012" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/feedback_record_tv" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:text="@string/sdk_crowdtest_feedback_record" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

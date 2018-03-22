@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@id/nfc_time_list_title_layout" android:background="@color/buscard_trade_listview_title_bg_color" android:paddingLeft="@dimen/spacing_to_screen_left_default" android:paddingTop="@dimen/spacing_section_devide_top" android:paddingBottom="@dimen/spacing_section_devide_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/spacing_to_screen_left_default">
+        <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/buscard_trade_listview_title_text_color" android:id="@id/nfc_time_list_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:fontFamily="HwChinese-medium" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</LinearLayout>

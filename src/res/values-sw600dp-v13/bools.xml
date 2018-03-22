@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <bool name="IsNeedReset">true</bool>
+    <bool name="IsSupportOrientation">true</bool>
+    <bool name="IsSupportTpad">true</bool>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingLeft="@dimen/idcard_upload_content_padding" android:paddingRight="@dimen/idcard_upload_content_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/idcard_upload_content_padding" android:src="@drawable/huaweipay_payresult_success" android:contentDescription="@string/idcard_upload_front_tips" />
+    <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/primarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/idcard_upload_framemargintop" android:text="@string/idcard_upload_add_succ" />
+</LinearLayout>

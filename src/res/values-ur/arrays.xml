@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>تصویر لیں</item>
+        <item>البم سے</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>اچھی نیند کے لیے ایک آرام دہ ماحول بنائیں</item>
+        <item>سونے کی اچھی عادات آپ کی مجموعی صحت پر اثر انداز ہوتی ہیں</item>
+        <item>سونے کے وقت سے پہلے پریشانیوں سے چھٹکارا پائیں</item>
+        <item>سونے سے پہلے اپنے ذہن کو خالی رکھیں</item>
+        <item>اچھی نیند سے آپ کے کام کی کارکردگی کو بہتر کرنے میں مدد ملتی ہے</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>کل کی پریشانیوں کو کل پر چھوڑیں</item>
+        <item>سونے کے وقت سے پہلے بہت زیادہ کھانے یا پینے سے پرہیز کریں</item>
+        <item>اپنی سانس پر توجہ کریں، یہ سونے میں آپ کی مدد کر سکتا ہے</item>
+        <item>سونے کے وقت سے پہلے سخت ورزش سے گریز کریں</item>
+        <item>نیند کو پرسکون کرنے کے لیے کوئی ہلکی موسیقی چلائیں</item>
+        <item>اپنے سونے کے معیار کو بہتر کرنے کے لیے باقاعدگی سے ورزش کریں</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>اچھی نیند آپ کا مزاج بہتر کر سکتی ہے</item>
+        <item>ہر نئے دن کو تازہ دماغ اور جسم کے ساتھ اپنائیں</item>
+        <item>سونے کے وقت میں باقاعدگی آپ کو ذہنی سکون دے سکتی ہے</item>
+        <item>کل کے چیلنجز کا سامنا کرنے کے لیے اچھی طرح سوئیں</item>
+    </array>
+</resources>

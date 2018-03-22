@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/card_brief" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="10dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp">
+            <TextView android:textSize="13dp" android:textColor="@color/card_list_need_SMS" android:id="@id/cardinstru_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_card_not_available_to_use" android:fontFamily="HwChinese-medium" />
+            <TextView android:textSize="13dp" android:textColor="@color/cp3_my_brand_text_click_selector" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/cardinstru_detail_delete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_cardlist_detail_selection" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:id="@id/cardinstru_line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="12dp" android:layout_weight="1.0"
+            <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801">
+                <EditText android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sms_code_input" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/nfc_verify_code_hint" android:maxLength="8" android:numeric="integer|signed|decimal" />
+                <TextView android:textColor="@color/cp3_my_brand_text_click_selector" android:id="@id/get_sms_code" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16dp" android:text="@string/nfc_get_verify_code" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClickEvent" android:alpha="0.85" android:fontFamily="@string/emui_anti_default_fonts" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/nfc_bank_service_color" android:id="@id/cardinstru_instruction" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_card_instruction_delete_desc_new1" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp">
+            <Button android:textColor="@color/cp3_my_brand_text_click_selector" android:id="@id/delete_card_btn" android:background="@drawable/common_button_21" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_retry" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

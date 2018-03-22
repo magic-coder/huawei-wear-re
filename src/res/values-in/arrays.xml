@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Ambil foto</item>
+        <item>Dari album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Buat lingkungan yang nyaman untuk tidur yang lebih baik</item>
+        <item>Kebiasaan tidur yang baik berkontribusi terhadap kesehatan secara keseluruhan</item>
+        <item>Lupakan kekhawatiran Anda sebelum tidur</item>
+        <item>Kosongkan pikiran Anda sebelum tidur</item>
+        <item>Tidur yang baik membantu meningkatkan kinerja kerja Anda</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Jangan khawatirkan akan hari esok</item>
+        <item>Hindari makan atau minum terlalu banyak sebelum tidur</item>
+        <item>Fokus pada pernapasan Anda, akan membantu Anda tidur</item>
+        <item>Hindari olahraga berat sebelum tidur</item>
+        <item>Putar musik lembut untuk mengantar tidur Anda</item>
+        <item>Olahraga secara teratur untuk meningkatkan kualitas tidur Anda</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Tidur yang baik dapat meningkatkan suasana hati Anda</item>
+        <item>Hadapi hari baru dengan tubuh dan jiwa yang segar</item>
+        <item>Waktu tidur reguler dapat membuat pikiran Anda tenang</item>
+        <item>Tidur nyenyak untuk menghadapi tantangan hari esok</item>
+    </array>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@color/hw_show_healthdata_screen_bg_white" android:paddingLeft="@dimen/hw_show_public_size_16" android:paddingTop="@dimen/hw_show_public_size_16" android:paddingRight="@dimen/hw_show_public_size_16" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/hw_show_public_size_13" android:textColor="@color/hw_show_color_text_50_persent_black" android:id="@id/hw_show_bloodsugar_history_date" android:layout_width="UNKNOWN_DATA_0x7f0d0673" android:layout_height="wrap_content" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_befor_breakfast" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_after_breakfast" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_befor_lunch" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_after_lunch" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_befor_dinner" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_after_dinner" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_early_morning" style="@style/hw_show_bloodsugar_history_item_style" />
+    <TextView android:id="@id/hw_show_bloodsugar_history_befor_sleep" style="@style/hw_show_bloodsugar_history_item_style" />
+</LinearLayout>

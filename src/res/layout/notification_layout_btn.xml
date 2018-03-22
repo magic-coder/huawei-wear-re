@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="horizontal" app:background="0x106000d" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="wrap_content" app:src="@mipmap/app_icon" />
+    <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp">
+        <TextView app:textSize="15dp" app:textColor="#b5b5b5" app:id="@id/notification_tv_showmsg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginTop="9dp" />
+        <TextView app:background="#3fd9d6c3" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="5dp" app:layout_marginBottom="5dp" />
+        <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <Button app:textSize="12dp" app:textColor="#b5b5b5" app:id="@id/notification_btn_reject" app:background="@drawable/normal_btn" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x2201" app:text="@string/IDS_plugin_kidwatch_push_notification_history_add_contact_reject" app:layout_weight="0.5" />
+            <Button app:textSize="12dp" app:textColor="#b5b5b5" app:id="@id/notification_btn_allow" app:background="@drawable/normal_btn" app:layout_width="UNKNOWN_DATA_0x1" app:layout_height="UNKNOWN_DATA_0x2201" app:layout_marginLeft="2dp" app:layout_marginRight="4dp" app:text="@string/IDS_plugin_kidwatch_push_notification_history_add_contact_allow" app:layout_weight="0.5" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

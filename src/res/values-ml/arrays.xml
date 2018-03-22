@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>സെ.മീ</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>ഫോട്ടോയെടുക്കുക</item>
+        <item>ആൽബത്തിൽ നിന്ന്</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>നല്ല ഉറക്കം ലഭിക്കാൻ സുഖകരമായ സാഹചര്യം സൃഷ്ടിക്കുക</item>
+        <item>നല്ല ഉറക്ക ശീലങ്ങൾ മൊത്തത്തിലുള്ള ആരോഗ്യം നൽകുന്നു</item>
+        <item>ഉറങ്ങാൻ പോകുന്നതിനുമുമ്പ് ആകുലതകൾ മാറ്റിവയ്ക്കുക</item>
+        <item>ഉറങ്ങുന്നതിന് മുമ്പ് മനസ് ശാന്തമാക്കുക</item>
+        <item>നിങ്ങളുടെ ജോലിയിലെ പ്രകടനം മെച്ചപ്പെടുത്താൻ നല്ല ഉറക്കം സഹായിക്കുന്നു</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>നാളത്തെ ആകുലതകൾ നാളത്തേയ്ക്ക് വിടുക</item>
+        <item>കിടക്കാൻ പോകുന്നതിന് മുമ്പ് അമിതമായ തിന്നലോ കുടിക്കലോ ഒഴിവാക്കുക</item>
+        <item>നിങ്ങളുടെ ശ്വസനത്തിൽ ശ്രദ്ധകേന്ദ്രീകരിക്കുക, സുഷുപ്തിയിലാകുന്നതിന് ഇത് നിങ്ങളെ സഹായിക്കും</item>
+        <item>ഉറക്കത്തിന് മുമ്പ് തീവ്രമായ വ്യായാമം ഒഴിവാക്കുക</item>
+        <item>നിങ്ങളെ സുഷുപ്തിയിലാക്കുന്നതിനായി കുറച്ച് മൃദുവായ സംഗീതം പ്ലേ ചെയ്യുക</item>
+        <item>നിങ്ങളുടെ ഉറക്ക മേന്മ മെച്ചപ്പെടുത്തുന്നതിന് പതിവായി വ്യായാമം ചെയ്യുക</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>നല്ല ഉറക്കത്തിന് നിങ്ങളുടെ മൂഡ് മെച്ചപ്പെടുത്താനാകും</item>
+        <item>ഉന്മേഷമുള്ള ശരീരവും മനസുമായി ഓരോ പുതിയ ദിവസത്തെയും ആശ്ലേഷിക്കുക</item>
+        <item>നല്ല രാത്രി ഉറക്കത്തിനു നിങ്ങളുടെ നാളത്തെ വെല്ലുവിളികൾ അതിജീവിക്കാൻ നിങ്ങളെ സഹയിക്കാനാവും</item>
+        <item>കൃത്യമായ ഉറക്ക ഷെഡ്യൂളിന് നിങ്ങളുടെ ഊർജ്ജ നില വർധിപ്പിക്കാൻ സഹായിക്കാനാകും</item>
+    </array>
+</resources>

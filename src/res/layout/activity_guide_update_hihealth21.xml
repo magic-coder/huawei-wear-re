@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/update_hihealth_title_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarBg="@color/common_color_black" setting:titleBarText="@string/IDS_activity_update_hihealth_title" setting:titleBarTextColor="@color/common_white_90alpha" setting:custom_type="0" />
+    <ImageView setting:id="@id/update_hihealth_iv" setting:background="@mipmap/illu_update_wizard" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0xf801" setting:layout_below="@id/update_hihealth_title_layout" setting:layout_centerHorizontal="true" />
+    <ScrollView setting:id="@id/scroll_view" setting:scrollbars="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginTop="@dimen/cs_16_dp" setting:layout_marginBottom="@dimen/user_profile_user_rank_padding" setting:layout_below="@id/update_hihealth_iv" setting:fadeScrollbars="false">
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="@color/common_color_white" setting:id="@id/scroll_view_tv" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_health_start_info" setting:layout_marginStart="@dimen/cs_24_dp" setting:layout_marginEnd="@dimen/cs_24_dp" />
+        </RelativeLayout>
+    </ScrollView>
+    <RelativeLayout setting:id="@id/update_hihealth_rl" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0x1801" setting:layout_marginRight="@dimen/cs_24_dp" setting:layout_marginBottom="@dimen/cs_24_dp" setting:layout_alignParentRight="true" setting:layout_alignParentBottom="true">
+        <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="@color/color_notification_message_unread_textcolor" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/update_hihealth_tv" setting:layout_width="wrap_content" setting:layout_height="UNKNOWN_DATA_0x1801" setting:text="@string/IDS_startup_next" />
+        <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="UNKNOWN_DATA_0xc01" setting:layout_height="UNKNOWN_DATA_0x1801" setting:src="@drawable/ic_arrow_next_selector" setting:layout_toRightOf="@id/update_hihealth_tv" setting:layout_marginStart="4dp" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="0dp" android:paddingEnd="0dp" android:layout_marginStart="@dimen/dialog_content_margin_16dp" android:layout_marginEnd="@dimen/dialog_content_margin_16dp">
+        <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="15dp" android:textColor="@color/common_white_90alpha" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@+id/root_dialog_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_root_reminder_msg" android:lineSpacingMultiplier="1.1" android:paddingStart="@dimen/dialog_btn_width_0dp" android:paddingEnd="@dimen/dialog_btn_width_0dp" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/user_join_improve_plan_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dialog_content_margin_16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <CheckBox android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/agree_checkbox" android:background="@drawable/commonui_checkbox_bg" android:visibility="visible" android:layout_width="UNKNOWN_DATA_0x7f0d0579" android:layout_height="UNKNOWN_DATA_0x7f0d0579" android:checked="true" android:button="0x0" />
+        <TextView android:textSize="@dimen/clear_up_circle_text_size" android:textColor="#e6ffffff" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/user_experience_improve_pan_txt_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_not_remind" android:layout_marginStart="@dimen/fitness_goal_seek_bar_max_height" />
+    </LinearLayout>
+</LinearLayout>

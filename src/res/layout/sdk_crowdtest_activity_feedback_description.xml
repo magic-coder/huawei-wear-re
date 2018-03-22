@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.crowdtestsdk.feedback.widgets.FeedBackLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.crowdtestsdk.feedback.ui.TitleBarLayout android:id="@id/sdk_crowdtest_title_bar_layout" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/sdk_crowdtest_feedback_record_group" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08aa" layout="@layout/sdk_crowdtest_layout_feedback_record" />
+    <com.huawei.crowdtestsdk.feedback.widgets.FeedbackScrollView android:id="@id/sdk_crowdtest_feedback_record_scroll_view" android:background="@color/sdk_crowdtest_background_color_gray" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:fillViewport="true" android:layout_weight="1.0">
+        <com.huawei.crowdtestsdk.feedback.widgets.ScrollLinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionCommonComponent android:id="@id/sdk_crowdtest_description_common_component" android:layout_width="match_parent" android:layout_height="wrap_content" />
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionLastVersionExistsComponent android:id="@id/sdk_crowdtest_description_last_version_component" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_crowdtest_component_margin_height" />
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionDetailEditComponent android:id="@id/sdk_crowdtest_description_detail_edit_component" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_crowdtest_component_margin_height" />
+            <com.huawei.crowdtestsdk.feedback.description.component.DescriptionAttachmentComponent android:id="@id/sdk_crowdtest_description_attachment_component" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/sdk_crowdtest_component_margin_height" android:layout_marginBottom="16dp" />
+        </com.huawei.crowdtestsdk.feedback.widgets.ScrollLinearLayout>
+    </com.huawei.crowdtestsdk.feedback.widgets.FeedbackScrollView>
+    <include layout="@layout/sdk_crowdtest_layout_description_button_component" />
+</com.huawei.crowdtestsdk.feedback.widgets.FeedBackLinearLayout>

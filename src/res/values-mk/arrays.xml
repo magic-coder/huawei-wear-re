@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Фотографирај</item>
+        <item>Од албум</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Создајте удобна околина за подобар сон</item>
+        <item>Навиките за добар сон придонесуваат за подобро здравје</item>
+        <item>Заборавете на грижите пред спиење</item>
+        <item>Ослободете го умот пред спиење</item>
+        <item>Добриот сон ви помага да работите подобро</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Грижите за утре оставете ги за утре</item>
+        <item>Не јадете и не пијте многу пред спиење</item>
+        <item>Фокусирајте се на дишењето. Mоже да ви помогне да заспиете</item>
+        <item>Избегнувајте напорно вежбање пред спиење</item>
+        <item>Пуштете тивка музика за да ве заспие</item>
+        <item>Вежбајте редовно за подобар квалитет на сонот</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Добриот сон може да ви го подобри расположението</item>
+        <item>Пречекајте го секој ден со свежо тело и ум</item>
+        <item>Редовниот сон може да ви ги смири мислите</item>
+        <item>Наспијте се добро за да одговорите на предизвиците што ве чекаат утре</item>
+    </array>
+</resources>

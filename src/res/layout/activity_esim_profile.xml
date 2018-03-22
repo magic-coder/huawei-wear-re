@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/esim_profile_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_plugin_sim_esim_profile_title" setting:custom_type="2" />
+    <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <include layout="@layout/bt_disconnect_layout" />
+        <include layout="@layout/bt_connecting_layout" />
+        <include layout="@layout/bt_comunication_fail" />
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <TextView setting:textSize="@dimen/sim_esim_profile_tips_size" setting:textColor="@color/IDS_plugin_sim_white_90alpha" setting:id="@id/profile_tips" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginLeft="@dimen/sim_page_magin" setting:layout_marginTop="@dimen/sim_esim_profile_tips_to_top" setting:layout_marginRight="@dimen/sim_page_magin" setting:text="@string/IDS_plugin_sim_esim_profile_tips" />
+            <ImageView setting:id="@id/profile_tips_img" setting:background="@color/IDS_plugin_sim_white_8alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x801" setting:layout_marginTop="@dimen/sim_esim_profile_tips_to_tips_img" setting:layout_below="@id/profile_tips" />
+            <ListView setting:id="@id/esim_profile" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:divider="@color/IDS_plugin_sim_white_15alpha" setting:dividerHeight="0.5dp" setting:layout_below="@id/profile_tips_img" setting:headerDividersEnabled="false" setting:footerDividersEnabled="true" setting:layout_marginStart="@dimen/sim_page_magin" setting:layout_marginEnd="@dimen/sim_page_magin" />
+            <include layout="@layout/layout_back_next" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

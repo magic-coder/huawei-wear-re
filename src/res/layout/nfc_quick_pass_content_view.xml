@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="36dp" android:textColor="@color/secondarycolor" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/trans_amount_text" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginBottom="14dp" />
+    <TextView android:textSize="13dp" android:textColor="@color/secondarycolor" android:id="@id/card_name_text" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp" />
+    <TextView android:textSize="13dp" android:textColor="@color/secondarycolor" android:id="@id/card_balance_text" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="3dp" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/hotline_layout" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="7dp">
+        <TextView android:textSize="13dp" android:textColor="@color/secondarycolor" android:id="@id/hotline_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_hotline_text" />
+        <TextView android:textSize="13dp" android:textColor="@color/secondarycolor" android:id="@id/hotline_phone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView android:textSize="13dp" android:textColor="@color/nfc_enter_my_nfc_color" android:id="@id/enter_nfc_button" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_enter_my_nfc" />
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@drawable/menu_poi_list_item_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4001"
+    <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3f01">
+        <TextView app:textSize="@dimen/bluetooth_tv_kw_item_summarysize" app:textColor="@color/kw_color_black_65alpha" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/menu_tv_calllog_date" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="12dp" />
+        <RelativeLayout app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_marginLeft="5dp">
+            <View app:background="#cccccc" app:layout_width="UNKNOWN_DATA_0x101" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_alignParentTop="true" app:layout_centerHorizontal="true" />
+            <ImageView app:background="@drawable/kw_calllog_ico_line_dot" app:layout_width="UNKNOWN_DATA_0xa01" app:layout_height="UNKNOWN_DATA_0xa01" app:layout_alignParentLeft="true" app:layout_centerVertical="true" />
+        </RelativeLayout>
+        <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x4001" app:layout_marginLeft="20dp"
+            <LinearLayout app:orientation="horizontal" app:layout_width="match_parent" app:layout_height="wrap_content"
+                <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="vertical" app:layout_width="UNKNOWN_DATA_0x9601" app:layout_height="UNKNOWN_DATA_0x3e01"
+                    <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content">
+                        <TextView app:textSize="15dp" app:textColor="@color/kw_color_black_85alpha" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/menu_tv_calllog_name" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="" />
+                        <TextView app:textSize="15dp" app:textColor="@color/kw_color_black_85alpha" app:id="@id/menu_tv_missed_calls_number" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="5dp" app:text="(3)" />
+                    </LinearLayout>
+                    <LinearLayout app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="5dp">
+                        <TextView app:textSize="11dp" app:textColor="@color/kw_color_black_65alpha" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/menu_tv_calllog_start_time" app:layout_width="match_parent" app:layout_height="wrap_content" />
+                        <ImageView app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/menu_iv_calllog" app:background="@drawable/kw_calllog_img_call_record_list_in" app:layout_width="UNKNOWN_DATA_0x801" app:layout_height="UNKNOWN_DATA_0x801" app:layout_marginLeft="1dp" />
+                    </LinearLayout>
+                </LinearLayout>
+                <TextView app:textSize="@dimen/kw_settings_profile_vice_kidinfo_text_size" app:textColor="@color/kw_color_black_65alpha" app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:id="@id/menu_tv_calllog_time_length" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginRight="25dp" app:layout_weight="7.65" />
+            </LinearLayout>
+            <TextView app:background="#d7d7d7" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

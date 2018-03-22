@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/layout_dialog_bg" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/layout_text_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201">
+        <TextView android:textSize="18dp" android:textColor="@color/setting_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/st_dfu_layout" android:background="@drawable/layout_nether_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <RelativeLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textSize="18dp" android:textColor="@color/black" android:id="@id/st_progress_text" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+            <ProgressBar android:id="@id/st_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="100" android:layout_below="@id/dfu_progress_text" android:layout_centerHorizontal="true" style="@*style/Widget.Holo.ProgressBar.Horizontal" />
+        </RelativeLayout>
+        <LinearLayout style="@style/dialog_btn">
+            <Button android:id="@id/btn_st_cancel" android:text="@string/cancel" android:onClick="viewOnClick" style="@style/common_btn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

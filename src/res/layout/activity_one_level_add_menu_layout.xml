@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/one_level_add_menu_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_contact_add" setting:custom_type="1" />
+    <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/one_level_add_menu_no_content_view" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_below="@id/one_level_add_menu_titlebar">
+        <ImageView setting:id="@id/one_level_menu_no_conten_image" setting:layout_width="UNKNOWN_DATA_0x4601" setting:layout_height="UNKNOWN_DATA_0x4601" setting:layout_marginTop="120dp" setting:src="@mipmap/one_level_menu_no_content_image" />
+        <TextView setting:textSize="16dp" setting:textColor="@color/common_white_90alpha" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="16dp" setting:text="@string/IDS_settings_one_level_menu_settings_no_content" />
+    </LinearLayout>
+    <LinearLayout setting:orientation="vertical" setting:id="@id/one_level_add_menu_layout" setting:visibility="visible" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/one_level_add_menu_titlebar">
+        <ListView setting:id="@id/one_level_add_menu_listview" setting:fadingEdge="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:listSelector="#00000000" setting:divider="@drawable/list_divider_line" setting:dividerHeight="1dp" />
+        <ImageView setting:background="@color/common_white_15alpha" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x101" setting:layout_marginStart="@dimen/contact_main_listview_padding" setting:layout_marginEnd="@dimen/contact_main_listview_padding" />
+    </LinearLayout>
+</RelativeLayout>

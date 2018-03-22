@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_margin_bottom">28.0dip</dimen>
+    <dimen name="kw_settings_nav_circle_bg_height">230.0dip</dimen>
+    <dimen name="kw_settings_nav_relation_image_height">170.0dip</dimen>
+    <dimen name="kw_settings_profile_pelase_setting_top">7.0dip</dimen>
+    <dimen name="kw_settings_profile_vice_kidinfo_text_size">15.0dip</dimen>
+    <dimen name="number_button_height">47.0dip</dimen>
+    <dimen name="number_button_space">3.0dip</dimen>
+    <dimen name="pay_result_height">64.0dip</dimen>
+    <dimen name="pay_result_margin_top">16.0dip</dimen>
+    <dimen name="policy_text_size">13.0dip</dimen>
+    <dimen name="toast_y_offset">20.0dip</dimen>
+    <dimen name="height_48_dp">48.0dip</dimen>
+    <dimen name="pay_one_px">1.0px</dimen>
+    <dimen name="gesture_space">62.0dip</dimen>
+    <dimen name="gesture_space_margin_top">27.0dip</dimen>
+    <dimen name="kw_chat_item_width">190.0dip</dimen>
+    <dimen name="kw_home_change_device_item_width">250.0dip</dimen>
+    <dimen name="kw_settings_nav_bind_dot_top">78.0dip</dimen>
+    <dimen name="kw_settings_nav_bind_scan_size">125.0dip</dimen>
+    <dimen name="kw_settings_nav_profile_image_size">101.0dip</dimen>
+    <dimen name="kw_settings_nav_profile_image_top">19.0dip</dimen>
+    <dimen name="kw_settings_nav_profile_setting_lly_top">18.0dip</dimen>
+    <dimen name="kw_settings_nav_profile_setting_nikename_top">20.0dip</dimen>
+    <dimen name="kw_settings_nav_profile_tv_top">20.0dip</dimen>
+    <dimen name="kw_settings_nav_qr_image_top">35.0dip</dimen>
+    <dimen name="kw_settings_nav_relation_magrin_top">43.0dip</dimen>
+    <dimen name="kw_settings_nav_setphone_edittext_top">27.0dip</dimen>
+    <dimen name="kw_settings_nav_setphone_text_top">24.0dip</dimen>
+    <dimen name="kw_settings_reward_goal_image_height">175.0dip</dimen>
+    <dimen name="kw_settings_reward_goal_total_height">270.0dip</dimen>
+    <dimen name="kw_settings_set_num_top">38.0dip</dimen>
+</resources>

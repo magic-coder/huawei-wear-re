@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s سینٹی میٹر</item>
+        <item quantity="one">%1$s سینٹی میٹر</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">‎%1$s‎ دنوں تک رہ سکتا ہے</item>
+        <item quantity="one">‎%1$s‎ دن تک رہ سکتا ہے</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">‎%1$s K‎B</item>
+        <item quantity="one">‎%1$s K‎B</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s M‎B</item>
+        <item quantity="one">%1$s M‎B</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s فٹ</item>
+        <item quantity="one">%1$s فٹ</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">‎%d‎ گھنٹے</item>
+        <item quantity="one">‎%d گھنٹہ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">‎%1$s ‎B</item>
+        <item quantity="one">‎%1$s ‎B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">‎%1$s G‎B</item>
+        <item quantity="one">‎%1$s G‎B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">‎%1$s PB</item>
+        <item quantity="one">‎%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">‎%1$s TB</item>
+        <item quantity="one">‎%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s انچ</item>
+        <item quantity="one">%1$s انچ</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s کلوگرام</item>
+        <item quantity="one">%s کلوگرام</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s پاؤنڈ</item>
+        <item quantity="one">%s پاؤنڈ</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s اب بھی %2$s دنوں کے لیے موزوں ہے</item>
+        <item quantity="one">%1$s اب بھی %2$s دنوں کے لیے موزوں ہے</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">منتخب کردہ رابطوں کو مٹائیں؟</item>
+        <item quantity="one">منتخب کردہ رابطہ مٹائیں؟</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">‎%1$s‎ ‎(%2$sمنٹ کی اسمارٹ بیداری)</item>
+        <item quantity="one">‎%1$s‎ ‎(%2$sمنٹ کی اسمارٹ بیداری)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:scrollbarStyle="outsideOverlay" android:id="@id/listview" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:cacheColorHint="0x106000d" android:layout_weight="1.0" />
+    <Button android:id="@id/topup_button" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="28dp" android:text="@string/nfc_pay" android:fontFamily="@string/emui_anti_default_fonts" style="@style/nfc_topup_button_style" />
+    <Button android:id="@id/open_card_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" android:layout_marginBottom="28dp" android:text="@string/nfc_immediately_open_card" android:fontFamily="@string/emui_anti_default_fonts" />
+</LinearLayout>

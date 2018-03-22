@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" apk:oneshot="true">
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui01" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui02" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui03" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui04" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui05" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui06" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui07" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui08" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui09" />
+    <item apk:duration="27" apk:drawable="@drawable/nfc_swipe_transdone_anim_emui10" />
+</animation-list>

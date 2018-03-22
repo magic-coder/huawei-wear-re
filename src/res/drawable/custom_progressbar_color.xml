@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="0x1020000">
+        <shape android:shape="rectangle">
+            <corners android:radius="3dp" />
+            <solid android:color="#15000000" />
+        </shape>
+    </item>
+    <item android:id="0x102000d">
+        <scale android:drawable="@drawable/custom_progress_primary" android:scaleWidth="98%" />
+    </item>
+</layer-list>

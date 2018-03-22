@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>[CS_322125]_cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>[CS_322075]_kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>[CS_311248]_Take photo</item>
+        <item>[CS_311247]_From album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>[CS_311758]_Create a comfortable environment for better sleep</item>
+        <item>[CS_311787]_Good sleep habits contribute to overall health</item>
+        <item>[CS_311788]_Let go of your worries before bed</item>
+        <item>[CS_311784]_Empty your mind before you sleep</item>
+        <item>[CS_311785]_Good sleep helps improve your work performance</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>[CS_311737]_Leave tomorrow&apos;s worries for tomorrow</item>
+        <item>[CS_311735]_Avoid eating or drinking too much before bedtime</item>
+        <item>[CS_311734]_Focus on your breathing, it can help you fall sleep</item>
+        <item>[CS_311706]_Avoid intense exercise before bed</item>
+        <item>[CS_311709]_Play some soft music to lull you to sleep</item>
+        <item>[CS_311710]_Exercise regularly to improve the quality of your sleep</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>[CS_311613]_Good sleep can improve your mood</item>
+        <item>[CS_311614]_Embrace each new day with a refreshed body and mind</item>
+        <item>[CS_311611]_A regular sleeping schedule can help boost your energy levels</item>
+        <item>[CS_311612]_A good night&apos;s sleep will help you tackle tomorrow&apos;s challenges</item>
+    </array>
+</resources>

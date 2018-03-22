@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/primarycolor" android:id="@id/quiz_item_view_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/emui_anti_default_fonts" />
+</RelativeLayout>

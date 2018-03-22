@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+    <TextView android:textSize="@dimen/supportbank_item_textsize" android:textColor="@color/secondarycolor" android:id="@id/bank_name_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/debit_card_imageView" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginRight="@dimen/supportback_item_firstokicon_padding" android:src="@drawable/hwpay_support_choose" android:layout_toLeftOf="@id/credit_card_imageView" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/credit_card_imageView" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:layout_marginRight="@dimen/supportback_item_secondokicon_padding" android:src="@drawable/hwpay_support_choose" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

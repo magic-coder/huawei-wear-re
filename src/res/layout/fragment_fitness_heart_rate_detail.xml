@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/fitness_list_bg" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1.0"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/fitness_detail_up_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="16dp" android:layout_marginRight="16dp"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/left_arrow_iv" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent">
+            <ImageView android:id="@id/fitness_detail_up_arrow_left" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <TextView android:textSize="12dp" android:textColor="#ff556a73" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/fitness_detail_time_date_tv" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x1801" android:layout_weight="1.0" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/right_arrow_iv" android:layout_width="UNKNOWN_DATA_0x3201" android:layout_height="match_parent">
+            <ImageView android:id="@id/fitness_detail_up_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:orientation="vertical" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.huawei.ui.main.stories.fitness.views.calorie.BarChartViewPager android:id="@id/fitness_detail_viewpager" android:persistentDrawingCache="animation|all" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0557" android:flipInterval="30" android:layout_below="@id/fitness_detail_up_layout" />
+                <ImageView android:id="@id/loading_iv" android:paddingBottom="24dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/sleep_loading_animation" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/fitness_heart_rate_linear_layout_padding_top" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingLeft="@dimen/fitness_data_listview_item_margin_left" android:paddingRight="@dimen/fitness_data_listview_item_margin_left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fitness_heart_rate_avg_resting_layout_margin_bottom">
+                    <ImageView android:id="@id/fitness_ic_heart_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fitness_heart_rate_icon_margin_right" android:src="@mipmap/fitness_ic_heartrate" android:layout_alignBottom="@id/linearLayout1" android:layout_alignParentLeft="true" android:layout_marginEnd="@dimen/fitness_heart_rate_icon_margin_right" android:layout_alignParentStart="true" />
+                    <TextView android:textSize="@dimen/fitness_avg_rest_heart_tv_size" android:textColor="@color/common_color_black" android:id="@id/fitness_avg_resting_heart_rate_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/fitness_ic_heart_rate" android:layout_toEndOf="@id/fitness_ic_heart_rate" />
+                    <LinearLayout android:orientation="vertical" android:id="@id/linearLayout1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fitness_heart_rate_linear_layout_padding_left" android:layout_toRightOf="@id/fitness_avg_resting_heart_rate_tv" android:layout_centerVertical="true" android:layout_marginStart="@dimen/fitness_heart_rate_linear_layout_padding_left" android:layout_toEndOf="@id/fitness_avg_resting_heart_rate_tv">
+                        <TextView android:textSize="@dimen/default_text_font_size_small" android:textColor="@color/fitness_details_x_axis_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_main_watch_heart_rate_unit_string" />
+                        <TextView android:textSize="@dimen/default_text_font_size_small" android:textStyle="bold" android:textColor="@color/fitness_details_x_axis_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fitness_heart_rate_text_margin_top" android:text="@string/IDS_resting_heart_rate_string" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <ImageView android:id="@id/line1" style="@style/about_activity_divider_line_style" />
+                <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/fitness_data_listview_item_margin_left" android:paddingRight="@dimen/fitness_data_listview_item_margin_left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fitness_heart_rate_latest_layout_margin_top" android:layout_marginBottom="@dimen/fitness_heart_rate_latest_layout_margin_top">
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/fitness_heart_rate_latest_tv" android:text="@string/IDS_rate_zone_lastest_text" style="@style/fitness_heart_rate_latest_title_tv_style" />
+                        <TextView android:id="@id/fitness_heart_rate_latest_value" android:layout_below="@id/fitness_heart_rate_latest_tv" style="@style/fitness_heart_rate_latest_value_tv_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" android:layout_toRightOf="@id/fitness_heart_rate_latest_value" android:layout_alignBaseline="@id/fitness_heart_rate_latest_value" android:layout_alignBottom="@id/fitness_heart_rate_latest_value" style="@style/fitness_heart_rate_latest_unit_tv_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/fitness_heart_rate_min_tv" android:text="@string/IDS_main_watch_detail_min_heart_rate_string" style="@style/fitness_heart_rate_latest_title_tv_style" />
+                        <TextView android:id="@id/fitness_heart_rate_min_value" android:layout_below="@id/fitness_heart_rate_min_tv" style="@style/fitness_heart_rate_latest_value_tv_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" android:layout_toRightOf="@id/fitness_heart_rate_min_value" android:layout_alignBaseline="@id/fitness_heart_rate_min_value" android:layout_alignBottom="@id/fitness_heart_rate_min_value" style="@style/fitness_heart_rate_latest_unit_tv_style" />
+                    </RelativeLayout>
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="wrap_content" android:layout_weight="1.0">
+                        <TextView android:id="@id/fitness_heart_rate_max_tv" android:text="@string/IDS_main_watch_detail_max_heart_rate_string" style="@style/fitness_heart_rate_latest_title_tv_style" />
+                        <TextView android:id="@id/fitness_heart_rate_max_value" android:layout_below="@id/fitness_heart_rate_max_tv" style="@style/fitness_heart_rate_latest_value_tv_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" android:layout_toRightOf="@id/fitness_heart_rate_max_value" android:layout_alignBaseline="@id/fitness_heart_rate_max_value" android:layout_alignBottom="@id/fitness_heart_rate_max_value" style="@style/fitness_heart_rate_latest_unit_tv_style" />
+                    </RelativeLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/default_text_font_size_normal" android:textStyle="bold" android:textColor="@color/color_text_normal" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:paddingLeft="@dimen/fitness_data_listview_item_margin_left" android:paddingRight="@dimen/fitness_data_listview_item_margin_left" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001" android:text="@string/IDS_rate_zone_text" />
+                    <ImageView android:id="@id/line" style="@style/about_activity_divider_line_style" />
+                    <LinearLayout style="@style/fitness_heart_rate_zones_layout_style">
+                        <ImageView android:src="@mipmap/fitness_heart_rate_point_01" style="@style/fitness_heart_rate_zones_img_style" />
+                        <TextView android:text="@string/IDS_rate_zone_maximum_threshold" style="@style/fitness_heart_rate_zones_title_style" />
+                        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+                        <TextView android:id="@id/fitness_heart_rate_maximum_zone_tv" style="@style/fitness_heart_rate_zones_value_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" style="@style/fitness_heart_rate_zones_unit_value_style" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/line2" style="@style/about_activity_divider_line_style" />
+                    <LinearLayout style="@style/fitness_heart_rate_zones_layout_style">
+                        <ImageView android:src="@mipmap/fitness_heart_rate_point_02" style="@style/fitness_heart_rate_zones_img_style" />
+                        <TextView android:text="@string/IDS_rate_zone_anaerobic_threshold" style="@style/fitness_heart_rate_zones_title_style" />
+                        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+                        <TextView android:id="@id/fitness_heart_rate_anaerobic_zone_tv" style="@style/fitness_heart_rate_zones_value_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" style="@style/fitness_heart_rate_zones_unit_value_style" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/line3" style="@style/about_activity_divider_line_style" />
+                    <LinearLayout style="@style/fitness_heart_rate_zones_layout_style">
+                        <ImageView android:src="@mipmap/fitness_heart_rate_point_03" style="@style/fitness_heart_rate_zones_img_style" />
+                        <TextView android:text="@string/IDS_rate_zone_aerobic_threshold" style="@style/fitness_heart_rate_zones_title_style" />
+                        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+                        <TextView android:id="@id/fitness_heart_rate_aerobic_zone_tv" style="@style/fitness_heart_rate_zones_value_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" style="@style/fitness_heart_rate_zones_unit_value_style" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/line4" style="@style/about_activity_divider_line_style" />
+                    <LinearLayout style="@style/fitness_heart_rate_zones_layout_style">
+                        <ImageView android:src="@mipmap/fitness_heart_rate_point_04" style="@style/fitness_heart_rate_zones_img_style" />
+                        <TextView android:text="@string/IDS_rate_zone_fatburn_threshold_string" style="@style/fitness_heart_rate_zones_title_style" />
+                        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+                        <TextView android:id="@id/fitness_heart_rate_fat_burn_zone_tv" style="@style/fitness_heart_rate_zones_value_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" style="@style/fitness_heart_rate_zones_unit_value_style" />
+                    </LinearLayout>
+                    <ImageView android:id="@id/line5" style="@style/about_activity_divider_line_style" />
+                    <LinearLayout style="@style/fitness_heart_rate_zones_layout_style">
+                        <ImageView android:src="@mipmap/fitness_heart_rate_point_05" style="@style/fitness_heart_rate_zones_img_style" />
+                        <TextView android:text="@string/IDS_rate_zone_warmup_threshold" style="@style/fitness_heart_rate_zones_title_style" />
+                        <View android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:layout_weight="1.0" />
+                        <TextView android:id="@id/fitness_heart_rate_warm_up_zone_tv" style="@style/fitness_heart_rate_zones_value_style" />
+                        <TextView android:text="@string/IDS_main_watch_heart_rate_unit_string" style="@style/fitness_heart_rate_zones_unit_value_style" />
+                    </LinearLayout>
+                    <LinearLayout android:background="@color/color_main_fragment_background" android:padding="@dimen/common_list_content_layout_margin_left_right" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/common_list_content_layout_margin_left_right" /> /> /> />
+    </ScrollView> />

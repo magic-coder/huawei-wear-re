@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/question_main_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_detail_sleep_bottom_btu_day_txt" setting:custom_type="0" />
+    <RelativeLayout setting:background="#ff000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0xaa01">
+        <ImageView setting:id="@id/question_main_sport_health_iv" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@mipmap/ic_about_huawei_log" setting:layout_centerInParent="true" />
+        <TextView setting:textSize="12dp" setting:textColor="@color/common_white_90alpha" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="0dp" setting:text="@string/IDS_app_name" setting:layout_below="@id/question_main_sport_health_iv" setting:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <LinearLayout setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x1" setting:layout_weight="1.0">
+        <com.huawei.ui.main.stories.nps.views.QuestionMainViewPager setting:id="@id/pager" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+    </LinearLayout>
+    <Button setting:textSize="14dp" setting:textColor="#0d9ffb" setting:id="@id/question_next" setting:background="@drawable/common_button_21" setting:visibility="invisible" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x2801" setting:layout_marginLeft="20dp" setting:layout_marginRight="20dp" setting:layout_marginBottom="25dp" />
+</LinearLayout>

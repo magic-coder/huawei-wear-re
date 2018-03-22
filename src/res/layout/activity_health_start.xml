@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_black_100alpha" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/health_start_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_hw_app_name" setting:custom_type="2" />
+    <ScrollView setting:id="@id/health_start_info_sl" setting:paddingBottom="16dp" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_weight="1.0">
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content"
+            <RelativeLayout setting:id="@id/health_start_rl_connect" setting:background="@color/common_white_8alpha" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d032d"
+                <RelativeLayout setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerInParent="true">
+                    <ImageView setting:id="@id/health_start_rl_connect_iv" setting:layout_width="UNKNOWN_DATA_0x7f0d0327" setting:layout_height="UNKNOWN_DATA_0x7f0d0327" setting:src="@drawable/app_update_checking" setting:layout_centerVertical="true" />
+                    <TextView setting:textSize="@dimen/cs_image_margin_left_right" setting:textColor="#ffffff" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_connecting" setting:layout_centerVertical="true" setting:layout_marginStart="@dimen/cs_8_dp" setting:layout_toEndOf="@id/health_start_rl_connect_iv" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout setting:orientation="horizontal" setting:id="@id/health_start_rl" setting:background="#f1ceca" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+                <LinearLayout setting:orientation="horizontal" setting:id="@id/health_start_rl_ll" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerVertical="true" setting:layout_marginStart="8dp" setting:layout_marginEnd="16dp" setting:layout_alignParentEnd="true">
+                    <TextView setting:textSize="@dimen/cs_image_margin_left_right" setting:textColor="#000000" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/health_start_r1_11_tv" setting:layout_width="UNKNOWN_DATA_0x5101" setting:layout_height="wrap_content" setting:text="@string/IDS_health_start_configure_network" />
+                    <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/health_start_r1_11_img" setting:background="@mipmap/ic_tip_right" setting:layout_width="UNKNOWN_DATA_0x7f0d0326" setting:layout_height="UNKNOWN_DATA_0x7f0d032a" setting:layout_marginStart="@dimen/cs_4_dp" />
+                </LinearLayout>
+                <RelativeLayout setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginEnd="105dp">
+                    <ImageView setting:id="@id/health_start_rl_iv" setting:background="@mipmap/ic_tips_disconnected" setting:layout_width="UNKNOWN_DATA_0x7f0d0329" setting:layout_height="UNKNOWN_DATA_0x8c00021" setting:layout_centerVertical="true" setting:layout_marginStart="16dp" setting:layout_marginEnd="16dp" />
+                    <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="#ff3320" setting:id="@id/health_start_rl_tv" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="9dp" setting:layout_marginBottom="9dp" setting:text="@string/IDS_health_start_net_not_connect" setting:layout_toEndOf="@id/health_start_rl_iv" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout setting:id="@id/install_successful" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="134dp" setting:layout_centerHorizontal="true">
+                <ImageView setting:id="@id/install_successful_iv" setting:background="@mipmap/ic_installsuccessful" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true" />
+                <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="#ffffff" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_install_successful" setting:layout_below="@id/install_successful_iv" setting:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout setting:id="@id/health_start_info_rl" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginLeft="24dp" setting:layout_marginTop="@dimen/cs_36_dp" setting:layout_marginRight="24dp" setting:layout_below="@id/health_start_rl" setting:layout_centerHorizontal="true">
+                <ImageView setting:id="@id/health_start_icon" setting:background="@mipmap/ic_huaweihealth" setting:layout_width="UNKNOWN_DATA_0x5201" setting:layout_height="UNKNOWN_DATA_0x5201" setting:layout_centerHorizontal="true" />
+                <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="@color/common_white_90alpha" setting:id="@id/health_start_health_name" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="8dp" setting:text="@string/IDS_app_name_health" setting:layout_below="@id/health_start_icon" setting:layout_centerHorizontal="true" />
+                <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="@color/common_white_90alpha" setting:id="@id/health_start_guide_describe" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="16dp" setting:text="@string/IDS_health_start_step_skip" setting:layout_below="@id/health_start_health_name" />
+                <LinearLayout setting:orientation="horizontal" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="16dp" setting:layout_below="@id/health_start_guide_describe">
+                    <TextView setting:textSize="@dimen/cs_image_margin_left_right" setting:textColor="@color/common_white_90alpha" setting:id="@id/health_start_guide_describe_note" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_health_start_note" />
+                    <TextView setting:textSize="@dimen/cs_image_margin_left_right" setting:textColor="@color/common_white_90alpha" setting:id="@id/health_start_guide_describe_note_info" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:text="@string/IDS_main_install_health_tip" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true">
+        <TextView setting:textSize="@dimen/cs_dialog_padding" setting:textColor="#0d9ffb" setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/health_start_button1" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginBottom="16dp" setting:text="@string/IDS_device_open_health_skip" />
+        <Button setting:id="@id/health_start_button2" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x13400021" setting:layout_marginBottom="16dp" setting:layout_marginStart="16dp" setting:layout_marginEnd="16dp" style="@style/commonui_button_style" />
+    </LinearLayout>
+</LinearLayout>

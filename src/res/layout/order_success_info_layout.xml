@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_success_product_margin_screen_left" android:layout_marginTop="@dimen/order_tips_padding_product" android:layout_marginRight="@dimen/order_success_product_margin_screen_right">
+        <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/primarycolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_amount" />
+        <TextView android:textSize="@dimen/text_size_18sp" android:textColor="@color/hwpay_delete_mobilecard" android:id="@id/order_amount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_success_product_margin_left" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_success_product_margin_screen_left" android:layout_marginTop="@dimen/order_product_padding_product" android:layout_marginRight="@dimen/order_success_product_margin_screen_right">
+        <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/primarycolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_product_name" />
+        <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/huaweipay_black_a_80" android:id="@id/order_product_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_success_product_margin_left" android:singleLine="true" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_success_product_margin_screen_left" android:layout_marginTop="@dimen/order_product_padding_product" android:layout_marginRight="@dimen/order_success_product_margin_screen_right">
+        <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/primarycolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/order_user_name" />
+        <TextView android:textSize="@dimen/text_size_14sp" android:textColor="@color/huaweipay_black_a_80" android:id="@id/order_user_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/order_success_product_margin_left" android:singleLine="true" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/nfc_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/sub_tab_views" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="18dp" android:layout_marginRight="18dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/layout_left" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_weight="1.0">
+            <TextView android:textSize="14dp" android:textColor="@color/buscard_trade_normal_color" android:id="@id/nfc_done_trade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_done" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/nfc_detail_subtab_divider_white" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="UNKNOWN_DATA_0x2201" />
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/right" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2201" android:layout_weight="1.0">
+            <TextView android:textSize="14dp" android:textColor="@color/buscard_trade_normal_color" android:id="@id/nfc_undone_trade" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_undone" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/sub_tab_views">
+        <com.huawei.nfc.carrera.ui.carddetail.CardDetailViewPager android:id="@id/nfc_bus_card_pager" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_below="@id/nfc_bus_card_pager" />
+    </RelativeLayout>
+</RelativeLayout>

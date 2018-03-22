@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.crowdtestsdk.feedback.ui.TitleBarLayout android:id="@id/sdk_crowdtest_project_title_bar_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08ba" />
+    <FrameLayout android:id="@id/sdk_crowdtest_project_list_container" android:background="@color/sdk_crowdtest_background_color_gray" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+</com.huawei.crowdtestsdk.feedback.widgets.BlurBitmapLinearLayout>

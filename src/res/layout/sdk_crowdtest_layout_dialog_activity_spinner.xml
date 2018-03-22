@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@color/sdk_crowdtest_background_color_gray" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+    <include android:id="@id/sdk_crowdtest_activity_empty_view" layout="@layout/sdk_crowdtest_layout_empty_view" />
+    <FrameLayout android:id="@id/sdk_crowdtest_activity_content_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullToRefreshLayout android:id="@id/sdk_crowdtest_dialog_project_list_layout" android:background="@drawable/sdk_crowdtest_bg_corner_gray_solid_light" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <include layout="@layout/sdk_crowdtest_pull_to_refresh_refresh_head" />
+            <com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullableListView android:id="@id/sdk_crowdtest_dialog_project_list_view" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/sdk_crowdtest_divider_line_color" android:dividerHeight="1px" />
+            <include layout="@layout/sdk_crowdtest_pull_to_refresh_load_more" />
+        </com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullToRefreshLayout>
+    </FrameLayout>
+</FrameLayout>

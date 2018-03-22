@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="horizontal" android:background="@drawable/menu_list_bg" android:paddingTop="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@id/device_type_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mid_popup_list_ic_kidswatch_1" style="@style/commonui_popwindow_listitem_type_icon" />
+    <Space android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/commonui_popwindow_listitem_acess_icon" />
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginRight="36dp" android:layout_toRightOf="@id/device_type_icon" android:layout_alignTop="@id/device_type_icon" android:layout_centerVertical="true">
+        <TextView android:id="@id/device_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/IDS_plugin_kidwatch_common_title" android:singleLine="true" style="@style/commonui_popwindow_listitem_device_name" />
+        <LinearLayout android:id="@id/device_info_bottom" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/device_status_icon_kone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/mid_popup_list_ic_bluetooth_1" />
+            <TextView android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/device_connect_state" android:paddingLeft="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/commonui_popwindow_listitem_connect_state" />
+            <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/device_battery" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:src="@drawable/mid_popup_list_ic_battery100" />
+            <TextView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/device_battery_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:minWidth="5dp" style="@style/commonui_popwindow_listitem_battery_value" />
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:id="@id/device_iv_right_icon" android:layout_width="UNKNOWN_DATA_0x1e01" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginRight="6dp" android:src="@drawable/kw_btn_calendar_common_top_right_gray" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

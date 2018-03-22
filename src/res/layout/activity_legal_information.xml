@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/legal_title_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_setting_about_huawei_law_info" setting:custom_type="2" />
+    <ListView setting:id="@id/info_detail_list" setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:listSelector="@drawable/list_view_item_selector" setting:divider="@drawable/common_listview_divider" setting:dividerHeight="@dimen/user_profile_list_item_divide_line_height" setting:footerDividersEnabled="true" />
+</LinearLayout>

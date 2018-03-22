@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Fotografiranje</item>
+        <item>Iz albuma</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Ustvarite udobno okolje za boljše spanje</item>
+        <item>Dobre spalne navade prispevajo k splošnemu zdravju</item>
+        <item>Pred časom za spanje pozabite na svoje skrbi</item>
+        <item>Pred spanjem odženite vse misli</item>
+        <item>Dober spanec pomaga izboljšati vašo delovno učinkovitost</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Jutrišnje skrbi pustite za jutri</item>
+        <item>Pred spanjem ne pretiravajte z jedačo in pijačo</item>
+        <item>Osredotočite se na dihanje, da boste lažje zaspali.</item>
+        <item>Pred časom za spanje se izogibajte intenzivni vadbi</item>
+        <item>Predvajajte lahko glasbo, ki vas bo uspavala</item>
+        <item>Redno vadite, da izboljšate kakovost svojega spanja</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Dober spanec lahko izboljša vaše razpoloženje</item>
+        <item>V vsak nov dan stopite svežega duha in telesa</item>
+        <item>Reden urnik spanja vam lahko zagotovi sproščenost</item>
+        <item>Dobro se naspite, da boste pripravljeni na jutrišnje izzive</item>
+    </array>
+</resources>

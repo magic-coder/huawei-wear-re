@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:id="@id/bt_connecting" setting:background="#000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0933"
+    <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:id="@id/bt_status_connecting_tips" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0933">
+        <ImageView setting:id="@id/bt_connecting_imgage" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:src="@drawable/sim_bt_connecting" setting:layout_centerVertical="true" />
+        <TextView setting:textSize="@dimen/sim_text_open_esim_size" setting:textColor="@color/IDS_plugin_sim_white_100alpha" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/bt_status" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="@dimen/sim_open_esim_permission_tip_magin" setting:text="@string/IDS_plugin_sim_esim_bt_connecting" />
+    </LinearLayout>
+</LinearLayout>

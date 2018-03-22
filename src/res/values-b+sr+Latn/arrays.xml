@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="addphoto_type_array">
+        <item>Fotografiši</item>
+        <item>Iz albuma</item>
+    </string-array>
+    <string-array name="main_night_sleep_quality_look_good_suggest">
+        <item>Kreirajte ugodno okruženje za bolji san</item>
+        <item>Dobre navike odlaska na spavanje doprinose opštem zdravlju</item>
+        <item>Otarasite se briga pred spavanje</item>
+        <item>Ispraznite svoj um pre nego što odete na spavanje</item>
+        <item>Dobar san pomaže u poboljšanju vašeg radnog učinka</item>
+    </string-array>
+    <string-array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Brige ostavite za sutra</item>
+        <item>Izbegavajte da previše jedete ili pijete pre spavanja</item>
+        <item>Fokusirajte se na disanje, to vam može pomoći da zaspite</item>
+        <item>Izbegavajte intenzivne vežbe pre spavanja</item>
+        <item>Pustite neku laganu muziku uz koju ćete utonuti u san</item>
+        <item>Redovno vežbajte da biste poboljšali kvalitet sna</item>
+    </string-array>
+    <string-array name="main_night_sleep_quality_very_good_suggest">
+        <item>Dobar san može da poboljša vaše raspoloženje</item>
+        <item>Dočekajte svaki novi dan osveženog tela i uma</item>
+        <item>Redovan odlazak na spavanje vam može obezbediti smirenost</item>
+        <item>Dobro se naspavajte da biste zadovoljili izazove koji vas očekuju sutra</item>
+    </string-array>
+</resources>

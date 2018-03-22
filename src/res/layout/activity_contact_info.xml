@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="0x106000b" app:layout_width="match_parent" app:layout_height="match_parent">
+    <TextView app:textSize="17dp" app:textColor="0x106000b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/infotitle" app:background="@drawable/kw_titlebar" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2f01" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_contact_info_per_info" />
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/infomidle" app:background="@drawable/kw_img_info_bg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/infotitle">
+        <View app:background="#66ffffff" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x26666731" />
+        <RelativeLayout app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginTop="48dp" app:layout_marginBottom="52dp">
+            <FrameLayout app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01">
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x7301" app:layout_height="UNKNOWN_DATA_0x7301" app:src="@drawable/kw_img_wrist_bg" />
+                <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_iv_head" app:background="@drawable/kw_pic_ist_user_common" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" />
+            </FrameLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_below="@id/infomidle">
+        <RelativeLayout app:id="@id/menu_info_rl_name" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="17dp" app:textColor="#454545" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x3f01" app:layout_marginLeft="16dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_contact_info_baby" app:layout_centerVertical="true" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="18dp" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+                <TextView app:textSize="14dp" app:textColor="#a6a6a6" app:id="@id/menu_tv_relation" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="@string/IDS_plugin_kidwatch_main_relation_dad" />
+                <ImageView app:id="@id/menu_iv_relation_arrow" app:background="@drawable/kw_img_arrow" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View app:background="#26000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x26666731" />
+        <RelativeLayout app:id="@id/menu_info_rl_phone" app:layout_width="match_parent" app:layout_height="wrap_content">
+            <TextView app:textSize="17dp" app:textColor="#454545" app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:layout_width="wrap_content" app:layout_height="UNKNOWN_DATA_0x3f01" app:layout_marginLeft="16dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_contact_info_my_phone_num" app:layout_centerVertical="true" />
+            <LinearLayout app:gravity="top|bottom|center_vertical|fill_vertical|center|fill" app:orientation="horizontal" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginRight="18dp" app:layout_alignParentRight="true" app:layout_centerVertical="true">
+                <TextView app:textSize="14dp" app:textColor="#a6a6a6" app:id="@id/menu_tv_phone" app:layout_width="wrap_content" app:layout_height="wrap_content" app:text="18566017477" />
+                <ImageView app:id="@id/menu_iv_phone_arrow" app:background="@drawable/kw_img_arrow" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="10dp" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View app:background="#26000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x26666731" />
+    </LinearLayout>
+    <TextView app:textSize="14dp" app:textColor="#474747" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_tv_unbindall" app:background="@drawable/custom_dialog_btn" app:visibility="gone" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" app:layout_marginLeft="20dp" app:layout_marginRight="20dp" app:layout_marginBottom="28dp" app:text="@string/IDS_plugin_kidwatch_menu_unbindall_title" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true" />
+    <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="horizontal" app:id="@id/menu_ly_delete_or_transfer" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginBottom="28dp" app:layout_alignParentBottom="true" app:layout_centerHorizontal="true">
+        <TextView app:textSize="14dp" app:textColor="#474747" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_tv_info_transfer" app:background="@drawable/custom_dialog_btn" app:layout_width="UNKNOWN_DATA_0x9b01" app:layout_height="UNKNOWN_DATA_0x2c01" app:text="@string/IDS_plugin_kidwatch_settings_usermanage_title_transferprivilege" />
+        <TextView app:textSize="14dp" app:textColor="#474747" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_tv_info_delete" app:background="@drawable/custom_dialog_btn" app:layout_width="UNKNOWN_DATA_0x9b01" app:layout_height="UNKNOWN_DATA_0x2c01" app:layout_marginLeft="20dp" app:text="@string/IDS_plugin_kidwatch_common_delete" />
+    </LinearLayout>
+</RelativeLayout>

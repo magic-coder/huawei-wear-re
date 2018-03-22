@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>گرفتن عکس</item>
+        <item>از آلبوم</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>ایجاد یک محیط راحت برای خواب بهتر</item>
+        <item>عادات خواب خوب به تندرستی کلی کمک می‌کنند</item>
+        <item>بیایید نگرانی‌های خود را پیش از خواب فراموش کنید</item>
+        <item>پیش از خواب، ذهن خود را خالی کنید</item>
+        <item>خواب خوب به بهبود بازده کاری شما کمک می‌کند</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>نگرانی‌های فردا را برای فردا بگذارید</item>
+        <item>از خوردن یا نوشیدن بیش از حد زیاد پیش از خواب خودداری کنید</item>
+        <item>بر روی تنفس خود تمرکز کنید، این موضوع می‌تواند به خواب شما کمک کند</item>
+        <item>پیش از خواب از انجام ورزش شدید اجتناب کنید</item>
+        <item>موسیقی ملایمی پخش کنید تا شما را برای خواب آرام کند</item>
+        <item>برای بهبود کیفیت خواب خود، به طور منظم ورزش کنید</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>خواب خوب می‌تواند باعث بهبود خلق و خوی شما شود</item>
+        <item>هر روز جدید را با بدن و ذهن تازه بپذیرید</item>
+        <item>خواب منظم می‌تواند به شما آرامش خاطر دهد</item>
+        <item>برای دستیابی به چالش‌های فردا، خوب بخوابید</item>
+    </array>
+</resources>

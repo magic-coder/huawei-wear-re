@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Ambil foto</item>
+        <item>Daripada album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Cipta persekitaran yang selesa untuk tidur yang lebih baik</item>
+        <item>Tabiat tidur yang baik menyumbang kepada kesihatan keseluruhan</item>
+        <item>Lupakan kerisauan anda sebelum waktu tidur</item>
+        <item>Kosongkan fikiran anda sebelum waktu tidur</item>
+        <item>Tidur yang baik dapat meningkatkan prestasi kerja anda</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Biarkan kebimbangan esok untuk esok</item>
+        <item>Elakkan daripada makan atau minum terlalu banyak sebelum waktu tidur</item>
+        <item>Fokus kepada pernafasan, ini dapat membantu anda tidur</item>
+        <item>Elakkan senaman berat sebelum waktu tidur</item>
+        <item>Mainkan muzik ringan untuk memudahkan anda tidur</item>
+        <item>Bersenam dengan kerap untuk meningkatkan kualiti tidur anda</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Tidur yang baik boleh memperbaik mood anda</item>
+        <item>Mulakan hari yang baru dengan badan dan minda yang segar</item>
+        <item>Waktu tidur yang tetap boleh memberikan ketenangan</item>
+        <item>Tidur lena untuk menempuh cabaran esok</item>
+    </array>
+</resources>

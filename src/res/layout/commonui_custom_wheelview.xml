@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/commonui_custom_titlebar_bg" android:paddingTop="@dimen/wheelview_paddingTop" android:paddingBottom="@dimen/wheelview_paddingBottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@id/panel_picker_wheel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"
+        <LinearLayout android:id="@id/left_picker_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView android:id="@id/left_picker" android:layout_width="UNKNOWN_DATA_0x7f0d0a2d" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:id="@id/middle_picker_layout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView android:id="@id/middle_picker" android:layout_width="UNKNOWN_DATA_0x7f0d0a2d" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/right_picker_layout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.huawei.ui.commonui.wheelview.WheelView android:id="@id/right_picker" android:layout_width="UNKNOWN_DATA_0x7f0d0a2d" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

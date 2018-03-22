@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/user_improve_plan_title_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_settings_userexperience_title" setting:custom_type="2" />
+    <ScrollView setting:id="@id/scroll_view" setting:scrollbars="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/user_improve_plan_title_layout" setting:fadeScrollbars="false" setting:overScrollMode="never">
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content"
+            <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginLeft="@dimen/guide_activity_protocol_and_clause_txt_view_margin_left" setting:layout_marginTop="@dimen/guide_activity_protocol_and_clause_privacy_statement_margin_top" setting:layout_marginRight="@dimen/guide_activity_protocol_and_clause_txt_view_margin_left" setting:layout_marginBottom="@dimen/guide_activity_user_improve_plan_item_bottom">
+                <TextView setting:id="@id/improvement_plan_section_start" style="@style/protocol_and_clause_title_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_1" setting:layout_marginTop="@dimen/guide_activity_protocol_and_clause_privacy_statement_margin_bottom" style="@style/protocol_and_clause_detail_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_2" setting:layout_marginTop="@dimen/guide_activity_user_improve_plan_item_top" style="@style/protocol_and_clause_detail_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_3" setting:layout_marginTop="@dimen/guide_activity_user_improve_plan_item_top" style="@style/protocol_and_clause_detail_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_4" setting:layout_marginTop="@dimen/guide_activity_user_improve_plan_item_top" style="@style/protocol_and_clause_detail_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_5" setting:layout_marginTop="@dimen/guide_activity_user_improve_plan_item_top" style="@style/protocol_and_clause_detail_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_6" setting:layout_marginTop="@dimen/guide_activity_user_improve_plan_item_top" setting:text="@string/IDS_userx_plan_msg_7" style="@style/protocol_and_clause_detail_txt_style" />
+                <TextView setting:id="@id/improvement_plan_section_7" setting:layout_marginTop="@dimen/guide_activity_user_improve_plan_item_top" setting:text="@string/IDS_userx_plan_msg_8" style="@style/protocol_and_clause_detail_txt_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

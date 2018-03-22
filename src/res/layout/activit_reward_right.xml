@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="#f7f7f7" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <RelativeLayout setting:id="@id/feature_reward_history" setting:background="#f7f7f7" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <ListView setting:id="@id/feature_reward_history_list" setting:clickable="false" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="7dp" setting:listSelector="0x106000d" setting:divider="0x0" setting:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout setting:orientation="vertical" setting:id="@id/feature_reward_no_history" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginTop="48dp">
+        <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="167dp" setting:src="@drawable/kw_pic_reward_history_empty" />
+        <TextView setting:textSize="12dp" setting:textColor="@color/kw_color_black_65alpha" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="18dp" setting:text="@string/IDS_plugin_kidwatch_feature_reward_history_no_data" />
+    </LinearLayout>
+</LinearLayout>

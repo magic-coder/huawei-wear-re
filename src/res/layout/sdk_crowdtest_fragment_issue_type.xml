@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@id/sdk_crowdtest_issue_fragment_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.huawei.crowdtestsdk.widgets.FeedBackGridView android:id="@id/sdk_crowdtest_issue_fragment_gv" android:background="@drawable/sdk_crowdtest_bg_corner_white_solid" android:scrollbars="UNKNOWN_DATA_0x0" android:fadingEdge="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/sdk_crowdtest_cust_layout_margin_common" android:layout_marginRight="@dimen/sdk_crowdtest_cust_layout_margin_common" android:layout_marginBottom="@dimen/sdk_crowdtest_cust_layout_margin_common" />
+    </ScrollView>
+</LinearLayout>

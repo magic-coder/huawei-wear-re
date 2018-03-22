@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <RelativeLayout app:background="@drawable/kw_titlebar" app:layout_width="match_parent" app:layout_height="wrap_content">
+        <TextView app:textSize="17dp" app:textColor="0x106000b" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3001" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_add_contact" />
+        <ImageView app:id="@id/addcontactok" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:src="@drawable/menu_imgeview_ok_bg" app:layout_alignParentTop="true" app:layout_alignParentRight="true" />
+        <ImageView app:id="@id/addcontact_cancle" app:layout_width="UNKNOWN_DATA_0x3001" app:layout_height="UNKNOWN_DATA_0x3001" app:src="@drawable/menu_imgeview_cancle_bg" app:layout_alignParentLeft="true" app:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <ScrollView app:background="#f7f7f7" app:layout_width="match_parent" app:layout_height="match_parent">
+        <RelativeLayout app:orientation="vertical" app:background="#f7f7f7" app:layout_width="match_parent" app:layout_height="match_parent">
+            <LinearLayout app:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:orientation="vertical" app:id="@id/imageView3" app:background="@drawable/kw_img_info_bg" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_centerHorizontal="true">
+                <View app:background="#66ffffff" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x19999a31" />
+                <FrameLayout app:layout_width="UNKNOWN_DATA_0x5a01" app:layout_height="UNKNOWN_DATA_0x5a01" app:layout_marginTop="48dp" app:layout_marginBottom="52dp">
+                    <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="UNKNOWN_DATA_0x7301" app:layout_height="UNKNOWN_DATA_0x7301" app:src="@drawable/kw_img_wrist_bg" />
+                    <ImageView app:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/menu_img_user_pic" app:background="@drawable/kw_pic_ist_user_common" app:layout_width="UNKNOWN_DATA_0x5001" app:layout_height="UNKNOWN_DATA_0x5001" />
+                </FrameLayout>
+            </LinearLayout>
+            <EditText app:textSize="17dp" app:textColorHint="#4d000000" app:id="@id/menu_et_addname" app:background="@drawable/edittext_bg_white" app:paddingLeft="11dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginLeft="20dp" app:layout_marginTop="17dp" app:layout_marginRight="20dp" app:hint="@string/IDS_plugin_kidwatch_menu_contactmanage_show_name_on_watch_str" app:singleLine="true" app:layout_below="@id/imageView3" app:layout_alignParentLeft="true" />
+            <EditText app:textSize="17dp" app:textColorHint="#4d000000" app:id="@id/menu_et_addphonenumber" app:background="@drawable/edittext_bg_white" app:paddingLeft="11dp" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginLeft="20dp" app:layout_marginTop="15dp" app:layout_marginRight="20dp" app:hint="@string/IDS_plugin_kidwatch_menu_contactmanage_show_phone_numeber" app:singleLine="true" app:maxLength="20" app:digits="1234567890+#*" app:layout_below="@id/menu_et_addname" app:layout_alignParentLeft="true" app:inputType="number|numberSigned|numberDecimal|numberPassword|phone" />
+            <ImageView app:id="@id/menu_contact_improt" app:background="@drawable/kw_icon_relation_contect" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginRight="2dp" app:layout_alignRight="@id/menu_et_addphonenumber" app:layout_alignParentBottom="true" app:layout_alignEnd="@id/menu_et_addphonenumber" />
+            <LinearLayout app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/list_img" app:layout_width="UNKNOWN_DATA_0x2801" app:layout_height="UNKNOWN_DATA_0x2801" app:layout_marginRight="18dp" app:layout_alignTop="@id/menu_et_addname" app:layout_alignRight="@id/menu_et_addname" app:layout_alignParentRight="true">
+                <ImageView app:layout_width="UNKNOWN_DATA_0x1201" app:layout_height="UNKNOWN_DATA_0x1201" app:src="@drawable/kw_img_arrow" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

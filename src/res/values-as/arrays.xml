@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>ফটো লওক</item>
+        <item>এলবামৰ পৰা</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>ভাল নিদ্ৰাৰ বাবে এক আৰামদায়ক পৰিৱেশ বনাওক</item>
+        <item>সামগ্ৰিক স্বাস্থ্যলৈ ভাল শুৱাৰ অভ্যাসে অৱদান যোগায়</item>
+        <item>শুৱাৰ পূৰ্বে আপোনাৰ চিন্তাসমূহ আঁতৰ কৰক</item>
+        <item>আপুনি শুৱাৰ পূৰ্বে আপোনাৰ মনটো খালী ৰাখক</item>
+        <item>ভাল নিদ্ৰাই আপোনাৰ কাৰ্য্যৰ কাৰ্য্যক্ষমতা উন্নত কৰাত সহায় কৰে</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>অহাকালিৰ চিন্তা অহাকালিলৈ এৰক</item>
+        <item>নিদ্ৰা সময়ৰ পূৰ্বে বেছি খোৱা বা পান কৰাটো উপেক্ষা কৰক</item>
+        <item>আপোনাৰ শ্বাস-প্ৰশ্বাসত ফ&apos;কাচ কৰক, ই আপোনাক শুৱাত সহায় কৰিব</item>
+        <item>শুৱাৰ পূৰ্বে অত্যাধিক অনুশীলন উপেক্ষা কৰক</item>
+        <item>আপুনি শান্তিৰে শুবলৈ কিছু মৃদু সঙ্গীত প্লে কৰক</item>
+        <item>আপোনাৰ নিদ্ৰাৰ মানদণ্ড উন্নত কৰিবলৈ নিয়মিত অনুশীলন কৰক</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>ভাল নিদ্ৰাই আপোনাৰ মানসিক অৱস্থা উন্নত কৰিব পাৰে</item>
+        <item>এক সতেজ শৰীৰ আৰু মনেৰে প্ৰত্যেক নতুন দিন আঁকোৱালি লওক</item>
+        <item>আপোনাৰ শক্তিৰ স্তৰ উন্নত কৰাত এটা নিয়মিত নিদ্ৰাৰ সূচীয়ে সহায় কৰিব পাৰে</item>
+        <item>এটা ভাল নিশাৰ নিদ্ৰাই আপোনাক অহাকালিৰ প্ৰত্যাহ্বানসমূহত সহায় কৰিব।</item>
+    </array>
+</resources>

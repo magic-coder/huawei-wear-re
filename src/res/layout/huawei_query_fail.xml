@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/query_fail_view" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@id/hwpay_query_fail_image" android:background="@drawable/hwpay_query_fail" android:layout_width="UNKNOWN_DATA_0x7f0d00fe" android:layout_height="UNKNOWN_DATA_0x7f0d00fe" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/text_size_explanation" android:textColor="?unknown_attr_ref: 1010038" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hwpay_query_fail_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/querying_fail_text_margin_top" android:text="@string/huaweipay_query_fail_click_retry" android:singleLine="true" android:layout_below="@id/hwpay_query_fail_image" android:layout_centerHorizontal="true" />
+</RelativeLayout>

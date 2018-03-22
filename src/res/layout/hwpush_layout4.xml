@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/prv/res/android" internal:id="@id/status_bar_latest_event_content" internal:layout_width="match_parent" internal:layout_height="UNKNOWN_DATA_0x4001">
+    <ImageView internal:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:id="@id/icon" internal:layout_width="UNKNOWN_DATA_0x1050005" internal:layout_height="UNKNOWN_DATA_0x1050006" internal:scaleType="center" />
+    <LinearLayout internal:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:orientation="horizontal" internal:paddingTop="8dp" internal:paddingRight="8dp" internal:paddingBottom="13dp" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:layout_marginLeft="0x1050005" internal:minHeight="0x1050006"
+        <LinearLayout internal:orientation="vertical" internal:id="@id/line1" internal:paddingTop="6dp" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:layout_marginLeft="8dp" internal:layout_weight="1.0">
+            <TextView internal:textAppearance="@*internal:style/TextAppearance.StatusBar.EventContent.Title" internal:textSize="14dp" internal:textColor="#d8000000" internal:ellipsize="marquee" internal:id="@id/title" internal:fadingEdge="horizontal" internal:layout_width="match_parent" internal:layout_height="wrap_content" internal:singleLine="true" />
+            <LinearLayout internal:gravity="top|bottom|center_vertical|fill_vertical|center|fill" internal:orientation="horizontal" internal:id="@id/line3" internal:layout_width="match_parent" internal:layout_height="wrap_content"
+                <LinearLayout internal:orientation="horizontal" internal:id="@id/linear_icons" internal:layout_width="wrap_content" internal:layout_height="wrap_content" /> /> />
+        <Button internal:textSize="11dp" internal:ellipsize="end" internal:id="@id/right_btn" internal:visibility="gone" internal:layout_width="UNKNOWN_DATA_0x4601" internal:layout_height="UNKNOWN_DATA_0x2001" internal:layout_marginLeft="4dp" internal:layout_marginTop="6dp" internal:layout_marginBottom="1dp" internal:singleLine="true" internal:layout_weight="0.0" />
+    </LinearLayout>
+</FrameLayout>

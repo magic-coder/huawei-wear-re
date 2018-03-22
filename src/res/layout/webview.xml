@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="0x106000b" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@id/load_url_progress" android:visibility="gone" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x501" android:max="100" android:progressDrawable="@drawable/webview_progress_bg" style="@*style/Widget.Holo.Light.ProgressBar.Horizontal" />
+    <WebView android:id="@id/view" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@id/load_url_progress" />
+</LinearLayout>

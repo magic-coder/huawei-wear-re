@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.huawei.cp3.widget.wallpaper.BackgroundRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/swipe_gaussian_bg" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="13sp" android:textColor="@color/white_color" android:id="@id/swipe_paytext" android:paddingTop="8dp" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="HUAWEI PAY" />
+    <RelativeLayout android:id="@id/swipe_card_tip_relative" android:background="@drawable/scanpay_tip_bg" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="8dp" android:layout_marginRight="16dp" android:layout_below="@id/swipe_paytext">
+        <TextView android:textSize="13sp" android:textColor="@color/black_color_99" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/swipe_card_tip" android:paddingLeft="16dp" android:paddingRight="16dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:drawableTop="@drawable/ic_huaweipay_tip" android:drawablePadding="12dp" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <com.huawei.wallet.ui.carddisplay.HwScrollView android:id="@id/swipe_scroll" android:paddingTop="@dimen/scanpay_cards_top_margin" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_below="@id/swipe_card_tip_relative">
+        <FrameLayout android:id="@id/swipe_scroll_content" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.huawei.wallet.ui.carddisplay.CardLayout android:id="@id/nfc_card_swipe_container" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <com.huawei.nfc.carrera.ui.swipe.ScanPayView android:id="@id/nfc_card_swipe_scanView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </com.huawei.wallet.ui.carddisplay.HwScrollView>
+    <TextView android:textSize="13sp" android:textColor="@color/white_color" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/swipe_no_scan" android:visibility="gone" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginRight="24dp" android:text="@string/nfc_swipe_no_scan" android:drawableTop="@drawable/ic_bankcard_blank" />
+    <FrameLayout android:id="@id/fragment_container" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent" />
+</com.huawei.cp3.widget.wallpaper.BackgroundRelativeLayout>

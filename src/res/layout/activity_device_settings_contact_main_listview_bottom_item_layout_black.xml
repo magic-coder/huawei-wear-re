@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:paddingLeft="@dimen/contact_main_listview_padding" android:paddingRight="@dimen/contact_main_listview_padding" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0312" android:minHeight="@dimen/contact_list_item_height">
+    <TextView android:textSize="@dimen/default_text_font_size_small_13dp" android:textColor="@color/common_white_50alpha" android:id="@id/footer_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_contact_most_introduce" />
+    <TextView android:textSize="@dimen/default_text_font_size_small_13dp" android:textColor="@color/common_white_50alpha" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_contact_auto_sync_introduce" />
+</LinearLayout>

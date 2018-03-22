@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@id/opened_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="18dp" android:layout_marginTop="47dp" android:layout_marginRight="18dp" android:layout_marginBottom="42dp">
+        <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0xa101" android:layout_height="UNKNOWN_DATA_0x6301" android:layout_marginLeft="8dp" android:layout_marginRight="18dp">
+            <ImageView android:id="@id/card_logo_small" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/nfc_stroke_card_logo_small" />
+        </FrameLayout>
+        <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/balance_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="14dp" android:textColor="@color/primarycolor" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/balance_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_electronic_cash_text" />
+            <TextView android:textSize="20dp" android:textColor="@color/primarycolor" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/balance_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" />
+            <TextView android:textSize="10dp" android:textColor="@color/primarycolor" android:id="@id/opened_card_descriptions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/unopen_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="18dp" android:layout_marginRight="18dp">
+        <FrameLayout android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="UNKNOWN_DATA_0x12401" android:layout_height="UNKNOWN_DATA_0xb401" android:layout_marginLeft="32dp" android:layout_marginTop="16dp" android:layout_marginRight="32dp">
+            <ImageView android:id="@id/card_logo_big" android:layout_width="match_parent" android:layout_height="match_parent" />
+            <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/nfc_stroke_card_logo_big" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/card_descriptions_layout" android:paddingLeft="18dp" android:paddingRight="18dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+            <TextView android:textSize="12dp" android:textStyle="bold" android:textColor="@color/secondarycolor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/nfc_product_descriptions" />
+            <TextView android:textSize="12dp" android:textColor="@color/secondarycolor" android:id="@id/unopen_card_descriptions" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="3dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

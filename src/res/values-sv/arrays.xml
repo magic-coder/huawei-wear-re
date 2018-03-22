@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Ta foto</item>
+        <item>Från album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Skapa en bekväm miljö för att sova bättre</item>
+        <item>Bra sovvanor bidrar till allmänt god hälsa</item>
+        <item>Lägg dina bekymmer åt sidan före läggdags</item>
+        <item>Töm alla tankar innan du somnar</item>
+        <item>God sömn hjälper dig att förbättra dina arbetsresultat</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Lämna morgondagens bekymmer till i morgon</item>
+        <item>Undvik att äta eller dricka för mycket före läggdags</item>
+        <item>Fokusera på din andning. Det kan hjälpa dig att somna</item>
+        <item>Undvik intensiv träning före läggdags</item>
+        <item>Spela lugn musik som vaggar dig till söms</item>
+        <item>Träna regelbundet för att förbättra kvaliteten på din sömn</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>God sömn kan förbättra ditt humör</item>
+        <item>Möt varje ny dag med en pigg kropp och själ</item>
+        <item>Läggdags på regelbundna tider kan ge dig sinnesfrid</item>
+        <item>Sov gott för att klara morgondagens utmaningar</item>
+    </array>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+        <selector>
+            <item android:state_enabled="false">
+                <nine-patch android:src="@drawable/cp3_btn_emphasis_disable" android:tint="@color/btn_disable_color" />
+            </item>
+            <item>
+                <nine-patch android:src="@drawable/cp3_btn_emphasis_normal" android:tint="@color/btn_nomal_color" />
+            </item>
+        </selector>
+    </item>
+    <item android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+        <selector>
+            <item android:state_enabled="false" android:tint="@color/btn_disable_color" android:drawable="@drawable/cp3_btn_emphasis_disable_boundary" />
+            <item android:tint="@color/btn_nomal_color" android:drawable="@drawable/cp3_btn_emphasis_normal_boundary" />
+        </selector> />
+    <item android:gravity="top|bottom|center_vertical|fill_vertical|center|fill">
+        <selector>
+            <item android:state_window_focused="false" android:drawable="@color/transparent" />
+            <item android:state_pressed="true" android:tint="@color/btn_pressed_color" android:drawable="@drawable/cp3_btn_emphasis_press" />
+            <item android:state_focused="true" android:drawable="@drawable/cp3_btn_emphasis_press" />
+            <item android:drawable="@color/transparent" />
+        </selector> />
+</layer-list>

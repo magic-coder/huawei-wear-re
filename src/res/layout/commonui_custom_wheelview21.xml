@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:paddingTop="@dimen/wheelview_paddingTop" android:paddingBottom="@dimen/wheelview_paddingBottom" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@id/panel_picker_wheel" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.huawei.ui.commonui.wheelview21.WheelView android:id="@id/left_picker" android:layout_width="UNKNOWN_DATA_0x7f0d04ad" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.huawei.ui.commonui.wheelview21.WheelView android:id="@id/middle_picker" android:visibility="gone" android:layout_width="UNKNOWN_DATA_0x7f0d04ad" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <com.huawei.ui.commonui.wheelview21.WheelView android:id="@id/right_picker" android:layout_width="UNKNOWN_DATA_0x7f0d04ad" android:layout_height="wrap_content" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

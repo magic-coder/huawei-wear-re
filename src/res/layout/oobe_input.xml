@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:background="@drawable/oobe_backgroud_white" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@id/status_layout" layout="@layout/status_bar" />
+        <TextView android:textSize="@dimen/oobeCardInfo_add_card_title_text_size" android:textColor="@color/primarycolor" android:id="@id/add_card_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:layout_marginTop="64dp" android:text="@string/huaweipay_add_debit_card" android:layout_marginStart="38dp" />
+        <ImageView android:id="@id/divide_line" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" android:layout_marginLeft="38dp" android:layout_marginTop="41dp" android:layout_marginRight="38dp" android:layout_marginBottom="5dp" android:layout_below="@id/add_card_title" android:layout_marginStart="38dp" android:layout_marginEnd="38dp" />
+        <LinearLayout android:orientation="vertical" android:id="@id/card_holder_top_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="38dp" android:layout_marginTop="5dp" android:layout_marginRight="38dp" android:layout_below="@id/divide_line">
+            <TextView android:textSize="@dimen/text_size_explanation" android:textColor="@color/secondarycolor" android:id="@id/card_holder_top_tips_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_card_binded_tips" />
+            <RelativeLayout android:id="@id/card_holder_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d05af">
+                <TextView android:textSize="@dimen/text_size_main_body" android:textColor="@color/primarycolor" android:id="@id/card_holder_title_tx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_cardinfo_name" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                <TextView android:textSize="@dimen/text_size_main_body" android:textColor="@color/primarycolor" android:id="@id/card_holder_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:text="@string/hwpay_cardinfo_name" android:layout_toLeftOf="@id/card_holder_tips_img" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/card_holder_tips_img" android:layout_width="UNKNOWN_DATA_0x7f0d01fa" android:layout_height="UNKNOWN_DATA_0x7f0d01fa" android:src="@drawable/icon_info" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <include android:id="@id/card_edit_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="34dp" android:layout_marginRight="34dp" android:layout_below="@id/card_holder_top_layout" layout="@layout/huaweipay_credit_view" />
+        <include android:id="@id/input_safe" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@id/card_edit_layout" layout="@layout/oobe_input_safe" />
+    </RelativeLayout>
+</RelativeLayout>

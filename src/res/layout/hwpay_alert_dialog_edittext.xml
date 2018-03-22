@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+        <TextView android:textSize="@dimen/dialog_title_size" android:textColor="@color/primarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hwpay_alert_dialog_edittext_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:fontFamily="@string/emui_anti_default_fonts" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:textSize="@dimen/text_size_13sp" android:id="@id/hwpay_alert_dialog_edittext_msg" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:inputType="text|textCapCharacters|textCapWords|textCapSentences|textAutoCorrect|textAutoComplete|textMultiLine|textImeMultiLine|textNoSuggestions|textUri|textEmailAddress|textEmailSubject|textShortMessage|textLongMessage|textPersonName|textPostalAddress|textPassword|textVisiblePassword|textWebEditText|textFilter|textPhonetic|textWebEmailAddress|textWebPassword|phone" />
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hwpay_alert_dialog_edittext_btn_lnr" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginTop="12dp">
+            <Button android:id="@id/hwpay_alert_dialog_edittext_btn_left" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+            <Button android:id="@id/hwpay_alert_dialog_edittext_btn_right" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

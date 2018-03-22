@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/multi_sim_auth_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_plugin_multi_sim_auth_title" setting:custom_type="0" />
+    <RelativeLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <ImageView setting:id="@id/multi_sim_image" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@drawable/illu_multiterminal_inforpage" setting:layout_centerHorizontal="true" />
+        <TextView setting:textSize="@dimen/multi_sim_text_auth_size" setting:textColor="@color/IDS_plugin_sim_white_90alpha" setting:id="@id/multi_sim_auth_notice" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="24dp" setting:layout_marginTop="16dp" setting:layout_marginRight="24dp" setting:layout_below="@id/multi_sim_image" setting:layout_centerHorizontal="true" />
+        <TextView setting:textSize="@dimen/multi_sim_text_auth_size" setting:textStyle="bold" setting:textColor="@color/IDS_plugin_sim_white_75alpha" setting:id="@id/multi_sim_auth_tip" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="24dp" setting:layout_marginTop="13dp" setting:layout_marginRight="24dp" setting:layout_below="@id/multi_sim_auth_notice" setting:layout_centerHorizontal="true" />
+        <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginLeft="16dp" setting:layout_marginRight="16dp" setting:layout_marginBottom="16dp"
+            <RelativeLayout setting:orientation="horizontal" setting:id="@id/multi_sim_auth_request" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+                <LinearLayout setting:orientation="horizontal" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true">
+                    <Button setting:textSize="@dimen/multi_sim_text_button_size" setting:id="@id/multi_sim_auth_cancel" setting:background="@drawable/sim_btn_two" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginRight="12dp" setting:text="@string/IDS_plugin_sim_esim_button_cannel" setting:layout_weight="1.0" />
+                    <Button setting:textSize="@dimen/multi_sim_text_button_size" setting:id="@id/multi_sim_auth_agree" setting:background="@drawable/sim_btn_two" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_multi_sim_auth_agree" setting:layout_weight="1.0" />
+                </LinearLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

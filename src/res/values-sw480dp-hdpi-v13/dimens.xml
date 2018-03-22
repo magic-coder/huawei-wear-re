@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="startup_b1_function_bottom_text_margin">20.0dip</dimen>
+    <dimen name="startup_function_ib_margin">4.0dip</dimen>
+    <dimen name="startup_function_image_button_layout_marginTop">16.0dip</dimen>
+    <dimen name="startup_function_layout_marginTop">67.0dip</dimen>
+    <dimen name="startup_guidance_second_activity_point_sel_marginTop">97.0dip</dimen>
+    <dimen name="startup_guidance_second_activity_startup_notes_marginTop">27.0dip</dimen>
+    <dimen name="startup_pairing_2_info_tv2_textSize">16.0dip</dimen>
+    <dimen name="startup_viewpager_layout_padding">20.0dip</dimen>
+</resources>

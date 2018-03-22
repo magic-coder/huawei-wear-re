@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <RelativeLayout setting:id="@id/main_map_nav" setting:background="@drawable/kw_titlebar" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView setting:textSize="@dimen/title_text_size" setting:textColor="@color/kw_color_white_100alpha" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_rlyt_track_title" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:text="@string/IDS_plugin_kidwatch_main_map_track" setting:layout_centerInParent="true" />
+        <RelativeLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_rlyt_track_title_right" setting:background="@drawable/track_calendar_top_right" setting:visibility="gone" setting:layout_width="UNKNOWN_DATA_0x3001" setting:layout_height="UNKNOWN_DATA_0x3001" setting:layout_alignParentRight="true">
+            <TextView setting:textSize="10dp" setting:textColor="@color/text_color_track_today" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_tv_track_title_right" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="04" setting:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout setting:orientation="horizontal" setting:id="@id/not_used_status_tips_llt" setting:background="@drawable/warnint_backgrand" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView setting:id="@id/not_used_tip_imgage" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="16dp" setting:src="@drawable/ic_hometips" setting:layout_centerVertical="true" />
+        <TextView setting:textSize="15dp" setting:textColor="#ffff3320" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/not_used_title_text" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="16dp" setting:text="@string/IDS_plugin_kidwatch_power_saving_frequency_footprints_poor2" setting:layout_toEndOf="@id/not_used_tip_imgage" />
+        <RelativeLayout setting:id="@id/go_setting_rlt" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginRight="12dp">
+            <ImageView setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/not_used_direction_image" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:src="@drawable/settings_list_direction" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" />
+            <TextView setting:textSize="13dp" setting:textColor="#7f000000" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginRight="4dp" setting:text="@string/IDS_plugin_kidwatch_permission_setting" setting:layout_toLeftOf="@id/not_used_direction_image" setting:layout_centerVertical="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:background="@drawable/kw_pic_topbar_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <ImageView setting:id="@id/feature_iv_track_topdate_left" setting:background="@drawable/track_btn_top_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="20dp" />
+        <TextView setting:textSize="14dp" setting:textColor="@color/black" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/feature_tv_track_topdate" setting:background="@drawable/track_top_date_btn" setting:layout_width="UNKNOWN_DATA_0x8b01" setting:layout_height="UNKNOWN_DATA_0x1d01" setting:alpha="0.85" />
+        <ImageView setting:id="@id/feature_iv_track_topdate_right" setting:background="@drawable/track_btn_top_right" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="20dp" />
+    </LinearLayout>
+    <LinearLayout setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x1" setting:layout_weight="1.0">
+        <com.amap.api.maps.MapView setting:id="@id/feature_track_map" setting:layout_width="match_parent" setting:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

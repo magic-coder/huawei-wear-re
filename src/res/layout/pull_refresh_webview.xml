@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <com.lee.pullrefresh.ui.PullToRefreshWebView app:id="@id/pull_webview" app:background="#eeeeee" app:layout_width="match_parent" app:layout_height="match_parent">
+        <com.amap.api.maps.MapView app:id="@id/map" app:layout_width="match_parent" app:layout_height="match_parent" />
+    </com.lee.pullrefresh.ui.PullToRefreshWebView>
+</LinearLayout>

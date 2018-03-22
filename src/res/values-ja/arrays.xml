@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>写真撮影</item>
+        <item>アルバム</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>快適な環境で良い睡眠を</item>
+        <item>心身の健康は良い睡眠習慣から</item>
+        <item>就寝前にはあれこれ考えるのはやめましょう</item>
+        <item>睡眠時は頭を空っぽに</item>
+        <item>良い眠りは仕事の効率を高めます</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>明日のことは心配しないで</item>
+        <item>就寝前の飲食は控えめに</item>
+        <item>呼吸に集中すると早く寝付けます</item>
+        <item>就寝前の過度な運動は控えましょう</item>
+        <item>眠りを誘うために静かな音楽を</item>
+        <item>定期的な運動で質の高い眠りを</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>良い眠りは気分を高めます</item>
+        <item>心身ともにリフレッシュして新鮮な毎日を</item>
+        <item>規則正しい睡眠で心の安定を</item>
+        <item>明日の挑戦に備えてよく眠りましょう</item>
+    </array>
+</resources>

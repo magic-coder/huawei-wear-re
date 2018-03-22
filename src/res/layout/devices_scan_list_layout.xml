@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="@color/color_main_fragment_background" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/scan_guide_custom_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_blite_guide_title" setting:custom_type="2" />
+    <ViewSwitcher setting:id="@id/scan_status_switcher" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_above="@id/device_pairing_guide_bottom_arrow_layout" setting:layout_below="@id/scan_guide_custom_title" setting:layout_centerHorizontal="true" setting:layout_centerVertical="true">
+        <RelativeLayout setting:id="@id/scanning_mode" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <FrameLayout setting:id="@id/scanning" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="15dp">
+                <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/blite_scan_arc" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@mipmap/bluetooth_scan_arc" />
+                <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@mipmap/bluetooth_guide_scaning" />
+            </FrameLayout>
+            <TextView setting:textSize="15dp" setting:textColor="#a5000000" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/scan_tip" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:minHeight="40dp" setting:text="@string/IDS_btsdk_scan_tip" setting:layout_below="@id/scanning" setting:layout_centerHorizontal="true" />
+            <ListView setting:id="@id/device_list" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginLeft="23dp" setting:layout_marginRight="23dp" setting:layout_below="@id/scan_tip" setting:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout setting:id="@id/scan_fail" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <ImageView setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/scan_fail_image" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="15dp" setting:src="@mipmap/bluetooth_guide_scan_fail" />
+            <TextView setting:textSize="15dp" setting:textColor="#a5000000" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_blite_guide_scan_fail" setting:layout_below="@id/scan_fail_image" setting:layout_alignParentBottom="true" setting:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ViewSwitcher>
+    <LinearLayout setting:orientation="horizontal" setting:id="@id/device_pairing_guide_bottom_arrow_layout" setting:visibility="visible" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001" setting:layout_marginBottom="16dp" setting:layout_alignParentBottom="true"
+        <LinearLayout setting:orientation="horizontal" setting:id="@id/bt_cancel_layout" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="match_parent" setting:layout_weight="1.0">
+            <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="UNKNOWN_DATA_0xc01" setting:layout_height="UNKNOWN_DATA_0x1801" setting:layout_marginLeft="16dp" setting:src="@drawable/ic_arrow_previous_selector" />
+            <TextView setting:textSize="15dp" setting:textColor="@color/color_device_pairing_guide_bottom_arrow_txt" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="4dp" setting:text="@string/IDS_settings_button_cancal" />
+        </LinearLayout>
+        <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:id="@id/bt_rescan_layout" setting:layout_width="UNKNOWN_DATA_0x1" setting:layout_height="match_parent" setting:layout_marginLeft="8dp" setting:layout_weight="1.0">
+            <TextView setting:textSize="15dp" setting:textColor="@color/color_device_pairing_guide_bottom_arrow_txt" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_blite_guide_rescan" />
+            <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_width="UNKNOWN_DATA_0xc01" setting:layout_height="UNKNOWN_DATA_0x1801" setting:layout_marginLeft="4dp" setting:layout_marginRight="16dp" setting:src="@drawable/ic_arrow_next_selector" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

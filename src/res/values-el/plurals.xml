@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s cm</item>
+        <item quantity="one">%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Αντέχει %1$s ημέρες.</item>
+        <item quantity="one">Αντέχει %1$s ημέρα.</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s πόδια</item>
+        <item quantity="one">%1$s πόδια</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d ώρες</item>
+        <item quantity="one">%d ώρα</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s ίν.</item>
+        <item quantity="one">%1$s ίν.</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s κ.</item>
+        <item quantity="one">%s κ.</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s λίβρες</item>
+        <item quantity="one">%s λίβρες</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">Το %1$s είναι ακόμα έγκυρο για %2$s ημέρες</item>
+        <item quantity="one">Το %1$s είναι ακόμα έγκυρο για %2$s ημέρα</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Να καταργηθούν επιλεγμένες επαφές;</item>
+        <item quantity="one">Να καταργηθεί η επιλεγμένη επαφή;</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s λεπτά έξυπνης αφύπνισης)</item>
+        <item quantity="one">%1$s (%2$s λεπτό έξυπνης αφύπνισης)</item>
+    </plurals>
+</resources>

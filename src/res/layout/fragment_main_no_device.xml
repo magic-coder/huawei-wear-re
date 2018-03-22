@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/common_black_100alpha" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/fragment_home_no_device_image" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:src="@mipmap/id_nodevice_watch" android:layout_above="@id/fragment_home_no_device_layout" android:layout_alignParentTop="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/fragment_home_no_device_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:id="@id/home_fragment_paired" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:text="@string/IDS_device_start_paring_title" style="@style/commonui_button_style" />
+        <TextView android:textColor="#c0ffffff" android:id="@id/home_fragment_note" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:text="@string/IDS_main_no_device_click" />
+    </LinearLayout>
+</RelativeLayout>

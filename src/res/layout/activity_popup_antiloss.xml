@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/kw_color_black_20alpha" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:background="@drawable/kw_btn_popup_full_bright_emui" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="18dp" android:layout_marginRight="18dp">
+        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/kw_pic_antiloss_alarm_notice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" />
+        <TextView android:textSize="15dp" android:textColor="@color/kw_color_black_80alpha" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/antiloss_tv_popup_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="27dp" android:layout_marginTop="25dp" android:layout_marginRight="27dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+            <Button android:textSize="17dp" android:textColor="@color/setting_profile_give_up" android:id="@id/antiloss_btn_popup_cancel" android:background="@drawable/custom_dialog_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2c01" android:text="@string/IDS_plugin_kidwatch_common_ignore" android:layout_weight="1.0" />
+            <Button android:textSize="17dp" android:id="@id/antiloss_btn_popup_radar" android:background="@drawable/custom_dialog_btn" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="UNKNOWN_DATA_0x2c01" android:layout_marginLeft="10dp" android:text="@string/IDS_plugin_kidwatch_feature_antiloss_radar_call" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

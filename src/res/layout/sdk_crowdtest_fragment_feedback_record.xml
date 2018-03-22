@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/sdk_crowdtest_background_color_gray" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/sdk_crowdtest_layout_empty_view" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/sdk_crowdtest_layout_item_left_line" />
+        <com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullToRefreshLayout android:id="@id/feedback_record_list_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <include layout="@layout/sdk_crowdtest_pull_to_refresh_refresh_head" />
+            <com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullableListView android:id="@id/feedback_record_list_view" android:padding="8dp" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@color/sdk_crowdtest_background_color_gray" android:dividerHeight="8dp" />
+            <include layout="@layout/sdk_crowdtest_pull_to_refresh_load_more" />
+        </com.huawei.crowdtestsdk.feedback.widgets.pulltorefreshandload.PullToRefreshLayout>
+    </FrameLayout>
+</FrameLayout>

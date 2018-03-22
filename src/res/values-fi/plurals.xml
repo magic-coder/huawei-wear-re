@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s cm</item>
+        <item quantity="one">%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Voi kestää %1$s päivää</item>
+        <item quantity="one">Voi kestää %1$s päivän</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s kt</item>
+        <item quantity="one">%1$s kt</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s Mt</item>
+        <item quantity="one">%1$s Mt</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s jalkaa</item>
+        <item quantity="one">%1$s jalkaa</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d tuntia</item>
+        <item quantity="one">%d tunti</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s t</item>
+        <item quantity="one">%1$s t</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s Gt</item>
+        <item quantity="one">%1$s Gt</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s Pt</item>
+        <item quantity="one">%1$s Pt</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s Tt</item>
+        <item quantity="one">%1$s Tt</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s&quot;</item>
+        <item quantity="one">%1$s&quot;</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="one">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s lb</item>
+        <item quantity="one">%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s on voimassa vielä %2$s päivää</item>
+        <item quantity="one">%1$s on voimassa vielä %2$s päivän</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Poistetaanko valitut yhteystiedot?</item>
+        <item quantity="one">Poistetaanko valittu yhteystieto?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (älykäs herätys %2$s min)</item>
+        <item quantity="one">%1$s (älykäs herätys %2$s min)</item>
+    </plurals>
+</resources>

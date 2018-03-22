@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Ota kuva</item>
+        <item>Albumista</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Luo miellyttävä ympäristö parempaa unta varten</item>
+        <item>Hyvät unitavat edistävät kokonaisterveyttä</item>
+        <item>Päästä murheista irti ennen nukkumaanmenoa</item>
+        <item>Tyhjennä mielesi ennen nukkumista</item>
+        <item>Hyvä uni auttaa parantamaan työtehoasi</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Jätä huomisen huolet huomiseksi</item>
+        <item>Vältä liiallista syömistä tai juomista ennen nukkumaanmenoa</item>
+        <item>Keskity hengittämiseen, se voi auttaa nukahtamaan</item>
+        <item>Vältä voimakasta harjoittelua ennen nukkumaanmenoa</item>
+        <item>Soita kevyttä musiikkia, jotta pääset uneen</item>
+        <item>Paranna unen laatua harjoittelemalla säännöllisesti</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Hyvä uni voi parantaa mielialaasi</item>
+        <item>Kohtaa jokainen uusi päivä keho ja mieli virkeänä</item>
+        <item>Säännöllinen nukkumaanmenoaika rauhoittaa</item>
+        <item>Nuku hyvin, jotta voit vastata huomisen haasteisiin</item>
+    </array>
+</resources>

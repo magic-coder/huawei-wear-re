@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/above_title" />
+    <RelativeLayout android:id="@id/btn_start_remind" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick">
+        <CheckBox android:id="@id/cb_start_remind" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:checked="false" android:button="@drawable/switch_checkbox" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginRight" android:text="@string/start_remind" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:orientation="vertical" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" />
+    <RelativeLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginRight" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/marginRight">
+        <ImageButton android:id="@id/btn_minus" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_distance_minus" android:onClick="viewOnClick" />
+        <ImageButton android:id="@id/btn_add" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_distance_add" android:layout_alignParentRight="true" android:onClick="viewOnClick" />
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/btn_add" android:layout_toRightOf="@id/btn_minus">
+            <SeekBar android:id="@id/sb_distance" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginRight" android:layout_marginRight="@dimen/marginRight" android:progressDrawable="@drawable/seek_distance_drawable" android:thumb="@drawable/seek_thumb" android:thumbOffset="6dp" />
+            <ImageView android:id="@id/distance_1" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x801" android:layout_marginLeft="@dimen/marginRight" android:layout_marginTop="8dp" />
+            <ImageView android:id="@id/distance_2" android:layout_width="UNKNOWN_DATA_0x801" android:layout_height="UNKNOWN_DATA_0x801" android:layout_marginTop="8dp" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/ll_root" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_head_layout" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0dp"
+        <LinearLayout android:orientation="vertical" android:id="@id/pay_result_title_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pay_result_icon" android:layout_width="UNKNOWN_DATA_0x2a01" android:layout_height="UNKNOWN_DATA_0x2a01" android:layout_marginBottom="11dp" android:src="@drawable/huaweipay_payresult_success" />
+            <TextView android:textSize="@dimen/text_size_main_body" android:textColor="@color/primarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pay_result_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/pay_success" />
+            <TextView android:textSize="@dimen/text_size_auxiliary_2" android:textColor="@color/secondarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/pay_result_reason" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" />
+        </LinearLayout>
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/pay_acoumt_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/margin_pay_result_dialog_amount" android:layout_marginBottom="@dimen/margin_pay_result_dialog_amount">
+            <TextView android:textSize="@dimen/text_size_pay_result_dialog_amount" android:textColor="@color/primarycolor" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/pay_amount_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/primarycolor" android:ellipsize="end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/hcoin_pay_unit" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:singleLine="true" />
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:id="@id/scrollview" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_scroll_child_layout" android:layout_width="match_parent" android:layout_height="wrap_content"
+            <LinearLayout android:id="@id/ll_productname" android:layout_marginRight="0dp" style="@style/pay_info_layout_style">
+                <TextView android:text="@string/huaweipay_product_name" style="@style/pay_info_title_style" />
+                <TextView android:id="@id/pay_product_name" android:text="@string/huaweipay_product_name" android:layout_weight="1.0" style="@style/pay_info_style" />
+                <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/update_layout_more" android:background="@drawable/huaweipay_arrow" android:visibility="gone" android:clickable="true" android:layout_width="UNKNOWN_DATA_0x2001" android:layout_height="UNKNOWN_DATA_0x5a00021" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/ll_fold_items" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0dp"
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+                    <LinearLayout android:id="@id/ll_amount_receiver" style="@style/pay_info_layout_style">
+                        <TextView android:text="@string/hwpay_metchant_name" style="@style/pay_info_title_style" />
+                        <TextView android:id="@id/pay_amount_receiver" android:text="@string/hwpay_company" style="@style/pay_info_style" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/ll_pay_order_id" style="@style/pay_info_layout_style">
+                        <TextView android:text="@string/huaweipay_pay_order_number" style="@style/pay_info_title_style" />
+                        <TextView android:id="@id/pay_order_id" android:text="@string/huaweipay_pay_order_id" style="@style/pay_info_style" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/pay_other_card_layout" android:visibility="gone" style="@style/pay_info_layout_style">
+                        <TextView android:text="@string/hwpay_mbe_left_amount_note" style="@style/pay_info_title_style" />
+                        <TextView android:id="@id/pay_card_amount_txt" style="@style/pay_info_style" />
+                        <TextView android:id="@id/pay_card_amount_link" style="@style/pay_info_style" />
+                    </LinearLayout>
+                    <LinearLayout android:id="@id/ll_paytype" style="@style/pay_info_layout_style">
+                        <TextView android:text="@string/hwpay_type" style="@style/pay_info_title_style" />
+                        <TextView android:id="@id/tv_payType" android:text="@string/pay_type" style="@style/pay_info_style" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <SlidingDrawer android:orientation="vertical" android:id="@id/sliding" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:handle="@id/ll_sliding_head" android:content="@id/ll_sliding_content">
+            <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:id="@id/ll_sliding_head" android:layout_width="match_parent" android:layout_height="wrap_content"
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" /> />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_sliding_content" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="0dp" />
+        </SlidingDrawer>
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/open_pay_by_no_pass_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="78dp">
+            <CheckBox android:id="@id/open_pay_by_no_pass_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:layout_alignParentStart="true" />
+            <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/secondarycolor" android:id="@id/open_pay_by_no_pass_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:layout_toRightOf="@id/open_pay_by_no_pass_checkbox" android:layout_centerVertical="true" android:layout_marginEnd="3dp" android:layout_toEndOf="@id/open_pay_by_no_pass_checkbox" />
+            <LinearLayout android:id="@id/no_pass_tip_layout" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/open_pay_by_no_pass_text" android:layout_centerVertical="true" android:layout_toEndOf="@id/open_pay_by_no_pass_text">
+                <ImageView android:id="@id/open_pay_by_no_pass_tip" android:layout_width="UNKNOWN_DATA_0x1001" android:layout_height="UNKNOWN_DATA_0x1001" android:src="@drawable/huaweipay_cardinfo_information" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/pay_btn_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3801" android:layout_marginTop="@dimen/single_button_dialog_padding" android:layout_marginBottom="@dimen/single_button_dialog_padding">
+            <Button android:id="@id/pay_result_ok" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/confirm" android:layout_centerInParent="true" android:fontFamily="@string/emui_anti_default_fonts" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

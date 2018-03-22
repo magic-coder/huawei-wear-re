@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@drawable/common_operate_dialog_bg" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <TextView app:textSize="15dp" app:textColor="@color/kw_color_black_80alpha" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/usermanage_tv_transferprivilege" app:background="@drawable/menu_poi_list_item_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginTop="10dp" app:text="@string/IDS_plugin_kidwatch_settings_usermanage_title_transferprivilege" />
+    <View app:background="#26000000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x100" />
+    <TextView app:textSize="15dp" app:textColor="@color/kw_color_black_80alpha" app:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/usermanage_tv_unbind" app:background="@drawable/menu_poi_list_item_bg" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x3201" app:layout_marginBottom="10dp" app:text="@string/IDS_plugin_kidwatch_settings_usermanage_confirm_title_unbind" />
+</LinearLayout>

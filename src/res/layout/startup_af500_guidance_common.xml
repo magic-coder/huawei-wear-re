@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/startup_af500_introduce_linearlayout" android:background="@drawable/startup_af500_introduce_fist_view_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v4.view.ViewPager android:id="@id/vp_common_guide" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0" />
+    <LinearLayout style="@style/startup_guidance_btn_layout"
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textColor="#ffffff" android:id="@id/btn_introduce_last" android:background="@drawable/btn_default_emui3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/startup_last" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:textColor="#ffffff" android:id="@id/btn_af500_paired" android:background="@drawable/btn_default_emui3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_paired" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

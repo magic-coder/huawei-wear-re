@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/color_normal_titlebar_title" />
+    <corners android:topLeftRadius="@dimen/personal_information_edit_text_name_radius_corners" android:topRightRadius="@dimen/personal_information_edit_text_name_radius_corners" android:bottomLeftRadius="@dimen/personal_information_edit_text_name_radius_corners" android:bottomRightRadius="@dimen/personal_information_edit_text_name_radius_corners" />
+    <stroke android:width="@dimen/personal_information_edit_text_name_stroke_width" android:color="@color/common_dialog_list_item_divide_line" />
+</shape>

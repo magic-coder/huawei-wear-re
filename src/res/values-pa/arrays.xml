@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="IDS_plugin_kidwatch_height_array_unit_profile">
+        <item>cm</item>
+    </array>
+    <array name="IDS_plugin_kidwatch_weight_array_unit_profile">
+        <item>kg</item>
+    </array>
+    <array name="addphoto_type_array">
+        <item>ਫੋਟੋ ਲਓ</item>
+        <item>ਐਲਬਮ ਵਿੱਚੋਂ</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>ਬਿਹਤਰ ਨੀਂਦ ਲਈ ਇੱਕ ਆਰਾਮਦਾਇਕ ਵਾਤਾਵਰਣ ਬਣਾਓ</item>
+        <item>ਨੀਂਦ ਦੀਆਂ ਚੰਗੀਆਂ ਆਦਤਾਂ ਸਮੁੱਚੀ ਸਿਹਤ ਵਿੱਚ ਯੋਗਦਾਨ ਪਾਉਂਦੀਆਂ ਹਨ</item>
+        <item>ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੀਆਂ ਚਿੰਤਾਵਾਂ ਨੂੰ ਦਿਮਾਗ ਵਿੱਚੋਂ ਕੱਢ ਦਿਓ</item>
+        <item>ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਆਪਣੇ ਦਿਮਾਗ ਨੂੰ ਖਾਲੀ ਕਰ ਦਿਓ</item>
+        <item>ਚੰਗੀ ਨੀਂਦ ਤੁਹਾਡੇ ਕੰਮ ਦੇ ਪ੍ਰਦਰਸ਼ਨ ਨੂੰ ਬਿਹਤਰ ਬਣਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰਦੀ ਹੈ</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>ਕੱਲ੍ਹ ਦੀਆਂ ਫਿਕਰਾਂ ਨੂੰ ਕੱਲ੍ਹ ਲਈ ਛੱਡ ਦਿਓ</item>
+        <item>ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਜ਼ਿਆਦਾ ਖਾਣ ਜਾਂ ਪੀਣ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ</item>
+        <item>ਆਪਣੇ ਸਾਹ ਲੈਣ ਦੇ ਢੰਗ ਵੱਲ ਧਿਆਨ ਦਿਓ, ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਸੌਣ ਵਿੱਚ ਮਦਦ ਮਿਲ ਸਕਦੀ ਹੈ</item>
+        <item>ਸੌਣ ਤੋਂ ਪਹਿਲਾਂ ਸਖਤ ਕਸਰਤ ਨਾ ਕਰੋ</item>
+        <item>ਖੁਦ ਨੂੰ ਸੁਵਾਉਣ ਲਈ ਹਲਕਾ ਸੰਗੀਤ ਚਲਾਓ</item>
+        <item>ਨੀਂਦ ਦੀ ਗੁਣਵੱਤਾ ਵਿੱਚ ਸੁਧਾਰ ਕਰਨ ਲਈ ਹਰ ਰੋਜ਼ ਕਸਰਤ ਕਰੋ</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>ਚੰਗੀ ਨੀਂਦ ਤੁਹਾਡੇ ਮਿਜ਼ਾਜ ਨੂੰ ਸੁਧਾਰ ਸਕਦੀ ਹੈ</item>
+        <item>ਹਰ ਨਵੇਂ ਦਿਨ ਨੂੰ ਤਾਜ਼ਗੀ ਵਾਲੇ ਭਰੇ ਸਰੀਰ ਅਤੇ ਦਿਮਾਗ ਦੇ ਨਾਲ ਗਲੇ ਲਗਾਓ</item>
+        <item>ਹਰ ਰੋਜ਼ ਇੱਕ ਨਿਯਮਿਤ ਸਮੇਂ &apos;ਤੇ ਸੌਣ ਨਾਲ ਤੁਹਾਡੇ ਊਰਜਾ ਦੇ ਪੱਧਰਾਂ ਨੂੰ ਵਧਾਉਣ ਵਿੱਚ ਮਦਦ ਮਿਲਦੀ ਹੈ</item>
+        <item>ਰਾਤ ਦੀ ਚੰਗੀ ਨੀਂਦ ਕੱਲ੍ਹ ਦੀਆਂ ਚੁਣੌਤੀਆਂ ਨਾਲ ਨਜਿੱਠਣ ਵਿੱਚ ਤੁਹਾਡੀ ਮਦਦ ਕਰੇਗੀ</item>
+    </array>
+</resources>

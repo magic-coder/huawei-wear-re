@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/satrtup_all_style">
+    <TextView android:textSize="@dimen/startup_title_text_size" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:padding="@dimen/startup_function_image_button_layout_marginTop" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/startup_bluetooth_earphone" />
+    <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/startup_guidance_3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/startup_function_layout_marginTop" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" style="@style/startup_guidance_layout">
+        <TextView android:textSize="@dimen/startup_title_text_size" android:text="@string/startup_call_phone" style="@style/startup_bt_paired_third_layout_tv" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/startup_function_image_button_layout_marginTop">
+            <ImageButton style="@style/startup_guidance_imgbtn" />
+            <ImageButton style="@style/startup_guidance_imgbtn2" />
+            <ImageButton android:background="@drawable/point_sel" style="@style/startup_guidance_imgbtn" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

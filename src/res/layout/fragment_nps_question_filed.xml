@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14dp" android:textColor="@color/common_white_90alpha" android:id="@id/field_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="5dp" android:layout_marginRight="20dp" />
+    <EditText android:textSize="14dp" android:textColor="@color/common_white_90alpha" android:textColorHint="@color/common_white_50alpha" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/field_content_et" android:background="@drawable/nps_edit_bg" android:padding="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:layout_marginBottom="60dp" android:hint="@string/IDS_nps_placeholder" android:maxLength="200" android:layout_weight="1.0" />
+</LinearLayout>

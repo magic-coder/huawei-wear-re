@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s см</item>
+        <item quantity="one">%1$s см</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s өдөр үргэлжлэх боломжтой</item>
+        <item quantity="one">%1$s өдөр үргэлжлэх боломжтой</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s КБ</item>
+        <item quantity="one">%1$s КБ</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s МБ</item>
+        <item quantity="one">%1$s МБ</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s фут</item>
+        <item quantity="one">%1$s фут</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s Б</item>
+        <item quantity="one">%1$s Б</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s ГБ</item>
+        <item quantity="one">%1$s ГБ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s ПБ</item>
+        <item quantity="one">%1$s ПБ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s ТБ</item>
+        <item quantity="one">%1$s ТБ</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s дотор</item>
+        <item quantity="one">%1$s дотор</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="one">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s фунт</item>
+        <item quantity="one">%s фунт</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s нь %2$s өдөр хүчинтэй байна</item>
+        <item quantity="one">%1$s нь %2$s өдөр хүчинтэй байна</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d харилцагчид</item>
+        <item quantity="one">%d харилцах хаяг</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d цаг</item>
+        <item quantity="one">%d цаг</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d минут</item>
+        <item quantity="one">%d минут</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d алхам</item>
+        <item quantity="one">%d алхам</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s урамшуулал хүлээн авсан</item>
+        <item quantity="one">%s урамшуулал хүлээн авсан</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">%1$s удаа таны хүүхэд магтаал сонссоны дараа</item>
+        <item quantity="one">%1$s удаа таны хүүхэд магтаал сонссоны дараа</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f км</item>
+        <item quantity="one">%1$.3f км</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">Энд %s цагаас илүү зогссон</item>
+        <item quantity="one">Энд %s цагаас илүү зогссон</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s м, %2$s</item>
+        <item quantity="one">%1$s м, %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">%s м доторх нарийвчлал</item>
+        <item quantity="one">%s м доторх нарийвчлал</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">%s минутын өмнөх байршил</item>
+        <item quantity="one">%s минутын өмнөх байршил</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">Та зөвхөн %1$s харилцагч нэмэх боломжтой</item>
+        <item quantity="one">Та зөвхөн %1$s харилцах хаяг нэмэх боломжтой</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">Та %1$d хүртэлх администратор урих боломжтой. Хүүхэд тусламжийн дуудлага хийх үед, цаг администратор руу дарааллаар залгахын тулд жагсаалтыг ашиглана. Администраторууд хүүхэд рүү үргэлж залгах боломжтой.</item>
+        <item quantity="one">Та %1$d хүртэлх администратор урих боломжтой. Хүүхэд тусламжийн дуудлага хийх үед, цаг администратор руу дарааллаар залгахын тулд жагсаалтыг ашиглана. Администраторууд хүүхэд рүү үргэлж залгах боломжтой.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d оноо</item>
+        <item quantity="one">%d оноо</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Сонгосон харилцагчдыг устгах уу?</item>
+        <item quantity="one">Сонгосон харилцагч мэдээллүүдийг устгах уу?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s мин ухаалаг сэрүүлэг)</item>
+        <item quantity="one">%1$s (%2$s мин ухаалаг сэрүүлэг)</item>
+    </plurals>
+</resources>

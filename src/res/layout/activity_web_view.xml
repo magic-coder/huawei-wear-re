@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/app_help_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:custom_type="2" />
+    <ProgressBar setting:id="@id/load_help_url_progress" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x501" setting:max="100" setting:progressDrawable="@drawable/webview_progress_drawable" style="@*style/Widget.Holo.Light.ProgressBar.Horizontal" />
+    <FrameLayout setting:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <WebView setting:id="@id/sns_app_help_web" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+        <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/help_retry" setting:background="#ffffff" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <TextView setting:id="@id/retry_text" style="@style/web_view_activity_error_text_style" />
+            <Button setting:id="@id/refresh_btn" setting:onClick="onWebRetryClick" style="@style/web_view_activity_refresh_btn_style" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

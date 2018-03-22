@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/hwpay_licensedialog_dearuser_textsize" android:textColor="@color/secondarycolor" android:id="@id/user_protocol" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_license_title" />
+    <ScrollView android:id="@id/scroll_tips" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginTop="@dimen/spacing_to_screen_top_default" android:layout_marginBottom="@dimen/spacing_to_screen_bottom_default" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/huaweipay_black_a_ff" android:id="@id/licence_message1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_license_message1" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" />
+            <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/huaweipay_black_a_ff" android:id="@id/licence_message2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_license_message2" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" />
+            <TextView android:textSize="@dimen/text_size_15sp" android:textColor="@color/huaweipay_black_a_ff" android:id="@id/licence_message3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hwpay_license_message3" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="@dimen/text_size_13sp" android:textColor="@color/huaweipay_black_a_ff" android:id="@id/licence_agree_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingMultiplier="1.1" />
+</LinearLayout>

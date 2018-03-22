@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">‪‎%1$s‬ ס‪‎&quot;‬מ</item>
+        <item quantity="one">‪‎%1$s‬ ס‪‎&quot;‬מ</item>
+        <item quantity="two">‪‎%1$s‬ ס‪‎&quot;‬מ</item>
+        <item quantity="many">‪‎%1$s‬ ס‪‎&quot;‬מ</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">יכול להימשך %1$s ימים</item>
+        <item quantity="one">יכול להימשך יום %1$s</item>
+        <item quantity="two">יכול להימשך %1$s ימים</item>
+        <item quantity="many">יכול להימשך %1$s ימים</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+        <item quantity="two">%1$s KB</item>
+        <item quantity="many">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+        <item quantity="two">%1$s MB</item>
+        <item quantity="many">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">‪‎%1$s‬ רגל</item>
+        <item quantity="one">‪‎%1$s‬ רגל</item>
+        <item quantity="two">‪‎%1$s‬ רגל</item>
+        <item quantity="many">‪‎%1$s‬ רגל</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">‪‎%d‬ שעות</item>
+        <item quantity="one">שעה ‪‎%d‬</item>
+        <item quantity="two">‪‎%d‬ שעות</item>
+        <item quantity="many">‪‎%d‬ שעות</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="two">%1$s B</item>
+        <item quantity="many">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+        <item quantity="two">%1$s GB</item>
+        <item quantity="many">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+        <item quantity="two">%1$s PB</item>
+        <item quantity="many">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+        <item quantity="two">%1$s TB</item>
+        <item quantity="many">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">‪‎%1$s‬ אינץ‪‎&apos;‬</item>
+        <item quantity="one">‪‎%1$s‬ אינץ‪‎&apos;‬</item>
+        <item quantity="two">‪‎%1$s‬ אינץ‪‎&apos;‬</item>
+        <item quantity="many">‪‎%1$s‬ אינץ‪‎&apos;‬</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">‪‎%s‬ ק‪‎&quot;‬ג</item>
+        <item quantity="one">‪‎%s‬ ק‪‎&quot;‬ג</item>
+        <item quantity="two">‪‎%s‬ ק‪‎&quot;‬ג</item>
+        <item quantity="many">‪‎%s‬ ק‪‎&quot;‬ג</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">‪‎%s‬ פאונד</item>
+        <item quantity="one">‪‎%s‬ פאונד</item>
+        <item quantity="two">‪‎%s‬ פאונד</item>
+        <item quantity="many">‪‎%s‬ פאונד</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">‪‎%1$s‬ עדיין תקף ל-‪‎%2$s‬ ימים</item>
+        <item quantity="one">‪‎%1$s‬ עדיין תקף ליום ‪‎%2$s‬</item>
+        <item quantity="two">‪‎%1$s‬ עדיין תקף ל-‪‎%2$s‬ ימים</item>
+        <item quantity="many">‪‎%1$s‬ עדיין תקף ל-‪‎%2$s‬ ימים</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">להסיר את אנשי הקשר שנבחרו?</item>
+        <item quantity="one">להסיר את איש הקשר שנבחר?</item>
+        <item quantity="two">להסיר את אנשי הקשר שנבחרו?</item>
+        <item quantity="many">להסיר את אנשי הקשר שנבחרו?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">‪‎%1$s‬‫‏‬ (‪‎%2$s‬ דקות השכמה חכמה)</item>
+        <item quantity="one">‪‎%1$s‬‫‏‬ (‪‎%2$s‬ דקה השכמה חכמה)</item>
+        <item quantity="two">‪‎%1$s‬‫‏‬ (‪‎%2$s‬ דקות השכמה חכמה)</item>
+        <item quantity="many">‪‎%1$s‬‫‏‬ (‪‎%2$s‬ דקות השכמה חכמה)</item>
+    </plurals>
+</resources>

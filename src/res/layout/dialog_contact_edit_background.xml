@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:background="@drawable/menu_diaolog_layout_corner" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <RelativeLayout app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginTop="20dp">
+        <ImageView app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" app:src="@drawable/kw_pic_ist_user_common" app:layout_centerInParent="true" app:contentDescription="0x0" />
+        <com.huawei.pluginkidwatch.common.ui.simplecropimage.CircularImage app:id="@id/dialog_contact_edit_img" app:layout_width="UNKNOWN_DATA_0x6401" app:layout_height="UNKNOWN_DATA_0x6401" />
+    </RelativeLayout>
+    <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="20dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_show_name_on_watch_str" />
+    <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" app:text="@string/IDS_plugin_kidwatch_main_relation_grandpa" />
+    <View app:background="0x1060000" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x101" app:layout_marginTop="20dp" />
+    <TextView app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="10dp" app:layout_marginTop="15dp" app:text="@string/IDS_plugin_kidwatch_menu_contactmanage_phone_number" />
+    <TextView app:background="0x106000b" app:layout_width="match_parent" app:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Prendre une photo</item>
+        <item>De l&apos;album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Créez un cadre confortable pour un sommeil plus reposant</item>
+        <item>De bonnes habitudes de sommeil améliorent la santé en général</item>
+        <item>Oubliez vos soucis avant de vous coucher</item>
+        <item>Videz votre esprit avant de dormir</item>
+        <item>Un sommeil reposant contribue à améliorer vos performances au travail</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Reportez vos tracas du jour à demain</item>
+        <item>Évitez de trop boire ou manger avant l&apos;heure du coucher</item>
+        <item>Concentrez-vous sur votre respiration pour vous aider à vous endormir</item>
+        <item>Évitez les exercices intensifs avant de vous coucher</item>
+        <item>Écoutez de la musique douce pour vous bercer</item>
+        <item>Exercez-vous régulièrement pour améliorer la qualité de votre sommeil</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Un sommeil reposant peut vous rendre de meilleure humeur</item>
+        <item>Affrontez chaque nouvelle journée avec un corps et un esprit frais</item>
+        <item>Dormez à heure régulière pour plus de tranquillité</item>
+        <item>Dormez bien pour relever les défis du lendemain</item>
+    </array>
+</resources>

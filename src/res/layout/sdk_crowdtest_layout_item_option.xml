@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioButton xmlns:android="http://schemas.android.com/apk/res/android" android:textSize="@dimen/sdk_crowdtest_text_small_size" android:textColor="@color/sdk_crowdtest_color_text_gray" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="match_parent" android:layout_height="wrap_content" android:button="0x0" android:text="xxxxxxxxxxxxxxxxxx" android:drawableRight="@drawable/sdk_crowdtest_selector_radio_button" />

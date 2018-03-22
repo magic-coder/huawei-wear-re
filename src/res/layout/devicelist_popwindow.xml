@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/pop_null_title_space" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:src="@mipmap/top_popup_null_bg_1" />
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/main_activity_popwindow_margin_top">
+        <ImageView android:id="@id/pop_null_content_space" android:background="@color/popwindow_bg_color" android:layout_width="match_parent" android:layout_height="match_parent" />
+        <ListView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/deviceslist" android:layout_width="UNKNOWN_DATA_0x10401" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:divider="0x0" style="@style/band_poplist_window" />
+    </FrameLayout>
+</LinearLayout>

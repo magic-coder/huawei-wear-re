@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/health_healthdata_popoup_bg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001">
+        <TextView android:textSize="18dp" android:textColor="@color/hw_show_color_text_100_persent_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_hw_health_show_string_time" />
+    </LinearLayout>
+    <ImageView android:background="#19000000" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x201" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="16dp" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+        <TimePicker android:id="@id/hw_health_healthdata_inputweight_dialog_timepicker" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/hw_show_public_size_19">
+        <TextView android:textSize="15dp" android:textColor="#fb6522" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hw_health_healthdata_inputweight_timedialog_cancel" android:background="@drawable/health_data_weight_buttom_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d067f" android:text="@string/IDS_hw_show_cancel" android:layout_weight="1.0" android:layout_marginStart="@dimen/hw_show_public_size_19" />
+        <TextView android:textSize="@dimen/hw_show_public_size_20" android:layout_width="UNKNOWN_DATA_0x7f0d064c" android:layout_height="UNKNOWN_DATA_0x7f0d067f" />
+        <TextView android:textSize="15dp" android:textColor="#fb6522" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/hw_health_healthdata_inputweight_timedialog_sure" android:background="@drawable/health_data_weight_buttom_background" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d067f" android:text="@string/IDS_hw_common_ui_dialog_confirm" android:layout_weight="1.0" android:layout_marginEnd="@dimen/hw_show_public_size_19" />
+    </LinearLayout>
+</LinearLayout>

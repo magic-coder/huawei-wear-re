@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Зрабіць фота</item>
+        <item>З альбома</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Стварыце для лепшага сну больш камфортныя ўмовы</item>
+        <item>Рэгулярны добры сон – лепшае здароўе</item>
+        <item>Адпусціце свае турботы перад сном</item>
+        <item>Перад сном выкіньце з галавы ўсе думкі</item>
+        <item>Добры сон паляпшае прадукцыйнасць працы</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Пакіньце заўтрашнія турботы на заўтра</item>
+        <item>Не пераядайце і не піце шмат перад тым, як класціся спаць</item>
+        <item>Засяродзьцеся на дыханні – гэта дапаможа заснуць</item>
+        <item>Пазбягайце перад сном інтэнсіўнай фізічнай актыўнасці</item>
+        <item>Слухайце спакойную музыку, якая дапамагае заснуць</item>
+        <item>Каб палепшыць якасць сну, займайцеся фізічнай актыўнасцю</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Добры сон – гэта часта і добры настрой</item>
+        <item>Сустракайце новы дзень поўным фізічных і душэўных сіл</item>
+        <item>Аднолькавы час адыходу да сну – залог спакою</item>
+        <item>Спіце добра, каб сустрэць заўтрашнія праблемы</item>
+    </array>
+</resources>

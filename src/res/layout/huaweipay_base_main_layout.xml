@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/third_party_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:custom_type="2" />
+    <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/nfc_tip_titile_layout" setting:background="@color/nfc_tip_titile_layout_black_20" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001"
+        <LinearLayout setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_weight="1.0">
+            <ImageView setting:background="@drawable/nfc_ic_hint_red" setting:layout_width="UNKNOWN_DATA_0x1801" setting:layout_height="UNKNOWN_DATA_0x1801" setting:layout_marginLeft="16dp" />
+            <TextView setting:textSize="15dp" setting:textColor="@color/nfc_tip_titile_text" setting:ellipsize="end" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/nfc_tip_titile_text" setting:layout_width="UNKNOWN_DATA_0xd401" setting:layout_height="match_parent" setting:layout_marginLeft="16dp" setting:text="@string/nfc_bt_discontected_tip_text" setting:singleLine="true" />
+        </LinearLayout>
+        <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:orientation="horizontal" setting:id="@id/nfc_tip_goto_setting_layout" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginRight="16dp" setting:layout_weight="3.0">
+            <TextView setting:textSize="13dp" setting:textColor="@color/nfc_tip_black_percent_50" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/nfc_tip_goto_setting_text" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_weight="1.0" />
+            <ImageView setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:background="@drawable/ic_enter_pressed" setting:layout_width="UNKNOWN_DATA_0x3c00021" setting:layout_height="UNKNOWN_DATA_0x6c00021" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="horizontal" setting:id="@id/nfc_tip_titile_netWorkWait_layout" setting:background="@color/primarycolor" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x3001">
+        <ImageView setting:id="@id/nfc_netWorkWait_imageview" setting:layout_width="UNKNOWN_DATA_0x6e66621" setting:layout_height="UNKNOWN_DATA_0xe01" />
+        <TextView setting:textSize="15dp" setting:textColor="@color/nfc_white" setting:id="@id/nfc_netWorkWait_text" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="8dp" setting:text="@string/nfc_bt_network_on_connection" />
+    </LinearLayout>
+    <LinearLayout setting:orientation="vertical" setting:id="@id/base_main_body_linearlayout" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent" /> />

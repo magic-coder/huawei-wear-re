@@ -1,0 +1,52 @@
+package com.huawei.pluginkidwatch;
+
+/* compiled from: R */
+public final class C5851j {
+    public static final int IDS_cm_string = 2131427328;
+    public static final int IDS_device_remainder_electri_day = 2131427329;
+    public static final int IDS_device_upgrade_file_size_kb = 2131427330;
+    public static final int IDS_device_upgrade_file_size_mb = 2131427331;
+    public static final int IDS_ft_string = 2131427332;
+    public static final int IDS_hour_string = 2131427374;
+    public static final int IDS_hour_string_21 = 2131427333;
+    public static final int IDS_hwh_size_byteShort = 2131427334;
+    public static final int IDS_hwh_size_gigabyteShort = 2131427335;
+    public static final int IDS_hwh_size_petabyteShort_unit = 2131427336;
+    public static final int IDS_hwh_size_terabyteShort_unit = 2131427337;
+    public static final int IDS_ins_string = 2131427338;
+    public static final int IDS_kg_string = 2131427339;
+    public static final int IDS_lb_string = 2131427340;
+    public static final int IDS_main_sns_member_surplus_time = 2131427341;
+    public static final int IDS_plugin_kidwatch_common_contact_unit = 2131427342;
+    public static final int IDS_plugin_kidwatch_common_h_unit = 2131427343;
+    public static final int IDS_plugin_kidwatch_common_hour_unit = 2131427344;
+    public static final int IDS_plugin_kidwatch_common_min_unit = 2131427345;
+    public static final int IDS_plugin_kidwatch_common_minute_unit = 2131427367;
+    public static final int IDS_plugin_kidwatch_common_second_unit = 2131427368;
+    public static final int IDS_plugin_kidwatch_common_step_unit = 2131427346;
+    public static final int IDS_plugin_kidwatch_feature_reward_reached_the_goal = 2131427347;
+    public static final int IDS_plugin_kidwatch_feature_reward_set_goal_info3 = 2131427348;
+    public static final int IDS_plugin_kidwatch_feature_sport_distance_kilometre = 2131427349;
+    public static final int IDS_plugin_kidwatch_feature_track_staytime3 = 2131427350;
+    public static final int IDS_plugin_kidwatch_fence_list_location_radious_detail = 2131427351;
+    public static final int IDS_plugin_kidwatch_main_map_precision = 2131427352;
+    public static final int IDS_plugin_kidwatch_main_map_recent_position = 2131427353;
+    public static final int IDS_plugin_kidwatch_menu_contactmanage_full = 2131427354;
+    public static final int IDS_plugin_kidwatch_menu_soscontactmanage_notice = 2131427355;
+    public static final int IDS_plugin_kidwatch_nps_satisfication_score = 2131427356;
+    public static final int IDS_settings_gemini_contact_delete_confirm = 2131427357;
+    public static final int IDS_settings_smart_time_detail = 2131427358;
+    public static final int hwpay_error_pay_pass = 2131427369;
+    public static final int hwpay_error_quiz = 2131427370;
+    public static final int hwpay_finger_print_freeze = 2131427371;
+    public static final int hwpay_finger_print_nomatch = 2131427372;
+    public static final int messagecenter_sport_break_record_title = 2131427359;
+    public static final int messagecenter_sport_mounth_statistics_content = 2131427360;
+    public static final int messagecenter_sport_mounth_statistics_title = 2131427361;
+    public static final int messagecenter_sport_target_half_title = 2131427362;
+    public static final int messagecenter_sport_week_statistics_title = 2131427363;
+    public static final int messagecenter_time_hour_value = 2131427364;
+    public static final int messagecenter_time_minute_value = 2131427365;
+    public static final int messagecenter_timeline_section_title = 2131427366;
+    public static final int nfc_bus_card_dealing_trade_progress = 2131427373;
+}

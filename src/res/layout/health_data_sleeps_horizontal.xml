@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/hw_show_color_text_100_persent_white" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d064c" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0685"
+        <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:id="@id/hw_show_health_data_sleeps_horizontal_date_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" />
+            <TextView android:textSize="@dimen/hw_show_public_size_15" android:textColor="@color/hw_show_color_text_50_persent_black" android:id="@id/hw_show_health_data_sleeps_horizontal_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/hw_show_public_size_19" />
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/hw_show_color_gray2" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0656"
+            <LinearLayout android:background="@color/hw_show_color_gray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d064b" />
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d064c" android:layout_marginTop="@dimen/hw_show_public_size_15"
+                <LinearLayout android:background="@color/hw_show_color_gray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0611" android:layout_weight="1.0" android:layout_marginStart="@dimen/hw_show_public_size_15" />
+                <TextView android:textSize="@dimen/hw_show_public_size_11" android:textColor="@color/hw_show_color_text_100_persent_black" android:id="@id/hw_show_health_data_sleeps_horizontal_maxvalue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/hw_show_public_size_10" android:layout_marginEnd="@dimen/hw_show_public_size_19" />
+            </LinearLayout>
+            <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d064c" android:layout_marginTop="@dimen/hw_show_public_size_79"
+                <LinearLayout android:background="@color/hw_show_color_gray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0610" android:layout_weight="1.0" android:layout_marginStart="@dimen/hw_show_public_size_15" />
+                <TextView android:textSize="@dimen/hw_show_public_size_11" android:textColor="@color/hw_show_color_text_100_persent_black" android:id="@id/hw_show_health_data_sleeps_horizontal_averagevalue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/hw_show_public_size_10" android:layout_marginEnd="@dimen/hw_show_public_size_19" />
+            </LinearLayout>
+            <LinearLayout android:background="@color/hw_show_color_gray1" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d064b" android:layout_marginTop="@dimen/hw_show_public_size_88" /> />
+        <com.huawei.ui.main.stories.health.views.healthdata.horizontalslide.HorizontalSlideView android:id="@id/hw_show_health_data_sleeps_horizontal_scrollview" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+                <LinearLayout android:orientation="horizontal" android:id="@id/hw_show_health_data_sleeps_horizontal_borkenline_layout" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d0656" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/hw_show_health_data_sleeps_horizontal_borkenlinedate_layout" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x7f0d069b" /> />
+        </com.huawei.ui.main.stories.health.views.healthdata.horizontalslide.HorizontalSlideView>
+    </FrameLayout> />

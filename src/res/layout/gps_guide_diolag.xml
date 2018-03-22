@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:id="@id/scroll_tips" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_above="@id/accept_license_checkbox" android:layout_below="@id/license_title">
+        <RelativeLayout android:orientation="vertical" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/hwpay_licensedialog_dearuser_textsize" android:textColor="@color/secondarycolor" android:id="@id/gps_guide_explain" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/open_location_services_explain" android:lineSpacingExtra="5dp" />
+        </RelativeLayout>
+    </ScrollView>
+    <CheckBox android:textSize="@dimen/hwpay_licensedialog_dearuser_textsize" android:textColor="@color/secondarycolor" android:id="@id/gps_guide_noremainder" android:paddingLeft="@dimen/checkbox_padding_size" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:checked="true" android:text="@string/licese_no_longer_notice" android:layout_above="@id/button_linear" />
+</LinearLayout>

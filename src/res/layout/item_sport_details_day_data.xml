@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:id="@id/data_detail_sport_chart_panel" android:background="#00b8bf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginRight="0dp">
+        <com.huawei.pluginkidwatch.plugin.feature.sport.view.SportDiagramDataView sport:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" sport:id="@id/sport_v_details_step" sport:layout_width="match_parent" sport:layout_height="match_parent" sport:layout_marginBottom="3dp" sport:StaticColor="#52dee4" sport:MildColor="#00929d" sport:AcuteColor="#006d84" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="horizontal" android:paddingLeft="@dimen/common_list_content_layout_margin_left_right" android:paddingRight="@dimen/common_list_content_layout_margin_left_right" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d032d" android:minHeight="@dimen/cs_48_dp">
+    <ImageView android:id="@id/app_icon" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="@dimen/cs_16_dp">
+        <TextView android:textColor="@color/common_white_90alpha" android:id="@id/app_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <com.huawei.ui.commonui.switchbutton.CustomSwitchButton android:id="@id/app_switch" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/common_switch_black_style" />
+        <ImageView android:background="@color/common_white_10alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

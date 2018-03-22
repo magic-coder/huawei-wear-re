@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:background="#ffffff" setting:descendantFocusability="blocksDescendants" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:cacheColorHint="#00000000"
+    <RelativeLayout setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <LinearLayout setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/layout_left_left" setting:paddingTop="14dp" setting:paddingBottom="14dp" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="18dp" setting:layout_toLeftOf="@id/item_layout_right" setting:layout_alignParentLeft="true">
+            <TextView setting:textSize="16dp" setting:textColor="@color/kw_color_black_D9alpha" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/item_title" setting:layout_width="wrap_content" setting:layout_height="wrap_content" />
+            <TextView setting:textSize="12dp" setting:textColor="@color/kw_color_black_a6alpha" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/item_content" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="2dp" setting:lineSpacingExtra="2dp" />
+        </LinearLayout>
+        <LinearLayout setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/item_layout_right" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginLeft="8dp" setting:layout_marginRight="8dp" setting:layout_alignParentRight="true" setting:layout_centerVertical="true"
+            <LinearLayout setting:id="@id/layout_right" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="match_parent">
+                <CheckBox setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/item_cb_select" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" style="@style/plugin_sms_checkbox_theme" />
+            </LinearLayout>
+            <com.huawei.pluginkidwatch.common.ui.button.SlipButtonView setting:id="@id/item_switch" setting:layout_width="wrap_content" setting:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+    <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" setting:layout_alignParentBottom="true" />
+</RelativeLayout>

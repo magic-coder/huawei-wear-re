@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:orientation="vertical" android:background="@drawable/start_track_bg_popout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginRight="8dp">
+        <com.huawei.ui.device.activity.heartrate.HeartRateUpperLimitWheelView android:id="@id/wheelviewselayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp">
+            <Button android:textSize="15dp" android:textColor="#ff000000" android:id="@id/btn_cancel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:text="@string/IDS_settings_button_cancal" android:layout_weight="1.0" />
+            <Button android:textSize="15dp" android:textColor="#ff000000" android:id="@id/btn_ok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/IDS_settings_button_ok" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

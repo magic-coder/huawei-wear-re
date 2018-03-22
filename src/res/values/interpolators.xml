@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <interpolator name="cp3_cubic_bezier_interpolator_activity_window_scale">res/interpolator/cp3_cubic_bezier_interpolator_activity_window_scale.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_activity_window_translate">res/interpolator/cp3_cubic_bezier_interpolator_activity_window_translate.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_dialog">res/interpolator/cp3_cubic_bezier_interpolator_dialog.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_dialog_up_down">res/interpolator/cp3_cubic_bezier_interpolator_dialog_up_down.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_inputmethod">res/interpolator/cp3_cubic_bezier_interpolator_inputmethod.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_listview_overshoot">res/interpolator/cp3_cubic_bezier_interpolator_listview_overshoot.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_listview_springback">res/interpolator/cp3_cubic_bezier_interpolator_listview_springback.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_progress_bar">res/interpolator/cp3_cubic_bezier_interpolator_progress_bar.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_screenrotate">res/interpolator/cp3_cubic_bezier_interpolator_screenrotate.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_screenrotate_dequint">res/interpolator/cp3_cubic_bezier_interpolator_screenrotate_dequint.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_interpolator_tab_pullback">res/interpolator/cp3_cubic_bezier_interpolator_tab_pullback.xml</interpolator>
+    <interpolator name="cp3_cubic_bezier_reverse_interpolator_inputmethod">res/interpolator/cp3_cubic_bezier_reverse_interpolator_inputmethod.xml</interpolator>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Foto maken</item>
+        <item>Uit album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Zorg voor een comfortabele omgeving voor een betere nachtrust</item>
+        <item>Goede slaapgewoontes dragen bij tot uw algehele gezondheid</item>
+        <item>Laat uw zorgen los voor het slapengaan</item>
+        <item>Maak uw geest leeg voordat u gaat slapen</item>
+        <item>Een goede nachtrust verbetert uw prestaties op het werk</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Bewaar de zorgen van morgen voor morgen</item>
+        <item>Vermijd te veel het eten of drinken voor het slapengaan</item>
+        <item>Concentreert u zich op uw ademhaling; dit kan u helpen om in slaap te vallen</item>
+        <item>Vermijd intensieve inspanning voor het slapengaan</item>
+        <item>Luister naar zachte muziek om u in slaap te wiegen</item>
+        <item>Sport regelmatig om de kwaliteit van uw slaap te verbeteren</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Een goede nachtrust verbetert uw humeur</item>
+        <item>Omarm elke dag met een uitgerust lichaam en een verkwikte geest</item>
+        <item>Een regelmatige bedtijd kalmeert de geest</item>
+        <item>Slaap goed om de uitdagingen van morgen aan te kunnen</item>
+    </array>
+</resources>

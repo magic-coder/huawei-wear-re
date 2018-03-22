@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@id/head_view" android:background="@color/sdk_crowdtest_background_color_gray" android:layout_width="match_parent" android:layout_height="match_parent"
+    <RelativeLayout android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/sdk_crowdtest_pull_icon" android:background="@drawable/sdk_crowdtest_pull_icon_big" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/sdk_crowdtest_refreshing_icon" android:background="@drawable/sdk_crowdtest_refreshing" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_centerVertical="true" />
+            <ImageView android:id="@id/sdk_crowdtest_state_iv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_centerVertical="true" />
+            <TextView android:textSize="@dimen/sdk_crowdtest_text_normal_size" android:textColor="0x106000c" android:id="@id/sdk_crowdtest_state_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sdk_crowdtest_pull_to_refresh" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

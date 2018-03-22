@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <xml name="apduservice">res/xml/apduservice.xml</xml>
+    <xml name="appinfo">res/xml/appinfo.xml</xml>
+    <xml name="cmbkb_number">res/xml/cmbkb_number.xml</xml>
+    <xml name="cmbkb_number_symbols">res/xml/cmbkb_number_symbols.xml</xml>
+    <xml name="cmbkb_number_with_change">res/xml/cmbkb_number_with_change.xml</xml>
+    <xml name="cmbkb_number_with_dot">res/xml/cmbkb_number_with_dot.xml</xml>
+    <xml name="cmbkb_number_with_x">res/xml/cmbkb_number_with_x.xml</xml>
+    <xml name="cmbkb_qwerty">res/xml/cmbkb_qwerty.xml</xml>
+    <xml name="cmbkb_symbols">res/xml/cmbkb_symbols.xml</xml>
+    <xml name="national_code">res/xml/national_code.xml</xml>
+    <xml name="ota_provider_paths">res/xml/ota_provider_paths.xml</xml>
+    <xml name="pay_provider_paths">res/xml/pay_provider_paths.xml</xml>
+    <xml name="sdk_config_wearable">res/xml/sdk_config_wearable.xml</xml>
+    <xml name="usesdk_packagename">res/xml/usesdk_packagename.xml</xml>
+</resources>

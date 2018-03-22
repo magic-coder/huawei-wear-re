@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:background="@drawable/menu_diaolog_layout_corner" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x6401">
+    <TextView app:textSize="@dimen/title_text_size" app:id="@id/textView1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="150dp" app:text="@string/IDS_plugin_kidwatch_common_loading" app:layout_centerVertical="true" />
+    <ProgressBar app:id="@id/progressBar1" app:layout_width="wrap_content" app:layout_height="wrap_content" app:layout_marginLeft="60dp" app:layout_alignBottom="@id/textView1" app:layout_alignParentLeft="true" style="?unknown_attr_ref: 1010079" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/IDS_plugin_sim_black" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0938">
+        <TextView android:textSize="@dimen/sim_esim_profile_tips_size" android:textColor="@color/IDS_plugin_sim_white_90alpha" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/profile_title_tips" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="Profile" android:layout_weight="2.0" />
+        <TextView android:textSize="@dimen/sim_text_open_esim_tips_size" android:textColor="@color/IDS_plugin_sim_white_50alpha" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/profile_title" android:layout_width="UNKNOWN_DATA_0x1" android:layout_height="match_parent" android:text="2223333" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

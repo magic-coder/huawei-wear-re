@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/notification_alert_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="#b3c2d2" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/card_item_notification_height">
+        <TextView android:textSize="@dimen/cs_dialog_padding" android:textColor="@color/home_download_hihealth" android:ellipsize="end" android:id="@id/notification_alert_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:layout_marginBottom="9dp" android:text="@string/IDS_notification_service_error_alert" android:layout_centerVertical="true" android:lineSpacingExtra="@dimen/card_item_notification_message_unread_margin_top" android:layout_marginStart="@dimen/cs_16_dp" android:layout_marginEnd="56dp" />
+        <ImageView android:id="@id/notification_alert_icon" android:background="@mipmap/tips_closebtn" android:layout_width="UNKNOWN_DATA_0x7f0d032a" android:layout_height="UNKNOWN_DATA_0x7f0d032a" android:minHeight="@dimen/card_item_notification_height" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/cs_16_dp" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</LinearLayout>

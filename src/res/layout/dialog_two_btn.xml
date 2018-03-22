@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_above_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@id/title" style="@style/dialog_title" />
+    <TextView android:id="@id/line_1px" android:layout_below="@id/title" style="@style/line_1px" />
+    <LinearLayout android:id="@id/dialog_content" android:layout_below="@id/line_1px" style="@style/dialog_content">
+        <TextView android:textSize="14dp" android:textColor="@color/gray" android:id="@id/message" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="26dp" android:text="@string/reset_setting_message" />
+    </LinearLayout>
+    <LinearLayout android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="5dp" android:layout_below="@id/dialog_content" style="@style/dialog_btn">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <Button android:id="@id/btn_cancel" android:layout_width="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="0dp" android:text="@string/cancel" style="@style/common_btn" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0">
+            <Button android:textColor="@color/red" android:id="@id/btn_confirm" android:layout_width="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" android:layout_marginBottom="0dp" android:text="@string/sure" style="@style/common_btn" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

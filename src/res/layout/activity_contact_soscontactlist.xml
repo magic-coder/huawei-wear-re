@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="match_parent">
+    <ListView app:id="@id/soscontact_dlv_list" app:layout_width="match_parent" app:layout_height="wrap_content" app:listSelector="@color/transparent" app:divider="@color/listview_divider_contact" app:dividerHeight="0.5dp" />
+    <TextView app:textSize="@dimen/kw_settings_profile_heitht_unit_text_size" app:textColor="@color/kw_color_black_70alpha" app:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" app:id="@id/soscontact_tv_notice" app:paddingTop="10dp" app:layout_width="UNKNOWN_DATA_0x14301" app:layout_height="wrap_content" />
+</LinearLayout>

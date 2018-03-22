@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/startup_title_text_size" android:textColor="@color/startup_white" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0993" android:text="@string/af500_search_title" />
+    <TextView android:textSize="@dimen/startup_title_text_size" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/af500_pair_err_tip" android:paddingTop="@dimen/startup_tv_padding_top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/sync_your_data" />
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/ImageView_mac_Address_click" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/af500_connect_fail" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/af500_note_layout" android:padding="@dimen/startup_explain_tv_padding" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/startup_explain_text_size" android:textColor="@color/startup_explain_color" android:id="@id/af500_note_step_1" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_sync_failed_explain1" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="@dimen/startup_explain_text_size" android:textColor="@color/startup_explain_color" android:id="@id/af500_note_step_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_sync_failed_explain2" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="@dimen/startup_explain_text_size" android:textColor="@color/startup_explain_color" android:id="@id/af500_note_step_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_sync_failed_explain3" android:fontFamily="sans-serif-light" />
+        <TextView android:textSize="@dimen/startup_explain_text_size" android:textColor="@color/startup_explain_color" android:id="@id/af500_note_step_4" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_sync_failed_explain4" android:fontFamily="sans-serif-light" />
+    </LinearLayout>
+    <LinearLayout style="@style/startup_guidance_btn_layout"
+        <LinearLayout android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/btn_skip_paired2" android:background="@drawable/btn_default_emui3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/startup_jump_btpaired" />
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <Button android:id="@id/btn_re_search" android:background="@drawable/btn_default_emui3" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/af500_re_search" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

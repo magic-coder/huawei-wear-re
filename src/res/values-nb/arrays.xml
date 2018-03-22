@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Ta bilde</item>
+        <item>Fra album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Gjør omgivelsene hyggelige og behagelige for å få bedre søvn</item>
+        <item>Gode søvnrutiner bidrar til å gi deg bedre generell helsetilstand</item>
+        <item>Gi slipp på bekymringer før sengetid</item>
+        <item>Tøm sinnet før du sovner</item>
+        <item>God søvn kan gjøre at du yter bedre på jobb</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>La morgendagens bekymringer ligge</item>
+        <item>Unngå å spise eller drikke for mye rett før sengetid</item>
+        <item>Fokuser på pusten. Det kan gjøre det lettere å sovne</item>
+        <item>Unngå intens trening før sengetid</item>
+        <item>Spill rolig musikk for å dysse deg i søvn</item>
+        <item>Tren regelmessig for å forbedre søvnkvaliteten</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>God søvn kan gi deg bedre humør</item>
+        <item>Grip hver dag med uthvilt kropp og sinn</item>
+        <item>Gå til sengs til regelmessig tid, det kan gi deg ro i sinnet</item>
+        <item>God søvn gjør det lettere å møte morgendagens utfordringer</item>
+    </array>
+</resources>

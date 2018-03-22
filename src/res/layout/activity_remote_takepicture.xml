@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="#0000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@id/id_iv_switch1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/switch_camera_bg" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <android.view.SurfaceView android:id="@id/id_camera_PreviewView" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <ImageView android:id="@id/id_iv_switch" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:src="@drawable/switch_camera_bg" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/id_iv_takepicture" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/photo" android:scaleType="centerInside" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    android:layout_marginBottom=&quot;60dp&quot;
+        android:layout_centerVertical=&quot;true&quot;
+</RelativeLayout>

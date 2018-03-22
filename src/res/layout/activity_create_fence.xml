@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <LinearLayout setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_marginTop="146dp" setting:layout_marginBottom="40dp">
+        <com.amap.api.maps.MapView setting:id="@id/menu_elec_fence_add_map" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+    </LinearLayout>
+    <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:id="@id/menu_elec_create_fence_title" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_menu_electronic_add_fence" setting:titleSize="@dimen/title_text_size" setting:backBackground="@drawable/back_btn_fork" setting:menuBackground="@drawable/save_btn" setting:backMethod="onBackClick" setting:menuMethod="onSaveClick" setting:backLeftSpace="@dimen/back_btn_left_space" setting:menuRightSpace="@dimen/menu_btn_right_space" setting:btnpading="@dimen/title_btn_pading" />
+    <com.huawei.pluginkidwatch.common.ui.view.WaitingLineView setting:id="@id/menu_add_fence_wait_line" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x301" setting:layout_below="@id/menu_elec_create_fence_title" />
+    <include setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_below="@id/menu_add_fence_wait_line" layout="@layout/activity_create_fence_top" />
+    <include setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_alignParentBottom="true" layout="@layout/activity_create_fence_buttom" />
+</RelativeLayout>

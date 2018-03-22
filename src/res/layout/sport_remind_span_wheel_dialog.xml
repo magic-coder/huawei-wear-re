@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/layout_dialog_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@id/picker_title" android:text="@string/chose_span_time" style="@style/dialog_title" />
+    <TextView android:id="@id/line_1px" android:layout_below="@id/title" style="@style/line_1px" />
+    <LinearLayout android:id="@id/time" android:layout_below="@id/picker_title" android:layout_centerHorizontal="true" style="@style/dialog_content">
+        <com.huawei.pluginaf500.view.wheel.WheelView android:id="@id/spanTime" android:layout_width="UNKNOWN_DATA_0x7f0d0a2d" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:layout_below="@id/time" style="@style/dialog_btn">
+        <Button android:textColor="@color/setting_text_1" android:id="@id/btn_cancel" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:text="@string/cancel" style="@style/common_btn" />
+        <Button android:textColor="@color/setting_text_1" android:id="@id/btn_confirm" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:text="@string/sure" style="@style/common_btn" />
+    </LinearLayout>
+</RelativeLayout>

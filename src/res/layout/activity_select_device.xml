@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:id="@id/setting_fragment" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/select_device_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_startup_select_one_band" setting:custom_type="2" />
+    <RelativeLayout setting:background="@color/color_select_device_list_bg" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:layout_below="@id/select_device_title_bar">
+        <ListView setting:id="@id/list_setup_device" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:divider="0x0" />
+    </RelativeLayout>
+</RelativeLayout>

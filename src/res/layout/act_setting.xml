@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/head_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08d9">
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/white" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/color_band" android:singleLine="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="18dp" android:layout_below="@id/name">
+            <ImageView android:id="@id/ble_state" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ble_ico_bg" android:onClick="viewOnClick" />
+            <ImageView android:id="@id/ble_lost_connect_state" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ble_connect_ico_bg" android:onClick="viewOnClick" />
+            <ImageView android:id="@id/ble_connecting_state" android:background="@anim/ble_connecting" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="viewOnClick" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <ScrollView android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:textColor="@color/setting_text_2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/intelligent_tip" />
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:id="@id/sport_remind" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick">
+                <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/cb_sport" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:text="@string/switch_on" android:drawablePadding="3dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="20dp">
+                    <TextView android:textSize="16dp" android:textColor="@color/setting_text_1" android:id="@id/tv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/sport_remind" />
+                    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/sport_remind_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="22:00-10:00" android:layout_below="@id/tv1" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sleep_remind" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <TextView android:textSize="16dp" android:textColor="@color/setting_text_1" android:id="@id/tv_1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/sleep_remind" />
+                    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/sleep_remind_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="22:00-08:00" android:layout_below="@id/tv_1" />
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="@color/setting_text_1" android:id="@id/cb_sleep" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="@dimen/marginRight" android:text="@string/switch_on" android:drawableRight="@drawable/icon_right_arrow" android:drawablePadding="3dp" android:layout_alignParentRight="true" />
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/alarm" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <TextView android:textSize="16dp" android:textColor="@color/setting_text_1" android:id="@id/tv0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/alarm_clock" />
+                    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/alarm_remind_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="8:00-22:00" android:layout_below="@id/tv0" />
+                </RelativeLayout>
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/incoming_remind" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <TextView android:textSize="16dp" android:textColor="@color/setting_text_1" android:id="@id/tv2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/incoming_remind" />
+                    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/incoming_remind_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="08:00-22:00" android:layout_below="@id/tv2" />
+                </RelativeLayout>
+                <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/cb_incoming" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginRight="30dp" android:text="@string/switch_on" android:drawablePadding="3dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:id="@id/anti_lost_remind" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="wrap_content" android:onClick="viewOnClick">
+                <CheckBox android:id="@id/cb_remote_lost" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:checked="false" android:button="@drawable/switch_checkbox" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@id/cb_remote_lost">
+                    <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/anti_lost_remind" />
+                    <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/lost_note" android:layout_below="@id/tv3" />
+                </RelativeLayout>
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <TextView android:textSize="14dp" android:textColor="@color/setting_text_2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/remote_tip" />
+            <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/remote_photo" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent">
+                    <TextView android:textSize="16dp" android:textColor="@color/setting_text_1" android:id="@id/tv4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/remote_photo" />
+                    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="25dp" android:text="@string/remote_photo_tip" android:layout_below="@id/tv4" />
+                </RelativeLayout>
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/find_phone" android:background="@drawable/settings_item" android:clickable="true" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="25dp">
+                    <TextView android:textSize="16dp" android:textColor="@color/setting_text_1" android:id="@id/tv5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/find_phone" />
+                    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginRight" android:text="@string/find_phone_tip" android:layout_below="@id/tv5" />
+                </RelativeLayout>
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <TextView android:textSize="14dp" android:textColor="@color/setting_text_2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x2001" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/other" />
+            <TextView android:background="@color/setting_line_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/remote_light" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="20dp">
+                    <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/remote_light" />
+                    <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="25dp" android:text="@string/remote_light_note" android:layout_below="@id/tv12" />
+                </RelativeLayout>
+                <CheckBox android:id="@id/cb_remote_light" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:checked="false" android:button="@drawable/switch_checkbox" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/remote_hand" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:onClick="viewOnClick"
+                <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="20dp">
+                    <TextView android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:id="@id/tv13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="@string/remote_hand" />
+                    <TextView android:textSize="@dimen/list_item_second_text_size" android:textColor="@color/setting_text_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="25dp" android:text="@string/remote_hand_note" android:layout_below="@id/tv13" />
+                </RelativeLayout>
+                <CheckBox android:id="@id/cb_remote_hand" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:checked="false" android:button="@drawable/switch_checkbox" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd">
+                <Button android:textSize="@dimen/list_item_first_text_size" android:textColor="@color/setting_text_1" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/help" android:background="@drawable/settings_item" android:paddingLeft="@dimen/marginLeft" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:text="@string/help" android:onClick="viewOnClick" />
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <TextView style="@style/line_1px" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd">
+                <Button android:textSize="16dp" android:textColor="@color/setting_text_1" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/reset_setting" android:background="@drawable/settings_item" android:paddingLeft="@dimen/marginLeft" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd" android:text="@string/reset_setting" android:onClick="viewOnClick" />
+                <ImageView android:background="@drawable/icon_right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/marginRight" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/unbind_layout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5001">
+                <Button android:textSize="@dimen/btn_text_size" android:textColor="@color/red" android:id="@id/btn_disconncet" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3201" android:layout_marginLeft="@dimen/marginLeft" android:layout_marginRight="@dimen/marginLeft" android:text="@string/unbind_btn" android:onClick="viewOnClick" style="@style/common_btn" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

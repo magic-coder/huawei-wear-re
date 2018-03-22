@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/bg_color" android:padding="4dp" style="@style/match_parent">
+    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/guide_content_3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:text="@string/guide_content_3" android:layout_alignParentBottom="true" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:src="@drawable/guide002" android:layout_above="@id/guide_content_3" />
+</RelativeLayout>

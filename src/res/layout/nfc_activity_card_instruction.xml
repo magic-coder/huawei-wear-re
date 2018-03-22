@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/nfc_carrera_network_fail_layout" />
+    <RelativeLayout android:id="@id/nfc_instruction_exception_layout" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/huawei_query_fail" />
+    </RelativeLayout>
+    <include layout="@layout/nfc_progress_bar_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/content_layout" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="1.0">
+        <WebView android:id="@id/card_instruction_webview" android:layout_width="match_parent" android:layout_height="match_parent" />
+    </LinearLayout>
+    <Button android:id="@id/accept_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginTop="5dp" android:layout_marginRight="15dp" android:layout_marginBottom="28dp" android:text="@string/nfc_accept_button" android:fontFamily="@string/emui_anti_default_fonts" />
+</LinearLayout>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s सें.मी.</item>
+        <item quantity="zero">%1$s सें.मी.</item>
+        <item quantity="one">%1$s सें.मी.</item>
+        <item quantity="two">%1$s सें.मी.</item>
+        <item quantity="few">%1$s सें.मी.</item>
+        <item quantity="many">%1$s सें.मी.</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">%1$s दिन तकि चलि सकैत अछि</item>
+        <item quantity="zero">%1$s दिन तकि चलि सकैत अछि</item>
+        <item quantity="one">%1$s दिन तकि चलि सकैत अछि</item>
+        <item quantity="two">%1$s दिन तकि चलि सकैत अछि</item>
+        <item quantity="few">%1$s दिन तकि चलि सकैत अछि</item>
+        <item quantity="many">%1$s दिन तकि चलि सकैत अछि</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="zero">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+        <item quantity="two">%1$s KB</item>
+        <item quantity="few">%1$s KB</item>
+        <item quantity="many">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="zero">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+        <item quantity="two">%1$s MB</item>
+        <item quantity="few">%1$s MB</item>
+        <item quantity="many">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s फुट</item>
+        <item quantity="zero">%1$s फुट</item>
+        <item quantity="one">%1$s फुट</item>
+        <item quantity="two">%1$s फुट</item>
+        <item quantity="few">%1$s फुट</item>
+        <item quantity="many">%1$s फुट</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d घंटा</item>
+        <item quantity="zero">%d घंटा</item>
+        <item quantity="one">%d घंटा</item>
+        <item quantity="two">%d घंटा</item>
+        <item quantity="few">%d घंटा</item>
+        <item quantity="many">%d घंटा</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="zero">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+        <item quantity="two">%1$s B</item>
+        <item quantity="few">%1$s B</item>
+        <item quantity="many">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="zero">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+        <item quantity="two">%1$s GB</item>
+        <item quantity="few">%1$s GB</item>
+        <item quantity="many">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="zero">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+        <item quantity="two">%1$s PB</item>
+        <item quantity="few">%1$s PB</item>
+        <item quantity="many">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="zero">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+        <item quantity="two">%1$s TB</item>
+        <item quantity="few">%1$s TB</item>
+        <item quantity="many">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s मे</item>
+        <item quantity="zero">%1$s मे</item>
+        <item quantity="one">%1$s मे</item>
+        <item quantity="two">%1$s मे</item>
+        <item quantity="few">%1$s मे</item>
+        <item quantity="many">%1$s मे</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s कि.ग्रा.</item>
+        <item quantity="zero">%s कि.ग्रा.</item>
+        <item quantity="one">%s कि.ग्रा.</item>
+        <item quantity="two">%s कि.ग्रा.</item>
+        <item quantity="few">%s कि.ग्रा.</item>
+        <item quantity="many">%s कि.ग्रा.</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s पाउंड</item>
+        <item quantity="zero">%s पाउंड</item>
+        <item quantity="one">%s पाउंड</item>
+        <item quantity="two">%s पाउंड</item>
+        <item quantity="few">%s पाउंड</item>
+        <item quantity="many">%s पाउंड</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s एखनो वैध अछि %2$s दिन लेल</item>
+        <item quantity="zero">%1$s एखनो वैध अछि %2$s दिन लेल</item>
+        <item quantity="one">%1$s एखनो वैध अछि %2$s दिन लेल</item>
+        <item quantity="two">%1$s एखनो वैध अछि %2$s दिन लेल</item>
+        <item quantity="few">%1$s एखनो वैध अछि %2$s दिन लेल</item>
+        <item quantity="many">%1$s एखनो वैध अछि %2$s दिन लेल</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d संपर्क सब</item>
+        <item quantity="zero">%d संपर्क सब</item>
+        <item quantity="one">%d सम्पर्क</item>
+        <item quantity="two">%d संपर्क सब</item>
+        <item quantity="few">%d संपर्क सब</item>
+        <item quantity="many">%d संपर्क सब</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d घंटा</item>
+        <item quantity="zero">%d घंटा</item>
+        <item quantity="one">%d घंटा</item>
+        <item quantity="two">%d घंटा</item>
+        <item quantity="few">%d घंटा</item>
+        <item quantity="many">%d घंटा</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d घंटा</item>
+        <item quantity="zero">%d घंटा</item>
+        <item quantity="one">%d घंटा</item>
+        <item quantity="two">%d घंटा</item>
+        <item quantity="few">%d घंटा</item>
+        <item quantity="many">%d घंटा</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d मिनट</item>
+        <item quantity="zero">%d मिनट</item>
+        <item quantity="one">%d मिनट</item>
+        <item quantity="two">%d मिनट</item>
+        <item quantity="few">%d मिनट</item>
+        <item quantity="many">%d मिनट</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d चरणसब</item>
+        <item quantity="zero">%d चरणसब</item>
+        <item quantity="one">%d चरण</item>
+        <item quantity="two">%d चरणसब</item>
+        <item quantity="few">%d चरणसब</item>
+        <item quantity="many">%d चरणसब</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s पुरस्कारसब प्राप्त भेल</item>
+        <item quantity="zero">%s पुरस्कारसब प्राप्त भेल</item>
+        <item quantity="one">%s पुरस्कार प्राप्त भेल</item>
+        <item quantity="two">%s पुरस्कारसब प्राप्त भेल</item>
+        <item quantity="few">%s पुरस्कारसब प्राप्त भेल</item>
+        <item quantity="many">%s पुरस्कारसब प्राप्त भेल</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">बादमे अहाँक बच्चा %1$s बेर प्रशंसा प्राप्त कयलक अछि</item>
+        <item quantity="zero">बादमे अहाँक बच्चा %1$s बेर प्रशंसा प्राप्त कयलक अछि</item>
+        <item quantity="one">बादमे अहाँक बच्चा %1$s बेर प्रशंसा प्राप्त कयलक अछि</item>
+        <item quantity="two">बादमे अहाँक बच्चा %1$s बेर प्रशंसा प्राप्त कयलक अछि</item>
+        <item quantity="few">बादमे अहाँक बच्चा %1$s बेर प्रशंसा प्राप्त कयलक अछि</item>
+        <item quantity="many">बादमे अहाँक बच्चा %1$s बेर प्रशंसा प्राप्त कयलक अछि</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f कि.मी.</item>
+        <item quantity="zero">%1$.3f कि.मी.</item>
+        <item quantity="one">%1$.3f कि.मी.</item>
+        <item quantity="two">%1$.3f कि.मी.</item>
+        <item quantity="few">%1$.3f कि.मी.</item>
+        <item quantity="many">%1$.3f कि.मी.</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">एतय ठहरलहुँ %s घंटासँ अधिक लेल</item>
+        <item quantity="zero">एतय ठहरलहुँ %s घंटासँ अधिक लेल</item>
+        <item quantity="one">एतय ठहरलहुँ %s घंटासँ अधिक लेल</item>
+        <item quantity="two">एतय ठहरलहुँ %s घंटासँ अधिक लेल</item>
+        <item quantity="few">एतय ठहरलहुँ %s घंटासँ अधिक लेल</item>
+        <item quantity="many">एतय ठहरलहुँ %s घंटासँ अधिक लेल</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s मी., %2$s</item>
+        <item quantity="zero">%1$s मी., %2$s</item>
+        <item quantity="one">%1$s मी., %2$s</item>
+        <item quantity="two">%1$s मी., %2$s</item>
+        <item quantity="few">%1$s मी., %2$s</item>
+        <item quantity="many">%1$s मी., %2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">सूक्ष्मता %s मी. केँ अन्तर्गत</item>
+        <item quantity="zero">सूक्ष्मता %s मी. केँ अन्तर्गत</item>
+        <item quantity="one">सूक्ष्मता %s मी. केँ अन्तर्गत</item>
+        <item quantity="two">सूक्ष्मता %s मी. केँ अन्तर्गत</item>
+        <item quantity="few">सूक्ष्मता %s मी. केँ अन्तर्गत</item>
+        <item quantity="many">सूक्ष्मता %s मी. केँ अन्तर्गत</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">स्थान %s मिनट पहिने</item>
+        <item quantity="zero">स्थान %s मिनट पहिने</item>
+        <item quantity="one">स्थान %s मिनट पहिने</item>
+        <item quantity="two">स्थान %s मिनट पहिने</item>
+        <item quantity="few">स्थान %s मिनट पहिने</item>
+        <item quantity="many">स्थान %s मिनट पहिने</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">अहाँ मात्र %1$s संपर्क सब जोड़ि सकैत छी</item>
+        <item quantity="zero">अहाँ मात्र %1$s संपर्क सब जोड़ि सकैत छी</item>
+        <item quantity="one">अहाँ मात्र %1$s सम्पर्क जोड़ि सकैत छी</item>
+        <item quantity="two">अहाँ मात्र %1$s संपर्क सब जोड़ि सकैत छी</item>
+        <item quantity="few">अहाँ मात्र %1$s संपर्क सब जोड़ि सकैत छी</item>
+        <item quantity="many">अहाँ मात्र %1$s संपर्क सब जोड़ि सकैत छी</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">"अहाँ %1$d प्रबन्धकसब धरि निमंत्रण दय सकैत छी। जखन एकटा बच्चा संकटकालीन कॉल करैत अछि, त' घड़ी व्‍यवस्‍थापकक क्रम मे कॉल करबाक लेल संपर्क सूचीक उपयोग कयल करत। व्‍यवस्‍थापक कखनो बच्‍चा केँ कॉल क' सकैत अछि।"</item>
+        <item quantity="zero">"अहाँ %1$d प्रबन्धकसब धरि निमंत्रण दय सकैत छी। जखन एकटा बच्चा संकटकालीन कॉल करैत अछि, त' घड़ी व्‍यवस्‍थापकक क्रम मे कॉल करबाक लेल संपर्क सूचीक उपयोग कयल करत। व्‍यवस्‍थापक कखनो बच्‍चा केँ कॉल क' सकैत अछि।"</item>
+        <item quantity="one">"अहाँ %1$d प्रबन्धक धरि निमंत्रण दय सकैत छी। जखन एकटा बच्चा संकटकालीन कॉल करैत अछि, त' घड़ी व्‍यवस्‍थापकक क्रम मे कॉल करबाक लेल संपर्क सूचीक उपयोग कयल करत। व्‍यवस्‍थापक कखनो बच्‍चा केँ कॉल क' सकैत अछि।"</item>
+        <item quantity="two">"अहाँ %1$d प्रबन्धकसब धरि निमंत्रण दय सकैत छी। जखन एकटा बच्चा संकटकालीन कॉल करैत अछि, त' घड़ी व्‍यवस्‍थापकक क्रम मे कॉल करबाक लेल संपर्क सूचीक उपयोग कयल करत। व्‍यवस्‍थापक कखनो बच्‍चा केँ कॉल क' सकैत अछि।"</item>
+        <item quantity="few">"अहाँ %1$d प्रबन्धकसब धरि निमंत्रण दय सकैत छी। जखन एकटा बच्चा संकटकालीन कॉल करैत अछि, त' घड़ी व्‍यवस्‍थापकक क्रम मे कॉल करबाक लेल संपर्क सूचीक उपयोग कयल करत। व्‍यवस्‍थापक कखनो बच्‍चा केँ कॉल क' सकैत अछि।"</item>
+        <item quantity="many">"अहाँ %1$d प्रबन्धकसब धरि निमंत्रण दय सकैत छी। जखन एकटा बच्चा संकटकालीन कॉल करैत अछि, त' घड़ी व्‍यवस्‍थापकक क्रम मे कॉल करबाक लेल संपर्क सूचीक उपयोग कयल करत। व्‍यवस्‍थापक कखनो बच्‍चा केँ कॉल क' सकैत अछि।"</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d अंकसब</item>
+        <item quantity="zero">%d अंकसब</item>
+        <item quantity="one">%d अंक</item>
+        <item quantity="two">%d अंकसब</item>
+        <item quantity="few">%d अंकसब</item>
+        <item quantity="many">%d अंकसब</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">चयनित संपर्क सब केर हटाउ?</item>
+        <item quantity="zero">चयनित संपर्क सब केर हटाउ?</item>
+        <item quantity="one">चयनित सम्पर्क हटाउ?</item>
+        <item quantity="two">चयनित संपर्क सब केर हटाउ?</item>
+        <item quantity="few">चयनित संपर्क सब केर हटाउ?</item>
+        <item quantity="many">चयनित संपर्क सब केर हटाउ?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s मिनट सुन्दर जागब)</item>
+        <item quantity="zero">%1$s (%2$s मिनट सुन्दर जागब)</item>
+        <item quantity="one">%1$s (%2$s मिनट सुन्दर जागब)</item>
+        <item quantity="two">%1$s (%2$s मिनट सुन्दर जागब)</item>
+        <item quantity="few">%1$s (%2$s मिनट सुन्दर जागब)</item>
+        <item quantity="many">%1$s (%2$s मिनट सुन्दर जागब)</item>
+    </plurals>
+</resources>

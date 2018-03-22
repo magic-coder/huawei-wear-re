@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" app:orientation="vertical" app:layout_width="match_parent" app:layout_height="wrap_content">
+    <View app:background="@color/listview_divider_contact" app:layout_width="match_parent" app:layout_height="UNKNOWN_DATA_0x40000031" />
+    <TextView app:textSize="13dp" app:id="@id/view_contact_notice_tv" app:layout_width="match_parent" app:layout_height="wrap_content" app:layout_marginLeft="20dp" app:layout_marginTop="7dp" app:layout_marginRight="20dp" app:text="@string/IDS_plugin_kidwatch_menu_other_contact" app:alpha="0.4" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:id="@id/common_top_banner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fragment_top_banner_margin_top" android:layout_marginBottom="0.5dp">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d056b">
+        <android.support.v4.view.ViewPager android:id="@id/view_pager_common_top_banner" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d056b" />
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fragment_top_banner_dot_margin">
+            <ImageView android:id="@id/v_dot0" android:visibility="visible" android:src="@mipmap/btn_health_point_white_sel" style="@style/common_view_pager_dot_style" />
+            <ImageView android:id="@id/v_dot1" android:visibility="visible" style="@style/common_view_pager_dot_style" />
+            <ImageView android:id="@id/v_dot2" android:visibility="visible" style="@style/common_view_pager_dot_style" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

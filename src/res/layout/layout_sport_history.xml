@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/health_sport_history_title_layout" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_hw_show_sport_history_track" setting:custom_type="2" />
+    <ExpandableListView setting:id="@id/hw_health_my_running_history" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:groupIndicator="0x0" setting:divider="0x0" />
+    <LinearLayout setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:id="@id/no_sport_history_layout" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="match_parent">
+        <ImageView setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/img_no_sport_history" setting:background="@drawable/hw_health_show_runhistory_no_data_img" setting:layout_width="UNKNOWN_DATA_0x7f0d06a7" setting:layout_height="UNKNOWN_DATA_0x7f0d06a7" />
+        <TextView setting:textSize="@dimen/hw_show_public_size_16" setting:textColor="@color/hw_show_color_text_60_persent_black" setting:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/runhistory_no_data" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_hw_health_show_runhistory_no_data" />
+    </LinearLayout>
+</LinearLayout>

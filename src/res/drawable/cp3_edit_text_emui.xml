@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/cp3_textfield_multiline_default_emui" android:state_multiline="true" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/cp3_textfield_multiline_disabled_emui" android:state_multiline="true" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/cp3_textfield_multiline_activated_emui" android:state_multiline="true" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/cp3_textfield_multiline_pressed_emui" android:state_multiline="true" />
+    <item android:state_enabled="true" android:drawable="@drawable/cp3_textfield_multiline_activated_emui" android:state_activated="true" android:state_multiline="true" />
+    <item android:state_enabled="true" android:drawable="@drawable/cp3_textfield_multiline_default_emui" android:state_multiline="true" />
+    <item android:state_focused="true" android:drawable="@drawable/cp3_textfield_multiline_disabled_focused_emui" android:state_multiline="true" />
+    <item android:drawable="@drawable/cp3_textfield_multiline_disabled_emui" android:state_multiline="true" />
+    <item android:state_window_focused="false" android:state_enabled="true" android:drawable="@drawable/cp3_textfield_default_emui" />
+    <item android:state_window_focused="false" android:state_enabled="false" android:drawable="@drawable/cp3_textfield_disabled_emui" />
+    <item android:state_focused="true" android:state_enabled="true" android:drawable="@drawable/cp3_textfield_activated_emui" />
+    <item android:state_enabled="true" android:state_pressed="true" android:drawable="@drawable/cp3_textfield_pressed_emui" />
+    <item android:state_enabled="true" android:drawable="@drawable/cp3_textfield_activated_emui" android:state_activated="true" />
+    <item android:state_enabled="true" android:drawable="@drawable/cp3_textfield_default_emui" />
+    <item android:state_focused="true" android:drawable="@drawable/cp3_textfield_disabled_focused_emui" />
+    <item android:drawable="@drawable/cp3_textfield_disabled_emui" />
+</selector>

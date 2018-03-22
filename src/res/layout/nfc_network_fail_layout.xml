@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/network_fail_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="38dp" android:layout_marginRight="38dp" android:layout_weight="1.0">
+        <ImageView android:id="@id/nfc_no_network_icon" android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/hwpay_emptypage_icon_internet" android:onClick="refresh" />
+        <TextView android:textSize="12dp" android:textColor="@color/secondarycolor" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/nfc_no_network_text" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/nfc_no_network_connect_desc" android:lineSpacingExtra="2dp" android:onClick="refresh" />
+    </LinearLayout>
+    <Button android:textSize="14dp" android:id="@id/load_button" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:layout_marginBottom="28dp" android:text="@string/nfc_button_set_network" android:onClick="jumpToSettings" android:fontFamily="@string/emui_anti_default_fonts" />
+</LinearLayout>

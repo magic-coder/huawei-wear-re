@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:background="@color/common_color_black" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/message_center_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_message_center" setting:custom_type="2" />
+    <ListView setting:id="@id/items_listView1" setting:scrollbars="UNKNOWN_DATA_0x0" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:listSelector="@drawable/commonui_list_item_bg" setting:divider="0x0" />
+    <RelativeLayout setting:id="@id/messageCenter_layout_no_message" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginLeft="@dimen/mesagecenter_no_message_layout_marginLeft" setting:layout_marginRight="@dimen/mesagecenter_no_message_layout_marginRight" setting:layout_marginStart="@dimen/mesagecenter_no_message_layout_marginLeft" setting:layout_marginEnd="@dimen/mesagecenter_no_message_layout_marginRight">
+        <ImageView setting:id="@id/MessageCenter_nomessage" setting:layout_width="UNKNOWN_DATA_0x7f0d078d" setting:layout_height="UNKNOWN_DATA_0x7f0d078b" setting:layout_marginBottom="@dimen/mesagecenter_no_message_imageview_layout_marginBottom" setting:src="@drawable/no_message" setting:layout_centerHorizontal="true" />
+        <TextView setting:textSize="@dimen/mesagecenter_no_message_textview_textSize" setting:textColor="@color/messcolor_whilte_50" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_messagecenter_nomessage" setting:layout_below="@id/MessageCenter_nomessage" />
+    </RelativeLayout>
+</LinearLayout>

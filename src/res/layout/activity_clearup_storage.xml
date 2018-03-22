@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/user_profile_titlebar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:titleBarText="@string/IDS_clear_cache" setting:custom_type="2" />
+    <RelativeLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent"
+        <RelativeLayout setting:id="@id/maerdaifu_view" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true" setting:layout_centerVertical="true"
+            <RelativeLayout setting:id="@id/center_layout" setting:background="@mipmap/load_bg_round_line" setting:layout_width="UNKNOWN_DATA_0x7f0d02b8" setting:layout_height="UNKNOWN_DATA_0x7f0d02b8" setting:layout_centerHorizontal="true">
+                <ProgressBar setting:id="@id/check_progress_bar" setting:layout_width="match_parent" setting:layout_height="match_parent" setting:indeterminateOnly="true" setting:indeterminateDrawable="@drawable/clear_app_storage_progressbar" style="@*style/Widget.Holo.Light.ProgressBar.Inverse" />
+                <TextView setting:textSize="@dimen/clear_up_circle_text_size" setting:textColor="@color/clear_up_stogage_65_black" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/tv_app_circle_text" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true" setting:layout_centerVertical="true" />
+                <RelativeLayout setting:id="@id/panel_mutile_content" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true" setting:layout_centerVertical="true"
+                    <RelativeLayout setting:id="@id/panel_top_content" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true">
+                        <TextView setting:textSize="@dimen/clear_up_button_text_size" setting:textColor="@color/clear_up_stogage_85_black" setting:id="@id/tv_tip_one_textview" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_social_clearup_storage_filesize_unit" setting:layout_centerHorizontal="true" />
+                        <ImageView setting:id="@id/iv_clear_over_icon" setting:background="@mipmap/ic_clearup_successful" setting:visibility="gone" setting:layout_width="UNKNOWN_DATA_0x7f0d02b7" setting:layout_height="UNKNOWN_DATA_0x7f0d02b7" setting:layout_centerHorizontal="true" />
+                        <TextView setting:textSize="@dimen/clear_up_button_text_size" setting:textColor="@color/clear_up_stogage_65_black" setting:id="@id/tv_tip_one_unit_textview" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_social_clearup_storage_filesize_unit" setting:layout_toRightOf="@id/tv_tip_one_textview" setting:layout_alignBottom="@id/tv_tip_one_textview" />
+                    </RelativeLayout>
+                    <RelativeLayout setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_below="@id/panel_top_content" setting:layout_centerHorizontal="true">
+                        <TextView setting:textSize="@dimen/clear_up_circle_text_size" setting:textColor="@color/clear_up_stogage_65_black" setting:id="@id/tv_tip_two_textview" setting:visibility="visible" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_social_clearup_storage_clear_temporary_file" />
+                    </RelativeLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout setting:id="@id/panel_not_litter" setting:visibility="invisible" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_centerHorizontal="true" setting:layout_centerVertical="true">
+                <ImageView setting:id="@id/iv_not_litter_view" setting:background="@mipmap/ic_clearup_file_no" setting:layout_width="UNKNOWN_DATA_0x7f0d02b7" setting:layout_height="UNKNOWN_DATA_0x7f0d02b7" setting:layout_alignParentTop="true" setting:layout_centerHorizontal="true" />
+                <TextView setting:textSize="@dimen/clear_up_circle_text_size" setting:textColor="@color/clear_up_stogage_65_black" setting:id="@id/tv_not_litter_text" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_social_clearup_storage_no_temporary_file" setting:layout_below="@id/iv_not_litter_view" setting:layout_centerHorizontal="true" />
+            </RelativeLayout>
+            <RelativeLayout setting:id="@id/pannel_clear_view" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="20dp" setting:layout_below="@id/center_layout">
+                <Button setting:textSize="@dimen/clear_up_button_text_size" setting:textColor="@color/clear_up_stogage_85_black" setting:id="@id/clear_button" setting:background="@drawable/btn_default_disabled_emui3" setting:layout_width="UNKNOWN_DATA_0x7f0d02b6" setting:layout_height="UNKNOWN_DATA_0x7f0d02b4" setting:layout_marginTop="@dimen/clear_up_marginTop" setting:text="@string/IDS_social_clearup_storage_button_text" setting:layout_centerHorizontal="true" />
+                <TextView setting:textSize="@dimen/clear_up_circle_text_size" setting:textColor="@color/clear_up_stogage_65_black" setting:id="@id/app_download_success" setting:visibility="gone" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/clear_up_marginTop" setting:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

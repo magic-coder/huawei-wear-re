@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_window_focused="false" android:drawable="0x106000d" />
+    <item android:state_focused="true" android:state_enabled="false" android:state_pressed="true" android:drawable="@drawable/cp3_list_selector_background_disabled_emui" />
+    <item android:state_focused="true" android:state_enabled="false" android:drawable="@drawable/cp3_list_selector_background_disabled_emui" />
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/cp3_list_selector_background_transition_emui" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/cp3_list_selector_background_transition_emui" />
+    <item android:state_focused="true" android:drawable="@drawable/cp3_list_selector_background_pressed_emui" />
+    <item android:drawable="0x106000d" />
+</selector>

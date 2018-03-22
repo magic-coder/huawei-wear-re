@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="8dp">
+    <TextView android:textSize="14dp" android:textColor="@color/common_white_90alpha" android:id="@id/single_title" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="16dp" android:paddingEnd="16dp" />
+    <include layout="@layout/question_view_deliver" />
+    <ListView android:id="@id/single_listview" android:padding="10dp" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:divider="@color/common_white_15alpha" android:dividerHeight="1px" android:layout_weight="1.0" />
+</LinearLayout>

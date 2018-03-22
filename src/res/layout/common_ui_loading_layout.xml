@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/waiting_layout" android:padding="@dimen/common_ui_custom_waiting_dialog_padding" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/common_ui_custom_progress_dialog_textsize" android:textColor="@color/common_ui_custom_dialog_value_color" android:id="@id/tv_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_centerVertical="true" style="@style/common_ui_left" />
+    <ProgressBar android:id="@id/progressbar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminateDrawable="@drawable/common_ui_progressbar" style="@style/common_ui_right" />
+</RelativeLayout>

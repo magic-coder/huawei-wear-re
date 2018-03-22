@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/menu_poi_list_item_bg" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x5301">
+    <ImageView android:id="@id/viewpager_list_item_img" android:layout_width="UNKNOWN_DATA_0x3e01" android:layout_height="UNKNOWN_DATA_0x3e01" android:layout_marginLeft="19dp" android:src="@drawable/kw_pic_ist_user_common" android:scaleType="fitCenter" android:layout_centerVertical="true" android:contentDescription="0x0" />
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x5301" android:layout_marginLeft="22dp" android:layout_toRightOf="@id/viewpager_list_item_img" android:layout_centerVertical="true">
+        <TextView android:textSize="17dp" android:textColor="#474747" android:id="@id/name_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="王平" />
+        <TextView android:textSize="16dp" android:textColor="#636363" android:id="@id/menu_tv_phonenumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="18566017477" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/kw_img_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

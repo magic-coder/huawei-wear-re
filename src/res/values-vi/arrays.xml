@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Chụp ảnh</item>
+        <item>Từ album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Tạo môi trường thoải mái để giấc ngủ tốt hơn</item>
+        <item>Chất lượng giấc ngủ tốt có lợi cho sức khỏe</item>
+        <item>Hãy dẹp bỏ mọi lo lắng của bạn trước khi đi ngủ</item>
+        <item>Để đầu óc thư thái trước khi ngủ</item>
+        <item>Giấc ngủ ngon sẽ giúp cải thiện hiệu suất làm việc của bạn</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Gác lại mọi lo âu</item>
+        <item>Không nên ăn uống quá nhiều trước khi ngủ</item>
+        <item>Tập trung vào hơi thở của bạn, nó có thể giúp bạn đi vào giấc ngủ</item>
+        <item>Tránh tập thể dục cường độ cao trước khi đi ngủ</item>
+        <item>Nghe một vài bản nhạc nhẹ để dễ ngủ</item>
+        <item>Tập thể dục thường xuyên để cải thiện chất lượng giấc ngủ của bạn</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Giấc ngủ ngon có thể cải thiện tâm trạng của bạn</item>
+        <item>Bắt đầu mỗi ngày mới với cơ thể và tâm trí được làm mới</item>
+        <item>Đi ngủ đúng giờ có lợi cho não bộ</item>
+        <item>Ngủ ngon để đối mặt với những thách thức ngày mai</item>
+    </array>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Zrób zdjęcie</item>
+        <item>Z albumu</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Przygotuj sobie warunki dla komfortowego snu nocą</item>
+        <item>Właściwe nawyki w kwestii snu wpływają na ogólny stan zdrowia</item>
+        <item>Przestań myśleć o zmartwieniach, zanim pójdziesz spać</item>
+        <item>Przed zaśnięciem uspokój umysł</item>
+        <item>Dobry sen pomaga podnieść wydajność w pracy</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Odłóż jutrzejsze troski na jutro</item>
+        <item>Staraj się nie jeść ani nie pić za dużo przed snem</item>
+        <item>Skup się na oddechu, to może pomóc w zaśnięciu</item>
+        <item>Przed snem wystrzegaj się intensywnych ćwiczeń</item>
+        <item>Posłuchaj łagodnej muzyki, by ukołysać się do snu</item>
+        <item>Ćwicz regularnie, aby poprawić jakość snu</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Dobry sen poprawia nastrój</item>
+        <item>Zaczynaj każdy dzień, mając wypoczęty umysł i ciało</item>
+        <item>Regularne pory snu mogą przynieść spokój ducha</item>
+        <item>Śpij dobrze, jutro czeka wiele wyzwań</item>
+    </array>
+</resources>

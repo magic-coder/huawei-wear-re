@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/settings_item" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/sport_remind" android:background="@drawable/settings_item" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d08cd">
+        <ImageView android:id="@id/right_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/marginRight" android:src="@drawable/icon_right_arrow" android:layout_alignParentRight="true" />
+        <ImageButton android:id="@id/btn_delete" android:background="0x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginRight="@dimen/marginRight" android:src="@drawable/btn_delete" android:layout_toLeftOf="@id/right_arrow" />
+        <TextView android:textSize="17dp" android:textColor="@color/setting_text_1" android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="闹钟1" />
+        <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:id="@id/time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/marginLeft" android:text="7:15" android:layout_below="@id/name" />
+    </RelativeLayout>
+</LinearLayout>

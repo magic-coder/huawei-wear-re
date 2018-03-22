@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <include android:id="@id/feedback_loading" layout="@layout/feedback_loading_progressbar" />
+    <ListView android:id="@id/feedback_list" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="0x0" style="@style/feedback_ListViewStyle" />
+    <LinearLayout android:orientation="vertical" android:id="@id/feedback_No_result_prompt" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerHorizontal="true" android:contentDescription="@string/feedbackNoRecord">
+        <View android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="2.3" />
+        <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" android:layout_weight="7.7">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/feedback_f_icon_bill" />
+            <TextView android:textSize="13sp" android:textColor="@color/feedback_text_color2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="24dp" android:paddingRight="24dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/feedbackNoRecord" android:paddingStart="24dp" android:paddingEnd="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/feedback_No_result_prompt_land" android:focusable="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/feedbackNoRecord"
+        <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="UNKNOWN_DATA_0x4601" android:layout_height="UNKNOWN_DATA_0x4601" android:src="@drawable/feedback_f_icon_bill" />
+            <TextView android:textSize="13sp" android:textColor="@color/feedback_text_color2" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:paddingLeft="24dp" android:paddingRight="24dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/feedbackNoRecord" android:paddingStart="24dp" android:paddingEnd="24dp" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/category_layout" android:background="@color/nfc_category_bg_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x2001">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+        <TextView android:textSize="12dp" android:textColor="@color/secondarycolor" android:ellipsize="marquee" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/category_name" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1" android:layout_marginLeft="18dp" android:text="@string/nfc_opened" android:singleLine="true" android:layout_weight="1.0" />
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginLeft="6dp" android:src="@drawable/nfc_card_shadow_left" />
+        <FrameLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x4801" android:layout_weight="1.0">
+            <ImageView android:id="@id/card_list_bg_view" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/sp_bg_layout" android:background="@drawable/nfc_card_list_bg_open_selector" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/left_content_layout" android:layout_width="UNKNOWN_DATA_0x2801" android:layout_height="UNKNOWN_DATA_0x2801" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="16dp">
+                    <ImageView android:id="@id/sp_logo" android:layout_width="match_parent" android:layout_height="match_parent" />
+                    <ImageView android:background="@drawable/nfc_stroke_sp_logo" android:layout_width="match_parent" android:layout_height="match_parent" />
+                </FrameLayout>
+                <LinearLayout android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:orientation="vertical" android:id="@id/middle_content_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:layout_weight="1.0">
+                    <TextView android:textSize="14sp" android:ellipsize="marquee" android:id="@id/sp_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <TextView android:textSize="11dp" android:ellipsize="end" android:id="@id/sp_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:drawableRight="@drawable/nfc_carrera_card_list_arrow" />
+                </LinearLayout>
+                <RelativeLayout android:id="@id/right_content_layout" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp">
+                    <TextView android:textSize="11dp" android:textColor="@color/nfc_white_d8" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/default_card_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="3dp" android:singleLine="true" />
+                    <TextView android:textSize="9dp" android:textColor="@color/nfc_white" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/set_default_card_button" android:background="@drawable/default_card_button_bg_selector" android:paddingLeft="9dp" android:paddingRight="9dp" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1a01" android:layout_marginTop="23dp" android:text="@string/nfc_set_default_card_text" android:singleLine="true" />
+                    <TextView android:textSize="12dp" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/card_list_open_card_button" android:paddingLeft="17dp" android:paddingTop="6dp" android:paddingRight="17dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="22dp" android:layout_marginRight="8dp" android:layout_marginBottom="19dp" android:text="@string/nfc_open_card" style="@style/nfc_topup_button_style" />
+                </RelativeLayout>
+            </LinearLayout>
+        </FrameLayout>
+        <ImageView android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:layout_width="UNKNOWN_DATA_0xc01" android:layout_height="UNKNOWN_DATA_0x401" android:layout_marginRight="6dp" android:src="@drawable/nfc_card_shadow_right" />
+    </LinearLayout>
+    <ImageView android:background="@drawable/cp3_divider_horizontal_gray_emui" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+</LinearLayout>

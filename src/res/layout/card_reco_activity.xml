@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/nfc_black" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/card_reco_title_bar" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:custom_type="2" />
+    <FrameLayout setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x1" setting:layout_weight="1.0">
+        <SurfaceView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/preview_view" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+        <LinearLayout setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+            <RelativeLayout setting:layout_width="match_parent" setting:layout_height="wrap_content">
+                <com.huawei.wallet.ui.idencard.camera.bankcard.BankCardOverlayView setting:id="@id/overlayview" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+                <CheckBox setting:id="@id/btn_light" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginTop="16dp" setting:layout_marginRight="16dp" setting:button="@drawable/flash_on_selector" setting:layout_alignParentTop="true" setting:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout setting:background="@color/CS_link_color" setting:paddingLeft="@dimen/camera_bankcard_tips_margin_left_or_right" setting:paddingTop="@dimen/camera_bankcard_tips_margin_left_or_right" setting:paddingRight="@dimen/camera_bankcard_tips_margin_left_or_right" setting:paddingBottom="@dimen/camera_bankcard_tips_margin_left_or_right" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x1" setting:layout_weight="1.0">
+                <TextView setting:textSize="@dimen/camera_bankcard_title_textsize" setting:textColor="@color/primarycolor" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/bankcard_title" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/wallet_camera_add_bankcard" />
+                <TextView setting:textSize="@dimen/camera_bankcard_tips_textsize" setting:textColor="@color/wallet_camera_use_tips_color" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/content_tips" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:layout_marginTop="@dimen/camera_bankcard_tips_to_title_margin" setting:text="@string/wallet_camera_use_tips" setting:layout_below="@id/bankcard_title" />
+                <TextView setting:textSize="@dimen/camera_input_by_user_textsize" setting:textColor="@color/cp3_my_brand_text_click_selector" setting:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" setting:id="@id/input_by_user" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:text="@string/wallet_camera_input_by_user" setting:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

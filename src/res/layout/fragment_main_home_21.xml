@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@color/common_color_black" android:layout_width="match_parent" android:layout_height="wrap_content"
+    <FrameLayout android:id="@id/fragment_home_21_normal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ScrollView android:id="@id/sv_device_setting" android:scrollbars="UNKNOWN_DATA_0x0" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent"
+                <LinearLayout android:orientation="vertical" android:id="@id/home_fragment_lly_id" android:background="@mipmap/home_watch" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include android:id="@id/fragment_home_21_states" layout="@layout/fragment_main_battery_bluetooth" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:background="@color/common_black_100alpha" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <include layout="@layout/item_fragment_main_home_card_download_hihealth" />
+                    <include layout="@layout/item_fragment_main_home_card_download_hihealth_swim" />
+                    <include layout="@layout/item_fragment_main_home_notification_alert" />
+                    <View android:background="@color/common_color_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:alpha="0.08" />
+                    <include layout="@layout/item_fragment_main_home_card_notify" />
+                    <include layout="@layout/item_fragment_main_home_card_heart_rate" />
+                    <include android:id="@id/fragment_home_21_fitness" layout="@layout/fragment_main_fitness_layout" />
+                    <View android:background="@color/common_color_white" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x801" android:alpha="0.08" />
+                    <include android:id="@id/fragment_home_21_settings" layout="@layout/fragment_main_item" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </FrameLayout>
+    <ViewStub android:id="@id/fragment_home_21_no_device_stub" android:visibility="gone" android:layout="@layout/fragment_main_no_device" android:layout_width="match_parent" android:layout_height="match_parent" />
+    <FrameLayout android:id="@id/home_fragment_title_frame" android:background="@drawable/home_title_bg" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@id/home_fragment_title_view" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1" />
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x3001"
+                <RelativeLayout android:id="@id/home_drawer_llyt_menu" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerVertical="true" android:paddingStart="16dp" android:paddingEnd="16dp" android:layout_alignParentStart="true"
+                    <RelativeLayout android:layout_width="UNKNOWN_DATA_0x7f0d02c6" android:layout_height="UNKNOWN_DATA_0x7f0d02c6" android:layout_centerVertical="true" android:layout_alignParentStart="true">
+                        <ImageView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/home_drawer_iv_red_point" android:visibility="invisible" android:layout_width="UNKNOWN_DATA_0x601" android:layout_height="UNKNOWN_DATA_0x601" android:src="@mipmap/ic_list_badge" />
+                        <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/home_drawer" android:background="@drawable/home_leftmenu_bg" android:layout_width="UNKNOWN_DATA_0x7f0d02c6" android:layout_height="UNKNOWN_DATA_0x7f0d02c6" />
+                    </RelativeLayout>
+                </RelativeLayout>
+                <com.huawei.ui.homewear21.card.views.PariedDevicesSwitcher android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/devices_switcher" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x3001" android:layout_marginTop="@dimen/band_main_view_switcher_text_margin_top" android:layout_centerHorizontal="true" />
+                <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/home_iv_af500_settings" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@mipmap/ic_af500" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/common_margin_right_size" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

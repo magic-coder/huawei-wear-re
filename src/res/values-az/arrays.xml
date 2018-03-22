@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Şəkil çək</item>
+        <item>Albomdan</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Daha yaxşı yuxu üçün rahat şərait yaradın</item>
+        <item>Yaxşı yuxu vərdişləri ümumi sağlamlığa yaxşı təsir edir</item>
+        <item>Yatmazdan əvvəl narahatlıqları bir kənara qoyun</item>
+        <item>Yatmazdan əvvəl heç nə düşünməyin</item>
+        <item>Yaxşı yuxu iş məhsuldarlığınızı yaxşılaşdırmağa kömək edir</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Sabahın narahatlıqlarını sabaha saxlayın</item>
+        <item>Yatmazdan əvvəl çox yeməkdən və içməkdən çəkinin</item>
+        <item>Nəfəs almanıza diqqət verin, bu, yatmanıza kömək edə bilər</item>
+        <item>Yatmazdan əvvəl intensiv məşqdən çəkinin</item>
+        <item>Yuxunuzu gətirmək üçün həzin musiqi səsləndirin</item>
+        <item>Yuxu keyfiyyətinizi yaxşılaşdırmaq üçün müntəzəm məşq edin</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Yaxşı yuxu əhvalınızı yaxşılaşdıra bilər</item>
+        <item>Hər yeni günə gümrah bədən və ruh ilə başlayın</item>
+        <item>Müntəzəm yuxu vaxtı mənəvi rahatlıq təmin edəcək</item>
+        <item>Sabahın çətinliklərinin öhdəsindən gəlmək üçün yaxşı yatın</item>
+    </array>
+</resources>

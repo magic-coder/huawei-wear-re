@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:focusable="false" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x18400021" android:minHeight="48.5dp" android:paddingStart="@dimen/dialog_content_margin_16dp" android:paddingEnd="@dimen/dialog_content_margin_16dp">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x7f0d0438" android:layout_alignParentTop="true" android:layout_alignParentStart="true">
+        <TextView android:textSize="@dimen/default_text_font_size_large2" android:textColor="@color/common_white_90alpha" android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/contact_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" />
+        <CheckBox android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/chk_selectone" android:background="@drawable/commonui_radio_btn_bg" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:button="0x0" />
+    </LinearLayout>
+    <ImageView android:background="@color/common_white_10alpha" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x40000031" android:layout_alignParentBottom="true" />
+</RelativeLayout>

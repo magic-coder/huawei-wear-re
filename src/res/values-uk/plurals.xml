@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s см</item>
+        <item quantity="one">%1$s см</item>
+        <item quantity="few">%1$s см</item>
+        <item quantity="many">%1$s см</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Вистачить на %1$s дня</item>
+        <item quantity="one">Вистачить на %1$s день</item>
+        <item quantity="few">Вистачить на %1$s дні</item>
+        <item quantity="many">Вистачить на %1$s днів</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s КБ</item>
+        <item quantity="one">%1$s КБ</item>
+        <item quantity="few">%1$s КБ</item>
+        <item quantity="many">%1$s КБ</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s МБ</item>
+        <item quantity="one">%1$s МБ</item>
+        <item quantity="few">%1$s МБ</item>
+        <item quantity="many">%1$s МБ</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s фт</item>
+        <item quantity="one">%1$s фт</item>
+        <item quantity="few">%1$s фт</item>
+        <item quantity="many">%1$s фт</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d год.</item>
+        <item quantity="one">%d год.</item>
+        <item quantity="few">%d год.</item>
+        <item quantity="many">%d год.</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s Б</item>
+        <item quantity="one">%1$s Б</item>
+        <item quantity="few">%1$s Б</item>
+        <item quantity="many">%1$s Б</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s ГБ</item>
+        <item quantity="one">%1$s ГБ</item>
+        <item quantity="few">%1$s ГБ</item>
+        <item quantity="many">%1$s ГБ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s ПБ</item>
+        <item quantity="one">%1$s ПБ</item>
+        <item quantity="few">%1$s ПБ</item>
+        <item quantity="many">%1$s ПБ</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s ТБ</item>
+        <item quantity="one">%1$s ТБ</item>
+        <item quantity="few">%1$s ТБ</item>
+        <item quantity="many">%1$s ТБ</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s дюймів</item>
+        <item quantity="one">%1$s дюймів</item>
+        <item quantity="few">%1$s дюймів</item>
+        <item quantity="many">%1$s дюймів</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s кг</item>
+        <item quantity="one">%s кг</item>
+        <item quantity="few">%s кг</item>
+        <item quantity="many">%s кг</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s фунтів</item>
+        <item quantity="one">%s фунтів</item>
+        <item quantity="few">%s фунтів</item>
+        <item quantity="many">%s фунтів</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s діятиме ще %2$s дн.</item>
+        <item quantity="one">%1$s діятиме ще %2$s день</item>
+        <item quantity="few">%1$s діятиме ще %2$s дн.</item>
+        <item quantity="many">%1$s діятиме ще %2$s дн.</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Вилучити вибрані контакти?</item>
+        <item quantity="one">Вилучити вибраний контакт?</item>
+        <item quantity="few">Вилучити вибрані контакти?</item>
+        <item quantity="many">Вилучити вибрані контакти?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (%2$s хв. розумного пробудження)</item>
+        <item quantity="one">%1$s (%2$s хв. розумного пробудження)</item>
+        <item quantity="few">%1$s (%2$s хв. розумного пробудження)</item>
+        <item quantity="many">%1$s (%2$s хв. розумного пробудження)</item>
+    </plurals>
+</resources>

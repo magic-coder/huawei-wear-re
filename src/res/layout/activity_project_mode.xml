@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" setting:orientation="vertical" setting:background="#ffffff" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.pluginkidwatch.common.ui.title.CustomTitle setting:id="@id/menu_title" setting:visibility="visible" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d09b9" setting:titleText="@string/IDS_plugin_kidwatch_menu_project_mode" setting:titleSize="@dimen/title_text_size" setting:backLeftSpace="@dimen/back_btn_left_space" setting:menuRightSpace="@dimen/menu_btn_right_space" setting:btnpading="@dimen/title_btn_pading" />
+    <ScrollView setting:layout_width="match_parent" setting:layout_height="wrap_content">
+        <LinearLayout setting:orientation="vertical" setting:background="0x106000b" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+            <RelativeLayout setting:id="@id/menu_relstive_track_throwpoint" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+                <LinearLayout setting:orientation="horizontal" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0784">
+                    <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:paddingLeft="@dimen/menu_img_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@drawable/menu_icon_safe_clock" />
+                    <TextView setting:textSize="@dimen/menu_text_size" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/menu_tv_track_throwpoint" setting:paddingLeft="@dimen/menu_text_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_menu_track_throwpoint" setting:alpha="0.85" />
+                </LinearLayout>
+                <com.huawei.pluginkidwatch.common.ui.button.SlipButtonView setting:id="@id/menu_sbv_track_throwpoint_switch" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="14dp" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+            <RelativeLayout setting:id="@id/menu_relstive_track_triving" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+                <LinearLayout setting:orientation="horizontal" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0784">
+                    <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:paddingLeft="@dimen/menu_img_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@drawable/menu_icon_safe_clock" />
+                    <TextView setting:textSize="@dimen/menu_text_size" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/menu_tv_track_triving" setting:paddingLeft="@dimen/menu_text_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_menu_track_triving" setting:alpha="0.85" />
+                </LinearLayout>
+                <com.huawei.pluginkidwatch.common.ui.button.SlipButtonView setting:id="@id/menu_sbv_track_triving_switch" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="14dp" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+            <RelativeLayout setting:id="@id/menu_relstive_track_play" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+                <LinearLayout setting:orientation="horizontal" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0784">
+                    <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:paddingLeft="@dimen/menu_img_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@drawable/menu_icon_safe_clock" />
+                    <TextView setting:textSize="@dimen/menu_text_size" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/menu_tv_track_play" setting:paddingLeft="@dimen/menu_text_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_menu_track_play" setting:alpha="0.85" />
+                </LinearLayout>
+                <com.huawei.pluginkidwatch.common.ui.button.SlipButtonView setting:id="@id/menu_sbv_track_play_switch" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="14dp" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+            <RelativeLayout setting:id="@id/menu_relstive_show_app_position" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="wrap_content">
+                <LinearLayout setting:orientation="horizontal" setting:background="@drawable/menu_poi_list_item_bg" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0784">
+                    <ImageView setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:paddingLeft="@dimen/menu_img_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:src="@drawable/menu_icon_safe_clock" />
+                    <TextView setting:textSize="@dimen/menu_text_size" setting:layout_gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/menu_tv_show_app_position" setting:paddingLeft="@dimen/menu_text_padding_left" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:text="@string/IDS_plugin_kidwatch_menu_show_app_position" setting:alpha="0.85" />
+                </LinearLayout>
+                <com.huawei.pluginkidwatch.common.ui.button.SlipButtonView setting:id="@id/menu_sbv_app_posion" setting:layout_width="wrap_content" setting:layout_height="wrap_content" setting:layout_marginRight="14dp" setting:layout_alignParentRight="true" setting:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View setting:background="#26000000" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x100" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

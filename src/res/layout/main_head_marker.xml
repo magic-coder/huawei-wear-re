@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+    <LinearLayout android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:background="@drawable/kw_pic_gps_user" android:layout_width="UNKNOWN_DATA_0x1fb33321" android:layout_height="UNKNOWN_DATA_0x28a66621">
+        <ImageView android:id="@id/main_map_headimage" android:layout_width="UNKNOWN_DATA_0x3401" android:layout_height="UNKNOWN_DATA_0x3401" android:layout_marginTop="5dp" android:src="@drawable/kw_pic_user_boy" />
+    </LinearLayout>
+</LinearLayout>

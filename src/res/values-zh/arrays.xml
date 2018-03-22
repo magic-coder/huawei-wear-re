@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="sdk_crowdtest_add_attachment">
+        <item>文件</item>
+        <item>图片</item>
+    </array>
+    <array name="sdk_crowdtest_days_array">
+        <item>今天</item>
+        <item>昨天</item>
+        <item>前天</item>
+    </array>
+    <array name="sdk_crowdtest_description_camera_option">
+        <item>拍照</item>
+        <item>视频</item>
+    </array>
+    <array name="sdk_crowdtest_description_probability">
+        <item>始终出现</item>
+        <item>一天多次</item>
+        <item>一天一次</item>
+        <item>很少出现</item>
+    </array>
+    <array name="sdk_crowdtest_wifi_option_last_version_exists">
+        <item>1.是</item>
+        <item>2.否</item>
+        <item>3.不知道</item>
+    </array>
+    <array name="sdk_product_types_xml">
+        <item>@xml/sdk_config_wearable</item>
+    </array>
+</resources>

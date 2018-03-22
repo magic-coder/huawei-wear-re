@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:background="@drawable/dialog_above_bg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@id/title" android:text="@string/version_download" style="@style/dialog_title" />
+    <TextView android:id="@id/line_1px" android:layout_below="@id/title" style="@style/line_1px" />
+    <RelativeLayout android:id="@id/dialog_content" android:layout_below="@id/line_1px" style="@style/dialog_content">
+        <TextView android:textSize="16dp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/download_precent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="80%" android:layout_centerHorizontal="true" />
+        <ProgressBar android:id="@id/download_progress" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:progressDrawable="@drawable/seek_distance_drawable" android:layout_below="@id/download_precent" style="?unknown_attr_ref: 1010078" />
+    </RelativeLayout>
+    <LinearLayout android:layout_below="@id/dialog_content" style="@style/dialog_btn">
+        <Button android:textColor="@color/setting_text_1" android:id="@id/btn_cancel" android:text="@string/cancel" style="@style/common_btn" />
+    </LinearLayout>
+</RelativeLayout>

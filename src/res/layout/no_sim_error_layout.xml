@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:id="@id/no_sim_err_bar" setting:background="@color/IDS_plugin_sim_black" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0933">
+    <RelativeLayout setting:orientation="horizontal" setting:id="@id/no_sim_err_tips" setting:background="@drawable/sim_warnint_backgrand" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x7f0d0933">
+        <ImageView setting:id="@id/no_sim_err_imgage" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="@dimen/sim_open_esim_permission_tip_image_magin" setting:src="@drawable/sim_permission_warning" setting:layout_centerVertical="true" />
+        <TextView setting:textSize="@dimen/sim_mgr_text_status_bar_notice_size" setting:textColor="@color/IDS_plugin_sim_status_red_100alpha" setting:gravity="top|bottom|center_vertical|fill_vertical|center|fill" setting:id="@id/no_sim_err_txt" setting:layout_width="wrap_content" setting:layout_height="match_parent" setting:layout_marginLeft="@dimen/sim_open_esim_permission_tip_magin" setting:text="@string/IDS_plugin_multi_sim_error_no_sim" setting:layout_toEndOf="@id/no_sim_err_imgage" />
+    </RelativeLayout>
+</LinearLayout>

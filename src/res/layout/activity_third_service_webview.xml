@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res-auto" setting:orientation="vertical" setting:layout_width="match_parent" setting:layout_height="match_parent">
+    <com.huawei.ui.commonui.titlebar.CustomTitleBar setting:id="@id/app_zhongan_title" setting:layout_width="match_parent" setting:layout_height="wrap_content" setting:custom_type="2" />
+    <ProgressBar setting:id="@id/load_zhongan_url_progress" setting:visibility="gone" setting:layout_width="match_parent" setting:layout_height="UNKNOWN_DATA_0x501" setting:max="100" setting:progressDrawable="@drawable/webview_progress_drawable" style="@*style/Widget.Holo.Light.ProgressBar.Horizontal" />
+    <WebView setting:id="@id/app_zhongan_web" setting:layout_width="match_parent" setting:layout_height="match_parent" />
+</LinearLayout>

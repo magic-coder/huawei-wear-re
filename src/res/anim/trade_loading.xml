@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" android:variablePadding="true" android:oneshot="false">
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading0" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading1" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading2" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading3" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading4" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading5" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading6" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading7" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading8" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading9" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading10" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading11" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading12" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading13" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading14" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading15" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading16" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading17" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading18" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading19" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading20" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading21" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading22" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading23" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading24" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading25" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading26" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading27" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading28" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading29" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading30" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading31" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading32" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading33" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading34" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading35" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading36" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading37" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading38" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading39" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading40" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading41" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading42" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading43" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading44" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading45" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading46" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading47" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading48" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading49" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading50" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading51" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading52" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading53" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading54" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading55" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading56" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading57" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading58" android:clipOrientation="horizontal" />
+    </item>
+    <item android:duration="30">
+        <clip android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:drawable="@mipmap/app_update_loading59" android:clipOrientation="horizontal" />
+    </item>
+</animation-list>

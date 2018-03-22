@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:orientation="vertical" android:id="@id/loading_linear" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ProgressBar android:id="@id/listview_center_progress" android:layout_width="UNKNOWN_DATA_0x7f0d0885" android:layout_height="UNKNOWN_DATA_0x7f0d0885" android:indeterminate="false" android:indeterminateDrawable="@anim/trade_loading" />
+        <TextView android:textSize="@dimen/text_size_12sp" android:textColor="@color/buscard_trade_text_load_color" android:id="@id/tv_isloading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:text="@string/huaweipay_isloading" />
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/huawei_query_fail" />
+</RelativeLayout>

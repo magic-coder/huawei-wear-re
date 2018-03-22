@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s سم</item>
+        <item quantity="zero">%1$s سم</item>
+        <item quantity="one">%1$s سم</item>
+        <item quantity="two">%1$s سم</item>
+        <item quantity="few">%1$s سم</item>
+        <item quantity="many">%1$s سم</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">متبقي %1$s يوم</item>
+        <item quantity="zero">متبقي %1$s أيام</item>
+        <item quantity="one">متبقي يوم واحد</item>
+        <item quantity="two">متبقي يومان</item>
+        <item quantity="few">متبقي %1$s أيام</item>
+        <item quantity="many">متبقي %1$s يومًا</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s ك.ب</item>
+        <item quantity="zero">%1$s ك.ب</item>
+        <item quantity="one">%1$s ك.ب</item>
+        <item quantity="two">%1$s ك.ب</item>
+        <item quantity="few">%1$s ك.ب</item>
+        <item quantity="many">%1$s ك.ب</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s م.ب</item>
+        <item quantity="zero">%1$s م.ب</item>
+        <item quantity="one">%1$s م.ب</item>
+        <item quantity="two">%1$s م.ب</item>
+        <item quantity="few">%1$s م.ب</item>
+        <item quantity="many">%1$s م.ب</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s قدم</item>
+        <item quantity="zero">%1$s أقدام</item>
+        <item quantity="one">%1$s قدم</item>
+        <item quantity="two">%1$s أقدام</item>
+        <item quantity="few">%1$s أقدام</item>
+        <item quantity="many">%1$s قدم</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d ساعة</item>
+        <item quantity="zero">%d ساعات</item>
+        <item quantity="one">ساعة واحدة</item>
+        <item quantity="two">ساعتين</item>
+        <item quantity="few">%d ساعات</item>
+        <item quantity="many">%d ساعة</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s ب</item>
+        <item quantity="zero">%1$s ب</item>
+        <item quantity="one">%1$s ب</item>
+        <item quantity="two">%1$s ب</item>
+        <item quantity="few">%1$s ب</item>
+        <item quantity="many">%1$s ب</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s غ.ب</item>
+        <item quantity="zero">%1$s غ.ب</item>
+        <item quantity="one">%1$s غ.ب</item>
+        <item quantity="two">%1$s غ.ب</item>
+        <item quantity="few">%1$s غ.ب</item>
+        <item quantity="many">%1$s غ.ب</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s بيتا بايت</item>
+        <item quantity="zero">%1$s بيتا بايت</item>
+        <item quantity="one">%1$s بيتا بايت</item>
+        <item quantity="two">%1$s بيتا بايت</item>
+        <item quantity="few">%1$s بيتا بايت</item>
+        <item quantity="many">%1$s بيتا بايت</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s ت.ب</item>
+        <item quantity="zero">%1$s ت.ب</item>
+        <item quantity="one">%1$s ت.ب</item>
+        <item quantity="two">%1$s ت.ب</item>
+        <item quantity="few">%1$s ت.ب</item>
+        <item quantity="many">%1$s ت.ب</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s بوصة</item>
+        <item quantity="zero">%1$s بوصات</item>
+        <item quantity="one">%1$s بوصة</item>
+        <item quantity="two">%1$s بوصات</item>
+        <item quantity="few">%1$s بوصات</item>
+        <item quantity="many">%1$s بوصة</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s كغم</item>
+        <item quantity="zero">%s كغم</item>
+        <item quantity="one">%s كغم</item>
+        <item quantity="two">%s كغم</item>
+        <item quantity="few">%s كغم</item>
+        <item quantity="many">%s كغم</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s رطل</item>
+        <item quantity="zero">%s أرطال</item>
+        <item quantity="one">رطل واحد</item>
+        <item quantity="two">رطلان اثنان</item>
+        <item quantity="few">%s أرطال</item>
+        <item quantity="many">%s رطل</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">‪‎%1$s‬ لا يزال ساريًا لمدة ‪‎%2$s‬ أيام</item>
+        <item quantity="zero">‪‎%1$s‬ لا يزال ساريًا لمدة ‪‎%2$s‬ أيام</item>
+        <item quantity="one">‪‎%1$s‬ لا يزال ساريًا لمدة ‪‎%2$s‬ يومًا</item>
+        <item quantity="two">‪‎%1$s‬ لا يزال ساريًا لمدة ‪‎%2$s‬ أيام</item>
+        <item quantity="few">‪‎%1$s‬ لا يزال ساريًا لمدة ‪‎%2$s‬ أيام</item>
+        <item quantity="many">‪‎%1$s‬ لا يزال ساريًا لمدة ‪‎%2$s‬ أيام</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">إزالة جهات الاتصال المحددة؟</item>
+        <item quantity="zero">إزالة جهات الاتصال المحددة؟</item>
+        <item quantity="one">إزالة جهة الاتصال المحددة؟</item>
+        <item quantity="two">إزالة جهات الاتصال المحددة؟</item>
+        <item quantity="few">إزالة جهات الاتصال المحددة؟</item>
+        <item quantity="many">إزالة جهات الاتصال المحددة؟</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (إيقاظ ذكي بعد %2$s دقيقة)</item>
+        <item quantity="zero">%1$s (إيقاظ ذكي بعد %2$s دقيقة)</item>
+        <item quantity="one">%1$s (إيقاظ ذكي بعد %2$s دقيقة)</item>
+        <item quantity="two">%1$s (إيقاظ ذكي بعد %2$s دقيقة)</item>
+        <item quantity="few">%1$s (إيقاظ ذكي بعد %2$s دقيقة)</item>
+        <item quantity="many">%1$s (إيقاظ ذكي بعد %2$s دقيقة)</item>
+    </plurals>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@color/bg_color" android:padding="4dp" style="@style/match_parent">
+    <TextView android:textSize="12dp" android:textColor="@color/setting_text_2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="30dp" android:layout_marginRight="30dp" android:text="@string/guide_content_4" />
+    <ImageView android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:src="@drawable/guide004" />
+    <TextView android:textSize="16dp" android:textColor="@color/black" android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-30dp" android:layout_marginRight="85dp" android:text="@string/guide_content_4_reminde" />
+</LinearLayout>

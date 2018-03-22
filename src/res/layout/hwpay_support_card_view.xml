@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:background="@drawable/bg_nfc_support_bank_info" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/supportbank_titlesize" android:textColor="@color/primarycolor" android:gravity="top|bottom|center_vertical|fill_vertical|center|fill" android:id="@id/support_tips_tv" android:layout_width="wrap_content" android:layout_height="UNKNOWN_DATA_0x1e01" android:layout_marginLeft="10dp" android:text="@string/hwpay_support_card_tips" />
+    <View android:id="@id/line_view" android:background="@color/line_bottom_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/support_bank_title" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x1e01">
+        <include android:id="@id/support_title_first" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" layout="@layout/hwpay_support_card_title_item" />
+        <View android:id="@id/line_view3" android:background="@color/line_bottom_color" android:layout_width="UNKNOWN_DATA_0x100" android:layout_height="match_parent" />
+        <include android:id="@id/support_title_second" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1.0" layout="@layout/hwpay_support_card_title_item" />
+    </LinearLayout>
+    <View android:id="@id/line_view4" android:background="@color/line_bottom_color" android:layout_width="match_parent" android:layout_height="UNKNOWN_DATA_0x100" />
+    <com.huawei.pay.ui.widget.LineGridView android:layout_gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end" android:id="@id/support_bank_gridview" android:scrollbars="UNKNOWN_DATA_0x0" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/transpaent" android:numColumns="UNKNOWN_DATA_0x2" />
+</LinearLayout>

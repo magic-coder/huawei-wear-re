@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s cm</item>
+        <item quantity="one">%1$s cm</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">Peut durer %1$s jours</item>
+        <item quantity="one">Peut durer %1$s jour</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s Ko</item>
+        <item quantity="one">%1$s Ko</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s Mo</item>
+        <item quantity="one">%1$s Mo</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s pieds</item>
+        <item quantity="one">%1$s pieds</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d heures</item>
+        <item quantity="one">%d heure</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s o</item>
+        <item quantity="one">%1$s o</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s Go</item>
+        <item quantity="one">%1$s Go</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s Po</item>
+        <item quantity="one">%1$s Po</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s To</item>
+        <item quantity="one">%1$s To</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s pouces</item>
+        <item quantity="one">%1$s pouces</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s kg</item>
+        <item quantity="one">%s kg</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s lb</item>
+        <item quantity="one">%s lb</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s est encore valable pendant %2$s jours</item>
+        <item quantity="one">%1$s est encore valable pendant %2$s jour</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">Supprimer les contacts sélectionnés ?</item>
+        <item quantity="one">Supprimer le contact sélectionné ?</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s (réveil intelligent %2$s min)</item>
+        <item quantity="one">%1$s (réveil intelligent %2$s min)</item>
+    </plurals>
+</resources>

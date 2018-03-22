@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="addphoto_type_array">
+        <item>Kumuha ng larawan</item>
+        <item>Mula sa album</item>
+    </array>
+    <array name="main_night_sleep_quality_look_good_suggest">
+        <item>Gumawa ng kumportableng lugar para sa mas maayos na pagtulog</item>
+        <item>Nakakatulong sa pangkalahatang kalusugan ang regular na oras ng pagtulog</item>
+        <item>Alisin ang iyong mga alalahanin bago matulog</item>
+        <item>Huwag mag-isip bago matulog</item>
+        <item>Huhusay ang iyong pagtatrabaho kung mahimbing ang pagtulog</item>
+    </array>
+    <array name="main_night_sleep_quality_need_improve_suggest">
+        <item>Huwag mag-alala</item>
+        <item>Iwasang kumain o uminom nang marami bago matulog</item>
+        <item>Mag-focus sa paghinga mo, makakatulong ito sa iyong makatulog</item>
+        <item>Iwasan ang labis na pag-ehersisyo bago matulog</item>
+        <item>Mag-play ng nakaka-relax na musika para makatulog</item>
+        <item>Regular na mag-ehersisyo para mapahusay ang kalidad ng pagtulog mo</item>
+    </array>
+    <array name="main_night_sleep_quality_very_good_suggest">
+        <item>Gaganda ang mood mo kung mahimbing ang pagtulog mo</item>
+        <item>Salubungin ang bagong araw nang may malusog na katawan at pag-iisip</item>
+        <item>Makakabuti sa iyong pag-iisip ang regular na oras ng pagtulog</item>
+        <item>Matulog nang mahimbing para magtagumpay sa mga hamon bukas</item>
+    </array>
+</resources>

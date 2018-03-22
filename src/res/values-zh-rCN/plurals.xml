@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="IDS_cm_string">
+        <item quantity="other">%1$s 厘米</item>
+    </plurals>
+    <plurals name="IDS_device_remainder_electri_day">
+        <item quantity="other">剩余%1$s天</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_kb">
+        <item quantity="other">%1$s KB</item>
+        <item quantity="one">%1$s KB</item>
+    </plurals>
+    <plurals name="IDS_device_upgrade_file_size_mb">
+        <item quantity="other">%1$s MB</item>
+        <item quantity="one">%1$s MB</item>
+    </plurals>
+    <plurals name="IDS_ft_string">
+        <item quantity="other">%1$s 英尺</item>
+    </plurals>
+    <plurals name="IDS_hour_string_21">
+        <item quantity="other">%d 小时</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_byteShort">
+        <item quantity="other">%1$s B</item>
+        <item quantity="one">%1$s B</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_gigabyteShort">
+        <item quantity="other">%1$s GB</item>
+        <item quantity="one">%1$s GB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_petabyteShort_unit">
+        <item quantity="other">%1$s PB</item>
+        <item quantity="one">%1$s PB</item>
+    </plurals>
+    <plurals name="IDS_hwh_size_terabyteShort_unit">
+        <item quantity="other">%1$s TB</item>
+        <item quantity="one">%1$s TB</item>
+    </plurals>
+    <plurals name="IDS_ins_string">
+        <item quantity="other">%1$s 英寸</item>
+    </plurals>
+    <plurals name="IDS_kg_string">
+        <item quantity="other">%s 公斤</item>
+    </plurals>
+    <plurals name="IDS_lb_string">
+        <item quantity="other">%s 磅</item>
+    </plurals>
+    <plurals name="IDS_main_sns_member_surplus_time">
+        <item quantity="other">%1$s剩余有效期%2$s天</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_contact_unit">
+        <item quantity="other">%d位“联系人”</item>
+        <item quantity="one">%d位“联系人”</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_h_unit">
+        <item quantity="other">%d时</item>
+        <item quantity="one">%d时</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_hour_unit">
+        <item quantity="other">%d小时</item>
+        <item quantity="one">%d小时</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_min_unit">
+        <item quantity="other">%d分</item>
+        <item quantity="one">%d分</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_step_unit">
+        <item quantity="other">%d步</item>
+        <item quantity="one">%d步</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_reached_the_goal">
+        <item quantity="other">%s个奖励已获得</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_reward_set_goal_info3">
+        <item quantity="other">宝贝获得%1$s次表扬后</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_sport_distance_kilometre">
+        <item quantity="other">%1$.3f千米</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_feature_track_staytime3">
+        <item quantity="other">在此停留多于%s小时</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_fence_list_location_radious_detail">
+        <item quantity="other">%1$s米,%2$s</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_precision">
+        <item quantity="other">精度%s米</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_main_map_recent_position">
+        <item quantity="other">%s分钟前位置</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_contactmanage_full">
+        <item quantity="other">您只能添加%1$s位联系人</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_menu_soscontactmanage_notice">
+        <item quantity="other">您最多可以邀请%1$d位管理员，当宝贝发起求救时，手表会按照此列表的顺序依次呼叫管理员。管理员可以随时呼叫宝贝。</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_nps_satisfication_score">
+        <item quantity="other">%d分</item>
+    </plurals>
+    <plurals name="IDS_settings_gemini_contact_delete_confirm">
+        <item quantity="other">是否删除所选联系人？</item>
+    </plurals>
+    <plurals name="IDS_settings_smart_time_detail">
+        <item quantity="other">%1$s（智能唤醒%2$s分钟）</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_minute_unit">
+        <item quantity="other">%d分钟</item>
+        <item quantity="one">%d分钟</item>
+    </plurals>
+    <plurals name="IDS_plugin_kidwatch_common_second_unit">
+        <item quantity="other">%1$s秒</item>
+        <item quantity="one">%1$s秒</item>
+    </plurals>
+    <plurals name="hwpay_error_pay_pass">
+        <item quantity="other">密码错误，还可尝试%1$s次</item>
+    </plurals>
+    <plurals name="hwpay_error_quiz">
+        <item quantity="other">答案错误，还可尝试 %1$s 次</item>
+    </plurals>
+    <plurals name="hwpay_finger_print_freeze">
+        <item quantity="other">指纹已禁用，请 %1$s 秒后重试</item>
+    </plurals>
+    <plurals name="hwpay_finger_print_nomatch">
+        <item quantity="other">指纹不匹配，还可以尝试 %1$s次</item>
+    </plurals>
+    <plurals name="nfc_bus_card_dealing_trade_progress">
+        <item quantity="other">有%1$d笔未处理的交易，正在处理...</item>
+    </plurals>
+</resources>

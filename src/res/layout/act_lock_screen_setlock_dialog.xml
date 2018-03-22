@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:paddingTop="16dp" android:layout_width="match_parent" android:layout_height="match_parent"
+    <LinearLayout android:orientation="vertical" android:id="@id/act_lock_screen_dialog_lly" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <TextView android:textSize="13dp" android:textColor="#e6ffffff" android:id="@id/act_lock_screen_dialog_tv" android:layout_width="match_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/act_lock_screen_dialog_multi_content_lly" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_below="@id/card_lock_screen_rly">
+        <TextView android:textSize="15dp" android:textColor="#e6ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_bt_lock_add_card_content" />
+        <TextView android:textSize="15dp" android:textColor="#e6ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_bt_lock_add_card_steo_1" />
+        <TextView android:textSize="15dp" android:textColor="#e6ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/nfc_bt_lock_add_card_steo_2" />
+    </LinearLayout>
+</LinearLayout>
